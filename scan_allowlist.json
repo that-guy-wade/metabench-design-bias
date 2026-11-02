@@ -1,0 +1,1220 @@
+[
+ {
+  "pattern": "ipv4",
+  "sha256": "19e36255972107d42b8cecb77ef5622e842e8a50778a6ed8dd1ce94732daca9e",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "9b702ec5f27c2bdedc32b68ec12154f78d1242242d384570c515ac6527b36085",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "0294ce089b25b80c90ae7ec8078000c807b18cd9e95cac9d0f86d9feb0e08b07",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "a3a35307ef68c12aee3a437612f50ce59551b25ed06329b676883e56af0f9003",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "3399b4a63f83badc5e66170df499a031bc4f56b9a85aea970d12d8fe77289995",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "11ad15302ee670b4d2d7ee74b90344349c96b7cde5d4f083a2b394bfb9a03770",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "f7a10d39d63310e95b0966622981fc3a0f2f67e8948146ac66f8b3860269677b",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "615689d6035a2b9dbca6748a84d7870d87e19863dbca0b7a9b665c60b1aef0b0",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "42cca85b5a514c7c3442248e243893de56c1be3dc2d5029be7508c3759b3d194",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "53b5eac7034e7a6548c911708bc9d98d6d892bbe253092af1630d4669da215c5",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "cf6f196535d427551f99fc1938291660c7104164093d9153181dd49eea365880",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "33045937214d7b9393960d7b84a649ab11b62c2d028c54ddc842f6bab8f8979a",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "29883dd133148a0e492c1982370751980a79636dfd4da9cf1f8976b3fdefbd91",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "96897a483d2417b8a18e3f348845ed068fb2484211ace111c6bdfeb529063ab1",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "52ab14a48cb941963a498faefd02b1090ebfccfe47f07d5452628d8280b60154",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "54286cb92365be544aa7008b92854b9648072cf8d8b17b372fd0786bef69d7a2",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "b1b94501b442eb6b5f953b757a94acaf2006abb126e5c740b27a245f484b68a0",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "a84a9d2e30e226ecc632295b30c8244ccf0e01226aa64ecbfc469c924466269b",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "3286b8c2f9ba4dd7ad397308622990254d646e73284a26e1743085acc4a1ddc1",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "f1412386aa8db2579aff2636cb9511cacc5fd9880ecab60c048508fbe26ee4d9",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "5db7961f7c1ff5a11e426aafb40ef5a0475ff9069ba03793b4466f95e49df578",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "ad463f3c68160780e807f55cc6c6eeb6425859b62bb7b416d7b9992e1fb0e326",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "5e29391767eb5ae113525f65906cde8ffcf2e7975b64e9d731d295dcc195a077",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "c54b16dc744fe7da228ed446569ec63c0591791bb877a54248ca370b14882125",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "1ec253fe82e98a71a4fa825699c67a0858549b5795206937e8fa890a94403d75",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "4974ae191ce3ec78e04f5f50cb8aff2b2d3b718c63c2fdfe3ddb94deebc0476b",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "243ba19131a22acfa88270d32b8e8aa92d685aaf0ce245fbaae4335cb2810c8f",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "c53e99fbf8112db92c30819b73a78f625b9f0d00449217d5465b565600ac21b7",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "203e16c3b14fa75333cb515d86e7566663b0e2725927af515da517728afbe80f",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "d6b700f0b9e25440f98268799044357ea5de08b5e8291fdf0c0037c55f4035e8",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "83c8fba3b1b32cd722b63261d0a2fe26e2a2b1717fb5c243a967355fb008bc61",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "841f669c85e25fa99a827a51ece0e22f30ee3dd60df90c92f6116692cbaeb11c",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "9f1c89babb0863c4cd1442e8ec968fab52399ed4811f1907fb6cd67dac763af9",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "faf248dcf1e63274e710ca5d684fb94d991ef009fea9892d9ffe614b577036e4",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "f0a8523649bf31deea33c467174982ddfe56c9b7a29460dc1987669a8954374e",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "cb12fb2e1f81687656ddd22bc3bb67cf0440b06bfdb9ca391c3152606e00609e",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "51777768336cfa81ddb16d94987a23ce2322b3f4cb90a02cc1ecef4de70f43fb",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "dd7492b33a1b250a304cd9251f44d899fdf1e9ba2262b265ed66d9697065ac7d",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "eb0aeaee3f263a9ad61ae76a84343c11468322bb28715fc751e3c556cf848aeb",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "b3d5304db75c6ac2713392da2bff6c54921ebac2637a7c4f58acef2af4a83497",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "c7eeb624a46e218e301684616b699ef9ba2f9f94e6c0e9508da0c235c19d5e47",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "7e694c575ea6247f3e367cdc8330993819246f258022076052eaca99eedff8a3",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "185a7a9ab06780a2a8a39be2ee996916e9c70913610800cd7b75d171f0062b22",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "a4f5549e62bcea246c98cdc1e8bc2a327af68667b7a7ec9dc36a1b9a68027d96",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "b21c0490fe24497b6e37c32d4ba3d05aff6ca853c287e4cea9495a8fa34c366d",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "b6d4e256bcfbaff50896286acd3ebccf320e385e2579dbcfbe9591f86aaf6920",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "262e0547017037f1fea5fcc9c4a4e03781fca5f7f1ca448c801a044bf3c134a8",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "1d3575d2729fb2c68299fe686585208de807a51dfd5b35b416893ed4ab08bdc5",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "5e344a2cc59b5b06449107d8e77a171c26f41d2e9103b7eaae6d9c900bcdd901",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "21bb6e6d6a470661bb6498a86aeb1e5d938a0104c8fc4366499686f0f9798c4f",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "50cca16d154f8ca91971e2a2386384b58976241c0bca878ef6ada670fc68951f",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "c602fd577e6125fd0d94279a202809d4582449481c56a2b3e4abedc0cc385bf1",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "29dcee8228ed1c6ebec61d17cd95a854ab515f53843fd2a8195b4d774ba34cfd",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "f287d76efe1b4f8f5a6d96a998fb0fd7234d2805e0b667523d462e18448bda23",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "16298836200bc914e1e5539e2c1a8f86770924a83e0444e1c80605487f261bea",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "2a2b65598dceba68f08f9bd019a45ae41939fbd07465e3a44b60794c5f9fb5d4",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "f41556b1795ccbc47fe99ae02de1bab8a2408c5ce69f697b17071340fd4eaebe",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "bdd2debfacbc239160cb16df58b1f1bd951879ffe7971c7b0861468e741a9c9c",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "10444b7a015e439d8376b65a1ee58e9e3b0eb37b71bb0cdb5c9a12cf74621644",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "33db4fdbd9f82ca00943b942dae36f49ff7e88225633197d84eea55c711d6eee",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "64c4b3ab378359d5d64265d209cbc0cbf7bc4bce3c77f1c690d692a4d8957523",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "73a5037ce1d4b420cb0c5b366f9dec64931b105d6065d0ba681451d96462ef39",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "86abff7084539ca17560a731a1a32fa7d529f0b47848751c913c5beae647725c",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "4d14d35e2491e3fb8cd0364bb72d6228abfa908de585cde7279b908fb2033ccf",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "091c3879f2a57a442b8d36008eb33fef64460324c9f8ee1ecc3cc7dd6f50af96",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "06c3505b8c76099d8d9517398b2f0a293af4556ee665bef41ce17cdef6a17820",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "a83822b06df7f250dca2d536d1775b4895ced294cddcb93004a07abb60e0cf34",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "ca8426734ebbbcf7c95222923792cda6df0f6e1861ef5d162810c6009e43abb0",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "c084df4093a4b5bc9f6b6994eacd53d561d80af4218be683e1e6cc8aa37b4dc1",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "c60e438d0d9a01d82a99ee625b102ca47e1ce7dac2b20f059f690a775c7b5226",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "855ebfa7ddd33c1a68b6cc36f8a41816a65b18e4a11bafa99f1a8b15f1ed0099",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "1904e38b41f2253e06e587506b37b12be605de07f7f3bbd300b019acd615b2a2",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "68d8f30dcf5888c1d3ad2e336412c6f27185de18a5bbc95fff8f7e8da7c72bff",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "6bf950888f2f24530dc5d2ea861d8f94a36c99eeec1c0e6295b78e9b8d0e17ed",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "43716f11de93ab63fe404627c46bf21ccd22298c51b99ee931ad24d19bb8fbe9",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "b2c0573e333b54a096d5adf49433a162d663a5b8cb55fd0a67ebdfd78935b28f",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "3d0649ff9fac24ea421c9ce8ee6af720a84ceaa1c0a6bbcd6138938f67ff661e",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "c9ee94bd9604ab0c6f28028ebd59d72c45f5fe3fe73c84927893ba637308beea",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "26702f5a55cf837a9e456c664f8446e98715ff614c9c085c9014150f05ebfc9f",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "c23b335d23210dc50851ac4e4e7d9619ced4a3b8d0b166561b242dd2dc27b235",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "5b7d0b13f7db108cb036ed4603e8e945c0daf909dbd3c17f8ea3d1749d43bece",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "c72645833dcbf5dc0ac4606ba42d2e8026f38737f3a4d77052292b0b0d438b4f",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "b18431ec72cc6066e0954eafd75cfe3d313d57655de592faa2d8ff6a155e4427",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "def61b3ccd06ca42833db02e771ae43e86dbc8d1ba162849691e5a471bd330fb",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "1fa31968fd6da08589a21c013c7921b4097c4f6ae52d8dc64e6418d3bc6483ca",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "c7186934819ec59456c3236d0969f4114f9da9790b6042b1b4300a5f8b09b647",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "8d2a18e924a3cd0a5ab73bafa78f40bea9b525d5bedcbbea531fcee3e5be1f0a",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "bab8bffaed7e535f7ea5cd9e4770fd7bdda8de885bf5c1aaf8552b9daedf4984",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "81bfde80d5026bc97199ed4e181e8391ccfc885bcc3f1976d6dbac092eb00344",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "3ec09010cf1d4b1e6726c8f091aaeb12181800231989eab7ab44af6af1060b26",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "9e35e4c641b7f35b02c80ad4e09b1213ea194b6e5895506db82bb7c0b5671ce0",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "bb1ce39ef98923d738a10a06ef142600a293d6b826b87bcc61b951eb47da9d15",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "a81f4e7eb1f7033e6817f7803210d021281918b88d1dbcf6c270c2079d31f789",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "07c3411463c02f03884f4cc9c44d8c38fbd9f2c0e9e5b5b9659cb3f24fd67577",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "5cd855c9ae8ddd7a1324ce7def8bcf6c2efb259158fdfce22c5c9acb2998ef54",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "660d1a0d0ba5c379d846bd4ca1c6cb29a1537588e05d041af1b48acc5eac7c82",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "d75ab96f210c348ede8a5fd88e46ed584a5fd6f0f5167ab2ea298446f2fa52ba",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "dcf624fde4f61b0ca02befe1667ba1e2dff6fc9698789721b95aeda7dcec8e83",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "e5fb2c6453deec9ea0db6dc3fea0b672605eb535d10233f783164a2e8f0e9e95",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "712b9956747edd3e9962e40b363c424f7e4e5125c1559e5bc32abf881bbf2907",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "75a418542c3c11a25e9d0668f8e7789367ec1b0e2a052fb5ae9d0ec1ac1ce87d",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "1c7de70b390cbd8a6718f8efd083005e444f308a3460675dd3428647d0be56d7",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "abe5e7c63f9062a027c3bb32b70d487af7472f84b687a3e6be92d9c287bc63ad",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "9db855147c803a06e28c5da1cc7d242dde791499c87cd5ab7ac2f5875bfe89d6",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "41c1887fd4a8d9eb483122e1995ae9884ccf7e474e298eba02e2f4545e713c1f",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "fc552cf74f05c8803107cf0c304c4d5c9d3105a50b0cafd40208e0dc5ebaf551",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "367e7a2583cc294b4eb418d53afe7f710ec638b2b5369b99e025e3edf57d0715",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "22b2bd4746761fa2db1deb933e193e8173151ed9e4daf790272ea0502ee09808",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "3f95063601db347b7b916a8136ff87d6d02ff8feaee921900440d15dfb821adb",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "ef1930c7065c8ac80b2cfae931b057d079e032dc9847731abb8155bcf2d8210c",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "0c10c13f343419909950ec20737a4b06a798d5bd230b255070371ae861a3546d",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "dc7f4280fdacbc64afb679f0a8c609d44125f370dad727cce29b685f08db6174",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "bd38829a169beb4597b79848e97a3fd523e9afd7afb16d107badc89430903c48",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "fdeff9b03a04e163253f906821663812f1816d7b5c318948c23a5fecee4a2938",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "d4bda3260cfe07641b59f1ae1a7fabec461704d2698fbe25827d458a08240ee9",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "c4249e36619119f4caee1035f63e28b80809a6e7643feb27305a84b0129a12d0",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "f9175512672d5f44945b8a5d419b8bfce0a424178ec3086d99364fcba9c0d613",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "2f83703a995996d7f7d6d97409f629dc9470edcfe4331ff0856a7ad2fc766425",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "ea45c32c8b6b4c5d7bc5a42dfde6a37c5de8c195993dde0a43978eda92ba7288",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "160fef194cf062d6675b802490879053e320264016a9cacf9ac6da48b23f20a6",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "f97eeadfa0bdd0221173f01a610b0234fd8160259d364aa644bfe90ccd2d0472",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "a5e8fc29cd6c851da8302dffa7d746c8324ca7ed5025326e95ec5c5c2dac2294",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "a2ed9d2d79d08c23a2208aa38e2ab02c5936d783d0cf7a863b6ea26148b96fb2",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "38bd28877f370bb5ebc44fd9ed2c43caf2e53571e8cfe312ca48e4a71dda6e64",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "c7fa91113d249aa898f75489866228022c826f1065b2a8383ea721d90da884b2",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "023b351ad95c8a9721f4a49ad64eb9383a9e2c664de67bf17d5cf54f0e073491",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "ad821804fa22bf92b94a89b822f0435c150b4c4f091dc84cf50803fd4e204ed2",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "2ceb64e08e187e8664612e54230fd0e58830c6bf3b1e368db325f55429a9d534",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "71c56c023468244d7bd461facd9f5ed193b9a79cb7108b2a514fc289e51bb78f",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "fa680e4918053e32a7c7d153c20e70ce908f9ff708dd95965ede5bb70f07c370",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "75ddafaaa821505e4ff0c979efd5f5551ec6753087c2e0a48b7faefa43464e3e",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "3337d1f842c0486c7a7b9513c388147a75632b92bd64d971ea6ea2c9cb838658",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "d177698c627f9d39becd2199608aaabc664116ebdb0db3cfbd2afb0ec83f89fd",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "954fa723e58bc96494676134a00e55e341866272156a5d80a4a0a8e142a6a03c",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "b0032dd2b238b3b336c4a027cfc9ae238c685818b243a438c0ac2dc9f0a7b3b7",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "1cf29cb24c4bf12a257772a1ede9334e31ec76da812718fe4aae041c4dac75bb",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "53c40ed03e37e6602ec4a908cfbbdf96fdc2f521d5089bfeec4e0cf5eeb82f13",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "90ae000e2e45a0550aef681434a4cbc44b06051d641333c50963f33a2eab879c",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "75ce4817bae58564b3f70759ae1153c3307dd26b01b495839cd65043c1d8e5fc",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "24b2414fce16dd4ab94fe4df5ec41aeb4fb2b78f66923f5c7f2367ddf987c274",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "62d06c5cb2d39b09dd5c27e17b3b7f9db23ff916fd4a52e04a6bd519606bb4cd",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "7b62d7e42552a558d13d7131efc7f5b793ec6baddf7bc2035eadacfa79d06b45",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "3a7cd2934edacf6874a6ea36aeb015480e9103c3b4186075fd424b108d7c5d20",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "1244f75852df452c6098dd9f70ca1998fe1de0d48578946f54ead400e8faebe2",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "774e8f17c746714ffd47a03a644d9bbf6617cffa5e9da946af0bfd68d72d422c",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "35ef386975e04132d1eef04e0856a21aa5d2f7edd8ea8c7995926807451bf780",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "7302c25c4b8e13c9c478949d341acfb515ee091474de2f5cb2b1598473305b19",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "46ee5db4939ad50c736c6e5755a57b4b049699bb5861845a5d74a4f8cf5ba690",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "6efdacbaf792eff1d93987c623342ec08fbee1a2ec5be0c7a569decbc4ef7585",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "cbcab2de8615c711bd5c3ddfd872c85e42e40c2a0bc8cecb485ef9f6c45292a8",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "20cafa3721f7608a3533eb6a56a8c10fb9e2b97fce514e04749ee70752d66487",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "c00b4fb34c9a766bf4c6dc2529cd87f35f15f8cee8797596386ccb91078fbfb2",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "a11ac694f026b7f384434247d5009624108da4712e409a12d54b0a7801d9eb05",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "08dc17b676c553217997646766e4e258b5387c449ba392491feb641b8ce71978",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "9d9a25c982c87682de8650fa39236b11d33fbe7b6165b7a53d6c6a308b412e42",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "66ef062a461c76e8f3320ddf7ac3764431b3717c44ce44d1a44f7a6700dfcdb6",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "b9e8fd884044d12f6db59c998c8c731de156300dbcf8749f4dc92e37ee41d974",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "0a1319e6ee2a9d3a59edd4d048b0cf0fb86f84b31f985b59b3d61bd2a062bc69",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "86952e314422e49c81431c59803193232afc18702a163d4fa3ba8c7b431e86bd",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "a2c94595352a8ef718daa0c978eb867c24eee58eee9cc34307300d3c724393da",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "ipv4",
+  "sha256": "230107d1d2bf79895a2d87853d1522365c8faddf8e6a9ccab7e07bc2843e1287",
+  "path": "^data/|^code/run/tests/",
+  "why": "dotted-quad inside item text, item test data, model output about items, version numbers in cited URLs, or the public Cloudflare resolver in sandbox tests; reviewed, not infrastructure"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "cb81b9ff5eeaded739d2390296b273024d8e1753325d4b2254d56bf80ff0436c",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "346ecc8854cc87f29a0763c03095656dc6df7fb669b7b18b85dbaf10a4decf8b",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "78acfbbe32e9a98d65a2bdf9cc2b89691edfc43c68483ab57505a7ba23e84482",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "70026ffc1343e6fb94c7b8cab4d6f6eae061bb104e1a00b68a83d14e369e25b7",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "5539ce6d611251062264513bfce798f26cad8c647ac1bf21cbed81a3f2b1f567",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "b7a228ac132049648fe654e3ac727203ce5db517433e6b78f3ac9831774c58da",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "50fddc3f3ffa638785da8781d500a22b6bb9cf79b130d7bd98b70ef361fb68f1",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "62a8958ffca8e0717a982205133d3acc755aaff6e40ef044d4e3d01f6c831ff5",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "9f7ae5c3f14043fe79c9d47bf6d58b812c6256685a8d0f2c76d5ee86b9aca72b",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "d6bc4310243ed22e5bce538892d3f8bdf5289f9af30cd363d39c9ea532bf84bc",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "10571d8e881b03019e45f4d11d36acc603ab4c0b55ec2e0a0db21cee944f2ecc",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "f8c9d74716fee85e7a4233bd898fb3e6f17696d68ec086e9cd5019ce6ac93be5",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "ead2b55b4777a36e107265ae09003a2416eacdef1feb1f4e79bb2fefc7c6f5f9",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "936d5c80963a18e8b9f31f704099d5b9debe6d2fa8997aa2f01cd51f3a4a8b58",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "4b0724145bdf697ee78d099ff1b4ba2fee72bf59d92f86284a83ffffb8ca6c03",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "20273d5e388de90a9b1a5f286245bf532bbfdbf48170dc4c6260f119e7e147d2",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "757d683ab069fcb4f339e90d72280c5779e6bb47ff223bfc6b70383e25b4e586",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "d903851a17341b33d0bcd1880074e5ac4c71e99f373c96d686daa108b1cb2afc",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "9664270bd9ca01fe44f2343a50f5804240f326fc8399b709c0cbffa9771d9c4d",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "d0ba9a7ca99d53762495d598a7d8021f5e1dae25a437e44ad85cf475986a45ab",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "e5f9e310432c43b6c054444573195fc379d3152f86cd7a88661f581e357cd790",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "7e984df07ddf51156775afb2314972190041d12a3f505b7eed4986ff1e9a9fbe",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "gcp_project_id",
+  "sha256": "cf5ebc059ba7af31e80f9e4bf3d57b13c265d94c54b72e833112fd61f07a482d",
+  "path": "^data/",
+  "why": "URL slug in a SimpleQA cited URL (public dataset content), not a GCP project"
+ },
+ {
+  "pattern": "s3_bucket_host",
+  "sha256": "a9900f2de30c604d9dbdf7b7727faa6a813374abb69f07df34ddf50d0211d160",
+  "path": ".*",
+  "why": "public bucket host cited by a public source (HMMT archive PDFs; SimpleQA cited URLs); not ours"
+ },
+ {
+  "pattern": "s3_bucket_host",
+  "sha256": "1f7e7002431693c6dfa29f2b2b65d6c5925e7a2ce0f146dbf1c3a1c76d75c341",
+  "path": ".*",
+  "why": "public bucket host cited by a public source (HMMT archive PDFs; SimpleQA cited URLs); not ours"
+ },
+ {
+  "pattern": "s3_bucket_host",
+  "sha256": "b0ef2c8fee1e575eb4cf7869b1150954880116345227b0dadb8ecd92a7707c50",
+  "path": ".*",
+  "why": "public bucket host cited by a public source (HMMT archive PDFs; SimpleQA cited URLs); not ours"
+ },
+ {
+  "pattern": "email",
+  "sha256": "dba31771bfc6f9abe4fdcf23bf734c83f317a449f9a4c18822d0347bb2d2c1ae",
+  "path": ".*",
+  "why": "placeholder contact in the HTTP User-Agent (.invalid TLD, RFC 2606); not a real address"
+ },
+ {
+  "pattern": "email",
+  "sha256": "51b74fd2262cfabb47de57b2cbf6f0e8be5912a8df687f7ab65476cf0129525b",
+  "path": ".*",
+  "why": "test fixture address (example.com, RFC 2606)"
+ },
+ {
+  "pattern": "email",
+  "sha256": "5d63d4363706f81b851f5c22a44d3763b63ad0568238c25af8fe55763f5ad250",
+  "path": ".*",
+  "why": "author line inside a public code_contests reference solution (dataset content, unmodified)"
+ },
+ {
+  "pattern": "email",
+  "sha256": "1f4d22de28d7fd63b26136be469979ed61be4858cee870cb0f11fbb93b888343",
+  "path": ".*",
+  "why": "author line inside a public code_contests reference solution (dataset content, unmodified)"
+ },
+ {
+  "pattern": "email",
+  "sha256": "1a88b3077b3e80d1a73e4c1e1be27c70d23ef19be6859cd9e30de275c86d2e7d",
+  "path": ".*",
+  "why": "Python decorator text, not an address"
+ },
+ {
+  "pattern": "home_path",
+  "sha256": "3f6dba87bc9b6109967cf8fb2c6326ada958f78762ec92a8843ff43f16cf291d",
+  "path": "^data/",
+  "why": "path inside public dataset content (a code_contests reference solution; SimpleQA cited URLs), not this project's machines"
+ },
+ {
+  "pattern": "home_path",
+  "sha256": "e4cdb852e8c920e8e44abdf1532bd44e19bcd77586d9bc0c905644656867572e",
+  "path": "^data/",
+  "why": "path inside public dataset content (a code_contests reference solution; SimpleQA cited URLs), not this project's machines"
+ },
+ {
+  "pattern": "home_path",
+  "sha256": "723f12f555ced9f6e297a66e2605186f07016c16c60e7ecd3444875a1e100bca",
+  "path": "^data/",
+  "why": "path inside public dataset content (a code_contests reference solution; SimpleQA cited URLs), not this project's machines"
+ },
+ {
+  "pattern": "tmp_path",
+  "sha256": "35d405ff36aaed4c63e7ea3c26a08e958edd85869b40c6f2571339fbe2f71303",
+  "path": "^code/|^data/confirmatory/code/pool/PROVENANCE\\.md$",
+  "why": "generic scratch path inside the code sandbox / unit tests (functional), reveals no infrastructure"
+ },
+ {
+  "pattern": "tmp_path",
+  "sha256": "51f56839829e0baeadca27ee8635473f06bc0d7e8ba4ab86f0d57b658f01b7fe",
+  "path": "^code/|^data/confirmatory/code/pool/PROVENANCE\\.md$",
+  "why": "generic scratch path inside the code sandbox / unit tests (functional), reveals no infrastructure"
+ },
+ {
+  "pattern": "tmp_path",
+  "sha256": "d91a3f39dc2ada6319ea1adcbed3335db8aa30468f8babaa5812e1d2edd2aeb2",
+  "path": "^code/|^data/confirmatory/code/pool/PROVENANCE\\.md$",
+  "why": "generic scratch path inside the code sandbox / unit tests (functional), reveals no infrastructure"
+ },
+ {
+  "pattern": "tmp_path",
+  "sha256": "32d02e4ab6863a5cac7a60d44778e8a5ac83814f081bbe8764f157fde49388bf",
+  "path": "^code/|^data/confirmatory/code/pool/PROVENANCE\\.md$",
+  "why": "generic scratch path inside the code sandbox / unit tests (functional), reveals no infrastructure"
+ },
+ {
+  "pattern": "tmp_path",
+  "sha256": "bafdceb0d80600a645cdfefc8a6e6ddedbd2dd1f6d367e437e3ae6b35cae7cad",
+  "path": "^code/|^data/confirmatory/code/pool/PROVENANCE\\.md$",
+  "why": "generic scratch path inside the code sandbox / unit tests (functional), reveals no infrastructure"
+ },
+ {
+  "pattern": "tmp_path",
+  "sha256": "28b8cac271d3c6c6d580c84bc9ebf267760c95c1af93b230d7f2559b764b3fbf",
+  "path": "^code/|^data/confirmatory/code/pool/PROVENANCE\\.md$",
+  "why": "generic scratch path inside the code sandbox / unit tests (functional), reveals no infrastructure"
+ },
+ {
+  "pattern": "dev_shm_path",
+  "sha256": "0850a74c4deea14a0b23ba1ba46c970bddd720b268a72cdf7f2dec4215ffcc88",
+  "path": "^code/run/scripts_(runner|precompute_estimate)\\.py$",
+  "why": "functional default scratch directory (standard Linux tmpfs) in the runner; reveals no infrastructure"
+ },
+ {
+  "pattern": "extra_8",
+  "sha256": "b5dceda026819309c7e1edb51c6e678e9a1a1d8ad811e30231741e53751c3d04",
+  "path": "^LICENSE(-DATA)?$",
+  "why": "Copyright holder named in the licence files at the PI's request (2026-11-02)."
+ }
+]

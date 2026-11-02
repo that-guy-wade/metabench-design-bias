@@ -1,0 +1,5 @@
+rc=0
+--- stdout ---
+wrote /path/to/unblinded/math/endpoints/A_metabench_analysis/endpoints.json and endpoints.md
+
+--- stderr ---

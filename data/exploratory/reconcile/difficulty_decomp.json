@@ -1,0 +1,124 @@
+{
+ "factual": {
+  "pool_category_mean_acc": {
+   "Art": 0.5543071161048689,
+   "Geography": 0.5994281045751634,
+   "History": 0.576875,
+   "Music": 0.43494623655913983,
+   "Other": 0.47589984350547726,
+   "Politics": 0.5451092117758785,
+   "Science and technology": 0.5303874092009685,
+   "Sports": 0.4415074309978768,
+   "TV shows": 0.42839506172839503,
+   "Video games": 0.40929487179487184
+  },
+  "actual": {
+   "score_minus_none": -0.015327876984126979,
+   "ci95_cluster": [
+    -0.03023892609126987,
+    -0.00029029017857145473
+   ],
+   "n_designers": 12,
+   "n_score": 336,
+   "n_none": 60
+  },
+  "category_predicted": {
+   "score_minus_none": -2.6207781738280905e-05,
+   "ci95_cluster": [
+    -0.001891319812995575,
+    0.0019433626528609197
+   ],
+   "n_designers": 12,
+   "n_score": 336,
+   "n_none": 60
+  },
+  "within_category": {
+   "score_minus_none": -0.015301669202388684,
+   "ci95_cluster": [
+    -0.029891846985579663,
+    -0.0005033585985001718
+   ],
+   "n_designers": 12,
+   "n_score": 336,
+   "n_none": 60
+  }
+ },
+ "math": {
+  "pool_category_mean_acc": {
+   "AIME": 0.9300881410256411,
+   "APEX": 0.17121212121212123,
+   "BRUMO": 0.8775862068965516,
+   "CMIMC": 0.7652777777777778,
+   "HMMT": 0.7870081018518519,
+   "MATH": 0.9542767295597484,
+   "SMT": 0.8062091503267974
+  },
+  "actual": {
+   "score_minus_none": -0.06426955066538402,
+   "ci95_cluster": [
+    -0.08174449917703835,
+    -0.04465980023761928
+   ],
+   "n_designers": 12,
+   "n_score": 301,
+   "n_none": 56
+  },
+  "category_predicted": {
+   "score_minus_none": -0.04319564157373338,
+   "ci95_cluster": [
+    -0.05900463216233764,
+    -0.026528357137802307
+   ],
+   "n_designers": 12,
+   "n_score": 301,
+   "n_none": 56
+  },
+  "within_category": {
+   "score_minus_none": -0.021073909091650623,
+   "ci95_cluster": [
+    -0.030634421456117028,
+    -0.011468248493793914
+   ],
+   "n_designers": 12,
+   "n_score": 301,
+   "n_none": 56
+  }
+ },
+ "code": {
+  "pool_category_mean_acc": {
+   "AIZU": 0.8043827160493827,
+   "ATCODER": 0.8381343820145903,
+   "CODEFORCES": 0.8865150289300774
+  },
+  "actual": {
+   "score_minus_none": -0.03485971818604922,
+   "ci95_cluster": [
+    -0.05444159603363886,
+    -0.017841455646494687
+   ],
+   "n_designers": 12,
+   "n_score": 335,
+   "n_none": 60
+  },
+  "category_predicted": {
+   "score_minus_none": 0.0015339682059236452,
+   "ci95_cluster": [
+    -0.00021360336150049843,
+    0.0034158124534763817
+   ],
+   "n_designers": 12,
+   "n_score": 335,
+   "n_none": 60
+  },
+  "within_category": {
+   "score_minus_none": -0.03639368639197298,
+   "ci95_cluster": [
+    -0.055435610147094416,
+    -0.019607135403092366
+   ],
+   "n_designers": 12,
+   "n_score": 335,
+   "n_none": 60
+  }
+ }
+}

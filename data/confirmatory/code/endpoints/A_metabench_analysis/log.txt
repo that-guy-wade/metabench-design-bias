@@ -1,0 +1,7 @@
+rc=0
+--- stdout ---
+wrote /path/to/unblinded/code/endpoints/A_metabench_analysis/endpoints.json and endpoints.md
+
+--- stderr ---
+/path/to/venv/lib/python3.12/site-packages/statsmodels/genmod/generalized_linear_model.py:1342: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  rslt = super().fit(

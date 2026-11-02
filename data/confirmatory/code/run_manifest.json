@@ -1,0 +1,86 @@
+{
+ "run_id": null,
+ "started_at": null,
+ "frozen_code_sha256": "1a254065515ea71cc177652f31a57176c2914915572ed56b8cb60334953f217f",
+ "registration_sha256": "981b2bc16abb63225911c71b8216942ddafbfeb7d02d98529716687cbb617d82",
+ "pool_sha256": "c5a7400426e22904513219eec414bf59d9aa0af309904ee5b6245f5f26477e18",
+ "n_registered": 468,
+ "designers": [
+  "fable51",
+  "sonnet55",
+  "opus5",
+  "gpt61sol",
+  "gpt6luna",
+  "gpt55",
+  "gemini4argon",
+  "gemini38flash",
+  "gemini31pro",
+  "grok47",
+  "grok45",
+  "grok43"
+ ],
+ "cells": {
+  "sham_blinded": 5,
+  "none_blinded": 5,
+  "true_named_true": 5,
+  "true_blinded_blinded": 5,
+  "sham_true": 5,
+  "sham_false": 5,
+  "inverted_blinded": 3,
+  "narrative_blinded": 3,
+  "instructed_blinded": 3
+ },
+ "concurrency": null,
+ "live_rescore_wait_s": 900.0,
+ "panel": {
+  "name": "confirmatory",
+  "keys": [
+   "fable51",
+   "sonnet55",
+   "opus5",
+   "gpt61sol",
+   "gpt6luna",
+   "gpt55",
+   "gemini4argon",
+   "gemini38flash",
+   "gemini31pro",
+   "grok47",
+   "grok45",
+   "grok43",
+   "placebo_sonnet55",
+   "heldout_sonnet46",
+   "heldout_gpt54",
+   "heldout_gemini35flash",
+   "heldout_grok420"
+  ],
+  "displayed_keys": [
+   "fable51",
+   "sonnet55",
+   "opus5",
+   "gpt61sol",
+   "gpt6luna",
+   "gpt55",
+   "gemini4argon",
+   "gemini38flash",
+   "gemini31pro",
+   "grok47",
+   "grok45",
+   "grok43"
+  ],
+  "placebo_keys": [
+   "placebo_sonnet55"
+  ],
+  "heldout_keys": [
+   "heldout_sonnet46",
+   "heldout_gpt54",
+   "heldout_gemini35flash",
+   "heldout_grok420"
+  ]
+ },
+ "substitutes": {},
+ "ended_at": null,
+ "n_rows": 559,
+ "n_valid": 467,
+ "api_errors_total": null,
+ "rebuilt_by": "scripts_unblind.py (DEVIATIONS 2026-10-29 17:45)"
+}

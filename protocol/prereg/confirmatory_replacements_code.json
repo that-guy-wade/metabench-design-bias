@@ -1,0 +1,825 @@
+{
+ "written_at": "2026-10-29T02:23:19Z",
+ "pool_name": "code",
+ "replacements": [
+  {
+   "original": "T1_code_fable51_instructed_blinded_r0",
+   "replacement": "T1_code_fable51_instructed_blinded_r0_rep1",
+   "designer": "fable51",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "c0df5e84ceba244a617885aba9f55d81a7739cc73db2e70cc0f3a4df53e4596d"
+  },
+  {
+   "original": "T1_code_opus5_sham_blinded_r0",
+   "replacement": "T1_code_opus5_sham_blinded_r0_rep1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "8fde1fa9f7f4ad5c216b1833ae139618d041d334d9c329a69868e48f0dcd3fb9"
+  },
+  {
+   "original": "T1_code_fable51_inverted_blinded_r0",
+   "replacement": "T1_code_fable51_inverted_blinded_r0_rep1",
+   "designer": "fable51",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "b8517de01b7b5964b7c98679d3704c55729e310e4fa2fb212a2091090a6d7819"
+  },
+  {
+   "original": "T1_code_fable51_narrative_blinded_r0",
+   "replacement": "T1_code_fable51_narrative_blinded_r0_rep1",
+   "designer": "fable51",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "ae58123560267048341e53a064e48377820c91b742f8160b7ca961a859a36de8"
+  },
+  {
+   "original": "T1_code_fable51_none_blinded_r0",
+   "replacement": "T1_code_fable51_none_blinded_r0_rep1",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "20ec76eebb91c2143f41efec0f37fe715365e6552a49eeea0a3990e7a398a477"
+  },
+  {
+   "original": "T1_code_fable51_sham_blinded_r0",
+   "replacement": "T1_code_fable51_sham_blinded_r0_rep1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "abd9d8e7cc7fef163298fb8441cb587c6c61e88641657b4becacf8df5eaa56a8"
+  },
+  {
+   "original": "T1_code_fable51_true_named_true_r0",
+   "replacement": "T1_code_fable51_true_named_true_r0_rep1",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "069c57bfead40197dc75c1d6dbd6d5f115b88309ac975b0fa5f497ada618e8f9"
+  },
+  {
+   "original": "T1_code_fable51_sham_false_r0",
+   "replacement": "T1_code_fable51_sham_false_r0_rep1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:BadRequestError",
+   "config_hash": "8e8214f7f7af8ddae7b5efa47045de0c076e675b4af11c48f2e781b3cdb49743"
+  },
+  {
+   "original": "T1_code_fable51_sham_true_r0",
+   "replacement": "T1_code_fable51_sham_true_r0_rep1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "477f2e6b48b954171a4d4aacb2027a20d306a7f8844eb0f511d2e86677c4529e"
+  },
+  {
+   "original": "T1_code_opus5_sham_false_r0",
+   "replacement": "T1_code_opus5_sham_false_r0_rep1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:BadRequestError",
+   "config_hash": "5942946069e8c93dd5506a65caf894072388c7adc1cba61debcde64b512cafc6"
+  },
+  {
+   "original": "T1_code_fable51_true_blinded_blinded_r0",
+   "replacement": "T1_code_fable51_true_blinded_blinded_r0_rep1",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "6c96e6471d268afc21868504f8497986a526ac45825894e96949de17fa9d3660"
+  },
+  {
+   "original": "T1_code_opus5_narrative_blinded_r0",
+   "replacement": "T1_code_opus5_narrative_blinded_r0_rep1",
+   "designer": "opus5",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "96b409fd7482ad1a0cd64e8ba6aed1d24433326f05883d3f6f4e6360d7aaddae"
+  },
+  {
+   "original": "T1_code_sonnet55_narrative_blinded_r1",
+   "replacement": "T1_code_sonnet55_narrative_blinded_r1_rep1",
+   "designer": "sonnet55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "2deb63d9f0859d74eeadac6c7826813d0402acaae40f26db7fb14af20284fb0d"
+  },
+  {
+   "original": "T1_code_fable51_inverted_blinded_r1",
+   "replacement": "T1_code_fable51_inverted_blinded_r1_rep1",
+   "designer": "fable51",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "a8ec5c5b1cc901eff50b667d1da7b53e95d554bdf5b1f7e6bc55077fe17a2008"
+  },
+  {
+   "original": "T1_code_sonnet55_sham_blinded_r1",
+   "replacement": "T1_code_sonnet55_sham_blinded_r1_rep1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "468e4ab20a773b7a65fcfe4adca3c4487ffe5313bcf220bf5c558018bb66e75c"
+  },
+  {
+   "original": "T1_code_fable51_sham_false_r1",
+   "replacement": "T1_code_fable51_sham_false_r1_rep1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:BadRequestError",
+   "config_hash": "d9b3bb33ab8fe797be9e3e98246855080797ca5949f4c8122eb627d550c8d7a0"
+  },
+  {
+   "original": "T1_code_opus5_true_blinded_blinded_r1",
+   "replacement": "T1_code_opus5_true_blinded_blinded_r1_rep1",
+   "designer": "opus5",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "4890ed35b05ccecfaa26b889a2a5b1d3ea0b9b7bcc1b5733d7f6de2325519d59"
+  },
+  {
+   "original": "T1_code_opus5_inverted_blinded_r1",
+   "replacement": "T1_code_opus5_inverted_blinded_r1_rep1",
+   "designer": "opus5",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "c94a7aa959d221f68fc8012ad644f34d9914566d44a77a9e8992e6fe084b2ce9"
+  },
+  {
+   "original": "T1_code_opus5_none_blinded_r1",
+   "replacement": "T1_code_opus5_none_blinded_r1_rep1",
+   "designer": "opus5",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "f578e2f5492210e0105d3c40cb9f7895b0dc7f30bd8a324566dc2f44ff59d55b"
+  },
+  {
+   "original": "T1_code_fable51_instructed_blinded_r1",
+   "replacement": "T1_code_fable51_instructed_blinded_r1_rep1",
+   "designer": "fable51",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "b2c31a5e203c0643beb09d3d70feada1bfabe2067400de4dc20a46778794341e"
+  },
+  {
+   "original": "T1_code_opus5_instructed_blinded_r1",
+   "replacement": "T1_code_opus5_instructed_blinded_r1_rep1",
+   "designer": "opus5",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "40119aef5c7032f47a1b517b55d77b29bfdba6c7c21d25040fb7360d2ce17b71"
+  },
+  {
+   "original": "T1_code_sonnet55_sham_true_r1",
+   "replacement": "T1_code_sonnet55_sham_true_r1_rep1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "556c5201f9a6eb0ca3d83f20d6bf30acdc050020532bdd556eb7555917f62b83"
+  },
+  {
+   "original": "T1_code_fable51_sham_blinded_r1",
+   "replacement": "T1_code_fable51_sham_blinded_r1_rep1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "385e3702737aaa55a0b4d14df0f182cd874fe30b8d9378c90c3eeab9ee256902"
+  },
+  {
+   "original": "T1_code_sonnet55_instructed_blinded_r1",
+   "replacement": "T1_code_sonnet55_instructed_blinded_r1_rep1",
+   "designer": "sonnet55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "ca6930c06b014ef7e5a064fed83e822b154eef144cbf266541ddef5045c2ba2c"
+  },
+  {
+   "original": "T1_code_fable51_narrative_blinded_r1",
+   "replacement": "T1_code_fable51_narrative_blinded_r1_rep1",
+   "designer": "fable51",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "941a6ca23ac2bd4ce9f753ccb121986f1884911da1079ad7259fb615642fc1ea"
+  },
+  {
+   "original": "T1_code_opus5_sham_blinded_r1",
+   "replacement": "T1_code_opus5_sham_blinded_r1_rep1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "67e353bc2e9508aed4fad004c14229b75ac6e8d2d43edd710895ac1b56779e5c"
+  },
+  {
+   "original": "T1_code_opus5_sham_true_r1",
+   "replacement": "T1_code_opus5_sham_true_r1_rep1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "e47ccf7a56b4b6aeb5de926cb81dc5aec6f163cf6eb6f4ca2648512e5ddd8571"
+  },
+  {
+   "original": "T1_code_opus5_true_named_true_r1",
+   "replacement": "T1_code_opus5_true_named_true_r1_rep1",
+   "designer": "opus5",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "97fd138c41198cb14f2c4244ab202b491b3c8bbf51ba7e645f6b011b6755c62a"
+  },
+  {
+   "original": "T1_code_fable51_none_blinded_r1",
+   "replacement": "T1_code_fable51_none_blinded_r1_rep1",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "ad095eb725a9a9a39cb91e1133afed7c3407506f491fe0c99adfa5989924c67d"
+  },
+  {
+   "original": "T1_code_gemini4argon_inverted_blinded_r1",
+   "replacement": "T1_code_gemini4argon_inverted_blinded_r1_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "6c6ad770398483478d33e5821548d15018c5c374a5e16d9fd23eed5a20e929b0"
+  },
+  {
+   "original": "T1_code_sonnet55_none_blinded_r1",
+   "replacement": "T1_code_sonnet55_none_blinded_r1_rep1",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "03eff923b48d3fbd2812a67d7c6d8a521223c41c4eff32958601769b6dbb2321"
+  },
+  {
+   "original": "T1_code_sonnet55_true_blinded_blinded_r1",
+   "replacement": "T1_code_sonnet55_true_blinded_blinded_r1_rep1",
+   "designer": "sonnet55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "c8c8c9317ce494abfffcb17c46e2874727e5a05fd10e6e27ae3ba69d9e797406"
+  },
+  {
+   "original": "T1_code_fable51_true_named_true_r1",
+   "replacement": "T1_code_fable51_true_named_true_r1_rep1",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "4c017eee504cac1e403cc73961a628a135ae019ea0d9093ed24f50e73adfb753"
+  },
+  {
+   "original": "T1_code_fable51_true_blinded_blinded_r1",
+   "replacement": "T1_code_fable51_true_blinded_blinded_r1_rep1",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "c249cbcfd6907a277a92ba0661a80fcb7f7a35f41804dd63981e70c8f23cecdd"
+  },
+  {
+   "original": "T1_code_sonnet55_true_named_true_r1",
+   "replacement": "T1_code_sonnet55_true_named_true_r1_rep1",
+   "designer": "sonnet55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "2b9a5b24b35fa85574a4f2f6e305723eab1b78bcfc77aa7becff288f5aed7ad2"
+  },
+  {
+   "original": "T1_code_opus5_sham_false_r1",
+   "replacement": "T1_code_opus5_sham_false_r1_rep1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:BadRequestError",
+   "config_hash": "0cc0c840c746722486c995c46b0383ced36dc1fcc9944edda19ac3d1727ad71f"
+  },
+  {
+   "original": "T1_code_sonnet55_sham_false_r1",
+   "replacement": "T1_code_sonnet55_sham_false_r1_rep1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:BadRequestError",
+   "config_hash": "555253742385e46ecab96531c3b2e3bcef1643660c3e6392b31c354d31c2343b"
+  },
+  {
+   "original": "T1_code_fable51_sham_true_r1",
+   "replacement": "T1_code_fable51_sham_true_r1_rep1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "6b06df71040d9f97dd28a3ec8e6c6b1120d46b816d8f38ec734cb7ef49b84195"
+  },
+  {
+   "original": "T1_code_opus5_narrative_blinded_r1",
+   "replacement": "T1_code_opus5_narrative_blinded_r1_rep1",
+   "designer": "opus5",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "71941ed89ae8af9dde6aea1b91ab89012e6c239117c5c84fd4a0eb92610dc7b5"
+  },
+  {
+   "original": "T1_code_sonnet55_inverted_blinded_r1",
+   "replacement": "T1_code_sonnet55_inverted_blinded_r1_rep1",
+   "designer": "sonnet55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "f9c74fe5598d5af3040bb698f64bbbd9c5a7b5d48a2e3794a330d481e06dab70"
+  },
+  {
+   "original": "T1_code_sonnet55_instructed_blinded_r2",
+   "replacement": "T1_code_sonnet55_instructed_blinded_r2_rep1",
+   "designer": "sonnet55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "8601f0bd64a2120cc4e94f6570811e0ff8c752ceb8fba0a953c19795246e9198"
+  },
+  {
+   "original": "T1_code_sonnet55_true_blinded_blinded_r2",
+   "replacement": "T1_code_sonnet55_true_blinded_blinded_r2_rep1",
+   "designer": "sonnet55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "58895ae600aab72231d4ca79a6810c9eb41e1d7ccc2ac4d0caded84c58bf68ff"
+  },
+  {
+   "original": "T1_code_opus5_true_blinded_blinded_r2",
+   "replacement": "T1_code_opus5_true_blinded_blinded_r2_rep1",
+   "designer": "opus5",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "ebbdb328b92c51ed07e7be01d7d0ff64cfdc24785721cb6a4030694bd338dcbb"
+  },
+  {
+   "original": "T1_code_sonnet55_sham_blinded_r2",
+   "replacement": "T1_code_sonnet55_sham_blinded_r2_rep1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "d7ddc01649d227176caa1081a11ddf91c7c6e012d4103722e18a7244d133fdf3"
+  },
+  {
+   "original": "T1_code_opus5_none_blinded_r2",
+   "replacement": "T1_code_opus5_none_blinded_r2_rep1",
+   "designer": "opus5",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "318fce94b920f3faa15e156e256a8d3b62defb84d95ac5eac906578b993a0278"
+  },
+  {
+   "original": "T1_code_sonnet55_sham_false_r2",
+   "replacement": "T1_code_sonnet55_sham_false_r2_rep1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:BadRequestError",
+   "config_hash": "d04faaf305bfc47b7030327d966c9c5445de3c16b33b2372f45b945f3f51141f"
+  },
+  {
+   "original": "T1_code_opus5_inverted_blinded_r2",
+   "replacement": "T1_code_opus5_inverted_blinded_r2_rep1",
+   "designer": "opus5",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "68e6839aedb3b28db92e6ed8e8357f03236053673e195586e205acb33f9330b3"
+  },
+  {
+   "original": "T1_code_opus5_sham_blinded_r2",
+   "replacement": "T1_code_opus5_sham_blinded_r2_rep1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "4e1e09ab96632b2bdf3eb1a9771ac19753331341c63d5403590d3acc07804bf8"
+  },
+  {
+   "original": "T1_code_opus5_sham_false_r2",
+   "replacement": "T1_code_opus5_sham_false_r2_rep1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:BadRequestError",
+   "config_hash": "3caa0acb00629490eee8bbc351c08c8d640a1f039b5170a0ae22d6f6da08ab8c"
+  },
+  {
+   "original": "T1_code_fable51_true_blinded_blinded_r2",
+   "replacement": "T1_code_fable51_true_blinded_blinded_r2_rep1",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "cd856dfdd78628e3f52c5644878a8afe392ccd490529d7a1270abe21893ab5cb"
+  },
+  {
+   "original": "T1_code_sonnet55_none_blinded_r2",
+   "replacement": "T1_code_sonnet55_none_blinded_r2_rep1",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "1d70d7c7c4229255dc740ef07e17d49d30ef9f9a4ae7054d7f2066696b6502d2"
+  },
+  {
+   "original": "T1_code_sonnet55_true_named_true_r2",
+   "replacement": "T1_code_sonnet55_true_named_true_r2_rep1",
+   "designer": "sonnet55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "2e8170fc68e48ddffbb15f1dfa13e426e61936bc6b548dc5fb829b675ddfe9a5"
+  },
+  {
+   "original": "T1_code_opus5_true_named_true_r2",
+   "replacement": "T1_code_opus5_true_named_true_r2_rep1",
+   "designer": "opus5",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "4929a2169b74a1363e033bdfb503a039ef1d01e2b2a1e58f480dd74f773f9444"
+  },
+  {
+   "original": "T1_code_sonnet55_inverted_blinded_r2",
+   "replacement": "T1_code_sonnet55_inverted_blinded_r2_rep1",
+   "designer": "sonnet55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "bd9b0fd47285de469b00853594b00a6bd6c1d6082767627a765214f040cf6422"
+  },
+  {
+   "original": "T1_code_sonnet55_narrative_blinded_r2",
+   "replacement": "T1_code_sonnet55_narrative_blinded_r2_rep1",
+   "designer": "sonnet55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "37d479fc38e0c83781be493a24b9b00a904ce5f65669c3d8c43b4081fe022c9f"
+  },
+  {
+   "original": "T1_code_opus5_narrative_blinded_r2",
+   "replacement": "T1_code_opus5_narrative_blinded_r2_rep1",
+   "designer": "opus5",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "081c631555e8c7b55036b997b3e124cb958af0fbf5ea8e2773c88f1fc3a240dd"
+  },
+  {
+   "original": "T1_code_fable51_true_named_true_r2",
+   "replacement": "T1_code_fable51_true_named_true_r2_rep1",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "d85e1a2418c71ba003260860466216ccf91d46c4fc58cf1c7adc47831eff53ca"
+  },
+  {
+   "original": "T1_code_opus5_instructed_blinded_r2",
+   "replacement": "T1_code_opus5_instructed_blinded_r2_rep1",
+   "designer": "opus5",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "0036d96cafa7b63fb1b6337f0114966187194f3efa255a74eb17dc70132fb50a"
+  },
+  {
+   "original": "T1_code_fable51_sham_blinded_r2",
+   "replacement": "T1_code_fable51_sham_blinded_r2_rep1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "8795284d80688ebbdae28ee0d8df97fa2ded416037c7e9e996b6c67a8848b8ff"
+  },
+  {
+   "original": "T1_code_fable51_narrative_blinded_r2",
+   "replacement": "T1_code_fable51_narrative_blinded_r2_rep1",
+   "designer": "fable51",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "bd33ad636ca3619919a83af3445c05ab187f1fa674a450351d743f289f96b87c"
+  },
+  {
+   "original": "T1_code_sonnet55_sham_true_r2",
+   "replacement": "T1_code_sonnet55_sham_true_r2_rep1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "5f3f1c50e9c20431ba6b9d807de3a2d947838d703a7860538e97be84c9309ef3"
+  },
+  {
+   "original": "T1_code_fable51_inverted_blinded_r2",
+   "replacement": "T1_code_fable51_inverted_blinded_r2_rep1",
+   "designer": "fable51",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "1995308062be9134da5eda8e0436bcbed1bd7a335492030da2ff778a2d4a9da6"
+  },
+  {
+   "original": "T1_code_fable51_sham_false_r2",
+   "replacement": "T1_code_fable51_sham_false_r2_rep1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:BadRequestError",
+   "config_hash": "843f9b1a3905215c8425ec582a10148258501db6b9e8c35a5545861c8b89c08b"
+  },
+  {
+   "original": "T1_code_fable51_instructed_blinded_r2",
+   "replacement": "T1_code_fable51_instructed_blinded_r2_rep1",
+   "designer": "fable51",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "959941bde91d404a6ab2699e09afec36a9f39d813442cf411884947278d8f8fe"
+  },
+  {
+   "original": "T1_code_opus5_sham_true_r2",
+   "replacement": "T1_code_opus5_sham_true_r2_rep1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "edeb70073973257d75ba633cb47778daaeeafc1603ea3bd8ee93dc70a735670e"
+  },
+  {
+   "original": "T1_code_fable51_sham_true_r2",
+   "replacement": "T1_code_fable51_sham_true_r2_rep1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "3243943da5bdd6fcc480403f0ea862e8fbe2fa54f212bb701514572341d63085"
+  },
+  {
+   "original": "T1_code_fable51_none_blinded_r2",
+   "replacement": "T1_code_fable51_none_blinded_r2_rep1",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "5d1b66079d349046c587fb17f16ead608176edade53c6938b8f4a9579ab2d861"
+  },
+  {
+   "original": "T1_code_opus5_sham_blinded_r3",
+   "replacement": "T1_code_opus5_sham_blinded_r3_rep1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "65aa46d1ddd7645e5cab8b57efc9258d6143929596f2483b67ba5d9032eb154a"
+  },
+  {
+   "original": "T1_code_fable51_sham_blinded_r3",
+   "replacement": "T1_code_fable51_sham_blinded_r3_rep1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "a02406ba127d46f52d69ddc5622c9ef91f413787eb47f872e250d9273a6fa140"
+  },
+  {
+   "original": "T1_code_fable51_sham_true_r3",
+   "replacement": "T1_code_fable51_sham_true_r3_rep1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "e673f27fbd83620174503103dfa48ae424baf1acf4309df8b13697a5b276557d"
+  },
+  {
+   "original": "T1_code_sonnet55_sham_blinded_r3",
+   "replacement": "T1_code_sonnet55_sham_blinded_r3_rep1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "8e9686fe8ff5543b69681ec017315b92f627b072a929077fca3f0b662c5dc7cd"
+  },
+  {
+   "original": "T1_code_sonnet55_none_blinded_r3",
+   "replacement": "T1_code_sonnet55_none_blinded_r3_rep1",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "d0bb2993d6873712fb2aaf0871cd060ca4c4e672dd0bc1d4699270b15fcfe4e9"
+  },
+  {
+   "original": "T1_code_fable51_true_blinded_blinded_r3",
+   "replacement": "T1_code_fable51_true_blinded_blinded_r3_rep1",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "db79cb99d8d2f441861d662edfcd9a3efe3bf91fd041922b37ff1035c788b2b1"
+  },
+  {
+   "original": "T1_code_opus5_true_named_true_r3",
+   "replacement": "T1_code_opus5_true_named_true_r3_rep1",
+   "designer": "opus5",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "d3ff5b4cae6306c027240a99c6ab41b8aad3d59417a1449c40586895b10f46d6"
+  },
+  {
+   "original": "T1_code_fable51_true_named_true_r3",
+   "replacement": "T1_code_fable51_true_named_true_r3_rep1",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "84d0c9761a678b6f5a4bf6685f5f0610c31e06bf92934aff65eaf28ae75880b2"
+  },
+  {
+   "original": "T1_code_sonnet55_sham_true_r3",
+   "replacement": "T1_code_sonnet55_sham_true_r3_rep1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "87cbcdd4d24f3d09087c0b591bbbca8eaf59f1b998ab8c4ea2d156966c27e8b1"
+  },
+  {
+   "original": "T1_code_opus5_true_blinded_blinded_r3",
+   "replacement": "T1_code_opus5_true_blinded_blinded_r3_rep1",
+   "designer": "opus5",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "29e1abcb26b83f4106ec4249739f64fe7c74c0f71eb52f47f56863d2611864fb"
+  },
+  {
+   "original": "T1_code_opus5_none_blinded_r3",
+   "replacement": "T1_code_opus5_none_blinded_r3_rep1",
+   "designer": "opus5",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "99529e71bf188bad740dd412b446bfec96344a4254cf10acd870544b165c39e7"
+  },
+  {
+   "original": "T1_code_sonnet55_true_blinded_blinded_r3",
+   "replacement": "T1_code_sonnet55_true_blinded_blinded_r3_rep1",
+   "designer": "sonnet55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "1c22befc51cad6f2d70bb0111629c2df139e8a22ccf0c6624b4bb11dcc78d608"
+  },
+  {
+   "original": "T1_code_fable51_sham_false_r3",
+   "replacement": "T1_code_fable51_sham_false_r3_rep1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:BadRequestError",
+   "config_hash": "fbcb082efc909ab5bc4697ac2570eb6cb3d14c02c8a779d9fc92d42775b5f17e"
+  },
+  {
+   "original": "T1_code_opus5_sham_true_r3",
+   "replacement": "T1_code_opus5_sham_true_r3_rep1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "a6a277fa22bd9356aabced42689fdd94c533380e7a45cd4555de62e41b602bff"
+  },
+  {
+   "original": "T1_code_sonnet55_true_named_true_r3",
+   "replacement": "T1_code_sonnet55_true_named_true_r3_rep1",
+   "designer": "sonnet55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "c9a382d0a2a0fc9f88f7ab84e22a1b53cf2005276e7d74c7f3d63d36779b0f31"
+  },
+  {
+   "original": "T1_code_opus5_sham_false_r3",
+   "replacement": "T1_code_opus5_sham_false_r3_rep1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:BadRequestError",
+   "config_hash": "f3883858d2d105fb5af9c8c97ece02fc3f1a346951aa92d6af68c7350548eb81"
+  },
+  {
+   "original": "T1_code_sonnet55_sham_false_r3",
+   "replacement": "T1_code_sonnet55_sham_false_r3_rep1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:BadRequestError",
+   "config_hash": "32a5c13c548b44651a972a49a03455ecf1cfe503b38e37632ff69c522b672ac9"
+  },
+  {
+   "original": "T1_code_fable51_none_blinded_r3",
+   "replacement": "T1_code_fable51_none_blinded_r3_rep1",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "be19580530b91b649ab89029a546850b232b8aa7e3e4e60e371d0e978a02162e"
+  },
+  {
+   "original": "T1_code_sonnet55_sham_false_r4",
+   "replacement": "T1_code_sonnet55_sham_false_r4_rep1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:BadRequestError",
+   "config_hash": "33667af8913e477e2291d3ad80a6cd89d931e18240a938770b2c918a728a103b"
+  },
+  {
+   "original": "T1_code_sonnet55_sham_true_r4",
+   "replacement": "T1_code_sonnet55_sham_true_r4_rep1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "691bc22b8bd488104851cb6538d614fb087c377b9691d6c5798db7c260e2926a"
+  },
+  {
+   "original": "T1_code_fable51_true_blinded_blinded_r4",
+   "replacement": "T1_code_fable51_true_blinded_blinded_r4_rep1",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "37491f865c698cc1bd0e59dab8994d445e8d9584510abd4b9e02c372130c0f3b"
+  },
+  {
+   "original": "T1_code_sonnet55_none_blinded_r4",
+   "replacement": "T1_code_sonnet55_none_blinded_r4_rep1",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:BadRequestError",
+   "config_hash": "a645b34fd8bfce37eca14765fab2b51f6a82f68e1f3310bcba6307765e7bb2f8"
+  },
+  {
+   "original": "T1_code_opus5_sham_true_r4",
+   "replacement": "T1_code_opus5_sham_true_r4_rep1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "14c159bdbe4e3abed01fc0e6e861560935811976554b745dcd8a90ea3989bcf7"
+  },
+  {
+   "original": "T1_code_fable51_sham_true_r4",
+   "replacement": "T1_code_fable51_sham_true_r4_rep1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:BadRequestError",
+   "config_hash": "8b2b4e1cefb8500d7d2bc98b4de567d1d0f03aea7df37cf471174b7fe891ec28"
+  }
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "frozen_at": "2026-10-28T05:52:42Z",
+ "note": "refreeze after Builder 9 env-overridable provider concurrency (defaults unchanged)",
+ "files": {
+  "analysis_impls/B/core.py": "7b379214ad83662b8dbd5e983fad606bd965ca26e7bfff730ca74a47542cb462",
+  "analysis_impls/B/measurement.py": "f92f16417661d45fe05019773c9921f757f228db2d53ac379c2413b673a06220",
+  "analysis_impls/B/run.py": "b75a20613f02ebb2975a87500fbbd31419c4ad027378c7ef6e57377c873a7d4f",
+  "analysis_impls/C/run.py": "33da69f89932a8772c3e1672e3f33b207fd8537e1f583ad32db9f871e0f9ae84",
+  "metabench/analysis.py": "73676d519a17cfa5d8b29394392ab27197eddeb47bbab5bb14a27e0bccc9e49e",
+  "metabench/arms.py": "be53cc0253e732269759e39a4c8ec98ca87b832d17bd2b4fe4bd3f694daf44c5",
+  "metabench/briefs.py": "1ded7a2396a34189d179bc06c02e5f71d86e40ce45ecf63470143360465dd7e3",
+  "metabench/contamination.py": "636f31f2867597ac505d09f2626f3e61867431b5044b6153ed8426edf131b65e",
+  "metabench/designer.py": "5c6df7919e8737599d06c814646ae6f772488221647e17de28913f8fe57a70f6",
+  "metabench/graders.py": "8c15ac310acd4afdc4ce709f132b9bff4abf7a62c4904543b2a38ae28f6b6ff7",
+  "metabench/interface.py": "1161b9a0993689192a2bd7634753f6d4ba224381ae6c6b7c5b4ac0f7a7930ee6",
+  "metabench/llm.py": "fb6fcd06778c7aec7d8c741df08c6ac0925a1e6044e78ee5ddad00cffe92e216",
+  "metabench/monitors.py": "6c1dc1528e74ba827208b9e47a6534bacb597e42eab37d3904e224e37590b4e2",
+  "metabench/panel.py": "b67cfe1a46e2bed417ee0ce740356ebcfd66347b12a00b7e532bcd792442c3dd",
+  "metabench/pool.py": "a4b94349839d15b97af823955900cc756ff62205f33caa4a4c377d3e9a28dd22",
+  "metabench/scoring.py": "cb5ca6d5c7a1c388b2d9f0475a3eb2a37119aa4bea8775d41c5f1d97d9f39b39",
+  "metabench/synthetic.py": "5e270d9dee23cb73df6f6e68da3d266575b8b27d2c7ec77646412c52db0cfd67",
+  "pools/code/pool.jsonl": "c5a7400426e22904513219eec414bf59d9aa0af309904ee5b6245f5f26477e18",
+  "pools/code/scripts/sandbox.py": "24bfde61154cd1f3ca6d45a2950fc9d03760413d43f4eff6d0652c15d05ada47",
+  "pools/code/scripts/sbx_driver.py": "23a188b1d649bd31074f14a3bcb73557885139283fa6d6fabc8283e1822f894b",
+  "pools/factual_qa/pool.jsonl": "d9425bde79ac4bf7474c348a69637ecad3c67fa02c7f65a6e4c1d63cbc7f6203",
+  "pools/factual_qa/scripts/verify.py": "87543168f782dd23e940cf3cc80f36ca5f12aa7376ab221c2f53afbb693d9d06",
+  "pools/heldout_clinical_medicine/pool.jsonl": "2cd2a968840d5f9f4cc8a9f515d800179c0f0099df15a6140a7926c718dec4fc",
+  "pools/math/pool.jsonl": "6d6e4e88a35b7c2e4a72a58f022df332c9ffc5e110e4ef522c3c977a0cbd73d9",
+  "prereg/frozen_sizes.json": "8a22f0ea4d512628bf5d62a3214f7b4e50cff2780f7e238c36b4ee946fdbd885",
+  "prereg/pools_hash.json": "d8ff6ec827ea0823121feac7e1c0b96bf606c0505dc371cd9279ccedb716d0fd",
+  "prereg/sealing_key.json": "6ec0c2b6318a401130ba148919b5341af4f281dae970f49746b94868a99ded91",
+  "scripts_contamination.py": "c5c97bb7f6bfffb3d699fbca36ff110ead2b7491b2503af1c4c47b75daf8e640",
+  "scripts_freeze.py": "c5e06ba8a88e66860c1bf6a8c272e46dcd90ab2f6827508dbeee9dbbc81944f6",
+  "scripts_health_check.py": "fe80adea785fd1698ade5dd96f21051829573a9c1961436b997bf12f9f534b8a",
+  "scripts_health_view.py": "885b01b383307f739f4e98f512988096b6f96cb65a20a195a0a40aff61665004",
+  "scripts_run_confirmatory.sh": "a11e2ac9ed496d8aa5b348a2db05a62efa791b41e690cbe99897c11cc7b56921",
+  "scripts_runner.py": "dae7596815a0fcb1411727a651bd2f349791ea3929551a8327e97d2b18751345"
+ },
+ "absent_optional": [],
+ "combined_sha256": "1a254065515ea71cc177652f31a57176c2914915572ed56b8cb60334953f217f",
+ "panel": [
+  {
+   "key": "fable51",
+   "provider": "anthropic",
+   "model_id": "claude-fable-5-1",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "designer; Anthropic current strongest (Mythos-class)"
+  },
+  {
+   "key": "sonnet55",
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-5-5",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "designer; Anthropic mid (current generation)"
+  },
+  {
+   "key": "opus5",
+   "provider": "anthropic",
+   "model_id": "claude-opus-5",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "designer; Anthropic older generation (5.0)"
+  },
+  {
+   "key": "gpt61sol",
+   "provider": "openai",
+   "model_id": "gpt-6.1-sol",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "designer; OpenAI current strongest"
+  },
+  {
+   "key": "gpt6luna",
+   "provider": "openai",
+   "model_id": "gpt-6-luna",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "designer; OpenAI mid (current generation, small)"
+  },
+  {
+   "key": "gpt55",
+   "provider": "openai",
+   "model_id": "gpt-5.5",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "designer; OpenAI older generation (5.5)"
+  },
+  {
+   "key": "gemini4argon",
+   "provider": "google",
+   "model_id": "gemini-4-argon",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "designer; Google current strongest"
+  },
+  {
+   "key": "gemini38flash",
+   "provider": "google",
+   "model_id": "gemini-3.8-flash",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "designer; Google mid (current generation, flash)"
+  },
+  {
+   "key": "gemini31pro",
+   "provider": "google",
+   "model_id": "gemini-3.1-pro-preview",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "designer; Google older generation (3.1 Pro)"
+  },
+  {
+   "key": "grok47",
+   "provider": "xai",
+   "model_id": "grok-4.7",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "designer; xAI current strongest"
+  },
+  {
+   "key": "grok45",
+   "provider": "xai",
+   "model_id": "grok-4.5",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "designer; xAI mid (previous flagship)"
+  },
+  {
+   "key": "grok43",
+   "provider": "xai",
+   "model_id": "grok-4.3",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "designer; xAI older generation (4.3)"
+  },
+  {
+   "key": "placebo_sonnet55",
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-5-5",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "identical-model placebo of sonnet55"
+  },
+  {
+   "key": "heldout_sonnet46",
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-4-6",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "held-out; replication designer (Anthropic 4.6)"
+  },
+  {
+   "key": "heldout_gpt54",
+   "provider": "openai",
+   "model_id": "gpt-5.4",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "held-out; replication designer (OpenAI 5.4)"
+  },
+  {
+   "key": "heldout_gemini35flash",
+   "provider": "google",
+   "model_id": "gemini-3.5-flash",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "held-out; replication designer (Google 3.5 Flash; 2.5 Pro is closed to new users)"
+  },
+  {
+   "key": "heldout_grok420",
+   "provider": "xai",
+   "model_id": "grok-4.20-0309-reasoning",
+   "effort": "low",
+   "max_tokens": 2048,
+   "role": "held-out; replication designer (xAI 4.20)"
+  }
+ ],
+ "displayed_keys": [
+  "fable51",
+  "sonnet55",
+  "opus5",
+  "gpt61sol",
+  "gpt6luna",
+  "gpt55",
+  "gemini4argon",
+  "gemini38flash",
+  "gemini31pro",
+  "grok47",
+  "grok45",
+  "grok43"
+ ],
+ "placebo_keys": [
+  "placebo_sonnet55"
+ ],
+ "heldout_keys": [
+  "heldout_sonnet46",
+  "heldout_gpt54",
+  "heldout_gemini35flash",
+  "heldout_grok420"
+ ],
+ "tiers": {
+  "fable51": 1,
+  "gpt61sol": 1,
+  "gemini4argon": 1,
+  "grok47": 1,
+  "sonnet55": 2,
+  "opus5": 2,
+  "gpt55": 2,
+  "gemini31pro": 2,
+  "grok45": 2,
+  "placebo_sonnet55": 2,
+  "gpt6luna": 3,
+  "gemini38flash": 3,
+  "grok43": 3
+ }
+}

@@ -1,0 +1,353 @@
+{
+ "integrity": {
+  "manifest_entries": 11662,
+  "ok": 11662,
+  "missing": 0,
+  "size_mismatch": 0,
+  "unlisted_files": 0
+ },
+ "control": {
+  "results/benchmarks.jsonl": {
+   "rows_rebuilt": 559,
+   "rows_sealed": 559,
+   "differing_rebuilt": 0,
+   "differing_sealed": 0,
+   "duplicate_keys_sealed": 0,
+   "identical": true,
+   "same_order": false
+  },
+  "results/item_outcomes.jsonl": {
+   "rows_rebuilt": 817360,
+   "rows_sealed": 817360,
+   "differing_rebuilt": 0,
+   "differing_sealed": 0,
+   "duplicate_keys_sealed": 0,
+   "identical": true,
+   "same_order": false
+  },
+  "results/monitors.jsonl": {
+   "rows_rebuilt": 467,
+   "rows_sealed": 467,
+   "differing_rebuilt": 0,
+   "differing_sealed": 0,
+   "duplicate_keys_sealed": 0,
+   "identical": true,
+   "same_order": false
+  },
+  "results/session_log.jsonl": {
+   "rows_rebuilt": 559,
+   "rows_sealed": 559,
+   "differing_rebuilt": 0,
+   "differing_sealed": 0,
+   "duplicate_keys_sealed": 0,
+   "identical": true,
+   "same_order": false
+  },
+  "results/reference_item_outcomes.jsonl": {
+   "rows_rebuilt": 34000,
+   "rows_sealed": 34000,
+   "differing_rebuilt": 34000,
+   "differing_sealed": 34000,
+   "duplicate_keys_sealed": 0,
+   "identical": false,
+   "same_order": false,
+   "sealed_copy_of_pool": "factual"
+  },
+  "reference_item_outcomes.jsonl": {
+   "rows_rebuilt": 34000,
+   "rows_sealed": 34000,
+   "differing_rebuilt": 34000,
+   "differing_sealed": 34000,
+   "duplicate_keys_sealed": 0,
+   "identical": false,
+   "same_order": false,
+   "sealed_copy_of_pool": "factual"
+  },
+  "registration_full.json": {
+   "registration": {
+    "leaf_keys": 2909,
+    "differing": 0,
+    "differing_run_environment": 0,
+    "differing_beyond_rel_tol": 0,
+    "rel_tol": 1e-06
+   },
+   "configs": {
+    "leaf_keys": 26580,
+    "differing": 0,
+    "differing_run_environment": 0,
+    "differing_beyond_rel_tol": 0,
+    "rel_tol": 1e-06
+   },
+   "reference_scores": {
+    "leaf_keys": 17,
+    "differing": 0,
+    "differing_run_environment": 0,
+    "differing_beyond_rel_tol": 0,
+    "rel_tol": 1e-06
+   },
+   "coverage": {
+    "leaf_keys": 17,
+    "differing": 0,
+    "differing_run_environment": 0,
+    "differing_beyond_rel_tol": 0,
+    "rel_tol": 1e-06
+   },
+   "extra_top_level_keys": 0,
+   "identical": true,
+   "registration_written_at_only": false
+  },
+  "run_manifest.json": {
+   "compared_fields": 11,
+   "differing_fields": 0,
+   "identical": true,
+   "not_compared": [
+    "run_id",
+    "started_at",
+    "ended_at",
+    "concurrency",
+    "api_errors_total"
+   ]
+  }
+ },
+ "endpoint_control": {
+  "registered row order": {
+   "A_metabench_analysis": {
+    "leaf_keys": 7610,
+    "differing": 5913,
+    "differing_run_environment": 0,
+    "differing_beyond_rel_tol": 5819,
+    "rel_tol": 1e-06
+   },
+   "B": {
+    "leaf_keys": 1846,
+    "differing": 414,
+    "differing_run_environment": 1,
+    "differing_beyond_rel_tol": 97,
+    "rel_tol": 1e-06
+   },
+   "C": {
+    "leaf_keys": 840,
+    "differing": 349,
+    "differing_run_environment": 1,
+    "differing_beyond_rel_tol": 0,
+    "rel_tol": 1e-06
+   },
+   "contamination": {
+    "leaf_keys": 962,
+    "differing": 178,
+    "differing_run_environment": 2,
+    "differing_beyond_rel_tol": 0,
+    "rel_tol": 1e-06
+   }
+  },
+  "sealed row order": {
+   "A_metabench_analysis": {
+    "leaf_keys": 7150,
+    "differing": 215,
+    "differing_run_environment": 0,
+    "differing_beyond_rel_tol": 108,
+    "rel_tol": 1e-06
+   },
+   "B": {
+    "leaf_keys": 1846,
+    "differing": 322,
+    "differing_run_environment": 1,
+    "differing_beyond_rel_tol": 4,
+    "rel_tol": 1e-06
+   },
+   "C": {
+    "leaf_keys": 840,
+    "differing": 349,
+    "differing_run_environment": 1,
+    "differing_beyond_rel_tol": 0,
+    "rel_tol": 1e-06
+   }
+  }
+ },
+ "runs": {
+  "factual/endpoints/B": {
+   "label": "factual/endpoints/B",
+   "rc": 0,
+   "seconds": 282
+  },
+  "factual/endpoints/C": {
+   "label": "factual/endpoints/C",
+   "rc": 0,
+   "seconds": 39
+  },
+  "factual/endpoints/contamination": {
+   "label": "factual/endpoints/contamination",
+   "rc": 0,
+   "seconds": 7
+  },
+  "factual/endpoints/A_metabench_analysis": {
+   "label": "factual/endpoints/A_metabench_analysis",
+   "rc": 1,
+   "seconds": 460
+  },
+  "math/endpoints/B": {
+   "label": "math/endpoints/B",
+   "rc": 0,
+   "seconds": 238
+  },
+  "math/endpoints/C": {
+   "label": "math/endpoints/C",
+   "rc": 0,
+   "seconds": 51
+  },
+  "math/endpoints/A_metabench_analysis": {
+   "label": "math/endpoints/A_metabench_analysis",
+   "rc": 0,
+   "seconds": 443
+  },
+  "math/endpoints/contamination": {
+   "label": "math/endpoints/contamination",
+   "rc": 0,
+   "seconds": 92
+  },
+  "code/endpoints/B": {
+   "label": "code/endpoints/B",
+   "rc": 0,
+   "seconds": 281
+  },
+  "code/endpoints/C": {
+   "label": "code/endpoints/C",
+   "rc": 0,
+   "seconds": 37
+  },
+  "code/endpoints/contamination": {
+   "label": "code/endpoints/contamination",
+   "rc": 0,
+   "seconds": 94
+  },
+  "code/endpoints/A_metabench_analysis": {
+   "label": "code/endpoints/A_metabench_analysis",
+   "rc": 0,
+   "seconds": 504
+  },
+  "code/endpoints_sealed_order/B": {
+   "label": "code/endpoints_sealed_order/B",
+   "rc": 0,
+   "seconds": 272
+  },
+  "code/endpoints_sealed_order/C": {
+   "label": "code/endpoints_sealed_order/C",
+   "rc": 0,
+   "seconds": 37
+  },
+  "code/endpoints_sealed_order/A_metabench_analysis": {
+   "label": "code/endpoints_sealed_order/A_metabench_analysis",
+   "rc": 0,
+   "seconds": 483
+  }
+ },
+ "facts": {
+  "factual": {
+   "pool": "factual",
+   "registered": 468,
+   "declared_replacements": 1,
+   "rows": 469,
+   "valid": 468,
+   "valid_registered": 467,
+   "valid_replacements": 1,
+   "invalid_by_status": {
+    "exception:GoogleAPIError": 1
+   },
+   "monitor_files": 468,
+   "item_outcome_rows": 796484,
+   "live_rescore_wait_s": null,
+   "precompute_hash_ok": true,
+   "precompute_error_last_rows_by_provider": {
+    "anthropic": 0,
+    "openai": 0,
+    "google": 0,
+    "xai": 0
+   },
+   "inputs_not_in_manifest": 0,
+   "checks": {
+    "benchmark_hash_ok": "469/469",
+    "config_json_hash_ok": "469/469",
+    "make_cfg_config_ok": "469/469",
+    "make_cfg_hash_ok": "469/469",
+    "monitors_as_runner_rule": "469/469",
+    "reference_scores_ok": "469/469",
+    "replacement_of_ok": "469/469",
+    "session_id_field_ok": "469/469"
+   },
+   "warnings": [],
+   "pool_path": "pools/factual_qa/pool.jsonl"
+  },
+  "math": {
+   "pool": "math",
+   "registered": 468,
+   "declared_replacements": 51,
+   "rows": 519,
+   "valid": 418,
+   "valid_registered": 417,
+   "valid_replacements": 1,
+   "invalid_by_status": {
+    "exception:GoogleAPIError": 100,
+    "ok": 1
+   },
+   "monitor_files": 419,
+   "item_outcome_rows": 714340,
+   "live_rescore_wait_s": null,
+   "precompute_hash_ok": true,
+   "precompute_error_last_rows_by_provider": {
+    "anthropic": 0,
+    "openai": 0,
+    "google": 0,
+    "xai": 22
+   },
+   "inputs_not_in_manifest": 0,
+   "checks": {
+    "benchmark_hash_ok": "519/519",
+    "config_json_hash_ok": "519/519",
+    "make_cfg_config_ok": "519/519",
+    "make_cfg_hash_ok": "519/519",
+    "monitors_as_runner_rule": "519/519",
+    "reference_scores_ok": "519/519",
+    "replacement_of_ok": "519/519",
+    "session_id_field_ok": "519/519"
+   },
+   "warnings": [],
+   "pool_path": "pools/math/pool.jsonl"
+  },
+  "code": {
+   "pool": "code",
+   "registered": 468,
+   "declared_replacements": 91,
+   "rows": 559,
+   "valid": 467,
+   "valid_registered": 377,
+   "valid_replacements": 90,
+   "invalid_by_status": {
+    "exception:BadRequestError": 90,
+    "exception:GoogleAPIError": 2
+   },
+   "monitor_files": 467,
+   "item_outcome_rows": 817360,
+   "live_rescore_wait_s": 900.0,
+   "precompute_hash_ok": true,
+   "precompute_error_last_rows_by_provider": {
+    "anthropic": 0,
+    "openai": 0,
+    "google": 0,
+    "xai": 0
+   },
+   "inputs_not_in_manifest": 0,
+   "checks": {
+    "benchmark_hash_ok": "559/559",
+    "config_json_hash_ok": "559/559",
+    "make_cfg_config_ok": "559/559",
+    "make_cfg_hash_ok": "559/559",
+    "monitors_as_runner_rule": "559/559",
+    "reference_scores_ok": "559/559",
+    "replacement_of_ok": "559/559",
+    "session_id_field_ok": "559/559"
+   },
+   "warnings": [],
+   "pool_path": "pools/code/pool.jsonl"
+  }
+ }
+}

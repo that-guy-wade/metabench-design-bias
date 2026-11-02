@@ -1,0 +1,15 @@
+{
+ "written_at": "2026-10-25T21:00:16Z",
+ "pool_name": "factual",
+ "replacements": [
+  {
+   "original": "T1_factual_gemini31pro_instructed_blinded_r2",
+   "replacement": "T1_factual_gemini31pro_instructed_blinded_r2_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "25a01e572774cefa91be6dd5a4e921cc6b9aec372bd3226925150b133ff95071"
+  }
+ ]
+}

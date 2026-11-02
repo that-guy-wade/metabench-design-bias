@@ -1,0 +1,55 @@
+{
+ "n_rows": 755,
+ "checks": {
+  "designer/panel key (any field)": {
+   "n_hits": 0,
+   "examples": []
+  },
+  "display name (rationale/action)": {
+   "n_hits": 0,
+   "examples": []
+  },
+  "family word (rationale/action)": {
+   "n_hits": 0,
+   "examples": []
+  },
+  "interface pseudonym MDL-xx (any field)": {
+   "n_hits": 0,
+   "examples": []
+  },
+  "session id (any field)": {
+   "n_hits": 0,
+   "examples": []
+  },
+  "arm name (rationale/action)": {
+   "n_hits": 4,
+   "examples": [
+    {
+     "audit_id": "m0086",
+     "field": "rationale",
+     "context": " obviously trivial arithmetic and extremely long multi-part narrative items when possible. - Mix of algebra, number theory, combi"
+    },
+    {
+     "audit_id": "c0035",
+     "field": "rationale",
+     "context": " pure cryptic core; X2/X3 lead). (2) poorly-translated AIZU narrative \u2014 X1 still near last. (3) pure category probes earlier also"
+    },
+    {
+     "audit_id": "c0179",
+     "field": "rationale",
+     "context": "stly clear statements with executable tests. Some AIZU have narrative fluff but are valid. Will select for clear wording, avoid a"
+    },
+    {
+     "audit_id": "c0209",
+     "field": "rationale",
+     "context": "ality and variety. AIZU and ATCODER items seem to have more narrative/flavor text; CODEFORCES more direct. Will add ~25 mixed ite"
+    }
+   ]
+  },
+  "key fields present": {
+   "n_hits": 0,
+   "examples": []
+  }
+ },
+ "unexpected_columns": []
+}

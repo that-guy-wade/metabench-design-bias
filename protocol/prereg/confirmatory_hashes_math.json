@@ -1,0 +1,3888 @@
+{
+ "written_at": "2026-10-27T06:35:32Z",
+ "master_seed": 20261025,
+ "pool_name": "math",
+ "pool_sha256": "6d6e4e88a35b7c2e4a72a58f022df332c9ffc5e110e4ef522c3c977a0cbd73d9",
+ "panel_correctness_sha256": "266ff4ad865321430f8caf11ea381bad5d94f5730eae1ce380d5aae590731ce0",
+ "samples_per_item": 5,
+ "k_rounds": 4,
+ "n_items": 100,
+ "cells": {
+  "sham_blinded": 5,
+  "none_blinded": 5,
+  "true_named_true": 5,
+  "true_blinded_blinded": 5,
+  "sham_true": 5,
+  "sham_false": 5,
+  "inverted_blinded": 3,
+  "narrative_blinded": 3,
+  "instructed_blinded": 3
+ },
+ "designers": [
+  "fable51",
+  "sonnet55",
+  "opus5",
+  "gpt61sol",
+  "gpt6luna",
+  "gpt55",
+  "gemini4argon",
+  "gemini38flash",
+  "gemini31pro",
+  "grok47",
+  "grok45",
+  "grok43"
+ ],
+ "frozen_code_sha256": "b2b75295c8fb7da5baa1d0ff4b38e857fc943bfd196d9d54d615f221d00ef369",
+ "frozen_code_verified": true,
+ "panel": [
+  {
+   "key": "fable51",
+   "provider": "anthropic",
+   "model_id": "claude-fable-5-1",
+   "effort": "low"
+  },
+  {
+   "key": "sonnet55",
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-5-5",
+   "effort": "low"
+  },
+  {
+   "key": "opus5",
+   "provider": "anthropic",
+   "model_id": "claude-opus-5",
+   "effort": "low"
+  },
+  {
+   "key": "gpt61sol",
+   "provider": "openai",
+   "model_id": "gpt-6.1-sol",
+   "effort": "low"
+  },
+  {
+   "key": "gpt6luna",
+   "provider": "openai",
+   "model_id": "gpt-6-luna",
+   "effort": "low"
+  },
+  {
+   "key": "gpt55",
+   "provider": "openai",
+   "model_id": "gpt-5.5",
+   "effort": "low"
+  },
+  {
+   "key": "gemini4argon",
+   "provider": "google",
+   "model_id": "gemini-4-argon",
+   "effort": "low"
+  },
+  {
+   "key": "gemini38flash",
+   "provider": "google",
+   "model_id": "gemini-3.8-flash",
+   "effort": "low"
+  },
+  {
+   "key": "gemini31pro",
+   "provider": "google",
+   "model_id": "gemini-3.1-pro-preview",
+   "effort": "low"
+  },
+  {
+   "key": "grok47",
+   "provider": "xai",
+   "model_id": "grok-4.7",
+   "effort": "low"
+  },
+  {
+   "key": "grok45",
+   "provider": "xai",
+   "model_id": "grok-4.5",
+   "effort": "low"
+  },
+  {
+   "key": "grok43",
+   "provider": "xai",
+   "model_id": "grok-4.3",
+   "effort": "low"
+  },
+  {
+   "key": "placebo_sonnet55",
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-5-5",
+   "effort": "low"
+  },
+  {
+   "key": "heldout_sonnet46",
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-4-6",
+   "effort": "low"
+  },
+  {
+   "key": "heldout_gpt54",
+   "provider": "openai",
+   "model_id": "gpt-5.4",
+   "effort": "low"
+  },
+  {
+   "key": "heldout_gemini35flash",
+   "provider": "google",
+   "model_id": "gemini-3.5-flash",
+   "effort": "low"
+  },
+  {
+   "key": "heldout_grok420",
+   "provider": "xai",
+   "model_id": "grok-4.20-0309-reasoning",
+   "effort": "low"
+  }
+ ],
+ "sessions": [
+  {
+   "session_id": "T1_math_gpt6luna_sham_blinded_r0",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "61b7c945ee62fbccdb8abb058866928e71469f0d6635ed17b8f733b72b913c0a"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_inverted_blinded_r0",
+   "designer": "gemini38flash",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "334f8fedef5a6fd5f3f072d1e9c9111f79aa1963b3828e741771efeaf263bca8"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_narrative_blinded_r0",
+   "designer": "gpt61sol",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "5a294050a67b081dcbb74504415be275faf291e4c3515dea9144000026222e20"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_instructed_blinded_r0",
+   "designer": "gemini4argon",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "f540b74109428ac4dac4a9563f455d96af5fc93474eab6460bf17e8eed771d0c"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_inverted_blinded_r0",
+   "designer": "gpt61sol",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "9d9235227ecbebd338a727f874201e441882611783f773019651496de501a36f"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_true_named_true_r0",
+   "designer": "gemini38flash",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "62c88b5dbfe839e9c2038ac4a30b3495321e1c9a8308f6a0b7bd4641a7a9f5cc"
+  },
+  {
+   "session_id": "T1_math_opus5_true_named_true_r0",
+   "designer": "opus5",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "533102f4e506d8e36c298dd8b542c752b9192d1d67bfe9db086ca2c1bc90c0a8"
+  },
+  {
+   "session_id": "T1_math_sonnet55_narrative_blinded_r0",
+   "designer": "sonnet55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "395928ca5a371a9a57ce18af538d804d376780dfa9950c07a55de2337c00a3cb"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_true_r0",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "fa77f60881146c1eb239b60949aa88bfd89c749105d4b01e5147ad14bd026cba"
+  },
+  {
+   "session_id": "T1_math_fable51_instructed_blinded_r0",
+   "designer": "fable51",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "25aad70233ed019c229745dd517c7330c5781c6c33b5580bc7729ac470787bcc"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_inverted_blinded_r0",
+   "designer": "gemini31pro",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "a286069786ddf866ca45a8f69e9ca56ceafc1eb40d51827d7b138580daff31e2"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_true_r0",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "3cc3c1f9eec428d77fc9641ebf8276704cfe76e6dd8a43f94f7d65e02896e485"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_true_r0",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "d44a962acdbaea569fb7e2a55cf4c6c35cfb19b460503f0233ea3c5e3628cfd5"
+  },
+  {
+   "session_id": "T1_math_grok47_instructed_blinded_r0",
+   "designer": "grok47",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "77bbf9363c803ccb63e3274b7874045f66eba408adf076a2bc0caf2c93044c7e"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_narrative_blinded_r0",
+   "designer": "gemini31pro",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "714b5b1cb639914254eebb6952cbd146f29b247244cd771e03b569c903678631"
+  },
+  {
+   "session_id": "T1_math_grok43_true_named_true_r0",
+   "designer": "grok43",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "469ebafcaba6dbb2f712c4f3d2a39c09f8b3086c51dd884df2a7fcf5abea76d7"
+  },
+  {
+   "session_id": "T1_math_sonnet55_inverted_blinded_r0",
+   "designer": "sonnet55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "8d0f75b82c8b68a14d3964dc43824ad4162414ddfd4fdba004627d934bc76a8d"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_none_blinded_r0",
+   "designer": "gemini31pro",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "06a36834ff8145bcfb3696db4d8d4dc0d0d3f0fe44d1b7d837afc6425251ffdb"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_blinded_r0",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "f0964e998d0403c64b93feca6db4ea71fc8e26f4f6919f57b13742959dae74fa"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_instructed_blinded_r0",
+   "designer": "gpt61sol",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "e08794d01a9fa7259fa316d88e5f657d113cd26cebfe70a7920e209fa35b6088"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_true_r0",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "0f9a7cde18f0062818283a16495215eec478136d5ed9c58b21f2fb833baf1af3"
+  },
+  {
+   "session_id": "T1_math_gpt55_none_blinded_r0",
+   "designer": "gpt55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "6c7d9c2b73978a7546cf7e769053f5b97f7b1a7a04aa54ed5a5386095e113ab9"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_none_blinded_r0",
+   "designer": "gemini38flash",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "9d7eabae176907834ef05a1ef15595732893ce424df0f9851b1e8214de60240a"
+  },
+  {
+   "session_id": "T1_math_gpt55_true_named_true_r0",
+   "designer": "gpt55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "e99dafab51f2eaf100e84ea78c44bfdaddfcb1adba06a37e8c453543a243943b"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_blinded_r0",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "6cb5fe5ca598dc49d233ee38a98733084f0209cd26876ead9ed94421e141b807"
+  },
+  {
+   "session_id": "T1_math_fable51_inverted_blinded_r0",
+   "designer": "fable51",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "4945f651b01c6f0a75b40fcda029113d31eff66f134f25839a81a33e174bd419"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_false_r0",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "fe30a05e7dc7e2bd750bea8e8027c6bf1e15ba834b0e34105d2db2fa3b9e16ec"
+  },
+  {
+   "session_id": "T1_math_opus5_instructed_blinded_r0",
+   "designer": "opus5",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "89c04decfb2325237284401cbdbb262e9dd66ffc20d941679472359334ff9e37"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_true_blinded_blinded_r0",
+   "designer": "gpt6luna",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "39b3e929b49970d19c63db339cb6f7b94c5bf55db7da67fea8d00947c618e4cd"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_true_r0",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "5e09a291ed6a31929211b45d16d06165f27d698403576c00dcc5b313a4d51bc5"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_blinded_r0",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "2280180ff8ddc65400421dd15f61f0e3d87581a926fbf9623eab6ba997615753"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_blinded_r0",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "c22c7ab50c9c1f5daa001f64ce4de9a70ccb3011bf8e5c7d4f4bb93d3f55227a"
+  },
+  {
+   "session_id": "T1_math_grok45_true_named_true_r0",
+   "designer": "grok45",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "57bf2f46a24a908aef19b2e64cf253ab3c57b77d601b23a4e2be634b1a94e555"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_false_r0",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "67fa8b128aa2664b5c2fce3edac22f9fa36ecb2ba8786e0507862b60e5a46f2a"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_false_r0",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "958bf8821e380becc62ff8b84d2e5b3c2dea5486b3f74c2477cbc4105cc7d3de"
+  },
+  {
+   "session_id": "T1_math_sonnet55_true_named_true_r0",
+   "designer": "sonnet55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "5d59b154edb98854eb646837a1984aa3470d50ad83453b80f1aa9a58dd6c2d89"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_instructed_blinded_r0",
+   "designer": "gemini38flash",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "37a2d78e86f0502fc16a2e841ae94ba273b71acc92da87a44fde4390baafb3e7"
+  },
+  {
+   "session_id": "T1_math_opus5_true_blinded_blinded_r0",
+   "designer": "opus5",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "4a72b566a62c747ba8a31747f832f30ba8d730a6353a76a82b41311baf04b721"
+  },
+  {
+   "session_id": "T1_math_gpt55_inverted_blinded_r0",
+   "designer": "gpt55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "6ca0c00a60f13869f4f39c6d317a3048062173b0d993b07bf91249df1725f170"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_true_blinded_blinded_r0",
+   "designer": "gpt61sol",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "c2eb319ca57728a9109f131963e7eba4effa08ad72c63c8d8d94ba4e42b80d32"
+  },
+  {
+   "session_id": "T1_math_grok47_inverted_blinded_r0",
+   "designer": "grok47",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "6655d9ea6b501af4776987400c1ac1691294095417c84c5b1950cf78a538d013"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_true_named_true_r0",
+   "designer": "gpt6luna",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "fdd5326e48cac604d977a083f521fcad8e8941bcfdec43d0d4d7b785cc9f1ae4"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_blinded_r0",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "887f0319fefd265dbe796455629a6158fc6e2adc0323596b5790697a2d62a01e"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_false_r0",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "9d1caf27efa4fde0539a9e9e9896197d753a25c0f5136de484591b761bfd8e75"
+  },
+  {
+   "session_id": "T1_math_opus5_inverted_blinded_r0",
+   "designer": "opus5",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "72c98cd137f60385ffa21b2b011ce249d6c46b2b32eff2bee950164891e83501"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_true_named_true_r0",
+   "designer": "gemini4argon",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "fa6ac7e4e0ba45adfd14376ffaf2d2e78f4b6c3ef466e220623cf4ec86b2176c"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_blinded_r0",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "bce1824667e7b7ae370987cf14becaa5bd7dbaadcf7d6ec7a7936e6e4104a24d"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_true_blinded_blinded_r0",
+   "designer": "gemini31pro",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "31df69388cb072617d8b2eb5c715443a62aebc13fdc3ecac3e97883969909ff8"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_true_blinded_blinded_r0",
+   "designer": "gemini4argon",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "edddcf52e0e38b09815c29e29623dcd148918d8dc1249fab36e37884c69725fc"
+  },
+  {
+   "session_id": "T1_math_sonnet55_true_blinded_blinded_r0",
+   "designer": "sonnet55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "ee74d76c7f15b777ac3bf0e230d2abde400fc6ea4a32737106731055d3f323eb"
+  },
+  {
+   "session_id": "T1_math_gpt55_true_blinded_blinded_r0",
+   "designer": "gpt55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "8e7903859d399e035c989843d4c7b23a04a70c6f75d38d1e3ac66730dbfac70f"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_true_r0",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "6efcbff5bd0a1d0a47240f45dd76a10112778bad72163b469659eb08ae7b36f7"
+  },
+  {
+   "session_id": "T1_math_grok47_true_blinded_blinded_r0",
+   "designer": "grok47",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "c17815090b23940803c9467cf92c2486ed269ae805749baefe1bfa0e10294fb1"
+  },
+  {
+   "session_id": "T1_math_opus5_none_blinded_r0",
+   "designer": "opus5",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "f9f5117f0025e0e4ac8a364e5a290caaa53ca68ffaf8e917c1f36f768c1026b5"
+  },
+  {
+   "session_id": "T1_math_fable51_narrative_blinded_r0",
+   "designer": "fable51",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "92c94a7386e8dbe6a545a2f9ca55a787ec404d4524f90531b2b6c48b44c6ee9c"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_none_blinded_r0",
+   "designer": "gpt61sol",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "7f6e285396aec4c12178559b97d6840fdc805a6491640f832ab9e00c985f0885"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_false_r0",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "c43c221936d79e22c8091ac587c6d0439ecdcb2386393630817d3e33bc1546de"
+  },
+  {
+   "session_id": "T1_math_grok43_inverted_blinded_r0",
+   "designer": "grok43",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "b1f1db61e1273b4ca2ac2aaa57f4a920addf0aa6e97afdb3568f9dbf950f8240"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_false_r0",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "e5f32fbbd343a1c78d82fca30cc448f22d68422986b4513d5ad6cd4e9b47bc31"
+  },
+  {
+   "session_id": "T1_math_grok47_narrative_blinded_r0",
+   "designer": "grok47",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "716eeb2d1d0257c47f915dc7b7b132e735eae9cad19bd0448820b3bb283ec5da"
+  },
+  {
+   "session_id": "T1_math_fable51_none_blinded_r0",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "5b77be3dda4725af2cd2c0684a2742ee74ce17df2804c70c4bee838ebee30ba7"
+  },
+  {
+   "session_id": "T1_math_sonnet55_instructed_blinded_r0",
+   "designer": "sonnet55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "eb5e67388b6b8fdcb1d61848f334457efb2335703e7670f368ab3fd787112410"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_none_blinded_r0",
+   "designer": "gemini4argon",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "fda1ca8f87ae4923389b0a3dc99f8074ee2cef3dfecb520351ee33f729da29e6"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_false_r0",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "1cbf1c7570d9cd349f0918ef21ccb4f2cfab8e4acfcde688d38b44a57359a8a3"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_true_r0",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "bf5e6436e19e2a9abfb678b383d1137aaf3dacace1e4c3320a052293f497b6bb"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_inverted_blinded_r0",
+   "designer": "gpt6luna",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "96a72d2cbce4541b164a155e2d63a23d086e159199c1e3b3993a4faf3f7241af"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_false_r0",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "c95532b8709e3ceb2b44761d22a07beb1723f3d23bb1ed81152ad7bd04ed6558"
+  },
+  {
+   "session_id": "T1_math_grok45_narrative_blinded_r0",
+   "designer": "grok45",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "6f1ba77623238b0780ff2c6e335577a778149fd16b2938806c5353bbe9abbfd8"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_narrative_blinded_r0",
+   "designer": "gpt6luna",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "6ef38ca68d60c9f1cc787424b0135a290f49f446de690c4c66762b0dc7a020c1"
+  },
+  {
+   "session_id": "T1_math_grok45_true_blinded_blinded_r0",
+   "designer": "grok45",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "6ddcbbd5a9071b1ad61d55045fbbbe0c76f577cecd7911fcb7cd22c4608a4ee0"
+  },
+  {
+   "session_id": "T1_math_grok47_true_named_true_r0",
+   "designer": "grok47",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "859e42bcbf36d4442f67285678341600f762bc7c12249e40e39642b779896eb2"
+  },
+  {
+   "session_id": "T1_math_grok45_none_blinded_r0",
+   "designer": "grok45",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "ff38b8e85c7ca0069ae7beffd371da77119f43443564614085aac7a58980be75"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_true_r0",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "30a999606639f85c4129f2f541085c2fd2fe0ee8dc750ff80f25e968998b030c"
+  },
+  {
+   "session_id": "T1_math_grok43_instructed_blinded_r0",
+   "designer": "grok43",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "f607f0650aa922807e64248872564c909cb1290e81025c6d8a1633bd06b31248"
+  },
+  {
+   "session_id": "T1_math_sonnet55_none_blinded_r0",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "571d25e95a21a80827dcbc90aad5cf1f44c09595b17c30c14533effeea15921b"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_instructed_blinded_r0",
+   "designer": "gemini31pro",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "f27ad11eff95a3d2e5f2a142e2967848c6847238895945ef9ac70dafeca8c17c"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_true_named_true_r0",
+   "designer": "gpt61sol",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "8f9b33ff1ee31bf229dbe0e66d4b3f809945c7bbeee0b2518ba7bd7e3afb5850"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_true_r0",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "9f0a759f9d3facc89ddd36d144f34349d2119e54fe01fc8eae434fbb8fb93902"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_narrative_blinded_r0",
+   "designer": "gemini38flash",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "635a2e518e0a11db70c42c3d59466304524148f98bdda4e9bd8a9b15d4dd981e"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_blinded_r0",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "8fa6aed875e40a0ce7fd9fdfd6ba75931c5fba2c17a475c45a100d426d75739a"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_true_named_true_r0",
+   "designer": "gemini31pro",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "ec0e049a5c8af8b93b69e60271b6c5026345d851fee0e15f73109aa825769770"
+  },
+  {
+   "session_id": "T1_math_grok45_inverted_blinded_r0",
+   "designer": "grok45",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "6c98460794a9699b1c2765b54234c544881f1c7657bdd32022dd8347d9626a31"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_narrative_blinded_r0",
+   "designer": "gemini4argon",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "8a01b68e1b0d0e49c3ad80825f358e8118a9a05d65ef1d40a5488166b26ffa3d"
+  },
+  {
+   "session_id": "T1_math_grok47_none_blinded_r0",
+   "designer": "grok47",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "fede82a678df54a3c01f3499f966d4af08faa885c9f3de4f2ce996930b04b44d"
+  },
+  {
+   "session_id": "T1_math_fable51_true_named_true_r0",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "543a0078ac3c8bc79a0fedaf7f66f494203b99594ef7adb17950fca8733a89cf"
+  },
+  {
+   "session_id": "T1_math_grok43_true_blinded_blinded_r0",
+   "designer": "grok43",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "80123fc2882cc1c3631d8aa22965a99f441feafc0267def20fa239daaacc3fba"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_blinded_r0",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "a1967fb03ce31205b5a8f0778e393155c7ee4ab05ac31a1caea79e104a95b1ba"
+  },
+  {
+   "session_id": "T1_math_grok45_instructed_blinded_r0",
+   "designer": "grok45",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "f29dbc725bc6549707e4cf36694b660509f2d4dc8a51a9fbbdc569e057f12cfc"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_false_r0",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "3ef46b96024dd459d8d84257806928c1b6de1a9f772b407f973721c02be171fc"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_blinded_r0",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "9ba8e339ea4ad4458ff9cdd48e2ad7f311b92834f2aab75306bc849d0d314c29"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_blinded_r0",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "615dfe6da9aa22457f12d48943018c032d23333debbab636f1a631691f410503"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_true_r0",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "0467388ab399d75b59bbf58c9160c976144bd653c72ce5a8543fc07ef79fdd4e"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_instructed_blinded_r0",
+   "designer": "gpt6luna",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "6d4aa36df8f2a1251dd4f3c83401d646dcbceb412b04ceb1b883aa0a7459ecd5"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_blinded_r0",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "444d3ab0aa481683a1d45a31dfbcad0c19ed58cb305f3f01e2acbdc7d6794970"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_false_r0",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "924e09f1db5ab58eb59554224df6ffccea1ff32d2fba3025d494c229cbd3627a"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_none_blinded_r0",
+   "designer": "gpt6luna",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "74c0d7da4d4344d9ee3fd98e9d0145a865de6f8531a5775fc8818b66cb6a0c11"
+  },
+  {
+   "session_id": "T1_math_grok43_narrative_blinded_r0",
+   "designer": "grok43",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "e6dbda4e4315c1d03f2f5629d7874aad94b0d1bd0eeaf61c35ac3c59f846e6cc"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_true_r0",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "6ff0e6c23984443a4d7e2921bc1ca155a2c68f86ede1917d55ff0851f637a3cc"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_inverted_blinded_r0",
+   "designer": "gemini4argon",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "e5e95c024d9354721b39b6423c72390c6624e5ddae4bcaf42f091432608db595"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_true_r0",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "b5a834b1a48d7fd0b111701375a7d2b805d8a9c61135f757f21db81eaa5335f3"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_false_r0",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "5a2e82f18be8d5ea3321e8d8941c7d0f2a4022be7dff5901407c4d1eb1e8511a"
+  },
+  {
+   "session_id": "T1_math_fable51_true_blinded_blinded_r0",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "ac45472600cb4449048bf3c35df477f01c627dffdde526f7cf428a3bb9eca37b"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_false_r0",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "264bf3a203c1bdcbb483df08f872fe448b2f712dcc46bfe82ca709b022068eee"
+  },
+  {
+   "session_id": "T1_math_gpt55_narrative_blinded_r0",
+   "designer": "gpt55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "68fa5974c507526851bdcf220e7d73d469d68333cdc76d8f923c59e5e294c0e4"
+  },
+  {
+   "session_id": "T1_math_opus5_narrative_blinded_r0",
+   "designer": "opus5",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "d4fab5e9b3bc5a326f0edaeb3cd2ec9a3c2aa439db0935fcb1f4837571db8380"
+  },
+  {
+   "session_id": "T1_math_gpt55_instructed_blinded_r0",
+   "designer": "gpt55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "77b5722167889e5c3aa99dccf487a16d6d094ff47fa762d4eefec78e3d2d6bfd"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_true_blinded_blinded_r0",
+   "designer": "gemini38flash",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "e26bc89500d76db28087384d85fe13c66640f5dadd2728b53e8568dcc2f2ea73"
+  },
+  {
+   "session_id": "T1_math_grok43_none_blinded_r0",
+   "designer": "grok43",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "798a1f10f6b414eea9aea7d1fe02c31ccd0c790d9ea402baa3e29500c4c6e22a"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_blinded_r1",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "304f33e8fdb6f50198d2024253ec87e8161450407660f949ec32eca8e20628c9"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_narrative_blinded_r1",
+   "designer": "gpt61sol",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "3e0396e3f21e9ae27959d90cb05cc8441d3bdd19ace858587d3e0e0953dae2de"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_blinded_r1",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "d682b435af94ee31e654cc846c98b0b8bcb5c6ada2abef4b42aa6aa81796bd8b"
+  },
+  {
+   "session_id": "T1_math_grok43_true_blinded_blinded_r1",
+   "designer": "grok43",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "131077be2d322133aa171b38004c5a1035b7ceca769a280441f16815c594d623"
+  },
+  {
+   "session_id": "T1_math_grok45_instructed_blinded_r1",
+   "designer": "grok45",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "b2954d1cf78b59f377183ff68728631c5b21ec782abbbcb88f35dd7a9284cd06"
+  },
+  {
+   "session_id": "T1_math_sonnet55_narrative_blinded_r1",
+   "designer": "sonnet55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "4f0f9dddee28a48edad3dfc0d5ee7181572efb14d24fb8339582e1b5f380efe9"
+  },
+  {
+   "session_id": "T1_math_fable51_inverted_blinded_r1",
+   "designer": "fable51",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "bad3f27a5f3648d3b2bf01917fbbe3f33446e73e5817c50e56d2d293f820b707"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_blinded_r1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "da3c662954e4303625717485147f7cec1e269c7f5a5ef59910a67bc26a0284ba"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_false_r1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "a955286aab41b8e2a101d4c157bf5cce02825546c3612806dba2548e90091b47"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_false_r1",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "c6e7bfc0c5deab3a4658dd292b1355eb13b9ca5920a7f0a211ac8e867ca7d11f"
+  },
+  {
+   "session_id": "T1_math_opus5_true_blinded_blinded_r1",
+   "designer": "opus5",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "8fa62818003a74b19e538de359c80920b1ec5729e3b46a6a021941c61804fa77"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_true_r1",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "b392fcd3eb126bb80d9eafba8c48d7aaf71427478dfc5a9bdaabcd2fe507b10f"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_none_blinded_r1",
+   "designer": "gpt6luna",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "e29ae0c64043dc1660970f2408fbfc9f8ae77c4a0382bb44ef17bf275c65fa38"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_false_r1",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "9071affa1874336c5804527ac02a8bcecdd23811c4b1ad93c5aa39e7c17448e9"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_narrative_blinded_r1",
+   "designer": "gemini4argon",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "eb19f75c905241a32f08dad975548956cb05a0b85247cd789ee2c79d22a8551b"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_blinded_r1",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "aae70e52123054c41c6559a0e5ef713a05da351457177dd612613de6e5e9e042"
+  },
+  {
+   "session_id": "T1_math_grok47_inverted_blinded_r1",
+   "designer": "grok47",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "ad277a915f3c565813d8669077426148286fe6db32151a779600e29db3dd3644"
+  },
+  {
+   "session_id": "T1_math_opus5_inverted_blinded_r1",
+   "designer": "opus5",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "92971fe4701517ed2630612b4f54e93914aa92241eb9ed635f499df6c3cd5ce2"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_none_blinded_r1",
+   "designer": "gemini31pro",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "18cae745a3e87930006cc3060706c6834b57962a89b369f2cb01488a29b19c4e"
+  },
+  {
+   "session_id": "T1_math_grok43_instructed_blinded_r1",
+   "designer": "grok43",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "2f3d34a79680ee92f0541cf997cd6c3313ed845dbbd94f9932f618c42a25921d"
+  },
+  {
+   "session_id": "T1_math_opus5_none_blinded_r1",
+   "designer": "opus5",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "ee664e62b5955f34fe862c0394efefc090d7d384a20c4a324825dd1c3c1697af"
+  },
+  {
+   "session_id": "T1_math_grok47_true_blinded_blinded_r1",
+   "designer": "grok47",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "a91e2c9491fd039d7d2d2d21372980fcc702c10f2daa1ef1d2436c3ae466007a"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_true_r1",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "0e838d03f96f57c59573a7d205b16b511101297fd70487925e55281c2f797245"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_true_named_true_r1",
+   "designer": "gpt6luna",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "cbd55671229535a9876c312bc5f1cd6d0e0afb8fc9bf4186b55e2402b8924401"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_true_blinded_blinded_r1",
+   "designer": "gpt61sol",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "7177a8618936484b5ffb62e126074136ba19e26a086566fe946c5722e2f4cff9"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_instructed_blinded_r1",
+   "designer": "gpt61sol",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "49a71457a718ca6bfea7ce0712e57f1d5092d315b895bd9f6b6d371fe4aa11ab"
+  },
+  {
+   "session_id": "T1_math_fable51_instructed_blinded_r1",
+   "designer": "fable51",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "3ba85936578d9492e392176ad07f70a5d7830699f82a0b68154ad4945ceb04f7"
+  },
+  {
+   "session_id": "T1_math_opus5_instructed_blinded_r1",
+   "designer": "opus5",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "27f9e2ea9819a91a7b39f559209d9dd842a1c3692ea5be59dc0ba00d9fe03259"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_true_r1",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "58aa1f1fc31a609b9166ca0be9b7b47a0b9f832840701b06fb2e011705621e46"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_false_r1",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "46cad1364a2700fe1f4fba1f419030d1a8100ce8ebbbd89c76770c2a6dd68486"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_true_r1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "abcb742201428c67421d49c965e95ee69c9b13e24c3d721d6fd2fade63be1a0f"
+  },
+  {
+   "session_id": "T1_math_grok43_narrative_blinded_r1",
+   "designer": "grok43",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "41b952a36126e7adb6462a584a2f28c69339b2b8c7b65087db5c76d7bc96ea95"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_blinded_r1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "2aceca726208bd3bfb081e976216f0bb4fb4ca0beb8eec9941f14e78f7153c27"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_true_r1",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "625d12400c30a19af16747e0a58d84e7499a5a1c1d59767802c0aff38b8d5d07"
+  },
+  {
+   "session_id": "T1_math_grok47_narrative_blinded_r1",
+   "designer": "grok47",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "b469e1314fb849c41b15f30869a0a04779664494c5b0f052accd5fe418c4eb44"
+  },
+  {
+   "session_id": "T1_math_sonnet55_instructed_blinded_r1",
+   "designer": "sonnet55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "241c8f61e7f206f165e47003dc2382f6781d0722c6d2b2df64e733a9bb71ec02"
+  },
+  {
+   "session_id": "T1_math_fable51_narrative_blinded_r1",
+   "designer": "fable51",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "f8d7cf28083f2f6edd60dd0516b19dca2a4e4985c6569582b3338da508c2ddf2"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_blinded_r1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "dbb258d6cd968320b4420703949c6005ef57920951886c647f602416c74c193f"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_none_blinded_r1",
+   "designer": "gemini38flash",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "fb35467b5e7e1cc9e864be9f0fef90817d1b229d2d8f34c139e089086c4a9807"
+  },
+  {
+   "session_id": "T1_math_grok45_true_blinded_blinded_r1",
+   "designer": "grok45",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "43c1a9c983c7acfcb9169ec657302ac2f82111ff85f270460a98a7f03bfad714"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_true_named_true_r1",
+   "designer": "gemini38flash",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "5f67d46b6627bd4617535d05cda287dec6df2f6847889687739f55d28593d8cc"
+  },
+  {
+   "session_id": "T1_math_gpt55_true_named_true_r1",
+   "designer": "gpt55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "4c46bafec886e9912130289acfbcb2da37593cd3a1c45e8b195ec29fd649bbb4"
+  },
+  {
+   "session_id": "T1_math_grok43_none_blinded_r1",
+   "designer": "grok43",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "c463774c1c3ad52a33d038abe235b4717dfb8d13f7de383a11174742928e3ed7"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_true_r1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "6efc1a851022018d36d816f98459eef16501716b144ac51cae06afd962b0c1b8"
+  },
+  {
+   "session_id": "T1_math_opus5_true_named_true_r1",
+   "designer": "opus5",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "6ff1a6d138e65dc343b5446043baaaca67f98cf52cbfaf7284b947a57e8b5aeb"
+  },
+  {
+   "session_id": "T1_math_gpt55_true_blinded_blinded_r1",
+   "designer": "gpt55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "29765db9e7ae8f20855fb9bc1e6bac5b33546e9e56135f8590cc2f91ddd90b6f"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_false_r1",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "b032205d09dadda848687687535ead591d4aa3295d873d9c3a3412d1cc9cc9e1"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_blinded_r1",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "b9d3f5b06cd81edb9bb751360be6a8c795292c441c1aa67f4f76d4f10511212f"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_false_r1",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "cf463a28a4ce17655ea0990926270d9f765537c09cc24d4912d7ec57a7984fef"
+  },
+  {
+   "session_id": "T1_math_fable51_none_blinded_r1",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "3002619bf7d86e4016e39e12db578ccbecfe6f86acac4f6bef8fa08e9713e23e"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_true_named_true_r1",
+   "designer": "gpt61sol",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "4320d30b3a336c163478d88764a3497abd6da54cf3dc389c2b15ea89eb4d5439"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_false_r1",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "1cc78aa966cd085a506fc9236cd970e38b1251a1b8e281d5bfa10e08f1608ba9"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_false_r1",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "0ea0d1cab40d5724c3a3172411b5e1c4abda8caa5245880e160364cd3e8f16ad"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_true_named_true_r1",
+   "designer": "gemini31pro",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "c5a5f06f58a2f0c999e8311f5299db0cec0b1e2c0b81a1838902859856ff0258"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_inverted_blinded_r1",
+   "designer": "gemini4argon",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "a78178cef0a8c1519c250ab2cc5b16dc154c432bc091697925c1c0f324a86b63"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_true_blinded_blinded_r1",
+   "designer": "gpt6luna",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "e85e5ddadc86c096e3fc0731381e0bb147afc7cb66faf9ee82e2880d8fe2c514"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_true_r1",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "c219e8f8370d502f6af2beedc762c77d2e7841a6ac9e1b8329f074a9dfd59fc5"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_true_blinded_blinded_r1",
+   "designer": "gemini31pro",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "5c6d3f7885c819f2d69d912c05e87e5255149b8c939c3daca56e80ba612ce8b6"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_instructed_blinded_r1",
+   "designer": "gemini38flash",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "f37be8786aa663cfd8a1f75af54568109d8edee2537802ddd22621f8b04a317a"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_blinded_r1",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "8eff04e411f69d677b70aa9e6f07c36765a2be0549372529e5a15361522b8362"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_instructed_blinded_r1",
+   "designer": "gpt6luna",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "beafc84b86b597a687e1de5f35a8c79cba2e357e651a2fd1c2d4708030def762"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_narrative_blinded_r1",
+   "designer": "gemini31pro",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "2f3478773bc285b2f64232425b5a79190bb6240f89718684138c851a0a1a46cb"
+  },
+  {
+   "session_id": "T1_math_sonnet55_none_blinded_r1",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "6769acd256e1be9e5933039664abcc24c1b197744db8d58c9ecc2ff97e0caf20"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_true_r1",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "7b08995f4c9c72e25830f0a5debb69d9a7cc1e279fe5fe446ebd6e5f83e15bc5"
+  },
+  {
+   "session_id": "T1_math_sonnet55_true_blinded_blinded_r1",
+   "designer": "sonnet55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "de85e4116e773bb1b32c1bd9453548787cccd149fb706a0dc512ff77bde6a63a"
+  },
+  {
+   "session_id": "T1_math_fable51_true_named_true_r1",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "8193fd5d21ef4a9ac0aa5a88855d97ccfee4814485e14dedb90034b85890de4d"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_inverted_blinded_r1",
+   "designer": "gpt6luna",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "984cd9581a3896c33e35f9e101d6c5e2d848e2373754c884c1bc29baba346991"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_true_named_true_r1",
+   "designer": "gemini4argon",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "5b5180676ab9eb38914bde0cdb0ce194ce2a854a477c5fd4930eb8b4376bbf41"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_blinded_r1",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "adef815323d59363c516d0da216d7e0a3d806aa91739bf00c763dd0eb74f89c8"
+  },
+  {
+   "session_id": "T1_math_grok47_true_named_true_r1",
+   "designer": "grok47",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "8186a851a849776266f0f52603ce86028a4cd3098b5d74cc16db7dd6f19826d2"
+  },
+  {
+   "session_id": "T1_math_fable51_true_blinded_blinded_r1",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "66e45da38ba44c4875675bccaad866adf88fa604e6158a92e31fec79d71ae176"
+  },
+  {
+   "session_id": "T1_math_gpt55_none_blinded_r1",
+   "designer": "gpt55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "69819839aa5a6e961573021ea170f79a5fa7f94ecbc371c8f162d4ba9494c862"
+  },
+  {
+   "session_id": "T1_math_sonnet55_true_named_true_r1",
+   "designer": "sonnet55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "48d72c9a9c66b39e165f5f12cd84c0dc39b4d57b77e051c7664e87834ef35891"
+  },
+  {
+   "session_id": "T1_math_grok43_true_named_true_r1",
+   "designer": "grok43",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "bcb1f633cdb7a8de4ce527eeead1b93f354bf6431421078a47e95d008339d728"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_true_r1",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "3ae2b663bd729c46eaeb2bac3611e26b2adab47d99e1fbb373890fdbd2c63132"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_narrative_blinded_r1",
+   "designer": "gemini38flash",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "dbf5bec0a49f2c36367622d413dcae0b71ae939bf64ad3fbcf9e3f5d51d6fa80"
+  },
+  {
+   "session_id": "T1_math_gpt55_narrative_blinded_r1",
+   "designer": "gpt55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "156116cc346f51e4211c4bce2ed94a18c15786983fe0315e1bf8483a13f54950"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_true_r1",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "ef1d9cf9d1b53a686ac976cad38bb43fe5311bd366fa4de7dc6a4427a884d09d"
+  },
+  {
+   "session_id": "T1_math_grok45_narrative_blinded_r1",
+   "designer": "grok45",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "0122714784cbf90e0c3315a5498e08bf84da76f2de9fb7684fe9e3881a5eedda"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_instructed_blinded_r1",
+   "designer": "gemini4argon",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "11d83961378774ff756a3803ce81606d8c3d27a98e4f0ea0a4488e0c1ea7743f"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_false_r1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "081bb9ceb7f3f245ebdd6a981afed680cd5550f164ea9940b01fb6abf7f59315"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_true_blinded_blinded_r1",
+   "designer": "gemini38flash",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "b97f3cf08923e625779405f418f1e66541f11da38ece7c94cae86f388a295a02"
+  },
+  {
+   "session_id": "T1_math_gpt55_inverted_blinded_r1",
+   "designer": "gpt55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "85b81876716e1c48d218419cbff5e98b566e21f8f58c8a26fb693b4c49c5329a"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_true_r1",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "6e4e33f4bcb7657f7afb663132ac426cfe638df188f338a3d8998e93510d92d1"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_none_blinded_r1",
+   "designer": "gemini4argon",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "bbb523eac9f42f7557b77df416cd268b6d7e6adde2fe6ff6228429b12c4416e7"
+  },
+  {
+   "session_id": "T1_math_grok45_true_named_true_r1",
+   "designer": "grok45",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "76b3017cd156daf5149bcbed652c4ebc8fef9462e4ad8b24571da105a7691dce"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_false_r1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "d272437f65bedc530c8c137f6f1825ad5d3117f028656b49eac3cb845bb36307"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_inverted_blinded_r1",
+   "designer": "gemini38flash",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "7a1ac36035a2fb7b96dbf90943e464b8f3df5a2c0679215582a5b79e78edcbd7"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_blinded_r1",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "bfab3681e08c013f8facc107ba59f6412b18e6efc2eb216c9cb3b3b9e9c681f4"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_true_r1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "c82d4f1c01587015c97a349b2fc94e33a04d2e4bbde812c5e576828b3ebed958"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_false_r1",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "61400626d05beed690cb432b27f704f9ae42ea44346b5ddab0c5e732e8e51b51"
+  },
+  {
+   "session_id": "T1_math_grok47_instructed_blinded_r1",
+   "designer": "grok47",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "f7f0adc6513abb4692f729d75601ff515477e1c68385a0ec7944465901d82bc2"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_none_blinded_r1",
+   "designer": "gpt61sol",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "f18f2b6a863653a1d498009b7e64d238d3ce4cfde71d65fe9bff4751f9f25d1c"
+  },
+  {
+   "session_id": "T1_math_grok45_none_blinded_r1",
+   "designer": "grok45",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "cbfe7a913e27c4f771caaf07119cd466450b60abe8f8ad6132775f7818cc3209"
+  },
+  {
+   "session_id": "T1_math_gpt55_instructed_blinded_r1",
+   "designer": "gpt55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "54647936840c1482f75ab5cc77d80286dc155bb83938a35cb98820b356e73d52"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_narrative_blinded_r1",
+   "designer": "gpt6luna",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "646da3e9bda987df7699430f750ceb15daee8cd38e0b2ac41c25b03206a75f04"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_instructed_blinded_r1",
+   "designer": "gemini31pro",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "da4cb3b71b74b41a2f3919aa35af968f9a05e6e406ae22bb2ab5d8a2fd539a18"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_inverted_blinded_r1",
+   "designer": "gemini31pro",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "034d1165a5827e2d35d04d37788a5ae858829df976a38c038ba23817fd6e700d"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_blinded_r1",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "6c43de488a9bd7d5a2bff5456c31577e64810b6851eff7572a82f48db5e9d262"
+  },
+  {
+   "session_id": "T1_math_grok47_none_blinded_r1",
+   "designer": "grok47",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "bb1b44af12a8b2f3f36bba267d3ecbe446102969ac50746b639f8ab4e669b3d5"
+  },
+  {
+   "session_id": "T1_math_opus5_narrative_blinded_r1",
+   "designer": "opus5",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "0198dca19db9960c357f6066ee086984bd244656db6df860c212b99114a09ed8"
+  },
+  {
+   "session_id": "T1_math_sonnet55_inverted_blinded_r1",
+   "designer": "sonnet55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "97f60dd4ba19c6b06af4d3734d73254b1d7177d2e4f14b40d4e2cad72a924ef7"
+  },
+  {
+   "session_id": "T1_math_grok43_inverted_blinded_r1",
+   "designer": "grok43",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "c754b6e1bae03720b244764ad4d085689f935985b3599d5b3b7f0b2067de94cb"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_false_r1",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "b4dfcc49f0b46a76bd4b92c759368ed820e5c16e73a1d541fdb293f03230a656"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_true_blinded_blinded_r1",
+   "designer": "gemini4argon",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "6be243e17b3476ca8a6ddf2b7fdbb698c2e9fed6dea65c94846157cc59788d39"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_blinded_r1",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "905b13a3d54575d3a05a7a8908b200aa5b694177f41e2a9ed90d916e7e5677c5"
+  },
+  {
+   "session_id": "T1_math_grok45_inverted_blinded_r1",
+   "designer": "grok45",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "905f17e1464c344cf7aa17c7e7a05e31e0d06a836f30f1d3f0f2f0d88a4bde82"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_inverted_blinded_r1",
+   "designer": "gpt61sol",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "627d526e970ccf9aadede6476671f6e773c863a15b5463a634d2fed4073b48aa"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_true_blinded_blinded_r2",
+   "designer": "gpt6luna",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "6b9ba6a75e9c5fad74b86b078f044437d76b0ed887e8042e2d53ce555d4d6e81"
+  },
+  {
+   "session_id": "T1_math_grok45_none_blinded_r2",
+   "designer": "grok45",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "a7b00920788c217f33df229e053e279b35a431897d02c0f896062cd866081f38"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_true_named_true_r2",
+   "designer": "gemini31pro",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "2b78536834c23dd0411e28fcc2b942e335fe14e1cdbdc0e3d30280bc8b501da8"
+  },
+  {
+   "session_id": "T1_math_sonnet55_instructed_blinded_r2",
+   "designer": "sonnet55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "a941d5cb2abc1c24fa52132a980b4e71a3f1c8c1fb8398cfd9b8f405d876cc94"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_false_r2",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "1af6d1298e8f0ef9ccfe344153e5e9f7185143cf3610b6ea6b676459ad911d3e"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_blinded_r2",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "37d3036b8c852849c75fc77c30e21b75cfc281e9d95732e95308511af458f555"
+  },
+  {
+   "session_id": "T1_math_grok45_narrative_blinded_r2",
+   "designer": "grok45",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "ba0bc86c0e2077794cbea7406cef43090d52517776c434ac294b027c518efc2d"
+  },
+  {
+   "session_id": "T1_math_sonnet55_true_blinded_blinded_r2",
+   "designer": "sonnet55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "c0a9ea7562682472e56a59e30612eace9eac2b1eee0b6d7ef4af579a9b513517"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_instructed_blinded_r2",
+   "designer": "gpt61sol",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "de4e8fba60b05eab4b471677fd5c1b2d46d5be3427dedd3394a3c8df6efa0247"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_false_r2",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "1a380850ba70795c8a4e292407dbd942423e378a94db248c9970d47a9bdfed1d"
+  },
+  {
+   "session_id": "T1_math_grok43_none_blinded_r2",
+   "designer": "grok43",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "2f85dd285f5ccf276beb445a94de034782a5e90012b2431b707d59abe560b7b3"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_false_r2",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "aed7fc30e59e4d2b1d7124238e82075aeb3562112fa936d1e283eedcbd74e46d"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_blinded_r2",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "f7209c202aeddc1ca3358846ba72abd1effd3ab3c826aab16b4279b151b3c5d3"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_true_blinded_blinded_r2",
+   "designer": "gpt61sol",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "d8ea203af43195190e196e167d4ea63535b8cc53ffe2a54bab7f6e1f45533e10"
+  },
+  {
+   "session_id": "T1_math_opus5_true_blinded_blinded_r2",
+   "designer": "opus5",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "06d036b5cd868933b317c5508d90a678b1824818163a427bbde9bab283dc9117"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_blinded_r2",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "bf7c0a06469f7554e228a77ae073beeee5531502910e5136628b9816306f0589"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_narrative_blinded_r2",
+   "designer": "gpt6luna",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "8ced25a63134fce85f39d30a05aaea71cca3bbfd803fd35c4447cc827f41c287"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_blinded_r2",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "5d7cb79fd57b45b59a83c9e44ec04a901ead54375d6b90129f780e44b203bc87"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_true_named_true_r2",
+   "designer": "gemini4argon",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "dae39af2db6ae9842790ae04f519fe265784ac25e38789f18ca5530236cecdb5"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_false_r2",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "08037458932d458535b1b9793761981ff06439980c5a46357ce817c03087579e"
+  },
+  {
+   "session_id": "T1_math_opus5_none_blinded_r2",
+   "designer": "opus5",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "2379f8452e4952428b8a81fa45aeb6c1ac0282a22f974826685b513fcd0f24d0"
+  },
+  {
+   "session_id": "T1_math_grok47_instructed_blinded_r2",
+   "designer": "grok47",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "d9ad559a2351b35c99094ad7b2d90812df7257b292a6648e1514d76b6b33a9cb"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_false_r2",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "ddaa7bc3f20feb9129dbbf9a67d99e698ccebfb1b085960d9c7429288d10c403"
+  },
+  {
+   "session_id": "T1_math_grok43_instructed_blinded_r2",
+   "designer": "grok43",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "8b25a8278b09cb0a1bb2a6b6dab41cf188615cbe90f790cdca36e5e7bcaee0c0"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_true_r2",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "5549a0ad5b7accdec32496428a89f2a03337cc718dfaf27bb0269200f0508a59"
+  },
+  {
+   "session_id": "T1_math_grok45_inverted_blinded_r2",
+   "designer": "grok45",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "eee9b872449c9073491d08ede5b1562bf643e5ecfb24a21faa4039687dbe7d25"
+  },
+  {
+   "session_id": "T1_math_gpt55_narrative_blinded_r2",
+   "designer": "gpt55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "b42cdd9891a7e1dff3f4a8198687f0b329fcacb9d94486950313b2847cc8524b"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_instructed_blinded_r2",
+   "designer": "gemini31pro",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "544396b445cc696df0b310170d14b12d901245b0e2863ded2970e7fe60af4baa"
+  },
+  {
+   "session_id": "T1_math_opus5_inverted_blinded_r2",
+   "designer": "opus5",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "a29ea206660f8fc6653288ac08516123590a3eca872e46a0617fdf31c4423d74"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_inverted_blinded_r2",
+   "designer": "gpt6luna",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "a329159268533bf9c9c185748628a25f180c2e4961abf52880c798e3097c1d44"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_instructed_blinded_r2",
+   "designer": "gemini4argon",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "64946374857b632eb0cd5294170304ebe3adf5addf72c44db6f1d4970c61c152"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_inverted_blinded_r2",
+   "designer": "gemini38flash",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "901d46ff8b76fa1e9afd7327b0bd55e6893f4b384894f1fff472496e190ae015"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_inverted_blinded_r2",
+   "designer": "gemini31pro",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "ea027183f5952a2540723212f70f320ef7081eea88688cbe687c567c9f46f50a"
+  },
+  {
+   "session_id": "T1_math_grok47_none_blinded_r2",
+   "designer": "grok47",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "ce41d84a980cfc1a89f56ae91b7a8c23009ce8bd8350d0a816e9883b23d57587"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_true_blinded_blinded_r2",
+   "designer": "gemini38flash",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "ca01b4a68e3d8ea1a669ff6a797a8244ea8c039c6f994177ccf9eb7c12a95f2a"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_blinded_r2",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "bdb534dc0fc2960027bf9c6bcbb1282b47cac990c7ebb1d678c9f4a750732ab2"
+  },
+  {
+   "session_id": "T1_math_grok47_inverted_blinded_r2",
+   "designer": "grok47",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "b1f3ce379919957de349f1ac36fe42433c1a40ded6e3a3ce10b7ecd3a479da4f"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_true_r2",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "2557774da98c54d89df4dd964c62987f58709d9eedd02b3afeae0ad8129ab3df"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_false_r2",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "cc6d0c413954495b2a237abcc2ef6ac74c29fb77b818532a4fb7c8f13cc92696"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_blinded_r2",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "a3522ee987767bd441e18b2ffdc8fb11763e019760e91cca70be808a82321642"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_false_r2",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "fe1991376f82d3c1abb4128fbc6b73c1a6e7b20f63e7cbc867c012eb9cc9e43c"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_none_blinded_r2",
+   "designer": "gpt61sol",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "81644faaabcff9bc0b6001edc348f054281af4a6834a9830bf734c69e1351ac1"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_narrative_blinded_r2",
+   "designer": "gemini4argon",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "61294213b27be6044087d2439fe585dedb9fc38c7ad44933005ccaa7315fe4b8"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_narrative_blinded_r2",
+   "designer": "gemini31pro",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "0edbca2c049cc52e58b37a362feb044fa00c778afa9c0337a532ccca0a58b819"
+  },
+  {
+   "session_id": "T1_math_fable51_true_blinded_blinded_r2",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "c4fe7bc0be68aeb5c558f6fbe18411e75111371060dabe815d72db243e536073"
+  },
+  {
+   "session_id": "T1_math_sonnet55_none_blinded_r2",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "d1d83cbced4cd5cce0003787f0e32329def4077b9b5350d49d16abcc50f29613"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_true_r2",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "d3bcfe6557273441936000d65ce43cc57c203ff23a5ce6fbc661fcc921c07d63"
+  },
+  {
+   "session_id": "T1_math_sonnet55_true_named_true_r2",
+   "designer": "sonnet55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "1c387aeeb44096d3fdf10c20ba73c9b781143688d08a4fb59c4965545e5964a4"
+  },
+  {
+   "session_id": "T1_math_opus5_true_named_true_r2",
+   "designer": "opus5",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "84df65e4b5c1aea7ff42ea100195e7058f1296d497ee8d93eba6c419337fda8d"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_inverted_blinded_r2",
+   "designer": "gpt61sol",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "bfaa8cb86943e6988e3671bed731ea975fc3dbed50befd915e853bd856ea05c4"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_true_r2",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "d61ba644d4f294ed75740f0f70ff3f849b9a11764216bd28fe29fc27eee70cda"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_true_r2",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "249d9b8debd7162c340b6258e05860d5e3c229139f451b6013f9b7d943afe43d"
+  },
+  {
+   "session_id": "T1_math_gpt55_true_blinded_blinded_r2",
+   "designer": "gpt55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "9072d39e37546b561d56cb7d78a91ee2275af31024a19d7a82cf9b8be7761d8a"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_true_named_true_r2",
+   "designer": "gpt61sol",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "d94397c4d2e4f61075e08a2117bd64471cb100cba4364d27f3de29154da6da0e"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_blinded_r2",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "c8825f041c286a653646b9c6c5f244e0a06f8d1ac594e5ff147b316b17164a55"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_instructed_blinded_r2",
+   "designer": "gemini38flash",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "38dd93989054dd843ac868a15909f43bda277712c2a9fa6090f31abe2c425166"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_none_blinded_r2",
+   "designer": "gpt6luna",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "ee7bc17b7f0ca78c243ab4c88eeb855607c67f4aecb2c35a1814a36edc2e620e"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_true_named_true_r2",
+   "designer": "gpt6luna",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "a2b33945fa7e5b4b83afc4f2b28df75dd79bbcd287409bbb9035e89bed97672c"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_true_blinded_blinded_r2",
+   "designer": "gemini4argon",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "33b527e871512bbaef73f90e1d25863534586fe52ec7edc93552eca1b5eba712"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_true_r2",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "c680b408ed1e409558ceea51a4bae5f90798c25d59b50f41734e90d5d76bedbe"
+  },
+  {
+   "session_id": "T1_math_gpt55_inverted_blinded_r2",
+   "designer": "gpt55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "a53d90438f9c67ce8544fce1037c8b3265e5d758d52cbb75a578f2ff13d8d984"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_blinded_r2",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "c184456556634e459639de3bdbcd977dbc711922aab918438a607b4378d70552"
+  },
+  {
+   "session_id": "T1_math_grok47_true_named_true_r2",
+   "designer": "grok47",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "ede2390a3649302193e9bc81a10a1368a95a9de750d137352a323cea36a5c7a9"
+  },
+  {
+   "session_id": "T1_math_gpt55_instructed_blinded_r2",
+   "designer": "gpt55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "6d13ff2da914e824808ffce1c00fa8c83733f8c736cb1348848beaaee528fb6e"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_none_blinded_r2",
+   "designer": "gemini38flash",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "472c93ef45b13513181bb8821606163733c17c8d9451e9e291297687382e20e2"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_false_r2",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "4ba84e40ee3e87964cf5be3a2e27991af6a1b5901d935f85e8cb9a88daa916b4"
+  },
+  {
+   "session_id": "T1_math_grok43_narrative_blinded_r2",
+   "designer": "grok43",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "6bea05ede9cbc9cf405114ecaa1b00eb47033b0793b2c550e50c22a11c6daffc"
+  },
+  {
+   "session_id": "T1_math_grok45_true_blinded_blinded_r2",
+   "designer": "grok45",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "a8f55c6967a3612f7deae2287917167a90b7d0e5b78832aa1ecdb5e2d5d6c99d"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_true_blinded_blinded_r2",
+   "designer": "gemini31pro",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "16a8cef1242ed8736654ffc51e72b4b94737e649a98faed36577c5f218a68296"
+  },
+  {
+   "session_id": "T1_math_grok43_true_blinded_blinded_r2",
+   "designer": "grok43",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "bfb74d6e39af209536554b3a28298485598de4a9da2867a6d4797fed748ac596"
+  },
+  {
+   "session_id": "T1_math_sonnet55_inverted_blinded_r2",
+   "designer": "sonnet55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "2dbaf2737a2f4b5a6339746d9562092870eefa9b3556d98cff31f0d85f8b5798"
+  },
+  {
+   "session_id": "T1_math_sonnet55_narrative_blinded_r2",
+   "designer": "sonnet55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "8a9cea7c4700360e066d41a3ee684c8085a5b0a24524f881a96f1fd913746410"
+  },
+  {
+   "session_id": "T1_math_opus5_narrative_blinded_r2",
+   "designer": "opus5",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "93a1509a69f989a49f41f2921d987933d7e277bb612aa70b70af2794c4c90acd"
+  },
+  {
+   "session_id": "T1_math_fable51_true_named_true_r2",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "7ee2faa8f7624a52413ab61ca9ea52de3a3ee378cac8669bba8928b3766a083b"
+  },
+  {
+   "session_id": "T1_math_opus5_instructed_blinded_r2",
+   "designer": "opus5",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "8f8af99cbd620db3ea3dd0f80f209e1e2cb3a7c5578ba8ce94b7ef62bfd3cd9f"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_blinded_r2",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "5bfd24d1f352dc62143420b1b2465ae4dc5c6bf1c30a73f5e273aedb702e5606"
+  },
+  {
+   "session_id": "T1_math_gpt55_none_blinded_r2",
+   "designer": "gpt55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "0cb366a07d9597c9b2df50c9e59b643f4e076e8a95c2614c73bd708019779bfd"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_true_r2",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "c0c8008f9346ca01d824f0d378ce0c013379876d7f1de6025f3b7dc51f991fe9"
+  },
+  {
+   "session_id": "T1_math_fable51_narrative_blinded_r2",
+   "designer": "fable51",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "7cacfcec0c78c1c007a126cbcd83a8e78a6d81b401c32812a0db0d79474adc35"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_false_r2",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "c46f205c1858555505166751ccfbeb24017a693e3e605fd95a40e2a9bdb42691"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_true_r2",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "cf837d51819ee8adcdefec15a09d436c8170395b034e551a09085107ae768b67"
+  },
+  {
+   "session_id": "T1_math_fable51_inverted_blinded_r2",
+   "designer": "fable51",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "4ace2662d511d19594fc1cbf62986a772b2046f7d1f82a48116a170c9581d97c"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_false_r2",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "8340c45aa3da1f08cdc8ae4a8724f81a83238af781b218fdfd502048c4eae26f"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_blinded_r2",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "471a1f5e562d858e98601bc9df29118f70f3070c682f39e217cfa4b66264dd42"
+  },
+  {
+   "session_id": "T1_math_grok45_instructed_blinded_r2",
+   "designer": "grok45",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "5318765651a0efd3c537c5501023c285633330ed9fb9cde8bf35a864db30031a"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_false_r2",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "6ce9027f05dc3a503c4530b3eae7e1366bd90ef306667e632946ad908f9aa7c0"
+  },
+  {
+   "session_id": "T1_math_fable51_instructed_blinded_r2",
+   "designer": "fable51",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "9d7a22e61ec7f9886c76d5c68042fb19da021b9eebf3c633eb228f081f57b6a5"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_true_r2",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "711062e97521e242fd476229088a01a6732244af057ff7095b9d691a0ff7ea62"
+  },
+  {
+   "session_id": "T1_math_gpt55_true_named_true_r2",
+   "designer": "gpt55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "c5457cf5175cbea0221c1846c26d6a2241325f24e2c2f5a021658220945ea8c5"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_blinded_r2",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "78f3cf5ac28ae8bf60e181987adefac912d92664db4b546fb2d1b6c1ef7d4b3d"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_none_blinded_r2",
+   "designer": "gemini31pro",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "cde7078938b651fac2e063a059d37c71c36f2911365811a73b6ceedce3e2cf75"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_false_r2",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "b0217b4c36589b6c1b3f2aab0ec413e91e4ec68fd417944415152d8322fc6b65"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_true_named_true_r2",
+   "designer": "gemini38flash",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "ba90ca6493fb787da36e63e30f81aa31ab9d410adf68736bae86c98c1e35f85b"
+  },
+  {
+   "session_id": "T1_math_grok43_inverted_blinded_r2",
+   "designer": "grok43",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "8706f74424e94b8e6c621708f42529e969d08759b1cec3bb88ec8cf9d846ff4e"
+  },
+  {
+   "session_id": "T1_math_grok43_true_named_true_r2",
+   "designer": "grok43",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "6033661501c9be78b3e8aeda1325421ccb7536407b251a45be3f2d0b070e1919"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_inverted_blinded_r2",
+   "designer": "gemini4argon",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "2bf1280191b2082fac77a80f53637566336ecb4c19430e43d5495d843a861a19"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_true_r2",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "58f2cc6316b51b1c63d351fac9d1e5e26b2f075a4d848e990af4da3872795853"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_narrative_blinded_r2",
+   "designer": "gpt61sol",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "48c3f5c688881bc6c244e61e50a4094105a614dc656c5666e2063b3c00cf6edd"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_true_r2",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "fc6531e3f3c530e8a6aefe5f69365d827482f344cb78bce5013defab5174a0bd"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_narrative_blinded_r2",
+   "designer": "gemini38flash",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "5f7bfa887e43ee50342442ea41f1b10a6ba142b39ae29312954f266b13a3b440"
+  },
+  {
+   "session_id": "T1_math_grok47_true_blinded_blinded_r2",
+   "designer": "grok47",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "3bc7d600e7c27e529acb5e9e6b6b35d463014fc09bf7690ff9ee0a7bf0d6ce6f"
+  },
+  {
+   "session_id": "T1_math_grok45_true_named_true_r2",
+   "designer": "grok45",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "ded448f0d309aa59777e13d51a9e3cac7e52998aa6b2a319f6333595c4a0184d"
+  },
+  {
+   "session_id": "T1_math_grok47_narrative_blinded_r2",
+   "designer": "grok47",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "bd7f43986821a232b223210d5f622a07a9d06e5f565e0690eee007a8444aca9b"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_instructed_blinded_r2",
+   "designer": "gpt6luna",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "a3e6cb41575849c48a8f52831198bb2de16a2e8e9bb003bc1eb09c7bd4bfb9d2"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_true_r2",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "7db11cef85af2050926b904563a40ec04af8a64109a2f8fc6ca2f06158078369"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_blinded_r2",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "8ce1ba2c2890a59b17fd387157a430e8048b861454f7d34276d46efe4e777657"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_none_blinded_r2",
+   "designer": "gemini4argon",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "7d7b0230df54baf15778fae6c30a222e57f170ea3f544e8a4da7801bee42227d"
+  },
+  {
+   "session_id": "T1_math_fable51_none_blinded_r2",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "16a2b30c42d579a4a8d935f30207f4666ac42685a907b23ead5da7b5ca25def7"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_blinded_r3",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "da19bcbd87bce68a64890de392464dd13733fb2d5dcd3819c941f64af92fb509"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_blinded_r3",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "fb071aae7fc151a82c6a41466d3552ae2428e290331d126c9f5085a5c28d8b62"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_blinded_r3",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "90a66c9d3d9b2cae602e10578c07a22f0e1c5362c684259b17c15fd4725ce333"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_true_r3",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "b68dfdc2da41c90273dc6d0e1a942c22d313c425d90516b2ca87db5424bbcbfd"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_true_blinded_blinded_r3",
+   "designer": "gpt61sol",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "b68151b4b000d381e236fda3b425b54b0626d7d619542d6ad7067bcfd6d123eb"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_true_r3",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "9b9eae7bb9876e390d79af809d72bfa60896f867b9e3c2e2683b5d3443afdcfb"
+  },
+  {
+   "session_id": "T1_math_grok47_none_blinded_r3",
+   "designer": "grok47",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "5b82440d15d819cc6468cec556a305f1755c01651f9929a69b71d173043c4ade"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_false_r3",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "8bfd11ae67ee70d4b0a3b6f5ae64c080c6bcecb6814dfb52c4ffb4318abc81e5"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_true_r3",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "ec82f80f02db431800051965f7bbf7b7104e052be133bbb7ab7efcac53297681"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_true_r3",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "8d5bc49f64f8bb0d60b914763f8c02adb4bad2037242124891410648a88e6dc5"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_blinded_r3",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "140012b61129800507a9fd8cb08e05c010db0967162541d46561014a8c57622b"
+  },
+  {
+   "session_id": "T1_math_grok43_true_named_true_r3",
+   "designer": "grok43",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "be90116828f08cb3839b71aad3fd35b3f83918a60549a9ccf57efaf11412371d"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_none_blinded_r3",
+   "designer": "gpt6luna",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "98a36d358dee714c4af54aaa886ebea5127af831f6fef5590ad9683c51f8d24f"
+  },
+  {
+   "session_id": "T1_math_grok47_true_named_true_r3",
+   "designer": "grok47",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "6724ddc45832ba782418c5c308d980a2a7aeead67832b732a6853a23002ef39a"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_true_named_true_r3",
+   "designer": "gemini38flash",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "69d425f2e70711e5e6dd956827412f395cdd43e251bdad96bd1e360b2952a756"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_true_named_true_r3",
+   "designer": "gpt61sol",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "4246d640b7288743d369c9f3ac925431e6b806ae8e256487bdd2d739be1cfccf"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_blinded_r3",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "1269d24c0d59b38d7d3165e9a49b221be72c67453dde8e94591f0526fa7e00f8"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_true_r3",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "0951a474c6a93691f61cff6319ecc0da4eefda68c42ee5a6e871504703e901dc"
+  },
+  {
+   "session_id": "T1_math_grok45_none_blinded_r3",
+   "designer": "grok45",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "60cf3932e9b46339bf42ec45bac667322a3050f2736d22fb66abe945e47d1613"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_false_r3",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "ac8f7998c1e36922f6906c683ca9fc65bca51fbfba1e9442df03e0465632fda2"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_none_blinded_r3",
+   "designer": "gpt61sol",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "94b1d5fa69c06cf67c0bcba8848307ecc98a5a97d0595405deb3ca2645e9eb7e"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_true_blinded_blinded_r3",
+   "designer": "gemini38flash",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "611a4ea1caeb380fb7f518a8026abfa657bab2bf89dae0500a284e4d35403f92"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_blinded_r3",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "952a0c949344e2da2b1e6c0f52c253521c49726e41b1201b5d15c6d2e793e767"
+  },
+  {
+   "session_id": "T1_math_gpt55_true_named_true_r3",
+   "designer": "gpt55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "d6e3f16f34fa38efaf418846e76ce05c737813db26f077b8a6f21cb15f737f21"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_true_blinded_blinded_r3",
+   "designer": "gemini4argon",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "62bb8c068af346a76aeac1cdd9444b9706300907f5b1026801d20d1a265574d3"
+  },
+  {
+   "session_id": "T1_math_gpt55_true_blinded_blinded_r3",
+   "designer": "gpt55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "3d679b8de12cf2193e6507fb8d47ed8b051b3264c18753d5908f6673192b588b"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_blinded_r3",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "da0c5231fcd45de4d3f435b8bcf864f7e3366adb03a7b63373eeef11dd67dc59"
+  },
+  {
+   "session_id": "T1_math_grok43_true_blinded_blinded_r3",
+   "designer": "grok43",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "b03449a636330396ea50eb73ccd06a040a59e693d679805db0086748da727f6a"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_false_r3",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "321d4e24dc086bd21dfbb26861399af1bcb0e39c3ed83bb6c22fcef42765b714"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_true_r3",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "3b6964b4688ff853de125ad3c2fe119bf87bb759536516a8e61e2dc04539f0ed"
+  },
+  {
+   "session_id": "T1_math_sonnet55_none_blinded_r3",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "a711eedc09c27e6096f13538be62a23ffa3cf8e00f138008002ecf400c9cc2aa"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_true_r3",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "6c0c2913f0347d4f29497b414cda21e496b336b074b2c02b4447b309d0623611"
+  },
+  {
+   "session_id": "T1_math_grok45_true_blinded_blinded_r3",
+   "designer": "grok45",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "da202d1547a6ba3c90e2d64e9dda7b1cd6d19ee1d0887d74ced3e1595587c528"
+  },
+  {
+   "session_id": "T1_math_grok43_none_blinded_r3",
+   "designer": "grok43",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "d9969f012112314162ebd37d86cdde4a3de4ed0e7ccedde89d3b454f11e8430d"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_true_r3",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "44da544af7cb4e3f7c2e7e57d5c0889d5942df37062a6edbbf09b74a6fc394f4"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_none_blinded_r3",
+   "designer": "gemini31pro",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "8d7cd09685bae2f4da30ced4c76a6226f2cb18dbb6fc5f8afa31443384a3ead4"
+  },
+  {
+   "session_id": "T1_math_fable51_true_blinded_blinded_r3",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "5ddb7df9fb78851d2221a855cd91d31d4aed8d07ae910cf2bf98d657d3ffe0b8"
+  },
+  {
+   "session_id": "T1_math_opus5_true_named_true_r3",
+   "designer": "opus5",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "2859f3f3320a2b5b3615cc1b3198230648a98325bd8a6c138737bc5c2f2ad014"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_blinded_r3",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "4f96c265e4aa3d8114ceafed02dfbf9de520d001735359f8df263453e560f5b9"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_blinded_r3",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "fc048d26bd7ee51a7a851965c1acece0e82c5408476039f847822321684dea2b"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_none_blinded_r3",
+   "designer": "gemini4argon",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "b68eccb42b37ca8407089db840f38ca97f8547b3041b1cf4910d87109eddfb46"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_none_blinded_r3",
+   "designer": "gemini38flash",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "adf1ccef73510f6e3ae81bfc81b2dcc712b39a9cae69c44894b81e62d3379221"
+  },
+  {
+   "session_id": "T1_math_fable51_true_named_true_r3",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "f50a886b2e46103f84a1d1bc94d49a2ac2b8f7c66184df2525175ac7d674e695"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_true_r3",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "03482b3dae2708c4c39403dc4eb371bff068b5a6784b0cbaf0e83b0cac338c71"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_blinded_r3",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "ce4d1c86251953015f86de032d5ee4a94a8a93cd670bb0244d34fa68eaf09453"
+  },
+  {
+   "session_id": "T1_math_grok47_true_blinded_blinded_r3",
+   "designer": "grok47",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "c023020cbdf5c17aabed26849762061caa9d961afd48739d1a377c12fae0c316"
+  },
+  {
+   "session_id": "T1_math_opus5_true_blinded_blinded_r3",
+   "designer": "opus5",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "4dbf1e6b640ed6fb989d7af043bcbe077011ec71b6133a31940b788dacc5a31c"
+  },
+  {
+   "session_id": "T1_math_opus5_none_blinded_r3",
+   "designer": "opus5",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "fef6e13e0d7d6239a497b78b65338337cd7be9858baf2d730a30321ba84fc3e6"
+  },
+  {
+   "session_id": "T1_math_sonnet55_true_blinded_blinded_r3",
+   "designer": "sonnet55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "1e25d86b6eb4f20b7ea5e84c78c381b936c67d1e0cd05edfb6fba66b2edd6ea4"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_true_named_true_r3",
+   "designer": "gemini4argon",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "cdfa1b2fdc4040ea3f5ab781330ca9f99552b9de8977c415beec57b0236ebdce"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_true_r3",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "2f3fda96cf0954498b10d63a3d34c5da93d8fb7ac8ee4388b7290b8e096eeb3f"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_true_blinded_blinded_r3",
+   "designer": "gemini31pro",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "463615dffccf21398ae8d6eb668db888c87fdcdfd625b4a0d0d4dbfbc43c30d2"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_false_r3",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "2098400ac1cbea050dc76d3a970309e3e895ac86853b1a6fc1eaac6261a2c1c6"
+  },
+  {
+   "session_id": "T1_math_gpt55_none_blinded_r3",
+   "designer": "gpt55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "48920d2aa325257d942a2c78d33152f2513881c6ae00ed3bcbacd69ae378ae97"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_blinded_r3",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "f4d3150890d60a7476472635a900e000ca6313e38ed5498adb8fb2e4b70808b4"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_true_r3",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "c63f664d7eaea737fe1120ba4c2625e5cc4d6bb896f81f007af6e951ccd4905c"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_false_r3",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "638adc6ee6ae455710b1f4b96334e79de30a83cbfa728c2529fd11fe89e8acbe"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_false_r3",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "f5e810d486b67f74cfafa2c8be5a41d008a15ece05cee52d6a58e47c51c230bb"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_false_r3",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "9d019756730185f72e407cde63e6d352346be9e0caa64d3208215140ff482e94"
+  },
+  {
+   "session_id": "T1_math_grok45_true_named_true_r3",
+   "designer": "grok45",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "e5069f46fea42fc6b7ca11c366419a87b6012d30bbf41fc5d803423cdadb86cc"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_false_r3",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "b78d3ee294b8d4e865b9da57e1df13a8de6adb01592ba6a065fce61a6c6a1955"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_false_r3",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "654199d8044b1c734334cf4cf2dc2ab85cd26690641959fda51d690797864857"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_blinded_r3",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "a9e815e30e3d661e314ddc8f89e30ddd82c544113194000f3283d507d3188678"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_true_r3",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "5724a3989ba403f72b7ddf264a7225da760e29e68c719e7d53914df1563279d0"
+  },
+  {
+   "session_id": "T1_math_sonnet55_true_named_true_r3",
+   "designer": "sonnet55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "bcde611d09755f7b07ed9ceb5d6365770cf936e9d832566d192144c25fa8708d"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_false_r3",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "080a2db45d360bcdbf21a0f380293e8306e2529040e0965aa02f1b17a5ce6bb6"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_true_blinded_blinded_r3",
+   "designer": "gpt6luna",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "d1889b3f48866736d6f461829b3bedfc764701b951738de889a615395feb5135"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_true_named_true_r3",
+   "designer": "gpt6luna",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "a9773744c032cac63af7bef7e3c9a8147379bd600ea10ceea417966f280409ca"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_false_r3",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "724d202f127ec2a97f83f355c99128d9ae3884d64b3ada81923af344cb07df97"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_false_r3",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "2fac5ada9de88ddfbffc8a9d2560083582cf50d448471c4b3ac40bd26fb82fc7"
+  },
+  {
+   "session_id": "T1_math_fable51_none_blinded_r3",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "9f1575845ff4de705812612b20bf9a52e51c299a819e7a327f06f94c113887f8"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_true_named_true_r3",
+   "designer": "gemini31pro",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "2865fb8b84d4f387ff3b1a45002bf95f0a705ddf6ff138789c47c8b6b00066ac"
+  },
+  {
+   "session_id": "T1_math_gpt55_none_blinded_r4",
+   "designer": "gpt55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "88ec4b4c76d5823e706178de50b5a90c44bbb6e683cbba6a5b8eb426842ae1fc"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_blinded_r4",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "4b431929233b9de64513b5c4aeac7a79c1a83f8398e6a15cf6e98068c3f972ae"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_blinded_r4",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "2ce9dc6283063839de16f87bc720b964d1f64ebb6af478d8b30627aa1897a75d"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_true_r4",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "af2345ae674730d6375b48f9531d7a5011403850b00a6fd7074c17f35014f1df"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_false_r4",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "2c379323a0c3deab438492e5d0a0f8035308795bf446832b7f18211a2c92bf64"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_true_r4",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "b9a815dd91b1d32b80b76bb6f1a838cda93bface41abc23ac79143640b0ff6ea"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_true_r4",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "e13178e909b4c5e2f39ce1b705c934acbde5dc0c8d0905151022f66cf77faaf3"
+  },
+  {
+   "session_id": "T1_math_fable51_true_blinded_blinded_r4",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "388980d0bd9b080d1c3311d3acfab64ecc29122d0d41ea1acefe3caa2fb1c2e2"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_false_r4",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "4952cad6ba7ba1a01e0a4e7f270207a845cd329262fc891d6422900204092236"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_blinded_r4",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "4c4ea0bdcc71a51965f9616e88b055c83680d73c41ec7b2edc75d2a51b06c45f"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_true_named_true_r4",
+   "designer": "gemini4argon",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "c3f499485c15620bd54bc60c85bf0ec05d2fda14a007ab5239467cf6fc3bb905"
+  },
+  {
+   "session_id": "T1_math_sonnet55_none_blinded_r4",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "7f86722a859a456c3fd9e9a63f1c13261174e5fb84e2d7c4dccd3c05e485021c"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_true_named_true_r4",
+   "designer": "gpt61sol",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "9c5df2d9fe0f618bb90ff81374779528cb6601c0fcfe2045ba705c0b8fa567f8"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_true_r4",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "b7cc5e3948e9df841530ca8278111d3667f18ddbe0cf7523e7883b3c8f762da7"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_true_r4",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "139f29dabd367ed3445b0c1b075e229cd370862269fec226c00509fc3a2845cc"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_false_r4",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "174923384b43da79292dbfd56807875427cc0a1c3da061cc0da81ac01cb00763"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_true_r4",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "12c7c886a8ccef7977c36117d5557fefaf0ae711ea3afd371edfbe391d3d4e46"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_blinded_r4",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "04f6676a7e78adb0cc47f01ce59ccf1c1cb943f87c50bdc8d8d1247659dbb91d"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_true_named_true_r4",
+   "designer": "gpt6luna",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "62952276fc750315f7466ab3a02a9cc77116a78730455161fae2135772d913b6"
+  },
+  {
+   "session_id": "T1_math_grok45_none_blinded_r4",
+   "designer": "grok45",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "26a57c1670b697dad7c750e4e9cc24a5bf58abd50b539b976012175364f85a26"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_true_named_true_r4",
+   "designer": "gemini38flash",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "d975e204cdaf6bd8923408f95a2fa5c840116e7e940a7d645c9f3d4c03daf209"
+  },
+  {
+   "session_id": "T1_math_gpt55_true_blinded_blinded_r4",
+   "designer": "gpt55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "b3c3ea2f25dcf45de35ede11d27f5cacdd309c34c023df1133d7f08eceee5d9c"
+  },
+  {
+   "session_id": "T1_math_fable51_true_named_true_r4",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "924f53f495ff832d6acd4c8b60547ea799937d9a77a181bf5ec16a907c6e1d7f"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_blinded_r4",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "7dfcb652ba19fb249b805aeda7866919b65221c44eb088c25d43f812eb4558aa"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_true_r4",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "b2bdb66edaec86dc5c057c6dfd319831c02c75ec42730cb2c1121d3935172158"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_blinded_r4",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "c691a4d7a30ff7516bf8ac21cbdc262b5f7cb149bfe05f4fed33febe191e1a3a"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_sham_false_r4",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "aa398277f21e79e09b16359742f0f743b1841e5e926f72de0541c3528be06d2e"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_false_r4",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "c41816c8d3e7e4a15cf6cb2eb665e3587814330a10abb40fed75aaa8a38edfec"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_false_r4",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "019a8848283c047243f30bb687354502447daefc951d3a4123417f291a8b437d"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_true_blinded_blinded_r4",
+   "designer": "gemini38flash",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "edd61f2a33860838ba7ed4303a4234672c8a1c3f81632706412322e2bb911615"
+  },
+  {
+   "session_id": "T1_math_gpt55_true_named_true_r4",
+   "designer": "gpt55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "1f5c271f64bb4b12e11642e9c2e0bb198970fcf588deb88416268854804c8f9b"
+  },
+  {
+   "session_id": "T1_math_opus5_true_blinded_blinded_r4",
+   "designer": "opus5",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "105338c451395de6a8bbda7aeb7148e0af5fa7855955c15cbc0e86ac27528e2a"
+  },
+  {
+   "session_id": "T1_math_opus5_true_named_true_r4",
+   "designer": "opus5",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "d97e4253c91b33f1cf421f951dba765b53bb8689737aeaa0988d47847856de07"
+  },
+  {
+   "session_id": "T1_math_opus5_none_blinded_r4",
+   "designer": "opus5",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "98d13818b04db84c45b15fbbe38ed55d29aa25eea221c757c72e72e03274418d"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_none_blinded_r4",
+   "designer": "gpt6luna",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "d65dfca33f1191ffa7e72a7d5a9cd5f05cddd22dcccb039e65e61ad0ccace85b"
+  },
+  {
+   "session_id": "T1_math_sonnet55_sham_blinded_r4",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "bd4b89eb36d8806c707941eedb7f0210d717d8a54185ea466963a99323f45d89"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_true_blinded_blinded_r4",
+   "designer": "gpt6luna",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "b39a647c6e241f749850cc078611f2442a6ad9b169b25cabd3f60dc923738c83"
+  },
+  {
+   "session_id": "T1_math_sonnet55_true_blinded_blinded_r4",
+   "designer": "sonnet55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "5b9cb151b51b06458e9586e46ee2648fbbf8c6d1ed4c48e90a2b5edb631df494"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_true_blinded_blinded_r4",
+   "designer": "gemini4argon",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "304c2428a3df4538cef9ae7fc23bb33ac2e1f66d5421b138489c779f4459448e"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_blinded_r4",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "daf2c10089b0b1f2cc827540920537a8d314550f6feb226d173cec5c297836d3"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_sham_false_r4",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "8809d36182bdf4289af850a5783f2f0e57590058ed57fd8b1b8f8b6e6dcc13e8"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_blinded_r4",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "e920b20fe871f78d7a26857b120add9e6dd42226d474fec1f6708810eaed5065"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_true_blinded_blinded_r4",
+   "designer": "gpt61sol",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "490403d4e3b957ded29c9f5de98acd200775579471729b65c64c50b5fdd7e441"
+  },
+  {
+   "session_id": "T1_math_grok43_true_blinded_blinded_r4",
+   "designer": "grok43",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "c630bfb1775f5884f3bde9d3af9429fa07c6716866dd8f8ce59943ba9361354c"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_false_r4",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "383bf6f24df4bb5c9a12a04c762929cc9362fd86f970ea9ab40f51f02cec4071"
+  },
+  {
+   "session_id": "T1_math_grok45_true_blinded_blinded_r4",
+   "designer": "grok45",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "2b2260d4d3b1d34c51269e6a6f084799a750e298379cdab82dc46ebb484fe3ab"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_true_r4",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "25908bb9c5f974189c531da62e3e34a52ce41956f86a84ca040d8290efba77c2"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_false_r4",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "531c729195c3d75cc44c7724d58d55a607ea987652893ba9b9ae55ce15be0632"
+  },
+  {
+   "session_id": "T1_math_grok47_sham_true_r4",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "480b5ddbc60de1c98bbaec3d9a4ebbc00723ba6f821f7b953d1a1f5d19c7e47c"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_none_blinded_r4",
+   "designer": "gemini38flash",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "936b3fc72d481a4d801ca7ccb3fe33d112af7cb8616e079a4207a0b80e4721ba"
+  },
+  {
+   "session_id": "T1_math_grok43_true_named_true_r4",
+   "designer": "grok43",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "b6614f32e162fc97b7c052ae9d9a6a6ba19b5528a20e6b3679db081415c7bda4"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_none_blinded_r4",
+   "designer": "gemini31pro",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "43409602c92db9d85434c8536c91bdb7aed13dfdc4b737f3bc6eab225ed91eb7"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_true_blinded_blinded_r4",
+   "designer": "gemini31pro",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "a87dcd1c57a00b14a15bea5d25a137d63c89637f70977f946588e5aea2eb2b3a"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_none_blinded_r4",
+   "designer": "gpt61sol",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "497b1633770d01eaa244f2928b97ca50be082b985926d45fe3e576ad166e3534"
+  },
+  {
+   "session_id": "T1_math_gemini4argon_none_blinded_r4",
+   "designer": "gemini4argon",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "78ec2545caf902edb5638113243ca2f3cea6c87f713b107cc65e2a12a43b85d9"
+  },
+  {
+   "session_id": "T1_math_gpt61sol_sham_false_r4",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "57e8cf94bfc82df7aa28d22ad4bd911d1de026a0f14876dbcf1926dea134c44e"
+  },
+  {
+   "session_id": "T1_math_grok47_none_blinded_r4",
+   "designer": "grok47",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "439880ec2538e6b46f7c573eee8367b3bead258075dc74b84f143502c19a5ddc"
+  },
+  {
+   "session_id": "T1_math_fable51_none_blinded_r4",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "2e2e62537c4f83f4f98a05e9842e5154358a88194b82f24f2d702b0b07b68964"
+  },
+  {
+   "session_id": "T1_math_grok45_true_named_true_r4",
+   "designer": "grok45",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "601c6a46afad298cce3711a949a1411ed1cbe1d0def587b620bf3fd9adc6d4b6"
+  },
+  {
+   "session_id": "T1_math_sonnet55_true_named_true_r4",
+   "designer": "sonnet55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "5f57ac2de85dced339c83572309e68654497a626e6c896685e643c78775509a0"
+  },
+  {
+   "session_id": "T1_math_fable51_sham_false_r4",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "3b28ed08f9581fa87e8c4cc6d3025b47be6d390d2cd778356a9df9b4cd421d83"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_true_r4",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "08ae20d858ffb71910ae716f31f62dbf2b5f7be58120cd8b87ba7a43fa325507"
+  },
+  {
+   "session_id": "T1_math_grok45_sham_blinded_r4",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "92f11fbdd0adcec2d59ffbea9abd3f8f98363e5662d8396f09a2f0fbeda22e6b"
+  },
+  {
+   "session_id": "T1_math_gemini31pro_true_named_true_r4",
+   "designer": "gemini31pro",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "f32b3a0175ef5ea156325a9ee6d597977247d7d50e815ddccec45cbb1679c530"
+  },
+  {
+   "session_id": "T1_math_grok47_true_blinded_blinded_r4",
+   "designer": "grok47",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "1ebeb0e128aca9c7d5ca99ce094257a3f24b10f1ee148b8c4011d3e2fd78ebec"
+  },
+  {
+   "session_id": "T1_math_gemini38flash_sham_true_r4",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "0227924c05f3d681cc52dd695332b3bf4cd9ce719de46a62bf3993c940467e00"
+  },
+  {
+   "session_id": "T1_math_opus5_sham_blinded_r4",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "b395e32dd23987c2ee98f60a24d3060c0fe55667f5339510f55f9b59fd266ca8"
+  },
+  {
+   "session_id": "T1_math_gpt6luna_sham_blinded_r4",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "32d49de5e565266e2f090b94bf70558a3f96881fa441c94ee40aaa559807e162"
+  },
+  {
+   "session_id": "T1_math_grok47_true_named_true_r4",
+   "designer": "grok47",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "0d9fcbd318236a35db7fffde57d7a21a9217c4f634540e5c6cead7b4a0630975"
+  },
+  {
+   "session_id": "T1_math_grok43_none_blinded_r4",
+   "designer": "grok43",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "819f17c70fc19220df7ae0d3b0e297659d4c02600ad815630d5c0a08c88438d9"
+  },
+  {
+   "session_id": "T1_math_grok43_sham_true_r4",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "48cd40426aabee1e9c1050f13ef87bd7210c595ebda6b8c5ba7245cd6ece9f9d"
+  },
+  {
+   "session_id": "T1_math_gpt55_sham_false_r4",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "c682d3c9b9d69b6e6ed6c460709b83678bd87ad3cc843b8b8fc60fa3f056d72a"
+  }
+ ],
+ "sessions_sha256": "9bf402ae7f867265e3bd3a9429fc7585f363a87ff4194e073f2b9fead95e1db4"
+}

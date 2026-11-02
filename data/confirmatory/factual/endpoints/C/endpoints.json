@@ -1,0 +1,1240 @@
+{
+ "data": {
+  "designer_keys": [
+   "fable51",
+   "gemini31pro",
+   "gemini38flash",
+   "gemini4argon",
+   "gpt55",
+   "gpt61sol",
+   "gpt6luna",
+   "grok43",
+   "grok45",
+   "grok47",
+   "opus5",
+   "sonnet55"
+  ],
+  "invalid_by_status": {
+   "exception:GoogleAPIError": 1
+  },
+  "invalid_session_ids": [
+   "T1_factual_gemini31pro_instructed_blinded_r2"
+  ],
+  "n_designers_valid": 12,
+  "n_invalid": 1,
+  "n_replacements": 1,
+  "n_sessions": 469,
+  "n_valid": 468,
+  "valid_sessions_by_cell": {
+   "instructed/blinded": 36,
+   "inverted/blinded": 36,
+   "narrative/blinded": 36,
+   "none/blinded": 60,
+   "sham/blinded": 60,
+   "sham/false": 60,
+   "sham/true": 60,
+   "true_blinded/blinded": 60,
+   "true_named/true": 60
+  }
+ },
+ "exploratory": {
+  "rbo_p0.8": {
+   "ci95_cluster_bootstrap": [
+    0.336790423060549,
+    0.39856506363390043
+   ],
+   "definition": "rank-biased overlap p=0.8, produced ranking vs displayed order, sham/blinded, designer-averaged (D26)",
+   "estimate": 0.3662181860018549,
+   "n_benchmarks": 60,
+   "randomisation": {
+    "n_perm": 2000,
+    "null_mean": 0.36327605536611135,
+    "null_sd": 0.015886243057630246,
+    "p_one_sided": 0.4127936031984008,
+    "p_two_sided": 0.848575712143928
+   }
+  },
+  "round_by_round_tau_trajectory": {
+   "definition": "sham/blinded: tau-b(draft true scores at the last numeric view of each round, displayed order), designer-averaged (D28)",
+   "rounds": {
+    "final": {
+     "ci95_cluster_bootstrap": [
+      -0.02198961690237289,
+      0.08616171250192213
+     ],
+     "mean_tau": 0.029716067981684673,
+     "n_benchmarks": 60,
+     "n_boot": 2000,
+     "n_designers": 12
+    },
+    "round_1": {
+     "ci95_cluster_bootstrap": [
+      -0.03277595433312036,
+      0.14995281090001922
+     ],
+     "mean_tau": 0.045624301837789434,
+     "n_benchmarks": 55,
+     "n_boot": 2000,
+     "n_designers": 12
+    },
+    "round_2": {
+     "ci95_cluster_bootstrap": [
+      -0.04758652163404692,
+      0.06304548058633845
+     ],
+     "mean_tau": 0.005727292371079234,
+     "n_benchmarks": 54,
+     "n_boot": 2000,
+     "n_designers": 12
+    },
+    "round_3": {
+     "ci95_cluster_bootstrap": [
+      -0.07064528201798746,
+      0.06086424055599152
+     ],
+     "mean_tau": -0.0035104572193971673,
+     "n_benchmarks": 50,
+     "n_boot": 2000,
+     "n_designers": 11
+    },
+    "round_4": {
+     "ci95_cluster_bootstrap": [
+      -0.0645090420029146,
+      0.09815594339647296
+     ],
+     "mean_tau": 0.011205972669967196,
+     "n_benchmarks": 43,
+     "n_boot": 2000,
+     "n_designers": 11
+    }
+   }
+  }
+ },
+ "implementation": "C",
+ "inputs": {
+  "decisions_sha256": "a53c6b13b48e4931b01df8d7f9da9f0a0167849635d319914e12cc09fba202e3",
+  "n_boot": 10000,
+  "n_perm": 10000,
+  "results_dir": "/path/to/unblinded/WORK_factual",
+  "seed": 20261028
+ },
+ "measurement_model": {
+  "coding": "Target x Cond deviation-coded over the arms with a target; gamma = pooled (unweighted over conditions) home advantage",
+  "definition": "crossed mixed-effects logistic / explanatory IRT of PREREGISTRATION section 8 (D18-D25)",
+  "ets_scale": "delta = 2.35 x log-odds; A < 1.0 <= B < 1.5 <= C",
+  "fallback_glm_cluster_robust": {
+   "conditions": [
+    "instructed",
+    "inverted",
+    "narrative",
+    "sham",
+    "true_blinded",
+    "true_named"
+   ],
+   "delta_by_condition_deviation_from_pooled": {
+    "instructed": {
+     "ci95_ets_delta": [
+      -0.0855346485439976,
+      0.3243936109988341
+     ],
+     "ci95_log_odds": [
+      -0.03639772278467983,
+      0.138039834467589
+     ],
+     "ci95_odds_ratio": [
+      0.964256710344318,
+      1.1480212801798362
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.11942948122741825,
+     "log_odds": 0.05082105584145458,
+     "odds_ratio": 1.0521346030957643,
+     "p_two_sided": 0.2534281697515446,
+     "se": 0.04449937685006858,
+     "z": 1.14206219140294
+    },
+    "inverted": {
+     "ci95_ets_delta": [
+      -0.1803595004839476,
+      0.11459328610083631
+     ],
+     "ci95_log_odds": [
+      -0.07674872361019047,
+      0.048763100468440984
+     ],
+     "ci95_odds_ratio": [
+      0.9261225370989805,
+      1.049971583498489
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.032883107191555655,
+     "log_odds": -0.013992811570874748,
+     "odds_ratio": 0.9861046327806471,
+     "p_two_sided": 0.6620931225678016,
+     "se": 0.032018322469038636,
+     "z": -0.43702513098260043
+    },
+    "narrative": {
+     "ci95_ets_delta": [
+      -0.08950111437140863,
+      0.18856342681834634
+     ],
+     "ci95_log_odds": [
+      -0.03808558058357814,
+      0.08023975609291334
+     ],
+     "ci95_odds_ratio": [
+      0.9626305548812715,
+      1.083546823487583
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.04953115622346886,
+     "log_odds": 0.0210770877546676,
+     "odds_ratio": 1.0213007783869017,
+     "p_two_sided": 0.4850128424920547,
+     "se": 0.030185034866451906,
+     "z": 0.6982628261958043
+    },
+    "sham": {
+     "ci95_ets_delta": [
+      -0.08246869724528662,
+      0.10676381957669512
+     ],
+     "ci95_log_odds": [
+      -0.03509306265756877,
+      0.04543141258582771
+     ],
+     "ci95_odds_ratio": [
+      0.9655155586326263,
+      1.0464792268482968
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.012147561165704245,
+     "log_odds": 0.005169174964129466,
+     "odds_ratio": 1.005182558199192,
+     "p_two_sided": 0.8013194634090403,
+     "se": 0.020541957970254206,
+     "z": 0.25163983743003915
+    },
+    "true_blinded": {
+     "ci95_ets_delta": [
+      -0.19059698956649393,
+      0.14583282334124906
+     ],
+     "ci95_log_odds": [
+      -0.0811051019431889,
+      0.06205652057074428
+     ],
+     "ci95_odds_ratio": [
+      0.9220967721889309,
+      1.0640224821864939
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.022382083112622433,
+     "log_odds": -0.009524290686222311,
+     "odds_ratio": 0.9905209217177698,
+     "p_two_sided": 0.7942539180627592,
+     "se": 0.036520822069880915,
+     "z": -0.2607906981939787
+    },
+    "true_named": {
+     "ci95_ets_delta": [
+      -0.28400542049927524,
+      0.0323194038744487
+     ],
+     "ci95_log_odds": [
+      -0.12085337042522351,
+      0.013752937818914339
+     ],
+     "ci95_odds_ratio": [
+      0.8861638879010417,
+      1.0138479445089863
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.1258430083124133,
+     "log_odds": -0.05355021630315459,
+     "odds_ratio": 0.947858341866844,
+     "p_two_sided": 0.1188810535235371,
+     "se": 0.03433834393983109,
+     "z": -1.5594874463657087
+    }
+   },
+   "estimation": "pooled binomial GLM, item + evaluee fixed effects, session-clustered sandwich (D23)",
+   "gamma_by_condition": {
+    "instructed": {
+     "ci95_ets_delta": [
+      -0.10585375041747527,
+      0.3690221951394984
+     ],
+     "ci95_log_odds": [
+      -0.045044149113819265,
+      0.15703072133595677
+     ],
+     "ci95_odds_ratio": [
+      0.9559552763231383,
+      1.170031558281363
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.13158422236101158,
+     "log_odds": 0.055993286111068755,
+     "odds_ratio": 1.057590583167065,
+     "p_two_sided": 0.2773906108265719,
+     "se": 0.05154971184943266,
+     "z": 1.0861997885577899
+    },
+    "inverted": {
+     "ci95_ets_delta": [
+      -0.179038693881625,
+      0.13758196176570034
+     ],
+     "ci95_log_odds": [
+      -0.0761866782475,
+      0.05854551564497887
+     ],
+     "ci95_odds_ratio": [
+      0.9266432062823838,
+      1.0602932445272144
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.020728366057962338,
+     "log_odds": -0.00882058130126057,
+     "odds_ratio": 0.9912182059003202,
+     "p_two_sided": 0.7974623750646052,
+     "se": 0.034370457625632365,
+     "z": -0.2566326406629648
+    },
+    "narrative": {
+     "ci95_ets_delta": [
+      -0.08455540511652311,
+      0.20792719983064747
+     ],
+     "ci95_log_odds": [
+      -0.03598102345383962,
+      0.08847965950240318
+     ],
+     "ci95_odds_ratio": [
+      0.9646585991978696,
+      1.0925120301461484
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.06168589735706218,
+     "log_odds": 0.02624931802428178,
+     "odds_ratio": 1.0265968656720146,
+     "p_two_sided": 0.40838124837571055,
+     "se": 0.031750174223531324,
+     "z": 0.8267456373460578
+    },
+    "sham": {
+     "ci95_ets_delta": [
+      -0.05592836148169263,
+      0.10453296608028775
+     ],
+     "ci95_log_odds": [
+      -0.023799302758167076,
+      0.04448211322565436
+     ],
+     "ci95_odds_ratio": [
+      0.976481667270507,
+      1.0454862761661066
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.024302302299297564,
+     "log_odds": 0.010341405233743644,
+     "odds_ratio": 1.0103950623687319,
+     "p_two_sided": 0.552716389903462,
+     "se": 0.017418728567301388,
+     "z": 0.593694608294008
+    },
+    "true_blinded": {
+     "ci95_ets_delta": [
+      -0.20557731625625145,
+      0.18512263229819326
+     ],
+     "ci95_log_odds": [
+      -0.08747970904521338,
+      0.07877558821199712
+     ],
+     "ci95_odds_ratio": [
+      0.9162374627951924,
+      1.081961489911633
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.010227341979029116,
+     "log_odds": -0.004352060416608134,
+     "odds_ratio": 0.9956573960749454,
+     "p_two_sided": 0.9182695423025106,
+     "se": 0.04241206562683941,
+     "z": -0.1026137339053357
+    },
+    "true_named": {
+     "ci95_ets_delta": [
+      -0.29552843511115445,
+      0.06815190075351449
+     ],
+     "ci95_log_odds": [
+      -0.1257567808983636,
+      0.02900080883128276
+     ],
+     "ci95_odds_ratio": [
+      0.8818292984327516,
+      1.0294254271062828
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.11368826717881997,
+     "log_odds": -0.04837798603354041,
+     "odds_ratio": 0.9527735838980681,
+     "p_two_sided": 0.22042027679660248,
+     "se": 0.03947897697184856,
+     "z": -1.2254113390029713
+    }
+   },
+   "gamma_pooled": {
+    "ci95_ets_delta": [
+     -0.06437030359085477,
+     0.08867978585804141
+    ],
+    "ci95_log_odds": [
+     -0.027391618549299904,
+     0.03773607908852826
+    ],
+    "ci95_odds_ratio": [
+     0.9729801298370601,
+     1.0384571261575812
+    ],
+    "ets_category": "A",
+    "ets_delta": 0.012154741133593317,
+    "log_odds": 0.005172230269614177,
+    "odds_ratio": 1.005185629343667,
+    "p_two_sided": 0.7555621751058403,
+    "se": 0.016614208581078614,
+    "z": 0.3113136713297715
+   },
+   "n_clusters": 469,
+   "sizes": {
+    "n_benchmarks": 468,
+    "n_evaluees": 17,
+    "n_items_dropped_no_information": 216,
+    "n_items_kept": 1784,
+    "n_rows": 775387,
+    "n_target_rows": 38203
+   }
+  },
+  "item_level_dif_screen": {
+   "by_condition": {
+    "instructed": {
+     "ci95_benchmark_bootstrap": [
+      0.24514149208517114,
+      0.8066266681705377
+     ],
+     "fraction_flagged": 0.07324364723467862,
+     "mean_delta": 0.5255293191087325,
+     "mean_z": 0.07851106274928299,
+     "n_benchmarks": 36
+    },
+    "inverted": {
+     "ci95_benchmark_bootstrap": [
+      -0.09703920387418291,
+      0.5821589521805582
+     ],
+     "fraction_flagged": 0.09317507418397626,
+     "mean_delta": 0.21989479649652927,
+     "mean_z": 0.010951817221911556,
+     "n_benchmarks": 36
+    },
+    "narrative": {
+     "ci95_benchmark_bootstrap": [
+      0.13676571629653073,
+      0.8763211996030098
+     ],
+     "fraction_flagged": 0.06680461129175289,
+     "mean_delta": 0.44823140231067515,
+     "mean_z": 0.040979140989425455,
+     "n_benchmarks": 36
+    },
+    "sham": {
+     "ci95_benchmark_bootstrap": [
+      0.3180664735896418,
+      1.5788846192333725
+     ],
+     "fraction_flagged": 0.06971910445988479,
+     "mean_delta": 0.7386376210594987,
+     "mean_z": 0.05332293650608546,
+     "n_benchmarks": 180
+    },
+    "true_blinded": {
+     "ci95_benchmark_bootstrap": [
+      -0.22800029088653892,
+      0.20632714853544595
+     ],
+     "fraction_flagged": 0.09364489290139848,
+     "mean_delta": 0.0014245123425470094,
+     "mean_z": -0.010357614719081953,
+     "n_benchmarks": 60
+    },
+    "true_named": {
+     "ci95_benchmark_bootstrap": [
+      -0.20726496362716687,
+      0.22972732176878705
+     ],
+     "fraction_flagged": 0.09364429410717465,
+     "mean_delta": 0.013920831332519456,
+     "mean_z": -0.028276244404210806,
+     "n_benchmarks": 60
+    }
+   },
+   "definition": "per (benchmark, item) Target row: z = (y - n p0)/sqrt(n p0 (1-p0)) under the no-DIF fit; delta = 2.35 (y/n - p0)/(p0 (1-p0)); BH q=0.05 over all Target rows (descriptive, rows sharing an item are not independent)",
+   "fraction_flagged": 0.07889432767060178,
+   "n_flagged_bh_0.05": 3014,
+   "n_flagged_negative": 1996,
+   "n_flagged_positive": 1018,
+   "n_target_rows": 38203
+  },
+  "mixed": {
+   "conditions": [
+    "instructed",
+    "inverted",
+    "narrative",
+    "sham",
+    "true_blinded",
+    "true_named"
+   ],
+   "converged": true,
+   "delta_by_condition_deviation_from_pooled": {
+    "instructed": {
+     "ci95_ets_delta": [
+      -0.16559814127912711,
+      0.42832824229019023
+     ],
+     "ci95_log_odds": [
+      -0.07046729416133068,
+      0.1822673371447618
+     ],
+     "ci95_odds_ratio": [
+      0.9319582195025345,
+      1.199934938184799
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.13136505050553154,
+     "log_odds": 0.055900021491715544,
+     "odds_ratio": 1.0574919519833657,
+     "p_two_sided": 0.3859264897782999,
+     "se": 0.06447312023114604,
+     "z": 0.8670283257783302
+    },
+    "inverted": {
+     "ci95_ets_delta": [
+      -0.5113454821351565,
+      0.5393066853419407
+     ],
+     "ci95_log_odds": [
+      -0.21759382218517298,
+      0.2294922065284854
+     ],
+     "ci95_odds_ratio": [
+      0.8044521259227598,
+      1.2579610633013802
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.013980601603392118,
+     "log_odds": 0.00594919217165622,
+     "odds_ratio": 1.0059669237608415,
+     "p_two_sided": 0.9583997326969934,
+     "se": 0.11405255834532102,
+     "z": 0.05216184764258981
+    },
+    "narrative": {
+     "ci95_ets_delta": [
+      -0.2831896740173167,
+      0.3130305388459785
+     ],
+     "ci95_log_odds": [
+      -0.12050624426268797,
+      0.13320448461530998
+     ],
+     "ci95_odds_ratio": [
+      0.8864715519668602,
+      1.1424835947650154
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.014920432414330857,
+     "log_odds": 0.006349120176311003,
+     "odds_ratio": 1.0063693185645222,
+     "p_two_sided": 0.9218543629350487,
+     "se": 0.06472212471377499,
+     "z": 0.09809814193197681
+    },
+    "sham": {
+     "ci95_ets_delta": [
+      -0.31582811916594444,
+      0.26088859396235925
+     ],
+     "ci95_log_odds": [
+      -0.1343949443259338,
+      0.11101642296270607
+     ],
+     "ci95_odds_ratio": [
+      0.8742447184205475,
+      1.1174132579400307
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.027469762601792572,
+     "log_odds": -0.01168926068161386,
+     "odds_ratio": 0.9883787933010141,
+     "p_two_sided": 0.8518843552520368,
+     "se": 0.06260494063485711,
+     "z": -0.1867146676137175
+    },
+    "true_blinded": {
+     "ci95_ets_delta": [
+      -0.5229993452641204,
+      0.5040376707806793
+     ],
+     "ci95_log_odds": [
+      -0.22255291287834908,
+      0.21448411522582098
+     ],
+     "ci95_odds_ratio": [
+      0.8004726503176702,
+      1.2392224360495896
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.00948083724172055,
+     "log_odds": -0.004034398826264064,
+     "odds_ratio": 0.9959737284274794,
+     "p_two_sided": 0.971133644940099,
+     "se": 0.11148903778167604,
+     "z": -0.03618650682199308
+    },
+    "true_named": {
+     "ci95_ets_delta": [
+      -0.6368511785608116,
+      0.3902202092013289
+     ],
+     "ci95_log_odds": [
+      -0.27100050151523897,
+      0.1660511528516293
+     ],
+     "ci95_odds_ratio": [
+      0.7626161139413669,
+      1.1806334929485645
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.12331548467974139,
+     "log_odds": -0.052474674331804846,
+     "odds_ratio": 0.9488783517297971,
+     "p_two_sided": 0.6378868352017473,
+     "se": 0.11149276897113987,
+     "z": -0.4706554049741829
+    }
+   },
+   "estimation": "Laplace approximation, EM-type variance fixed point, Wald CIs from the joint Hessian (D22)",
+   "gamma_by_condition": {
+    "instructed": {
+     "ci95_ets_delta": [
+      -0.10521232096877846,
+      0.47400397174715336
+     ],
+     "ci95_log_odds": [
+      -0.04477120041224615,
+      0.2017038177647461
+     ],
+     "ci95_odds_ratio": [
+      0.9562162386876218,
+      1.2234855797477755
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.18439582538918747,
+     "log_odds": 0.07846630867624999,
+     "odds_ratio": 1.0816269131058833,
+     "p_two_sided": 0.2120502137149678,
+     "se": 0.0628762801471919,
+     "z": 1.2479476917616976
+    },
+    "inverted": {
+     "ci95_ets_delta": [
+      -0.5355212218408308,
+      0.6695439748149269
+     ],
+     "ci95_log_odds": [
+      -0.2278813709960982,
+      0.2849123297084795
+     ],
+     "ci95_odds_ratio": [
+      0.7962187088654664,
+      1.3296454526069947
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.06701137648704805,
+     "log_odds": 0.02851547935619066,
+     "odds_ratio": 1.0289259378223392,
+     "p_two_sided": 0.8274417950713244,
+     "se": 0.13081471956749433,
+     "z": 0.21798372117808956
+    },
+    "narrative": {
+     "ci95_ets_delta": [
+      -0.2226174777904818,
+      0.35851989238645543
+     ],
+     "ci95_log_odds": [
+      -0.09473084161297098,
+      0.15256165633466187
+     ],
+     "ci95_odds_ratio": [
+      0.90961773276376,
+      1.164814278059584
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.0679512072979868,
+     "log_odds": 0.028915407360845444,
+     "odds_ratio": 1.029337516415007,
+     "p_two_sided": 0.6466955453391889,
+     "se": 0.06308482090500837,
+     "z": 0.45835760403260206
+    },
+    "sham": {
+     "ci95_ets_delta": [
+      -0.2512105204474003,
+      0.30233254501112705
+     ],
+     "ci95_log_odds": [
+      -0.10689809380740438,
+      0.12865214681324555
+     ],
+     "ci95_odds_ratio": [
+      0.898617242986285,
+      1.13729444385382
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.025561012281863364,
+     "log_odds": 0.01087702650292058,
+     "odds_ratio": 1.0109363964164808,
+     "p_two_sided": 0.8563564117332703,
+     "se": 0.06008934709710457,
+     "z": 0.18101422345866516
+    },
+    "true_blinded": {
+     "ci95_ets_delta": [
+      -0.55691279492896,
+      0.6440126702128307
+     ],
+     "ci95_log_odds": [
+      -0.23698416805487657,
+      0.2740479447714173
+     ],
+     "ci95_odds_ratio": [
+      0.7890037793832655,
+      1.3152778614234495
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.043549937641935384,
+     "log_odds": 0.018531888358270375,
+     "odds_ratio": 1.0187046694711086,
+     "p_two_sided": 0.8869587619991586,
+     "se": 0.1303653349046668,
+     "z": 0.14215349787443357
+    },
+    "true_named": {
+     "ci95_ets_delta": [
+      -0.6707695167408967,
+      0.5302000971487258
+     ],
+     "ci95_log_odds": [
+      -0.28543383691101987,
+      0.22561706261647907
+     ],
+     "ci95_odds_ratio": [
+      0.7516880735379932,
+      1.2530957161939682
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.07028470979608545,
+     "log_odds": -0.029908387147270402,
+     "odds_ratio": 0.9705344429048129,
+     "p_two_sided": 0.8185492140847019,
+     "se": 0.13037012743048443,
+     "z": -0.22941135163972332
+    }
+   },
+   "gamma_pooled": {
+    "ci95_ets_delta": [
+     -0.15732351882361156,
+     0.2633850685909235
+    ],
+    "ci95_log_odds": [
+     -0.06694617822281343,
+     0.11207875259188232
+    ],
+    "ci95_odds_ratio": [
+     0.9352455365590823,
+     1.1186009499004577
+    ],
+    "ets_category": "A",
+    "ets_delta": 0.053030774883655936,
+    "log_odds": 0.02256628718453444,
+    "odds_ratio": 1.022822831963167,
+    "p_two_sided": 0.6212212487783166,
+    "se": 0.04566962520783055,
+    "z": 0.4941202622496058
+   },
+   "history_tail": [
+    {
+     "iter": 24,
+     "penalised_loglik": -1501211.003448106,
+     "rel_change": 0.012353260026857268,
+     "sigma2": [
+      0.00016675592381648253,
+      0.0022927302896556443,
+      0.024880404685428403,
+      0.002009445812591904,
+      0.013136668481963132
+     ]
+    },
+    {
+     "iter": 25,
+     "penalised_loglik": -1501211.9722732226,
+     "rel_change": 0.010905277566769334,
+     "sigma2": [
+      0.00016199378805687082,
+      0.002273707894371148,
+      0.024867312760961477,
+      0.0019523676721444182,
+      0.012993409465864693
+     ]
+    },
+    {
+     "iter": 26,
+     "penalised_loglik": -1501212.8743526344,
+     "rel_change": 0.009623810988242616,
+     "sigma2": [
+      0.00015754180077945954,
+      0.0022564743833742447,
+      0.02485546091820369,
+      0.0019002989824420096,
+      0.012868363349072369
+     ]
+    }
+   ],
+   "n_outer_iterations": 27,
+   "random_effects": "u_b; Target by designer; Target x Cond by designer; Target by evaluee; Target x Cond by evaluee (independent, one variance per component, D21)",
+   "sizes": {
+    "n_benchmarks": 468,
+    "n_evaluees": 17,
+    "n_items_dropped_no_information": 216,
+    "n_items_kept": 1784,
+    "n_rows": 775387,
+    "n_target_rows": 38203
+   },
+   "variance_components": {
+    "benchmark": 0.00015754180077945954,
+    "designer_x_target": 0.0022564743833742447,
+    "designer_x_target_x_cond": 0.02485546091820369,
+    "evaluee_x_target": 0.0019002989824420096,
+    "evaluee_x_target_x_cond": 0.012868363349072369
+   }
+  },
+  "reported_model": "mixed"
+ },
+ "primary": {
+  "benchmark_bootstrap": {
+   "ci95_fisher_z": [
+    -0.016691100268466433,
+    0.07739849441214909
+   ],
+   "ci95_tanh": [
+    -0.016689550434232255,
+    0.07724431126836317
+   ],
+   "n_boot": 10000
+  },
+  "claim_components": {
+   "cluster_ci_excludes_0": false,
+   "randomisation_p_lt_0.05": false,
+   "tanh_psi_gt_0.15": false
+  },
+  "claim_supported": false,
+  "cluster_bootstrap": {
+   "ci95_fisher_z": [
+    -0.022224524766357466,
+    0.08636354311025647
+   ],
+   "ci95_tanh": [
+    -0.022220866373007853,
+    0.08614946297449746
+   ],
+   "n_boot": 10000
+  },
+  "definition": "designer-averaged mean Fisher-z tau-b(produced ranking over displayed keys, displayed order), sham/blinded (D5-D7)",
+  "designer_t_test": {
+   "ci95": [
+    -0.009820306027169007,
+    0.07196779438081302
+   ],
+   "df": 11,
+   "p_one_sided": 0.06130381307757343,
+   "t": 1.6724401095148669
+  },
+  "estimate_tanh_psi": 0.03106374666794716,
+  "n_benchmarks": 60,
+  "n_designers": 12,
+  "never_requested_scores": {
+   "mean_tau": null,
+   "n": 0
+  },
+  "per_designer": {
+   "fable51": {
+    "mean_fisher_z": 0.0026168633960917233,
+    "mean_tau": 0.0025475062577425766,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "gemini31pro": {
+    "mean_fisher_z": 0.09970687130554431,
+    "mean_tau": 0.09736951221045749,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "gemini38flash": {
+    "mean_fisher_z": 0.08240428734151509,
+    "mean_tau": 0.08205128205128205,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "gemini4argon": {
+    "mean_fisher_z": 0.10606182091988778,
+    "mean_tau": 0.10256410256410253,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "gpt55": {
+    "mean_fisher_z": 0.082923317502677,
+    "mean_tau": 0.08205128205128201,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "gpt61sol": {
+    "mean_fisher_z": -0.10122542840902035,
+    "mean_tau": -0.09995021108092003,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "gpt6luna": {
+    "mean_fisher_z": -0.017720330351116694,
+    "mean_tau": -0.017898929029637994,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "grok43": {
+    "mean_fisher_z": 0.05796370122099681,
+    "mean_tau": 0.04880093024974861,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "grok45": {
+    "mean_fisher_z": -0.056839211759527906,
+    "mean_tau": -0.05641025641025639,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "grok47": {
+    "mean_fisher_z": 0.03590171447864147,
+    "mean_tau": 0.03583105067199596,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "opus5": {
+    "mean_fisher_z": 0.05732138367101319,
+    "mean_tau": 0.0564102564102564,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "sonnet55": {
+    "mean_fisher_z": 0.023769940805161642,
+    "mean_tau": 0.02322628983416291,
+    "n": 5,
+    "n_never_requested_scores": 0
+   }
+  },
+  "psi_fisher_z": 0.031073744176822005,
+  "randomisation": {
+   "n_perm": 10000,
+   "null_mean_tanh": 3.4835648006597825e-05,
+   "null_q95_tanh": 0.046956085229571884,
+   "null_sd_fisher_z": 0.028242799560342535,
+   "p_one_sided": 0.1334866513348665
+  }
+ },
+ "secondary": {
+  "S1_displayed_leader_rank_gain": {
+   "by_cell": {
+    "narrative/blinded": {
+     "ci95_cluster_bootstrap": [
+      -0.5612499999999997,
+      0.17499999999999996
+     ],
+     "estimate": -0.19166666666666668,
+     "n_benchmarks": 36
+    },
+    "sham/blinded": {
+     "ci95_cluster_bootstrap": [
+      -0.3600416666666664,
+      0.2733749999999997
+     ],
+     "estimate": -0.04833333333333329,
+     "n_benchmarks": 60
+    },
+    "sham/false": {
+     "ci95_cluster_bootstrap": [
+      -0.20020833333333293,
+      0.6283749999999998
+     ],
+     "estimate": 0.22166666666666668,
+     "n_benchmarks": 60
+    },
+    "sham/true": {
+     "ci95_cluster_bootstrap": [
+      -0.4067916666666665,
+      0.3917083333333331
+     ],
+     "estimate": 0.006666666666666682,
+     "n_benchmarks": 60
+    }
+   },
+   "ci95_cluster_bootstrap": [
+    -0.1518518518518519,
+    0.18611111111111114
+   ],
+   "definition": "none-arm mean rank of the displayed/narrated leader minus its produced rank, positions, each over the session's displayed key set (13 pseudonymous incl. placebo / 12 named) with the none-arm baseline on the same set; sham (all identity arms) + narrative (D13)",
+   "estimate": 0.0180555555555556,
+   "leader_score_shift": {
+    "ci95_cluster_bootstrap": [
+     -0.001399825365028502,
+     0.007311133124109676
+    ],
+    "ci95_in_reference_gaps": [
+     -0.07525942822733901,
+     0.39307167333923093
+    ],
+    "definition": "(produced - reference) accuracy of the leader minus the displayed-set mean of the same, designer-averaged; section 7 asks for score shifts beside rank flips",
+    "estimate_accuracy_points": 0.002896368708452033,
+    "estimate_in_reference_gaps": 0.15571874776623876,
+    "median_adjacent_reference_gap": 0.01859999999999995
+   },
+   "n_benchmarks": 216,
+   "n_designers": 12,
+   "n_placebo_leader": 4,
+   "permutation": {
+    "generator": "uniform over the session's displayed keys (blinded sham, narrative); uniform over recovered top tier (named sham)",
+    "n_perm": 10000,
+    "null_mean": 0.006130879629629662,
+    "null_sd": 0.06526333140105323,
+    "p_one_sided": 0.42955704429557046,
+    "p_two_sided": 0.8543145685431457,
+    "recovered_tiers": [
+     [
+      "fable51",
+      "gemini4argon",
+      "gpt61sol",
+      "grok47"
+     ],
+     [
+      "gemini31pro",
+      "gpt55",
+      "grok45",
+      "opus5",
+      "sonnet55"
+     ],
+     [
+      "gemini38flash",
+      "gpt6luna",
+      "grok43"
+     ]
+    ]
+   }
+  },
+  "S2_designer_self_rank_gain": {
+   "ci95_cluster_bootstrap": [
+    -0.40833333333333327,
+    0.27499999999999997
+   ],
+   "definition": "own entry's mean rank in sham/blinded minus in sham/true (positive = own entry higher under the true label), ranks over the 12 designer keys (D15)",
+   "estimate": -0.06666666666666661,
+   "n_benchmarks": 120,
+   "n_designers": 12,
+   "permutation": {
+    "generator": "within-designer shuffle of identity label among sham sessions",
+    "n_perm": 10000,
+    "null_mean": -0.0002000000000000015,
+    "null_sd": 0.14440496298027064,
+    "p_one_sided": 0.6695330466953304,
+    "p_two_sided": 0.6713328667133287
+   },
+   "pseudonym_over_true_gain_ratio": {
+    "ci95_cluster_bootstrap": [
+     -4.999999999999974,
+     16.258333333333308
+    ],
+    "estimate": null,
+    "note": "falsifiable claim: at least halved under pseudonyms means ratio <= 0.5; NaN when the true-label gain is not positive"
+   },
+   "self_rank_gain_vs_none_by_arm": {
+    "blinded_self": {
+     "ci95_cluster_bootstrap": [
+      -0.3083333333333334,
+      0.40854166666666397
+     ],
+     "estimate": 0.049999999999999996
+    },
+    "false_actual_self": {
+     "ci95_cluster_bootstrap": [
+      -0.6166666666666667,
+      0.2666666666666666
+     ],
+     "estimate": -0.17499999999999996
+    },
+    "false_told": {
+     "ci95_cluster_bootstrap": [
+      -0.3316666666666666,
+      0.17333333333333334
+     ],
+     "estimate": -0.08,
+     "randomisation": {
+      "generator": "told identity uniform over designer keys from another developer",
+      "n_perm": 10000,
+      "null_mean": 0.0006778333333333743,
+      "null_sd": 0.10590321702056815,
+      "p_one_sided": 0.7794220577942206,
+      "p_two_sided": 0.44645535446455353
+     }
+    },
+    "true_self": {
+     "ci95_cluster_bootstrap": [
+      -0.40833333333333327,
+      0.37500000000000006
+     ],
+     "estimate": -0.016666666666666684
+    }
+   }
+  },
+  "S3_inverted_arm_tau": {
+   "ci95_cluster_bootstrap": [
+    -0.011868683978871357,
+    0.04961824623501341
+   ],
+   "definition": "designer-mean tau-b(produced, inverted display) in inverted/blinded minus designer-mean tau-b(produced, reverse reference) in none/blinded (D16)",
+   "estimate": 0.018759245136603663,
+   "estimate_fisher_z_scale": 0.040796565555323204,
+   "inverted_display_equals_reverse_reference_fraction": 1.0,
+   "mean_tau_inverted": -0.8107777321924939,
+   "mean_tau_none_vs_reverse_reference": -0.8295369773290973,
+   "n_benchmarks_inverted": 36,
+   "n_benchmarks_none": 60,
+   "n_designers": 12,
+   "permutation": {
+    "generator": "within-designer shuffle of arm label (inverted vs none), both scored against the reverse reference",
+    "n_perm": 10000,
+    "null_mean": -3.6466543950242894e-05,
+    "null_sd": 0.010538264540683804,
+    "p_one_sided": 0.0375962403759624,
+    "p_two_sided": 0.0724927507249275
+   }
+  },
+  "S4_true_minus_none_tau": {
+   "ci95_cluster_bootstrap": [
+    -0.03452973760793796,
+    0.01896377696468248
+   ],
+   "definition": "designer-mean tau-b(produced, reference ranking over the 12 designer keys) in true_named/true + true_blinded/blinded minus in none/blinded (D17)",
+   "estimate": -0.0076075773174099914,
+   "mean_tau_ref_by_cell": {
+    "none/blinded": 0.8200317472558627,
+    "true_blinded/blinded": 0.8226858978314822,
+    "true_named/true": 0.8021624420454231
+   },
+   "n_benchmarks_none": 60,
+   "n_benchmarks_true": 120,
+   "n_designers": 12,
+   "permutation": {
+    "generator": "within-designer shuffle of arm label (true vs none)",
+    "n_perm": 10000,
+    "null_mean": -3.2270812452057454e-05,
+    "null_sd": 0.009141666055304283,
+    "p_one_sided": 0.7906209379062094,
+    "p_two_sided": 0.41625837416258377
+   },
+   "split_true_blinded": {
+    "ci95_cluster_bootstrap": [
+     -0.029423016646686746,
+     0.034115803191365
+    ],
+    "estimate": 0.002654150575619583
+   },
+   "split_true_named": {
+    "ci95_cluster_bootstrap": [
+     -0.045339677411306074,
+     0.00949766415719032
+    ],
+    "estimate": -0.017869305210439817
+   }
+  },
+  "holm": {
+   "S1": {
+    "p_holm": 1.0,
+    "p_one_sided": 0.42955704429557046,
+    "reject_at_0.05": false
+   },
+   "S2": {
+    "p_holm": 1.0,
+    "p_one_sided": 0.6695330466953304,
+    "reject_at_0.05": false
+   },
+   "S3": {
+    "p_holm": 0.1503849615038496,
+    "p_one_sided": 0.0375962403759624,
+    "reject_at_0.05": false
+   },
+   "S4": {
+    "p_holm": 1.0,
+    "p_one_sided": 0.7906209379062094,
+    "reject_at_0.05": false
+   }
+  },
+  "leader_gain_other_arms_descriptive": {
+   "instructed": {
+    "ci95_cluster_bootstrap": [
+     -0.1639583333333328,
+     1.586111111111111
+    ],
+    "estimate": 0.65,
+    "n_benchmarks": 36
+   },
+   "inverted": {
+    "ci95_cluster_bootstrap": [
+     -0.18333333333333326,
+     0.5611111111111111
+    ],
+    "estimate": 0.16944444444444454,
+    "n_benchmarks": 36
+   },
+   "true_blinded": {
+    "ci95_cluster_bootstrap": [
+     -0.35000000000000003,
+     0.6916666666666668
+    ],
+    "estimate": 0.17500000000000004,
+    "n_benchmarks": 60
+   },
+   "true_named": {
+    "ci95_cluster_bootstrap": [
+     -0.625,
+     0.2666666666666666
+    ],
+    "estimate": -0.1749999999999999,
+    "n_benchmarks": 60
+   }
+  }
+ },
+ "warnings": [
+  "designer keys taken as the intersection of displayed_keys over sessions"
+ ]
+}

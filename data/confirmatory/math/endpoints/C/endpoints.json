@@ -1,0 +1,1339 @@
+{
+ "data": {
+  "designer_keys": [
+   "fable51",
+   "sonnet55",
+   "opus5",
+   "gpt61sol",
+   "gpt6luna",
+   "gpt55",
+   "gemini4argon",
+   "gemini38flash",
+   "gemini31pro",
+   "grok47",
+   "grok45",
+   "grok43"
+  ],
+  "invalid_by_status": {
+   "exception:GoogleAPIError": 100,
+   "ok": 1
+  },
+  "invalid_session_ids": [
+   "T1_math_gemini31pro_instructed_blinded_r1",
+   "T1_math_gemini31pro_instructed_blinded_r1_rep1",
+   "T1_math_gemini31pro_instructed_blinded_r2",
+   "T1_math_gemini31pro_instructed_blinded_r2_rep1",
+   "T1_math_gemini31pro_inverted_blinded_r1",
+   "T1_math_gemini31pro_inverted_blinded_r1_rep1",
+   "T1_math_gemini31pro_inverted_blinded_r2",
+   "T1_math_gemini31pro_inverted_blinded_r2_rep1",
+   "T1_math_gemini31pro_narrative_blinded_r1",
+   "T1_math_gemini31pro_narrative_blinded_r1_rep1",
+   "T1_math_gemini31pro_narrative_blinded_r2",
+   "T1_math_gemini31pro_narrative_blinded_r2_rep1",
+   "T1_math_gemini31pro_none_blinded_r1",
+   "T1_math_gemini31pro_none_blinded_r1_rep1",
+   "T1_math_gemini31pro_sham_blinded_r1",
+   "T1_math_gemini31pro_sham_blinded_r1_rep1",
+   "T1_math_gemini31pro_sham_blinded_r2",
+   "T1_math_gemini31pro_sham_blinded_r2_rep1",
+   "T1_math_gemini31pro_sham_false_r1",
+   "T1_math_gemini31pro_sham_false_r1_rep1",
+   "T1_math_gemini31pro_sham_false_r2",
+   "T1_math_gemini31pro_sham_false_r2_rep1",
+   "T1_math_gemini31pro_sham_true_r1",
+   "T1_math_gemini31pro_sham_true_r1_rep1",
+   "T1_math_gemini31pro_sham_true_r2",
+   "T1_math_gemini31pro_sham_true_r2_rep1",
+   "T1_math_gemini31pro_true_blinded_blinded_r1",
+   "T1_math_gemini31pro_true_blinded_blinded_r1_rep1",
+   "T1_math_gemini31pro_true_blinded_blinded_r2",
+   "T1_math_gemini31pro_true_blinded_blinded_r2_rep1",
+   "T1_math_gemini31pro_true_named_true_r1",
+   "T1_math_gemini31pro_true_named_true_r1_rep1",
+   "T1_math_gemini31pro_true_named_true_r2",
+   "T1_math_gemini31pro_true_named_true_r2_rep1",
+   "T1_math_gemini38flash_instructed_blinded_r1",
+   "T1_math_gemini38flash_instructed_blinded_r1_rep1",
+   "T1_math_gemini38flash_instructed_blinded_r2",
+   "T1_math_gemini38flash_instructed_blinded_r2_rep1",
+   "T1_math_gemini38flash_inverted_blinded_r1",
+   "T1_math_gemini38flash_inverted_blinded_r1_rep1",
+   "T1_math_gemini38flash_inverted_blinded_r2",
+   "T1_math_gemini38flash_inverted_blinded_r2_rep1",
+   "T1_math_gemini38flash_narrative_blinded_r1",
+   "T1_math_gemini38flash_narrative_blinded_r1_rep1",
+   "T1_math_gemini38flash_none_blinded_r1",
+   "T1_math_gemini38flash_none_blinded_r1_rep1",
+   "T1_math_gemini38flash_none_blinded_r2",
+   "T1_math_gemini38flash_none_blinded_r2_rep1",
+   "T1_math_gemini38flash_sham_blinded_r1",
+   "T1_math_gemini38flash_sham_blinded_r1_rep1",
+   "T1_math_gemini38flash_sham_blinded_r2",
+   "T1_math_gemini38flash_sham_blinded_r2_rep1",
+   "T1_math_gemini38flash_sham_false_r0",
+   "T1_math_gemini38flash_sham_false_r0_rep1",
+   "T1_math_gemini38flash_sham_false_r1",
+   "T1_math_gemini38flash_sham_false_r1_rep1",
+   "T1_math_gemini38flash_sham_false_r2",
+   "T1_math_gemini38flash_sham_false_r2_rep1",
+   "T1_math_gemini38flash_sham_true_r1",
+   "T1_math_gemini38flash_sham_true_r1_rep1",
+   "T1_math_gemini38flash_sham_true_r2",
+   "T1_math_gemini38flash_sham_true_r2_rep1",
+   "T1_math_gemini38flash_true_blinded_blinded_r0",
+   "T1_math_gemini38flash_true_blinded_blinded_r0_rep1",
+   "T1_math_gemini38flash_true_blinded_blinded_r1",
+   "T1_math_gemini38flash_true_blinded_blinded_r1_rep1",
+   "T1_math_gemini38flash_true_blinded_blinded_r2",
+   "T1_math_gemini38flash_true_blinded_blinded_r2_rep1",
+   "T1_math_gemini38flash_true_named_true_r1",
+   "T1_math_gemini38flash_true_named_true_r1_rep1",
+   "T1_math_gemini4argon_instructed_blinded_r1",
+   "T1_math_gemini4argon_instructed_blinded_r1_rep1",
+   "T1_math_gemini4argon_instructed_blinded_r2",
+   "T1_math_gemini4argon_instructed_blinded_r2_rep1",
+   "T1_math_gemini4argon_inverted_blinded_r1",
+   "T1_math_gemini4argon_inverted_blinded_r1_rep1",
+   "T1_math_gemini4argon_narrative_blinded_r1",
+   "T1_math_gemini4argon_narrative_blinded_r1_rep1",
+   "T1_math_gemini4argon_narrative_blinded_r2",
+   "T1_math_gemini4argon_narrative_blinded_r2_rep1",
+   "T1_math_gemini4argon_none_blinded_r1",
+   "T1_math_gemini4argon_none_blinded_r1_rep1",
+   "T1_math_gemini4argon_sham_blinded_r1",
+   "T1_math_gemini4argon_sham_blinded_r1_rep1",
+   "T1_math_gemini4argon_sham_false_r1",
+   "T1_math_gemini4argon_sham_false_r1_rep1",
+   "T1_math_gemini4argon_sham_true_r1",
+   "T1_math_gemini4argon_sham_true_r1_rep1",
+   "T1_math_gemini4argon_sham_true_r2",
+   "T1_math_gemini4argon_sham_true_r2_rep1",
+   "T1_math_gemini4argon_true_blinded_blinded_r1",
+   "T1_math_gemini4argon_true_blinded_blinded_r1_rep1",
+   "T1_math_gemini4argon_true_blinded_blinded_r2",
+   "T1_math_gemini4argon_true_blinded_blinded_r2_rep1",
+   "T1_math_gemini4argon_true_named_true_r0",
+   "T1_math_gemini4argon_true_named_true_r0_rep1",
+   "T1_math_gemini4argon_true_named_true_r1",
+   "T1_math_gemini4argon_true_named_true_r1_rep1",
+   "T1_math_gemini4argon_true_named_true_r2",
+   "T1_math_gemini4argon_true_named_true_r2_rep1",
+   "T1_math_grok45_instructed_blinded_r1"
+  ],
+  "n_designers_valid": 12,
+  "n_invalid": 101,
+  "n_replacements": 51,
+  "n_sessions": 519,
+  "n_valid": 418,
+  "valid_sessions_by_cell": {
+   "instructed/blinded": 30,
+   "inverted/blinded": 31,
+   "narrative/blinded": 31,
+   "none/blinded": 56,
+   "sham/blinded": 55,
+   "sham/false": 54,
+   "sham/true": 54,
+   "true_blinded/blinded": 53,
+   "true_named/true": 54
+  }
+ },
+ "exploratory": {
+  "rbo_p0.8": {
+   "ci95_cluster_bootstrap": [
+    0.2985792317330656,
+    0.3685002129396286
+   ],
+   "definition": "rank-biased overlap p=0.8, produced ranking vs displayed order, sham/blinded, designer-averaged (D26)",
+   "estimate": 0.33263807525843847,
+   "n_benchmarks": 55,
+   "randomisation": {
+    "n_perm": 2000,
+    "null_mean": 0.3630482836650349,
+    "null_sd": 0.016962993478758626,
+    "p_one_sided": 0.9645177411294353,
+    "p_two_sided": 0.0734632683658171
+   }
+  },
+  "round_by_round_tau_trajectory": {
+   "definition": "sham/blinded: tau-b(draft true scores at the last numeric view of each round, displayed order), designer-averaged (D28)",
+   "rounds": {
+    "final": {
+     "ci95_cluster_bootstrap": [
+      -0.08153526257707203,
+      0.038452243906365854
+     ],
+     "mean_tau": -0.022826496396979853,
+     "n_benchmarks": 55,
+     "n_boot": 2000,
+     "n_designers": 12
+    },
+    "round_1": {
+     "ci95_cluster_bootstrap": [
+      -0.10388133775820267,
+      0.04652930557211814
+     ],
+     "mean_tau": -0.027220228350973805,
+     "n_benchmarks": 51,
+     "n_boot": 2000,
+     "n_designers": 12
+    },
+    "round_2": {
+     "ci95_cluster_bootstrap": [
+      -0.06415037285462168,
+      0.04786081264556086
+     ],
+     "mean_tau": -0.008697349884608178,
+     "n_benchmarks": 52,
+     "n_boot": 2000,
+     "n_designers": 12
+    },
+    "round_3": {
+     "ci95_cluster_bootstrap": [
+      -0.09555614954098954,
+      0.023574526688135172
+     ],
+     "mean_tau": -0.03660871478816542,
+     "n_benchmarks": 48,
+     "n_boot": 2000,
+     "n_designers": 11
+    },
+    "round_4": {
+     "ci95_cluster_bootstrap": [
+      -0.07249360223790118,
+      0.059512834760285835
+     ],
+     "mean_tau": -0.010608870631668734,
+     "n_benchmarks": 44,
+     "n_boot": 2000,
+     "n_designers": 11
+    }
+   }
+  }
+ },
+ "implementation": "C",
+ "inputs": {
+  "decisions_sha256": "a53c6b13b48e4931b01df8d7f9da9f0a0167849635d319914e12cc09fba202e3",
+  "n_boot": 10000,
+  "n_perm": 10000,
+  "results_dir": "/path/to/unblinded/WORK_math",
+  "seed": 20261028
+ },
+ "measurement_model": {
+  "coding": "Target x Cond deviation-coded over the arms with a target; gamma = pooled (unweighted over conditions) home advantage",
+  "definition": "crossed mixed-effects logistic / explanatory IRT of PREREGISTRATION section 8 (D18-D25)",
+  "ets_scale": "delta = 2.35 x log-odds; A < 1.0 <= B < 1.5 <= C",
+  "fallback_glm_cluster_robust": {
+   "conditions": [
+    "instructed",
+    "inverted",
+    "narrative",
+    "sham",
+    "true_blinded",
+    "true_named"
+   ],
+   "delta_by_condition_deviation_from_pooled": {
+    "instructed": {
+     "ci95_ets_delta": [
+      -0.10587730001938875,
+      0.19651735089645173
+     ],
+     "ci95_log_odds": [
+      -0.04505417022101649,
+      0.08362440463678797
+     ],
+     "ci95_odds_ratio": [
+      0.9559456966408382,
+      1.087220462146737
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.0453200254385315,
+     "log_odds": 0.019285117207885744,
+     "odds_ratio": 1.0194722762728943,
+     "p_two_sided": 0.5568731853182757,
+     "se": 0.032826167055562364,
+     "z": 0.5874922032548999
+    },
+    "inverted": {
+     "ci95_ets_delta": [
+      -0.16107579142774797,
+      0.08902634738208555
+     ],
+     "ci95_log_odds": [
+      -0.06854288996925445,
+      0.03788355207748321
+     ],
+     "ci95_odds_ratio": [
+      0.9337534105895963,
+      1.0386102818267617
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.036024722022831204,
+     "log_odds": -0.01532966894588562,
+     "odds_ratio": 0.98478723231425,
+     "p_two_sided": 0.5723207233242666,
+     "se": 0.027149602562943277,
+     "z": -0.564636955931326
+    },
+    "narrative": {
+     "ci95_ets_delta": [
+      -0.14014860552433808,
+      0.1980645112001735
+     ],
+     "ci95_log_odds": [
+      -0.05963770447844173,
+      0.08428277072347808
+     ],
+     "ci95_odds_ratio": [
+      0.9421057924716792,
+      1.0879364869051158
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.028957952837917706,
+     "log_odds": 0.012322533122518173,
+     "odds_ratio": 1.0123987683490132,
+     "p_two_sided": 0.7371483222716755,
+     "se": 0.03671440693926526,
+     "z": 0.3356320896835594
+    },
+    "sham": {
+     "ci95_ets_delta": [
+      -0.1370572969122471,
+      0.0544604097448525
+     ],
+     "ci95_log_odds": [
+      -0.05832225400521153,
+      0.023174642444618084
+     ],
+     "ci95_odds_ratio": [
+      0.9433459014543684,
+      1.0234452609228946
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.0412984435836973,
+     "log_odds": -0.017573805780296724,
+     "odds_ratio": 0.9825797129263911,
+     "p_two_sided": 0.39794341524581145,
+     "se": 0.020790024604548374,
+     "z": -0.8452999029376802
+    },
+    "true_blinded": {
+     "ci95_ets_delta": [
+      -0.1532627930355811,
+      0.12669197502174423
+     ],
+     "ci95_log_odds": [
+      -0.06521820980237493,
+      0.053911478732657114
+     ],
+     "ci95_odds_ratio": [
+      0.9368630083792615,
+      1.0553911734557109
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.013285409006918433,
+     "log_odds": -0.005653365534858908,
+     "odds_ratio": 0.9943625846644856,
+     "p_two_sided": 0.8524245468640963,
+     "se": 0.030390226667100013,
+     "z": -0.1860257771943226
+    },
+    "true_named": {
+     "ci95_ets_delta": [
+      -0.12101907495035535,
+      0.15368026762435086
+     ],
+     "ci95_log_odds": [
+      -0.05149747870227887,
+      0.06539585856355355
+     ],
+     "ci95_odds_ratio": [
+      0.9498060447029967,
+      1.0675815520477479
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.01633059633699774,
+     "log_odds": 0.006949189930637336,
+     "odds_ratio": 1.006973391579121,
+     "p_two_sided": 0.8157303371563498,
+     "se": 0.029819728894345008,
+     "z": 0.23304001036559308
+    }
+   },
+   "estimation": "pooled binomial GLM, item + evaluee fixed effects, session-clustered sandwich (D23)",
+   "gamma_by_condition": {
+    "instructed": {
+     "ci95_ets_delta": [
+      -0.14330038114723115,
+      0.19410808316041628
+     ],
+     "ci95_log_odds": [
+      -0.06097888559456644,
+      0.08259918432358139
+     ],
+     "ci95_odds_ratio": [
+      0.9408431049090552,
+      1.086106392824841
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.02540385100659257,
+     "log_odds": 0.010810149364507476,
+     "odds_ratio": 1.0108687901438531,
+     "p_two_sided": 0.7678861152828496,
+     "se": 0.03662705865258874,
+     "z": 0.29514107226143405
+    },
+    "inverted": {
+     "ci95_ets_delta": [
+      -0.1856487275348669,
+      0.07376693462532663
+     ],
+     "ci95_log_odds": [
+      -0.07899945852547527,
+      0.0313901849469475
+     ],
+     "ci95_odds_ratio": [
+      0.9240404247893012,
+      1.0318880525322376
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.055940896454770135,
+     "log_odds": -0.023804636789263887,
+     "odds_ratio": 0.9764764587008197,
+     "p_two_sided": 0.39793420583437833,
+     "se": 0.02816062333480173,
+     "z": -0.8453164017802622
+    },
+    "narrative": {
+     "ci95_ets_delta": [
+      -0.18263660908098056,
+      0.20072016589293812
+     ],
+     "ci95_log_odds": [
+      -0.07771770599190662,
+      0.08541283655018643
+     ],
+     "ci95_odds_ratio": [
+      0.9252255753174848,
+      1.0891666216863238
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.009041778405978777,
+     "log_odds": 0.0038475652791399046,
+     "odds_ratio": 1.0038549766606382,
+     "p_two_sided": 0.9263354636641696,
+     "se": 0.04161493432196251,
+     "z": 0.09245635832012669
+    },
+    "sham": {
+     "ci95_ets_delta": [
+      -0.154643714179513,
+      0.03221447814824052
+     ],
+     "ci95_log_odds": [
+      -0.06580583582106936,
+      0.01370828857371937
+     ],
+     "ci95_odds_ratio": [
+      0.9363126450193374,
+      1.0138026779740874
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.061214618015636234,
+     "log_odds": -0.02604877362367499,
+     "odds_ratio": 0.9742875689146431,
+     "p_two_sided": 0.19907570678700548,
+     "se": 0.020284215406833856,
+     "z": -1.2841893610979416
+    },
+    "true_blinded": {
+     "ci95_ets_delta": [
+      -0.19328796197730452,
+      0.1268847950995898
+     ],
+     "ci95_log_odds": [
+      -0.08225019658608702,
+      0.053993529829612676
+     ],
+     "ci95_odds_ratio": [
+      0.9210414884300643,
+      1.0554777730119558
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.03320158343885737,
+     "log_odds": -0.014128333378237176,
+     "odds_ratio": 0.985971003153633,
+     "p_two_sided": 0.6843752998167367,
+     "se": 0.03475605265706625,
+     "z": -0.4064999416832436
+    },
+    "true_named": {
+     "ci95_ets_delta": [
+      -0.16036209480666438,
+      0.153190938616782
+     ],
+     "ci95_log_odds": [
+      -0.06823918927943165,
+      0.06518763345394979
+     ],
+     "ci95_odds_ratio": [
+      0.9340370352108334,
+      1.0673592779043939
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.0035855780949411867,
+     "log_odds": -0.0015257779127409304,
+     "odds_ratio": 0.9984753854946029,
+     "p_two_sided": 0.9642456504717728,
+     "se": 0.03403745477892384,
+     "z": -0.04482643965745934
+    }
+   },
+   "gamma_pooled": {
+    "ci95_ets_delta": [
+     -0.08604430374215415,
+     0.0462119548782763
+    ],
+    "ci95_log_odds": [
+     -0.03661459733708687,
+     0.019664661650330338
+    ],
+    "ci95_odds_ratio": [
+     0.9640476102769179,
+     1.019859284748392
+    ],
+    "ets_category": "A",
+    "ets_delta": -0.01991617443193893,
+    "log_odds": -0.008474967843378268,
+    "odds_ratio": 0.9915608434586424,
+    "p_two_sided": 0.5549868313781021,
+    "se": 0.014356953823320718,
+    "z": -0.590304039956718
+   },
+   "n_clusters": 419,
+   "sizes": {
+    "n_benchmarks": 418,
+    "n_evaluees": 17,
+    "n_items_dropped_no_information": 238,
+    "n_items_kept": 1762,
+    "n_rows": 725625,
+    "n_target_rows": 35418
+   }
+  },
+  "item_level_dif_screen": {
+   "by_condition": {
+    "instructed": {
+     "ci95_benchmark_bootstrap": [
+      -0.2753000368514626,
+      0.6590678832947497
+     ],
+     "fraction_flagged": 0.023312456506610995,
+     "mean_delta": 0.21931436331847057,
+     "mean_z": 0.009951811841633606,
+     "n_benchmarks": 30
+    },
+    "inverted": {
+     "ci95_benchmark_bootstrap": [
+      -0.15765729447369267,
+      0.1880949036282303
+     ],
+     "fraction_flagged": 0.01639344262295082,
+     "mean_delta": 0.024585252371910418,
+     "mean_z": -0.006853934806987065,
+     "n_benchmarks": 31
+    },
+    "narrative": {
+     "ci95_benchmark_bootstrap": [
+      -0.8186768358435784,
+      0.48188582899379195
+     ],
+     "fraction_flagged": 0.02190507799535347,
+     "mean_delta": -0.06468570044169054,
+     "mean_z": 0.0004925306355972278,
+     "n_benchmarks": 31
+    },
+    "sham": {
+     "ci95_benchmark_bootstrap": [
+      -1.0800427709131584,
+      0.05049682285302102
+     ],
+     "fraction_flagged": 0.022484541877459248,
+     "mean_delta": -0.453549201625562,
+     "mean_z": -0.022423305674743807,
+     "n_benchmarks": 163
+    },
+    "true_blinded": {
+     "ci95_benchmark_bootstrap": [
+      1.1884782596234424,
+      1.5698586823894294
+     ],
+     "fraction_flagged": 0.007133217659533449,
+     "mean_delta": 1.3894810663748114,
+     "mean_z": 0.10037818531806947,
+     "n_benchmarks": 53
+    },
+    "true_named": {
+     "ci95_benchmark_bootstrap": [
+      1.0483015308958696,
+      1.4685557307388246
+     ],
+     "fraction_flagged": 0.007571455612341473,
+     "mean_delta": 1.2718495363213362,
+     "mean_z": 0.09695850686074578,
+     "n_benchmarks": 54
+    }
+   },
+   "definition": "per (benchmark, item) Target row: z = (y - n p0)/sqrt(n p0 (1-p0)) under the no-DIF fit; delta = 2.35 (y/n - p0)/(p0 (1-p0)); BH q=0.05 over all Target rows (descriptive, rows sharing an item are not independent)",
+   "fraction_flagged": 0.01750522333276865,
+   "n_flagged_bh_0.05": 620,
+   "n_flagged_negative": 564,
+   "n_flagged_positive": 56,
+   "n_target_rows": 35418
+  },
+  "mixed": {
+   "conditions": [
+    "instructed",
+    "inverted",
+    "narrative",
+    "sham",
+    "true_blinded",
+    "true_named"
+   ],
+   "converged": true,
+   "delta_by_condition_deviation_from_pooled": {
+    "instructed": {
+     "ci95_ets_delta": [
+      -0.14199499696350507,
+      0.26461510099378893
+     ],
+     "ci95_log_odds": [
+      -0.06042340296319364,
+      0.11260217063565485
+     ],
+     "ci95_odds_ratio": [
+      0.9413658720932825,
+      1.1191865990777194
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.06131005201514193,
+     "log_odds": 0.02608938383623061,
+     "odds_ratio": 1.0264326908647796,
+     "p_two_sided": 0.5544729046680175,
+     "se": 0.04413917693848176,
+     "z": 0.5910709180778847
+    },
+    "inverted": {
+     "ci95_ets_delta": [
+      -0.3194563813708865,
+      0.3049940148023812
+     ],
+     "ci95_log_odds": [
+      -0.13593888568973894,
+      0.12978468714994945
+     ],
+     "ci95_odds_ratio": [
+      0.8728959772942192,
+      1.1385832053356226
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.007231183284252656,
+     "log_odds": -0.003077099269894747,
+     "odds_ratio": 0.9969276301478573,
+     "p_two_sided": 0.963793343537578,
+     "se": 0.0677866257244103,
+     "z": -0.04539389941615973
+    },
+    "narrative": {
+     "ci95_ets_delta": [
+      -0.12401910739934206,
+      0.2843600692641331
+     ],
+     "ci95_log_odds": [
+      -0.052774088255039174,
+      0.12100428479324812
+     ],
+     "ci95_odds_ratio": [
+      0.9485942868684429,
+      1.1286297483021086
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.08017048093239552,
+     "log_odds": 0.03411509826910448,
+     "odds_ratio": 1.034703692478745,
+     "p_two_sided": 0.44156674364595394,
+     "se": 0.04433121761435901,
+     "z": 0.7695502200249628
+    },
+    "sham": {
+     "ci95_ets_delta": [
+      -0.23230609708229505,
+      0.09498042599848147
+     ],
+     "ci95_log_odds": [
+      -0.0988536583328915,
+      0.04041720255254531
+     ],
+     "ci95_odds_ratio": [
+      0.9058752656205253,
+      1.0412450936974014
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.06866283554190677,
+     "log_odds": -0.029218227890173094,
+     "odds_ratio": 0.9712044974304856,
+     "p_two_sided": 0.4108529669371046,
+     "se": 0.03552828083812164,
+     "z": -0.8223935186535146
+    },
+    "true_blinded": {
+     "ci95_ets_delta": [
+      -0.36497782180578725,
+      0.2641021482001995
+     ],
+     "ci95_log_odds": [
+      -0.15530971140671798,
+      0.11238389285114872
+     ],
+     "ci95_odds_ratio": [
+      0.856149977004187,
+      1.1189423321664138
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.050437836802793866,
+     "log_odds": -0.021462909277784624,
+     "odds_ratio": 0.9787657799255584,
+     "p_two_sided": 0.7532974407381159,
+     "se": 0.06828918475965988,
+     "z": -0.31429441357840454
+    },
+    "true_named": {
+     "ci95_ets_delta": [
+      -0.330270168658416,
+      0.29997281402124776
+     ],
+     "ci95_log_odds": [
+      -0.14054049730145363,
+      0.1276480059664884
+     ],
+     "ci95_odds_ratio": [
+      0.868888476581699,
+      1.1361530132224253
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.015148677318584169,
+     "log_odds": -0.0064462456674826245,
+     "odds_ratio": 0.993574486801337,
+     "p_two_sided": 0.9249327324423742,
+     "se": 0.06841543450712807,
+     "z": -0.094222096430755
+    }
+   },
+   "estimation": "Laplace approximation, EM-type variance fixed point, Wald CIs from the joint Hessian (D22)",
+   "gamma_by_condition": {
+    "instructed": {
+     "ci95_ets_delta": [
+      -0.16264880323337172,
+      0.2587056243542745
+     ],
+     "ci95_log_odds": [
+      -0.0692122566950518,
+      0.11008749972522319
+     ],
+     "ci95_odds_ratio": [
+      0.9331285962647364,
+      1.116375748756659
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.04802841056045138,
+     "log_odds": 0.020437621515085692,
+     "odds_ratio": 1.0206478997878237,
+     "p_two_sided": 0.6550019722005987,
+     "se": 0.0457397337806824,
+     "z": 0.4468242341129949
+    },
+    "inverted": {
+     "ci95_ets_delta": [
+      -0.37820384188642037,
+      0.33717819240853397
+     ],
+     "ci95_log_odds": [
+      -0.16093780505805122,
+      0.1434800818759719
+     ],
+     "ci95_odds_ratio": [
+      0.8513450188146179,
+      1.154283819409857
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.020512824738943208,
+     "log_odds": -0.008728861591039663,
+     "odds_ratio": 0.9913091243163727,
+     "p_two_sided": 0.9105047787116257,
+     "se": 0.07765762421786304,
+     "z": -0.11240186239217738
+    },
+    "narrative": {
+     "ci95_ets_delta": [
+      -0.14461077394826763,
+      0.2783884529036776
+     ],
+     "ci95_log_odds": [
+      -0.06153649955245431,
+      0.11846317144837344
+     ],
+     "ci95_odds_ratio": [
+      0.9403186239041297,
+      1.1257654130288814
+     ],
+     "ets_category": "A",
+     "ets_delta": 0.06688883947770496,
+     "log_odds": 0.02846333594795956,
+     "odds_ratio": 1.0288722875158909,
+     "p_two_sided": 0.5353438140458617,
+     "se": 0.04591828341857851,
+     "z": 0.6198693380694478
+    },
+    "sham": {
+     "ci95_ets_delta": [
+      -0.23398955873589,
+      0.07010060474269535
+     ],
+     "ci95_log_odds": [
+      -0.09957002499399574,
+      0.029830044571359723
+     ],
+     "ci95_odds_ratio": [
+      0.9052265591646967,
+      1.0302794174929226
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.08194447699659732,
+     "log_odds": -0.03486999021131801,
+     "odds_ratio": 0.9657309625746325,
+     "p_two_sided": 0.2908132880760592,
+     "se": 0.0330102218278968,
+     "z": -1.0563391664896213
+    },
+    "true_blinded": {
+     "ci95_ets_delta": [
+      -0.43903934062625943,
+      0.31160038411129054
+     ],
+     "ci95_log_odds": [
+      -0.18682525133032316,
+      0.13259590813246405
+     ],
+     "ci95_odds_ratio": [
+      0.8295886932400489,
+      1.141788517642452
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.06371947825748442,
+     "log_odds": -0.02711467159892954,
+     "odds_ratio": 0.9732496310338341,
+     "p_two_sided": 0.73931798883404,
+     "se": 0.0814849896588743,
+     "z": -0.3327566428177924
+    },
+    "true_named": {
+     "ci95_ets_delta": [
+      -0.4044280252356882,
+      0.3475673876891388
+     ],
+     "ci95_log_odds": [
+      -0.17209703201518647,
+      0.1479010160379314
+     ],
+     "ci95_odds_ratio": [
+      0.8418974781961603,
+      1.159398128862587
+     ],
+     "ets_category": "A",
+     "ets_delta": -0.028430318773274725,
+     "log_odds": -0.012098007988627542,
+     "odds_ratio": 0.987974878686072,
+     "p_two_sided": 0.8821837465904578,
+     "se": 0.0816321551155913,
+     "z": -0.1482015018652483
+    }
+   },
+   "gamma_pooled": {
+    "ci95_ets_delta": [
+     -0.15285828773004315,
+     0.12629500482066205
+    ],
+    "ci95_log_odds": [
+     -0.06504607988512474,
+     0.05374255524283491
+    ],
+    "ci95_odds_ratio": [
+     0.9370242844111855,
+     1.0552129081525856
+    ],
+    "ets_category": "A",
+    "ets_delta": -0.013281641454690555,
+    "log_odds": -0.0056517623211449165,
+    "odds_ratio": 0.9943641788414959,
+    "p_two_sided": 0.8520472142066671,
+    "se": 0.030303223246928482,
+    "z": -0.18650696908018774
+   },
+   "history_tail": [
+    {
+     "iter": 36,
+     "penalised_loglik": -1039665.5319518294,
+     "rel_change": 0.011186198737110457,
+     "sigma2": [
+      4.0195389057265426e-05,
+      0.0012253914655666442,
+      0.0030197009332304436,
+      0.0013183957073060483,
+      0.0043675800751589045
+     ]
+    },
+    {
+     "iter": 37,
+     "penalised_loglik": -1039665.6896455174,
+     "rel_change": 0.010510823099818892,
+     "sigma2": [
+      3.9129924071151464e-05,
+      0.0012338385634299272,
+      0.0029957663436651688,
+      0.0013146833752997796,
+      0.004262471844160716
+     ]
+    },
+    {
+     "iter": 38,
+     "penalised_loglik": -1039665.8379341741,
+     "rel_change": 0.009897503217562702,
+     "sigma2": [
+      3.81194125297541e-05,
+      0.0012419645537375265,
+      0.002973282249387458,
+      0.0013125921878422596,
+      0.004163496811985089
+     ]
+    }
+   ],
+   "n_outer_iterations": 39,
+   "random_effects": "u_b; Target by designer; Target x Cond by designer; Target by evaluee; Target x Cond by evaluee (independent, one variance per component, D21)",
+   "sizes": {
+    "n_benchmarks": 418,
+    "n_evaluees": 17,
+    "n_items_dropped_no_information": 238,
+    "n_items_kept": 1762,
+    "n_rows": 725625,
+    "n_target_rows": 35418
+   },
+   "variance_components": {
+    "benchmark": 3.81194125297541e-05,
+    "designer_x_target": 0.0012419645537375265,
+    "designer_x_target_x_cond": 0.002973282249387458,
+    "evaluee_x_target": 0.0013125921878422596,
+    "evaluee_x_target_x_cond": 0.004163496811985089
+   }
+  },
+  "reported_model": "mixed"
+ },
+ "primary": {
+  "benchmark_bootstrap": {
+   "ci95_fisher_z": [
+    -0.0792267087427253,
+    0.040569597196621655
+   ],
+   "ci95_tanh": [
+    -0.07906135859612874,
+    0.040547354112307823
+   ],
+   "n_boot": 10000
+  },
+  "claim_components": {
+   "cluster_ci_excludes_0": false,
+   "randomisation_p_lt_0.05": false,
+   "tanh_psi_gt_0.15": false
+  },
+  "claim_supported": false,
+  "cluster_bootstrap": {
+   "ci95_fisher_z": [
+    -0.082122203852733,
+    0.04251869668333861
+   ],
+   "ci95_tanh": [
+    -0.08193808825396014,
+    0.0424930928708037
+   ],
+   "n_boot": 10000
+  },
+  "definition": "designer-averaged mean Fisher-z tau-b(produced ranking over displayed keys, displayed order), sham/blinded (D5-D7)",
+  "designer_t_test": {
+   "ci95": [
+    -0.06360847591041369,
+    0.019289862574287643
+   ],
+   "df": 11,
+   "p_one_sided": 0.8679202139605091,
+   "t": -1.1766775070727673
+  },
+  "estimate_tanh_psi": -0.0221556803828765,
+  "n_benchmarks": 55,
+  "n_designers": 12,
+  "never_requested_scores": {
+   "mean_tau": null,
+   "n": 0
+  },
+  "per_designer": {
+   "fable51": {
+    "mean_fisher_z": -0.11889484048010032,
+    "mean_tau": -0.11794871794871793,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "gemini31pro": {
+    "mean_fisher_z": -0.10415030785637223,
+    "mean_tau": -0.10334621497275802,
+    "n": 3,
+    "n_never_requested_scores": 0
+   },
+   "gemini38flash": {
+    "mean_fisher_z": 0.0029140861806095744,
+    "mean_tau": 0.004467127847704061,
+    "n": 3,
+    "n_never_requested_scores": 0
+   },
+   "gemini4argon": {
+    "mean_fisher_z": 0.025187590321085834,
+    "mean_tau": 0.006410256410256415,
+    "n": 4,
+    "n_never_requested_scores": 0
+   },
+   "gpt55": {
+    "mean_fisher_z": -0.0003088767395813985,
+    "mean_tau": -5.551115123125783e-18,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "gpt61sol": {
+    "mean_fisher_z": 0.01645871825618338,
+    "mean_tau": 0.015384615384615375,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "gpt6luna": {
+    "mean_fisher_z": -0.08910399554741531,
+    "mean_tau": -0.08782216387869121,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "grok43": {
+    "mean_fisher_z": -0.10594715084725363,
+    "mean_tau": -0.10140225139437709,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "grok45": {
+    "mean_fisher_z": 0.011425884750349025,
+    "mean_tau": 0.010256410256410253,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "grok47": {
+    "mean_fisher_z": 0.08637777124400016,
+    "mean_tau": 0.0846983661471845,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "opus5": {
+    "mean_fisher_z": 0.004201408082180369,
+    "mean_tau": 0.005128205128205135,
+    "n": 5,
+    "n_never_requested_scores": 0
+   },
+   "sonnet55": {
+    "mean_fisher_z": 0.005928032619558254,
+    "mean_tau": 0.010256410256410253,
+    "n": 5,
+    "n_never_requested_scores": 0
+   }
+  },
+  "psi_fisher_z": -0.022159306668063025,
+  "randomisation": {
+   "n_perm": 10000,
+   "null_mean_tanh": 0.00025605621828295145,
+   "null_q95_tanh": 0.05081993900585041,
+   "null_sd_fisher_z": 0.03042971063349068,
+   "p_one_sided": 0.7704229577042295
+  }
+ },
+ "secondary": {
+  "S1_displayed_leader_rank_gain": {
+   "by_cell": {
+    "narrative/blinded": {
+     "ci95_cluster_bootstrap": [
+      -0.1777777777777778,
+      0.586145833333333
+     ],
+     "estimate": 0.19166666666666665,
+     "n_benchmarks": 31
+    },
+    "sham/blinded": {
+     "ci95_cluster_bootstrap": [
+      -0.5100092592592592,
+      0.3593654513888886
+     ],
+     "estimate": -0.06938657407407413,
+     "n_benchmarks": 55
+    },
+    "sham/false": {
+     "ci95_cluster_bootstrap": [
+      -0.5099687499999997,
+      0.21630729166666637
+     ],
+     "estimate": -0.11590277777777776,
+     "n_benchmarks": 54
+    },
+    "sham/true": {
+     "ci95_cluster_bootstrap": [
+      -0.3880902777777777,
+      0.28393055555555535
+     ],
+     "estimate": -0.0675,
+     "n_benchmarks": 54
+    }
+   },
+   "ci95_cluster_bootstrap": [
+    -0.21296296296296302,
+    0.14282986111111104
+   ],
+   "definition": "none-arm mean rank of the displayed/narrated leader minus its produced rank, positions, each over the session's displayed key set (13 pseudonymous incl. placebo / 12 named) with the none-arm baseline on the same set; sham (all identity arms) + narrative (D13)",
+   "estimate": -0.03593750000000002,
+   "leader_score_shift": {
+    "ci95_cluster_bootstrap": [
+     0.027289030836004268,
+     0.05010566941699311
+    ],
+    "ci95_in_reference_gaps": [
+     3.369016152593121,
+     6.18588511320903
+    ],
+    "definition": "(produced - reference) accuracy of the leader minus the displayed-set mean of the same, designer-averaged; section 7 asks for score shifts beside rank flips",
+    "estimate_accuracy_points": 0.03827863882953467,
+    "estimate_in_reference_gaps": 4.725757880189468,
+    "median_adjacent_reference_gap": 0.008099999999999996
+   },
+   "n_benchmarks": 194,
+   "n_designers": 12,
+   "n_placebo_leader": 4,
+   "permutation": {
+    "generator": "uniform over the session's displayed keys (blinded sham, narrative); uniform over recovered top tier (named sham)",
+    "n_perm": 10000,
+    "null_mean": -0.009500856481481496,
+    "null_sd": 0.06342003211574676,
+    "p_one_sided": 0.6685331466853315,
+    "p_two_sided": 0.666933306669333,
+    "recovered_tiers": [
+     [
+      "fable51",
+      "gemini4argon",
+      "gpt61sol",
+      "grok47"
+     ],
+     [
+      "gemini31pro",
+      "gpt55",
+      "grok45",
+      "opus5",
+      "sonnet55"
+     ],
+     [
+      "gemini38flash",
+      "gpt6luna",
+      "grok43"
+     ]
+    ]
+   }
+  },
+  "S2_designer_self_rank_gain": {
+   "ci95_cluster_bootstrap": [
+    -0.2611111111111109,
+    0.2722916666666659
+   ],
+   "definition": "own entry's mean rank in sham/blinded minus in sham/true (positive = own entry higher under the true label), ranks over the 12 designer keys (D15)",
+   "estimate": 0.0027777777777776755,
+   "n_benchmarks": 109,
+   "n_designers": 12,
+   "permutation": {
+    "generator": "within-designer shuffle of identity label among sham sessions",
+    "n_perm": 10000,
+    "null_mean": 0.00041749999999999974,
+    "null_sd": 0.11153786829646857,
+    "p_one_sided": 0.5022497750224978,
+    "p_two_sided": 0.9908009199080092
+   },
+   "pseudonym_over_true_gain_ratio": {
+    "ci95_cluster_bootstrap": [
+     -0.5045918367346948,
+     5.208529945553541
+    ],
+    "estimate": 0.9862068965517243,
+    "note": "falsifiable claim: at least halved under pseudonyms means ratio <= 0.5; NaN when the true-label gain is not positive"
+   },
+   "self_rank_gain_vs_none_by_arm": {
+    "blinded_self": {
+     "ci95_cluster_bootstrap": [
+      -0.2333333333333332,
+      0.5958333333333333
+     ],
+     "estimate": 0.19861111111111107
+    },
+    "false_actual_self": {
+     "ci95_cluster_bootstrap": [
+      -0.37499999999999994,
+      0.5125000000000001
+     ],
+     "estimate": 0.07499999999999994
+    },
+    "false_told": {
+     "ci95_cluster_bootstrap": [
+      -0.12792881944444434,
+      0.34055555555555556
+     ],
+     "estimate": 0.11420138888888887,
+     "randomisation": {
+      "generator": "told identity uniform over designer keys from another developer",
+      "n_perm": 10000,
+      "null_mean": 0.0060841111111110974,
+      "null_sd": 0.10850088590829407,
+      "p_one_sided": 0.15898410158984103,
+      "p_two_sided": 0.3203679632036796
+     }
+    },
+    "true_self": {
+     "ci95_cluster_bootstrap": [
+      -0.3222222222222222,
+      0.7152777777777778
+     ],
+     "estimate": 0.2013888888888888
+    }
+   }
+  },
+  "S3_inverted_arm_tau": {
+   "ci95_cluster_bootstrap": [
+    -0.020193777041033124,
+    0.030210380598647918
+   ],
+   "definition": "designer-mean tau-b(produced, inverted display) in inverted/blinded minus designer-mean tau-b(produced, reverse reference) in none/blinded (D16)",
+   "estimate": 0.0055577852955081735,
+   "estimate_fisher_z_scale": 0.022743441591676832,
+   "inverted_display_equals_reverse_reference_fraction": 1.0,
+   "mean_tau_inverted": -0.8520486513221786,
+   "mean_tau_none_vs_reverse_reference": -0.85992562525182,
+   "n_benchmarks_inverted": 31,
+   "n_benchmarks_none": 56,
+   "n_designers": 12,
+   "permutation": {
+    "generator": "within-designer shuffle of arm label (inverted vs none), both scored against the reverse reference",
+    "n_perm": 10000,
+    "null_mean": -9.070529903600404e-05,
+    "null_sd": 0.009234504456297447,
+    "p_one_sided": 0.27317268273172685,
+    "p_two_sided": 0.5411458854114588
+   }
+  },
+  "S4_true_minus_none_tau": {
+   "ci95_cluster_bootstrap": [
+    -0.025128475719967246,
+    0.015057755290039132
+   ],
+   "definition": "designer-mean tau-b(produced, reference ranking over the 12 designer keys) in true_named/true + true_blinded/blinded minus in none/blinded (D17)",
+   "estimate": -0.00463937805428515,
+   "mean_tau_ref_by_cell": {
+    "none/blinded": 0.891545416094483,
+    "true_blinded/blinded": 0.8864079995576217,
+    "true_named/true": 0.8830557811930019
+   },
+   "n_benchmarks_none": 56,
+   "n_benchmarks_true": 107,
+   "n_designers": 12,
+   "permutation": {
+    "generator": "within-designer shuffle of arm label (true vs none)",
+    "n_perm": 10000,
+    "null_mean": 1.5935761270972353e-05,
+    "null_sd": 0.007466285217229933,
+    "p_one_sided": 0.7319268073192681,
+    "p_two_sided": 0.5334466553344666
+   },
+   "split_true_blinded": {
+    "ci95_cluster_bootstrap": [
+     -0.02358093681915177,
+     0.01820275417155742
+    ],
+    "estimate": -0.002684526431876305
+   },
+   "split_true_named": {
+    "ci95_cluster_bootstrap": [
+     -0.03357185797155976,
+     0.016157054806731137
+    ],
+    "estimate": -0.007404859704341811
+   }
+  },
+  "holm": {
+   "S1": {
+    "p_holm": 1.0,
+    "p_one_sided": 0.6685331466853315,
+    "reject_at_0.05": false
+   },
+   "S2": {
+    "p_holm": 1.0,
+    "p_one_sided": 0.5022497750224978,
+    "reject_at_0.05": false
+   },
+   "S3": {
+    "p_holm": 1.0,
+    "p_one_sided": 0.27317268273172685,
+    "reject_at_0.05": false
+   },
+   "S4": {
+    "p_holm": 1.0,
+    "p_one_sided": 0.7319268073192681,
+    "reject_at_0.05": false
+   }
+  },
+  "leader_gain_other_arms_descriptive": {
+   "instructed": {
+    "ci95_cluster_bootstrap": [
+     -0.15277777777777773,
+     1.4389236111111106
+    ],
+    "estimate": 0.575,
+    "n_benchmarks": 30
+   },
+   "inverted": {
+    "ci95_cluster_bootstrap": [
+     -0.22222222222222224,
+     0.2888888888888888
+    ],
+    "estimate": 0.022222222222222338,
+    "n_benchmarks": 31
+   },
+   "true_blinded": {
+    "ci95_cluster_bootstrap": [
+     -0.075,
+     0.2791666666666667
+    ],
+    "estimate": 0.08749999999999998,
+    "n_benchmarks": 53
+   },
+   "true_named": {
+    "ci95_cluster_bootstrap": [
+     -0.024999999999999998,
+     0.25416666666666665
+    ],
+    "estimate": 0.10416666666666667,
+    "n_benchmarks": 54
+   }
+  }
+ },
+ "warnings": []
+}

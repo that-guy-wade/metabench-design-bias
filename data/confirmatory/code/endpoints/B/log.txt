@@ -1,0 +1,22 @@
+rc=0
+--- stdout ---
+{
+ "n_valid": 467,
+ "primary_tanh": -0.00023493246035709102,
+ "primary_p": 0.49755024497550243,
+ "primary_ci_tanh": [
+  -0.06418809670105265,
+  0.06456951674203239
+ ],
+ "holm": {
+  "S1_leader_gain": 1.0,
+  "S2_self_gain_true_label": 1.0,
+  "S3_inverted_tau": 1.0,
+  "S4_true_minus_none_tau": 0.00039996000399960006
+ },
+ "measurement_reported": "fallback_glm",
+ "elapsed_s": 280.0,
+ "sha256": "f7762b6c36c9fe6e73577c8f7e1cc60c00310e38a3f009fc094a496e64dd8100"
+}
+
+--- stderr ---

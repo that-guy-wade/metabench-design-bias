@@ -1,0 +1,465 @@
+{
+ "written_at": "2026-10-28T12:18:51Z",
+ "pool_name": "math",
+ "replacements": [
+  {
+   "original": "T1_math_gemini4argon_true_named_true_r0",
+   "replacement": "T1_math_gemini4argon_true_named_true_r0_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "4d20f1f2752473535a692dfe7b1452fb6db12b84993defc87f4df21cc8deb68c"
+  },
+  {
+   "original": "T1_math_gemini38flash_sham_false_r0",
+   "replacement": "T1_math_gemini38flash_sham_false_r0_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "050cfb5a07ed98f74e2b451d9f81cd5933ddc652a1234b910476874ed6e77271"
+  },
+  {
+   "original": "T1_math_gemini38flash_true_blinded_blinded_r0",
+   "replacement": "T1_math_gemini38flash_true_blinded_blinded_r0_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "222b1bc17ac406d8738fe2f13f1d529891d50ed4caa1268a87159d70e4d91861"
+  },
+  {
+   "original": "T1_math_gemini31pro_sham_blinded_r1",
+   "replacement": "T1_math_gemini31pro_sham_blinded_r1_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "eb1cc6c1c539f6531a8f933b3e205058ddc85578474b896174634d446da43867"
+  },
+  {
+   "original": "T1_math_grok45_instructed_blinded_r1",
+   "replacement": "T1_math_grok45_instructed_blinded_r1_rep1",
+   "designer": "grok45",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "ok",
+   "config_hash": "4b33b47100d906924f77cf6eda6f56d42b32fd1195052a70f0d593001af98004"
+  },
+  {
+   "original": "T1_math_gemini4argon_sham_true_r1",
+   "replacement": "T1_math_gemini4argon_sham_true_r1_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "1cb8062710baf170f3a8078d29ea6fe4195f84f8df688ede39310f1faf0c58f3"
+  },
+  {
+   "original": "T1_math_gemini4argon_sham_false_r1",
+   "replacement": "T1_math_gemini4argon_sham_false_r1_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "d385b4fc62902f744eb455de35cee7bec4e4fb48e8842730dfad2d879aae9fc0"
+  },
+  {
+   "original": "T1_math_gemini4argon_narrative_blinded_r1",
+   "replacement": "T1_math_gemini4argon_narrative_blinded_r1_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "11932ccc64aa29349de5fb32805173b3065d27c715c3be867d1f9cebbc881386"
+  },
+  {
+   "original": "T1_math_gemini4argon_sham_blinded_r1",
+   "replacement": "T1_math_gemini4argon_sham_blinded_r1_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "e958dd864b3afe74a09db46156d552ddce09c7ff08435fa006542330ebc326f3"
+  },
+  {
+   "original": "T1_math_gemini31pro_none_blinded_r1",
+   "replacement": "T1_math_gemini31pro_none_blinded_r1_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "3655c14ee71289c626d75f957942e2fea165be754f427b8c0c25ba3a6b449000"
+  },
+  {
+   "original": "T1_math_gemini38flash_none_blinded_r1",
+   "replacement": "T1_math_gemini38flash_none_blinded_r1_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "2f5884821b6cd03a506c4bce825da467543911f313e0f5dd52ca7d62e5555a60"
+  },
+  {
+   "original": "T1_math_gemini38flash_true_named_true_r1",
+   "replacement": "T1_math_gemini38flash_true_named_true_r1_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "a1861f98df5a65bf3b36d981c8eb7fec3c07768ef704e468e5c28f51d74d72a2"
+  },
+  {
+   "original": "T1_math_gemini31pro_sham_false_r1",
+   "replacement": "T1_math_gemini31pro_sham_false_r1_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "6126652dd2d4e97562518875c2207299206d931bb9664ce73e3fd40ee4697f6c"
+  },
+  {
+   "original": "T1_math_gemini31pro_true_named_true_r1",
+   "replacement": "T1_math_gemini31pro_true_named_true_r1_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "464a4bb150427899319dc9d296aef03c1fbc8f06af2783ba2666a3e2f3afb249"
+  },
+  {
+   "original": "T1_math_gemini4argon_inverted_blinded_r1",
+   "replacement": "T1_math_gemini4argon_inverted_blinded_r1_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "3a277f8f5659f2378d771f02f5625ce9813285774cc13f7cd42c76ef36fc4a70"
+  },
+  {
+   "original": "T1_math_gemini31pro_sham_true_r1",
+   "replacement": "T1_math_gemini31pro_sham_true_r1_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "3ff8c845ef845a477eecb87ad0a4e6eacc3006a14360852c20c2b90830551327"
+  },
+  {
+   "original": "T1_math_gemini31pro_true_blinded_blinded_r1",
+   "replacement": "T1_math_gemini31pro_true_blinded_blinded_r1_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "464ec47ae2790fb47dcab28cd2966140d8f07d00e28a97b726923fb8895e258b"
+  },
+  {
+   "original": "T1_math_gemini38flash_instructed_blinded_r1",
+   "replacement": "T1_math_gemini38flash_instructed_blinded_r1_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "5cee99e8581bddc05abd538c0b7287c57699bd0049f08313aec6a80059540839"
+  },
+  {
+   "original": "T1_math_gemini31pro_narrative_blinded_r1",
+   "replacement": "T1_math_gemini31pro_narrative_blinded_r1_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "75db5f7a395f980c3981c4127266df7d4ff992118374e15bbbe96500d6c45143"
+  },
+  {
+   "original": "T1_math_gemini38flash_sham_true_r1",
+   "replacement": "T1_math_gemini38flash_sham_true_r1_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "8da381ba071c5df8f81992430b3ed180f3427cac549e15c1fcc1ec26542bc598"
+  },
+  {
+   "original": "T1_math_gemini4argon_true_named_true_r1",
+   "replacement": "T1_math_gemini4argon_true_named_true_r1_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "4aaff7699f1bb466d9a3cd7dbf8591c66cf1ee3dbef611a7e743fb3cda3ae1d0"
+  },
+  {
+   "original": "T1_math_gemini38flash_narrative_blinded_r1",
+   "replacement": "T1_math_gemini38flash_narrative_blinded_r1_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "147eefdcad7f8796992acc7d36cd99a96adb94e71643a13ad4f7abf2a7aa9339"
+  },
+  {
+   "original": "T1_math_gemini4argon_instructed_blinded_r1",
+   "replacement": "T1_math_gemini4argon_instructed_blinded_r1_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "7145e5f0c76d507d419cdfae247ba3fc755fb05bd95b224a8c6abd901d5a3010"
+  },
+  {
+   "original": "T1_math_gemini38flash_true_blinded_blinded_r1",
+   "replacement": "T1_math_gemini38flash_true_blinded_blinded_r1_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "c071d285f82ead17e60996d69542251c61eebbaea0edd6bd0ec6ef347dc8f960"
+  },
+  {
+   "original": "T1_math_gemini4argon_none_blinded_r1",
+   "replacement": "T1_math_gemini4argon_none_blinded_r1_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "ec9fd4ba9a8dafe6b64042c4b32767c6de3be4717974df6556c3a0ad1a445e73"
+  },
+  {
+   "original": "T1_math_gemini38flash_inverted_blinded_r1",
+   "replacement": "T1_math_gemini38flash_inverted_blinded_r1_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "48c6111977fa313aabf5c18f76d07bd4aa969de523f794481db0d87f0056311d"
+  },
+  {
+   "original": "T1_math_gemini38flash_sham_blinded_r1",
+   "replacement": "T1_math_gemini38flash_sham_blinded_r1_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "2e42e6e5bd7d33afa08a1869dcf993870313b5fee61972b73161385da204c53a"
+  },
+  {
+   "original": "T1_math_gemini31pro_instructed_blinded_r1",
+   "replacement": "T1_math_gemini31pro_instructed_blinded_r1_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "deecd1be7adb1e55dfee78484924d1c0ab2e4f52a587c2036794ad37679f9f48"
+  },
+  {
+   "original": "T1_math_gemini31pro_inverted_blinded_r1",
+   "replacement": "T1_math_gemini31pro_inverted_blinded_r1_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "16d7641ab4bb4d6f4eaef56071777ccbdd84849be9c661244195713137446450"
+  },
+  {
+   "original": "T1_math_gemini38flash_sham_false_r1",
+   "replacement": "T1_math_gemini38flash_sham_false_r1_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "f37a51f1e27fb8877731a45b56d67d07a3f23f835fd61d79a0ec4460d5d936de"
+  },
+  {
+   "original": "T1_math_gemini4argon_true_blinded_blinded_r1",
+   "replacement": "T1_math_gemini4argon_true_blinded_blinded_r1_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "958abfcb6431ddbd35b8241af24491e05a515b3889375c76fe93488aef8c3eb3"
+  },
+  {
+   "original": "T1_math_gemini31pro_true_named_true_r2",
+   "replacement": "T1_math_gemini31pro_true_named_true_r2_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "7148f76a94c91b28962ecc06fd2fbb91e47687de531465963e3c7377393063f4"
+  },
+  {
+   "original": "T1_math_gemini31pro_sham_false_r2",
+   "replacement": "T1_math_gemini31pro_sham_false_r2_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "4eb747cfd08c68234940bdef23a6e3243bd3e78a79f32ad6d4973efd0260de3b"
+  },
+  {
+   "original": "T1_math_gemini31pro_sham_blinded_r2",
+   "replacement": "T1_math_gemini31pro_sham_blinded_r2_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "66dc4208657de5cc1b230db55dfe31905635bf4eac23d698185ab77bb5cb681c"
+  },
+  {
+   "original": "T1_math_gemini4argon_true_named_true_r2",
+   "replacement": "T1_math_gemini4argon_true_named_true_r2_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "d275c8fd316fa625e7da133faf5641906fbc94fa136e5a3e6cdb75cb1418df17"
+  },
+  {
+   "original": "T1_math_gemini31pro_sham_true_r2",
+   "replacement": "T1_math_gemini31pro_sham_true_r2_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "5ed6b6a54de72788f042d5920bf0292457c5012d67a871549c207041e023a5d1"
+  },
+  {
+   "original": "T1_math_gemini31pro_instructed_blinded_r2",
+   "replacement": "T1_math_gemini31pro_instructed_blinded_r2_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "1570b65c90a6da3d94fff1bbe957016459669ead0bc6ad68e934d350b88f680f"
+  },
+  {
+   "original": "T1_math_gemini4argon_instructed_blinded_r2",
+   "replacement": "T1_math_gemini4argon_instructed_blinded_r2_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "4bb0979c7100f1448af23cd43c8b89cf71760b52a04ad137d41ceffe30326807"
+  },
+  {
+   "original": "T1_math_gemini38flash_inverted_blinded_r2",
+   "replacement": "T1_math_gemini38flash_inverted_blinded_r2_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "7578c6ad77fa90fa692dd15d38a3f6ae1606926cb9dd2a3e07b01823237869d3"
+  },
+  {
+   "original": "T1_math_gemini31pro_inverted_blinded_r2",
+   "replacement": "T1_math_gemini31pro_inverted_blinded_r2_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "82bf8f8bcb7dda1690da1d2077e97e6a9ced7af0be53a7b6a85920151ead343a"
+  },
+  {
+   "original": "T1_math_gemini38flash_true_blinded_blinded_r2",
+   "replacement": "T1_math_gemini38flash_true_blinded_blinded_r2_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "95ed332327c572f6252d211bf64dde170fed23efbcc57c53c5cb574a26fac2aa"
+  },
+  {
+   "original": "T1_math_gemini38flash_sham_blinded_r2",
+   "replacement": "T1_math_gemini38flash_sham_blinded_r2_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "2cb5be8f55b9afda96b0a1546bd2ace3f54a471e864f406887317b8f59d8b71b"
+  },
+  {
+   "original": "T1_math_gemini38flash_sham_false_r2",
+   "replacement": "T1_math_gemini38flash_sham_false_r2_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "d153579d0f91dc6c8bd4ec7fbc4e3406fd68ef30279d19a61ef109c9bc821522"
+  },
+  {
+   "original": "T1_math_gemini4argon_narrative_blinded_r2",
+   "replacement": "T1_math_gemini4argon_narrative_blinded_r2_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "7d5e876f9339a648503a2746c5c8ca3b3fb5c7512f2aae830317be724fbc1a7b"
+  },
+  {
+   "original": "T1_math_gemini31pro_narrative_blinded_r2",
+   "replacement": "T1_math_gemini31pro_narrative_blinded_r2_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "52e81c65e147d14f2e0b8d7e60e8d7dfa02b4ef1a101cc5dc11b7db71985a0b0"
+  },
+  {
+   "original": "T1_math_gemini38flash_sham_true_r2",
+   "replacement": "T1_math_gemini38flash_sham_true_r2_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "453a7726c9f1e72c85b062ec14b86782880a93581b10786f04f7a9be590dde41"
+  },
+  {
+   "original": "T1_math_gemini38flash_instructed_blinded_r2",
+   "replacement": "T1_math_gemini38flash_instructed_blinded_r2_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "e92b192236dcd1eb2d2a2d2aabbae45827fd5708300587774ec1a80c3fe0f4e7"
+  },
+  {
+   "original": "T1_math_gemini4argon_true_blinded_blinded_r2",
+   "replacement": "T1_math_gemini4argon_true_blinded_blinded_r2_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "4f3b0b6cd943b623a4ef2616fcfb75627bc3f5c50152f6b0200140661390f40d"
+  },
+  {
+   "original": "T1_math_gemini4argon_sham_true_r2",
+   "replacement": "T1_math_gemini4argon_sham_true_r2_rep1",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "3bd83226e1efec35128a5f0d17632d7d9f58a463b41a289cdeba20a7bb34f028"
+  },
+  {
+   "original": "T1_math_gemini38flash_none_blinded_r2",
+   "replacement": "T1_math_gemini38flash_none_blinded_r2_rep1",
+   "designer": "gemini38flash",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "1ded683d80233422c2811692d5824f1072960979867e3a80541887cc387ca4e5"
+  },
+  {
+   "original": "T1_math_gemini31pro_true_blinded_blinded_r2",
+   "replacement": "T1_math_gemini31pro_true_blinded_blinded_r2_rep1",
+   "designer": "gemini31pro",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "reason": "exception:GoogleAPIError",
+   "config_hash": "8f2ea0ccbf85669107511dc244957c608824a51a9bd6e05c5e19aedc38e14747"
+  }
+ ]
+}

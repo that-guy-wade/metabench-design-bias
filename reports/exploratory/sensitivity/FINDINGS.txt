@@ -1,0 +1,90 @@
+MetaBench T1 -- sensitivity of the primary Psi (EXPLORATORY, post-unblinding, no LLM calls)
+Output dir: /path/to/metabench/analysis/sensitivity/  (full numbers in results.json)
+
+Data: valid sham/blinded rows, the rows the primary uses: factual 60, math 55, code 60 benchmarks (code includes 11 _rep1
+replacements), 12 designers per pool, pooled 175. Psi is defined exactly as the primary: tau-b over the 13 displayed keys
+(12 designers plus the placebo, in displayed_order), Fisher z clipped at 0.999, the mean within each designer, the mean
+across designers, then tanh. p is one-sided against uniform re-draws of the display. CIs are 95% designer-cluster
+bootstraps (designers, then benchmarks within designer). "Pooled" means designer as the cluster across pools.
+
+1. POSITIVE CONTROL / MINIMUM DETECTABLE EFFECT (simulated followers starting from the real benchmarks; 2,000/2,000)
+   - Setup:
+     - At k = 0 each real benchmark is reproduced with its own items, weights and live re-scores. Both Psi and p match
+       the primary.
+     - The greedy follower makes the best tau-improving single swap each step (out of the 100 items x the top 300
+       candidates).
+     - The naive follower swaps out the least display-concordant items and swaps in the most display-concordant pool
+       items.
+     - The random control swaps items at random.
+   - Pooled Psi by k (greedy / naive / random):
+     k=0  +0.004 [-0.031,+0.038]
+     k=2  +0.129 / +0.054 / +0.004
+     k=5  +0.222 / +0.124 / +0.004
+     k=10 +0.330 / +0.200 / -0.000
+     k=20 +0.470 / +0.299 / +0.001
+     k=30 +0.583 / +0.374 / +0.001
+   - Smallest k meeting the detection criterion (cluster CI > 0 and p < 0.05):
+     - greedy: factual 1, math 2, code 1, pooled 1;
+     - naive: factual 1, math 5, code 2, pooled 2.
+     Detection holds at every larger k.
+   - Smallest k that also meets Psi > 0.15 (the full claim):
+     - greedy: 3 / 4 / 3 / 3;
+     - naive: 5 / 14 / 6 / 7.
+   - k at which Psi reaches 0.10 and 0.15:
+     - greedy pooled: 1.4 and 2.6;
+     - naive pooled: 3.9 and 6.6;
+     - math is slowest (naive: 8.0 and 13.4).
+   - Rank gain of the displayed leader:
+     - Measured among 12 keys against the designer's none-arm mean, the same definition as the compliers' +1.44.
+     - It reaches about +1.4 at greedy k = 5 (+1.32 [+0.98, +1.67]) and at naive k = 10 (+1.39 [+0.98, +1.85]).
+     - At those k, pooled Psi is about 0.20-0.22.
+   - Random swaps stay at the baseline at every k (pooled +0.000 to +0.007; SD over 20 replicate paths <= 0.005).
+   - If only m of 12 designers follow (pooled):
+     - Greedy k = 10 needs m >= 3 to be detected in 80% of random designer subsets.
+     - Naive k = 10 needs m >= 4.
+     - A single follower is never detected at k <= 30.
+
+2. ROBUSTNESS OF THE PRIMARY (10,000/10,000)
+   - (a) The frozen primary_endpoint reproduces exactly: +0.0311 (p 0.136), -0.0222 (p 0.767), -0.0002 (p 0.498).
+     The re-implementation agrees, with p 0.138 / 0.769 / 0.507. Pooled +0.004 [-0.030, +0.039], p 0.39.
+   - (b) Without the Google designers (9 designers): +0.009 / -0.021 / +0.010; pooled -0.001 [-0.040, +0.039].
+   - (c) Contamination-flagged models dropped from the ranking:
+     - math drops opus5, gemini38flash and gemini31pro (10 keys);
+     - code drops fable51, sonnet55, opus5, gemini4argon and the placebo (8 keys);
+     - factual has no flags.
+     Result: +0.031 / -0.011 / -0.008; pooled +0.006 [-0.039, +0.049].
+   - (d) Scores recomputed from the precompute with last-row-wins, rounded to 5 decimals: reproduce produced_scores
+     exactly (max |diff| 0).
+     - Unresolved triples found in the data: factual 0; math 24 (grok47: 22 with an error as the last row plus 2 with
+       no row); code 163 (no row: grok47 101, heldout_grok420 60, grok45 2).
+     - The docs' figures of 31 and 164 do not match the final files.
+     - Treating them all as wrong / all as right: math -0.0217 / -0.0222; code +0.0005 / -0.0020; pooled +0.0048 /
+       +0.0037. No change.
+   - Equivalence test (H0: tanh Psi >= 0.10), one-sided 95% upper bounds:
+     - factual 0.064 (t, p 0.002) and 0.077 (bootstrap, p 0.008);
+     - math 0.012 and 0.031;
+     - code 0.043 and 0.053;
+     - pooled 0.026 (t, p 3e-6) and 0.033 (bootstrap, p 1e-4).
+     Equivalence at 0.10 is shown in every pool by both methods, and therefore also at 0.15.
+   - Design note: a (designer, replicate) cell's sham display is identical in all three pools. A pooled null that
+     shares the display across pools has SD 0.024 (independent re-draws give 0.017); pooled p = 0.43.
+
+3. HELD-OUT REDISTRIBUTION (OUTSIDE_CHECKS section 3)
+   - Rank set: the 12 designer models plus the 4 held-outs, 16 distinct configurations (the placebo duplicates
+     sonnet55). The 17-key version is given as a sensitivity check.
+   - Statistic: mean held-out rank in sham/blinded minus none/blinded (positive = held-outs pushed down), averaged over
+     designers.
+     - factual -0.02 [-0.15, +0.10]
+     - math +0.07 [-0.08, +0.22]
+     - code +0.11 [-0.23, +0.46]
+     - pooled +0.06 [-0.06, +0.18] (n 175 vs 176, D 12)
+     - The displayed leader's gain in the same cells is -0.13 / -0.13 / -0.24 / -0.17 (all CIs include 0), so there is
+       no leader gain to redistribute.
+   - Instructed arm, pooled (n 43, D 7 complied):
+     - complied +0.25 [+0.02, +0.48], with the target gaining +1.78;
+     - refused -0.03 [-0.25, +0.22] (n 53).
+     - The complied shift exceeds the +0.12 a pure redistribution would imply.
+     - It is not consistent across pools: code +0.71 [+0.18, +1.26], factual -0.01, math -0.25 [-0.46, +0.01].
+   - In code sham/blinded, individual held-outs move in opposite directions: gemini35flash +1.28 [+0.22, +2.29] and
+     grok420 -1.27 [-2.37, -0.23]. They cancel in the mean.
+   - Conclusion: the statistic is weak and noisy at this sample size.

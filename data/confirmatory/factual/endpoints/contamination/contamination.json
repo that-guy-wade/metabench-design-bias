@@ -1,0 +1,1148 @@
+{
+ "spec_version": 1,
+ "spec": "docs/CONTAMINATION_SPEC.md",
+ "inputs": {
+  "reference": "/path/to/unblinded/WORK_factual/results/reference_item_outcomes.jsonl",
+  "pool": "pools/factual_qa/pool.jsonl",
+  "n_boot": 10000,
+  "seed": 20261025,
+  "n_items": 2000,
+  "n_entries": 17,
+  "panel": "confirmatory",
+  "cutoffs": {
+   "anthropic": "2026-06-30",
+   "openai": "2025-12-01",
+   "google": "2025-01-01",
+   "xai": "2026-05-31"
+  },
+  "ignored_keys": [],
+  "missing_keys": [],
+  "min_set": 20,
+  "min_post": 20,
+  "alpha": 0.05
+ },
+ "split_a": {
+  "method": "not_estimable",
+  "attempted": "date_quantile_newest_20pct",
+  "threshold_date": "2024-10-30",
+  "n_old": 2000,
+  "n_recent": 0,
+  "reason": "old=2000 recent=0; both sets need >= 20 items"
+ },
+ "regression_a": null,
+ "panel_b": {
+  "median_beta": null,
+  "mad_beta": null,
+  "n_entries_estimable": 0
+ },
+ "developers": {
+  "anthropic": {
+   "cutoff": "2026-06-30",
+   "n_pre": 2000,
+   "n_post": 0,
+   "estimable": false,
+   "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable"
+  },
+  "openai": {
+   "cutoff": "2025-12-01",
+   "n_pre": 2000,
+   "n_post": 0,
+   "estimable": false,
+   "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable"
+  },
+  "google": {
+   "cutoff": "2025-01-01",
+   "n_pre": 2000,
+   "n_post": 0,
+   "estimable": false,
+   "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable"
+  },
+  "xai": {
+   "cutoff": "2026-05-31",
+   "n_pre": 2000,
+   "n_post": 0,
+   "estimable": false,
+   "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable"
+  }
+ },
+ "entries": {
+  "fable51": {
+   "key": "fable51",
+   "developer": "anthropic",
+   "model_id": "claude-fable-5-1",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.6135,
+   "accuracy_ci": [
+    0.5935974999999998,
+    0.6335000000000001
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-06-30",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "sonnet55": {
+   "key": "sonnet55",
+   "developer": "anthropic",
+   "model_id": "claude-sonnet-5-5",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.37510000000000004,
+   "accuracy_ci": [
+    0.3559,
+    0.3943999999999999
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-06-30",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "opus5": {
+   "key": "opus5",
+   "developer": "anthropic",
+   "model_id": "claude-opus-5",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.5147,
+   "accuracy_ci": [
+    0.49429999999999996,
+    0.5351999999999999
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-06-30",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "gpt61sol": {
+   "key": "gpt61sol",
+   "developer": "openai",
+   "model_id": "gpt-6.1-sol",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.6479,
+   "accuracy_ci": [
+    0.6287999999999996,
+    0.6671999999999999
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-12-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "gpt6luna": {
+   "key": "gpt6luna",
+   "developer": "openai",
+   "model_id": "gpt-6-luna",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.3334,
+   "accuracy_ci": [
+    0.3151999999999999,
+    0.35159999999999997
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-12-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "gpt55": {
+   "key": "gpt55",
+   "developer": "openai",
+   "model_id": "gpt-5.5",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.5709,
+   "accuracy_ci": [
+    0.5512999999999996,
+    0.5905
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-12-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "gemini4argon": {
+   "key": "gemini4argon",
+   "developer": "google",
+   "model_id": "gemini-4-argon",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.6377,
+   "accuracy_ci": [
+    0.6178000000000005,
+    0.6569025
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-01-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "gemini38flash": {
+   "key": "gemini38flash",
+   "developer": "google",
+   "model_id": "gemini-3.8-flash",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.6177,
+   "accuracy_ci": [
+    0.5977999999999999,
+    0.6373999999999994
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-01-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "gemini31pro": {
+   "key": "gemini31pro",
+   "developer": "google",
+   "model_id": "gemini-3.1-pro-preview",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.6363,
+   "accuracy_ci": [
+    0.6164000000000003,
+    0.656
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-01-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "grok47": {
+   "key": "grok47",
+   "developer": "xai",
+   "model_id": "grok-4.7",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.5166000000000001,
+   "accuracy_ci": [
+    0.49699749999999965,
+    0.5362
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-05-31",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "grok45": {
+   "key": "grok45",
+   "developer": "xai",
+   "model_id": "grok-4.5",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.40929999999999994,
+   "accuracy_ci": [
+    0.3903000000000001,
+    0.42870250000000026
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-05-31",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "grok43": {
+   "key": "grok43",
+   "developer": "xai",
+   "model_id": "grok-4.3",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.32170000000000004,
+   "accuracy_ci": [
+    0.3038,
+    0.33980250000000006
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-05-31",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "placebo_sonnet55": {
+   "key": "placebo_sonnet55",
+   "developer": "anthropic",
+   "model_id": "claude-sonnet-5-5",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.37310000000000004,
+   "accuracy_ci": [
+    0.35419999999999996,
+    0.3925025000000001
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-06-30",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "heldout_sonnet46": {
+   "key": "heldout_sonnet46",
+   "developer": "anthropic",
+   "model_id": "claude-sonnet-4-6",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.2325,
+   "accuracy_ci": [
+    0.21599749999999984,
+    0.24989999999999987
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-06-30",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "heldout_gpt54": {
+   "key": "heldout_gpt54",
+   "developer": "openai",
+   "model_id": "gpt-5.4",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.37429999999999997,
+   "accuracy_ci": [
+    0.35559999999999986,
+    0.3932999999999999
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-12-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "heldout_gemini35flash": {
+   "key": "heldout_gemini35flash",
+   "developer": "google",
+   "model_id": "gemini-3.5-flash",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.5784,
+   "accuracy_ci": [
+    0.5584,
+    0.5979000000000001
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-01-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "heldout_grok420": {
+   "key": "heldout_grok420",
+   "developer": "xai",
+   "model_id": "grok-4.20-0309-reasoning",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.268,
+   "accuracy_ci": [
+    0.25109999999999977,
+    0.2850000000000002
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": false,
+    "reason": "n=2000 items, 1 distinct dates",
+    "n_items": null,
+    "date_span_years": null,
+    "beta_date": null,
+    "se": null,
+    "ci_wald": null,
+    "ci_boot": null,
+    "beta_minus_median": null,
+    "beta_minus_median_ci": [
+     null,
+     null
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-05-31",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  }
+ },
+ "flagged": {
+  "a": [],
+  "b": [],
+  "c": [],
+  "any": []
+ },
+ "elapsed_s": 1.55
+}

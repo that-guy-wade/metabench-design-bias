@@ -1,0 +1,16 @@
+{
+ "source_rows": 1273,
+ "verified": 1273,
+ "exclusions": {},
+ "strata_verified": {
+  "step1": 679,
+  "step2&3": 594
+ },
+ "allocation": {
+  "step1": 533,
+  "step2&3": 467
+ },
+ "n_items": 1000,
+ "seed": 20261025,
+ "pool_sha256": "2cd2a968840d5f9f4cc8a9f515d800179c0f0099df15a6140a7926c718dec4fc"
+}

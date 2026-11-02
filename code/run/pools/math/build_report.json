@@ -1,0 +1,672 @@
+{
+ "seed": 20261025,
+ "target": 2000,
+ "n_items": 2000,
+ "sampled_down": false,
+ "per_contest": {
+  "AIME 1983": 10,
+  "AIME 1984": 13,
+  "AIME 1985": 12,
+  "AIME 1986": 14,
+  "AIME 1987": 11,
+  "AIME 1988": 10,
+  "AIME 1989": 9,
+  "AIME 1990": 11,
+  "AIME 1991": 10,
+  "AIME 1992": 13,
+  "AIME 1993": 13,
+  "AIME 1994": 7,
+  "AIME 1995": 12,
+  "AIME 1996": 14,
+  "AIME 1997": 13,
+  "AIME 1998": 15,
+  "AIME 1999": 13,
+  "AIME 2000 I": 14,
+  "AIME 2000 II": 12,
+  "AIME 2001 I": 15,
+  "AIME 2001 II": 15,
+  "AIME 2002 I": 12,
+  "AIME 2002 II": 13,
+  "AIME 2003 I": 14,
+  "AIME 2003 II": 14,
+  "AIME 2004 I": 14,
+  "AIME 2004 II": 14,
+  "AIME 2005 I": 14,
+  "AIME 2005 II": 15,
+  "AIME 2006 I": 11,
+  "AIME 2006 II": 13,
+  "AIME 2007 I": 14,
+  "AIME 2007 II": 12,
+  "AIME 2008 I": 14,
+  "AIME 2008 II": 13,
+  "AIME 2009 I": 15,
+  "AIME 2009 II": 14,
+  "AIME 2010 I": 15,
+  "AIME 2010 II": 13,
+  "AIME 2011 I": 14,
+  "AIME 2011 II": 15,
+  "AIME 2012 I": 12,
+  "AIME 2012 II": 14,
+  "AIME 2013 I": 12,
+  "AIME 2013 II": 15,
+  "AIME 2014 I": 13,
+  "AIME 2014 II": 14,
+  "AIME 2015 I": 12,
+  "AIME 2015 II": 13,
+  "AIME 2016 I": 14,
+  "AIME 2016 II": 14,
+  "AIME 2017 I": 14,
+  "AIME 2017 II": 14,
+  "AIME 2018 I": 14,
+  "AIME 2018 II": 14,
+  "AIME 2019 I": 15,
+  "AIME 2019 II": 15,
+  "AIME 2020 I": 15,
+  "AIME 2020 II": 15,
+  "AIME 2021 I": 14,
+  "AIME 2021 II": 14,
+  "AIME 2022 I": 14,
+  "AIME 2022 II": 12,
+  "AIME 2023 I": 13,
+  "AIME 2023 II": 12,
+  "AIME 2024 I": 12,
+  "AIME 2024 II": 14,
+  "AIME 2025 I": 13,
+  "AIME 2025 II": 12,
+  "AIME 2026 I": 14,
+  "AIME 2026 II": 14,
+  "APEX 2025": 9,
+  "BRUMO 2025": 29,
+  "CMIMC 2025": 36,
+  "HMMT Feb 2023": 29,
+  "HMMT Feb 2024": 28,
+  "HMMT Feb 2025": 29,
+  "HMMT Feb 2026": 30,
+  "HMMT Nov 2025": 28,
+  "MATH": 795,
+  "SMT 2025": 51
+ },
+ "per_source": {
+  "MathArena/aime_2023_I": 13,
+  "MathArena/aime_2023_II": 12,
+  "MathArena/aime_2024_I": 12,
+  "MathArena/aime_2024_II": 14,
+  "MathArena/aime_2025": 25,
+  "MathArena/aime_2026": 28,
+  "MathArena/apex_2025": 9,
+  "MathArena/brumo_2025": 29,
+  "MathArena/cmimc_2025": 36,
+  "MathArena/hmmt_feb_2023": 29,
+  "MathArena/hmmt_feb_2024": 28,
+  "MathArena/hmmt_feb_2025": 29,
+  "MathArena/hmmt_feb_2026": 30,
+  "MathArena/hmmt_nov_2025": 28,
+  "MathArena/smt_2025": 51,
+  "gneubig/aime-1983-2024": 832,
+  "qwedsacf/competition_math:test": 795
+ },
+ "per_category": {
+  "AIME": 936,
+  "APEX": 9,
+  "BRUMO": 29,
+  "CMIMC": 36,
+  "HMMT": 144,
+  "MATH": 795,
+  "SMT": 51
+ },
+ "per_method": {
+  "two-source agreement": 100,
+  "single-source (MathArena transcription of official key)": 94,
+  "single-source (AoPS-wiki transcription of official key, gneubig/aime-1983-2024)": 806,
+  "official-pdf agreement": 205,
+  "two-mirror transcription check of a human-written boxed answer (qwedsacf/competition_math vs EleutherAI/hendrycks_math; not two independent keyings)": 795
+ },
+ "exclusions": {
+  "MathArena/aime_2023_I:figure_reference": 2,
+  "MathArena/aime_2023_II:figure_reference": 3,
+  "MathArena/aime_2024_I:figure_reference": 3,
+  "MathArena/aime_2024_II:figure_reference": 1,
+  "MathArena/aime_2025:figure_reference": 5,
+  "MathArena/aime_2026:figure_reference": 2,
+  "MathArena/apex_2025:duplicate_text": 3,
+  "MathArena/brumo_2025:official_pdf_disagreement": 1,
+  "MathArena/cmimc_2025:official_pdf_disagreement": 3,
+  "MathArena/cmimc_2025:proof_problem": 1,
+  "MathArena/hmmt_feb_2023:figure_reference": 1,
+  "MathArena/hmmt_feb_2024:figure_reference": 1,
+  "MathArena/hmmt_feb_2024:official_pdf_disagreement": 1,
+  "MathArena/hmmt_feb_2025:official_pdf_disagreement": 1,
+  "MathArena/hmmt_feb_2026:proof_problem": 3,
+  "MathArena/hmmt_nov_2025:figure_reference": 2,
+  "MathArena/smt_2025:figure_reference": 2,
+  "gneubig/aime-1983-2024:aime_key_not_0_999": 1,
+  "gneubig/aime-1983-2024:figure_reference": 57,
+  "gneubig/aime-1983-2024:year_covered_by_matharena": 43
+ },
+ "exclusion_detail": {
+  "figure_reference": [
+   [
+    "MathArena/aime_2026",
+    15
+   ],
+   [
+    "MathArena/aime_2026",
+    17
+   ],
+   [
+    "MathArena/aime_2025",
+    11
+   ],
+   [
+    "MathArena/aime_2025",
+    13
+   ],
+   [
+    "MathArena/aime_2025",
+    18
+   ],
+   [
+    "MathArena/aime_2025",
+    20
+   ],
+   [
+    "MathArena/aime_2025",
+    21
+   ],
+   [
+    "MathArena/aime_2024_I",
+    5
+   ],
+   [
+    "MathArena/aime_2024_I",
+    6
+   ],
+   [
+    "MathArena/aime_2024_I",
+    8
+   ],
+   [
+    "MathArena/aime_2024_II",
+    15
+   ],
+   [
+    "MathArena/aime_2023_I",
+    13
+   ],
+   [
+    "MathArena/aime_2023_I",
+    14
+   ],
+   [
+    "MathArena/aime_2023_II",
+    6
+   ],
+   [
+    "MathArena/aime_2023_II",
+    10
+   ],
+   [
+    "MathArena/aime_2023_II",
+    14
+   ],
+   [
+    "MathArena/hmmt_feb_2024",
+    21
+   ],
+   [
+    "MathArena/hmmt_feb_2023",
+    11
+   ],
+   [
+    "MathArena/hmmt_nov_2025",
+    3
+   ],
+   [
+    "MathArena/hmmt_nov_2025",
+    19
+   ],
+   [
+    "MathArena/smt_2025",
+    6
+   ],
+   [
+    "MathArena/smt_2025",
+    22
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1983-4"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1983-11"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1983-12"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1983-14"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1983-15"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1984-3"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1985-4"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1985-6"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1985-15"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1987-6"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1987-9"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1987-15"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1990-14"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1991-11"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1992-4"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1992-12"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1993-9"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1994-9"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1994-14"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1995-1"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1995-9"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1997-10"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1999-2"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "1999-4"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2000-I-4"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2002-I-2"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2002-I-10"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2002-II-4"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2004-II-7"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2006-I-7"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2006-I-8"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2006-I-10"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2006-II-8"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2007-I-10"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2007-II-13"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2009-II-5"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2013-I-4"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2013-I-9"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2014-I-1"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2014-I-13"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2014-II-3"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2015-I-6"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2015-I-7"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2015-I-15"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2015-II-9"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2015-II-15"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2016-I-3"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2016-II-12"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2017-I-15"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2017-II-12"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2018-I-10"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2018-II-9"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2021-I-2"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2021-II-2"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2022-I-11"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2022-II-9"
+   ],
+   [
+    "gneubig/aime-1983-2024",
+    "2022-II-15"
+   ]
+  ],
+  "proof_problem": [
+   [
+    "MathArena/hmmt_feb_2026",
+    31
+   ],
+   [
+    "MathArena/hmmt_feb_2026",
+    32
+   ],
+   [
+    "MathArena/hmmt_feb_2026",
+    33
+   ],
+   [
+    "MathArena/cmimc_2025",
+    38
+   ]
+  ],
+  "aime_key_not_0_999": [
+   [
+    "gneubig/aime-1983-2024",
+    "2022-II-8",
+    "080 or 081 (both were accepted)"
+   ]
+  ]
+ },
+ "disagreements": [
+  {
+   "source": "MathArena/hmmt_feb_2025",
+   "problem_idx": 30,
+   "answer": "\\sqrt{\\frac{95}{24}}",
+   "evidence": {
+    "official_pdf": "https://hmmt-archive.s3.amazonaws.com/tournaments/2025/feb/geo/solutions.pdf",
+    "pdf_answer_raw": "q\n95\n24"
+   }
+  },
+  {
+   "source": "MathArena/hmmt_feb_2024",
+   "problem_idx": 9,
+   "answer": "0,i\\sqrt{6},-i\\sqrt{6}",
+   "evidence": {
+    "official_pdf": "https://hmmt-archive.s3.amazonaws.com/tournaments/2024/feb/algnt/solutions.pdf",
+    "pdf_answer_raw": "0,±i\n√\n6"
+   }
+  },
+  {
+   "source": "MathArena/brumo_2025",
+   "problem_idx": 28,
+   "answer": "5\\sqrt{2}",
+   "evidence": {
+    "official_pdf": "https://www.brumo.org/s/team-solutions.pdf",
+    "pdf_answer_raw": "5\n√\n2\n5"
+   }
+  },
+  {
+   "source": "MathArena/cmimc_2025",
+   "problem_idx": 7,
+   "answer": "932",
+   "evidence": {
+    "official_pdf": "https://cmimc.math.cmu.edu/archive/cmimc2025/algnt_sol.pdf",
+    "pdf_answer_raw": "930"
+   }
+  },
+  {
+   "source": "MathArena/cmimc_2025",
+   "problem_idx": 17,
+   "answer": "\\frac{1507^{2}}{360^{2}}",
+   "evidence": {
+    "official_pdf": "https://cmimc.math.cmu.edu/archive/cmimc2025/combo_sol.pdf",
+    "pdf_answer_raw": "1372 · 112\n3602"
+   }
+  },
+  {
+   "source": "MathArena/cmimc_2025",
+   "problem_idx": 36,
+   "answer": "3+\\sqrt{2}+\\sqrt{3}+\\sqrt{6}",
+   "evidence": {
+    "official_pdf": "https://cmimc.math.cmu.edu/archive/cmimc2025/team_sol.pdf",
+    "pdf_answer_raw": "3 +\n√\n2 +\n√\n3 +\n√\n6 or 3 +\n√\n3 + 2\np\n2 +\n√\n3"
+   }
+  }
+ ],
+ "duplicates": [
+  {
+   "kept": [
+    "MathArena/smt_2025",
+    "8"
+   ],
+   "dropped": [
+    "MathArena/apex_2025",
+    "9"
+   ]
+  },
+  {
+   "kept": [
+    "MathArena/smt_2025",
+    "42"
+   ],
+   "dropped": [
+    "MathArena/apex_2025",
+    "10"
+   ]
+  },
+  {
+   "kept": [
+    "MathArena/smt_2025",
+    "43"
+   ],
+   "dropped": [
+    "MathArena/apex_2025",
+    "3"
+   ]
+  }
+ ],
+ "final_answer_comps_overlap": 127,
+ "post_cutoff": 0,
+ "post_cutoff_by_developer": {
+  "anthropic": 0,
+  "openai": 58,
+  "google": 256,
+  "xai": 0
+ },
+ "frozen_base": {
+  "manifest_n": 1209,
+  "retained": 1205,
+  "removed_ids": [
+   "M0617",
+   "M0898",
+   "M0962",
+   "M1034"
+  ],
+  "line_sha256": "1b8503a7699656d0471ee72d62cc7a4e00f8614155527b8699ae1096d197adfd"
+ },
+ "math_level5": {
+  "original": "qwedsacf/competition_math",
+  "mirror": "EleutherAI/hendrycks_math",
+  "universe_level5_test": 1324,
+  "verified": 1167,
+  "verified_per_subject": {
+   "algebra": 285,
+   "counting_and_probability": 112,
+   "geometry": 81,
+   "intermediate_algebra": 264,
+   "number_theory": 151,
+   "prealgebra": 152,
+   "precalculus": 122
+  },
+  "allocation": {
+   "algebra": 194,
+   "counting_and_probability": 76,
+   "geometry": 55,
+   "intermediate_algebra": 180,
+   "number_theory": 103,
+   "prealgebra": 104,
+   "precalculus": 83
+  },
+  "sampled": 795,
+  "sampled_per_subject": {
+   "algebra": 194,
+   "counting_and_probability": 76,
+   "geometry": 55,
+   "intermediate_algebra": 180,
+   "number_theory": 103,
+   "prealgebra": 104,
+   "precalculus": 83
+  },
+  "exclusions": {
+   "boxed_count_not_one": 24,
+   "figure_reference": 132,
+   "duplicate_of_existing_pool": 1
+  },
+  "exclusion_detail": {
+   "boxed_count_not_one": [
+    "algebra/15",
+    "algebra/28",
+    "algebra/38",
+    "algebra/91",
+    "algebra/333",
+    "algebra/545",
+    "algebra/841",
+    "algebra/853",
+    "algebra/882",
+    "counting_and_probability/150",
+    "geometry/260",
+    "geometry/323",
+    "intermediate_algebra/84",
+    "intermediate_algebra/93",
+    "intermediate_algebra/349",
+    "intermediate_algebra/516",
+    "prealgebra/379",
+    "prealgebra/642",
+    "prealgebra/675",
+    "prealgebra/684",
+    "precalculus/105",
+    "precalculus/127",
+    "precalculus/406",
+    "precalculus/544"
+   ],
+   "duplicate_of_existing_pool": [
+    "intermediate_algebra/406"
+   ]
+  },
+  "key_types": {
+   "integer": 443,
+   "expression": 352
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "frozen_at": "2026-10-25T01:34:57Z",
+ "pilot_estimates": {
+  "sigma_benchmark_gap_units": 0.8347904655163747,
+  "sigma_benchmark_score_units": 0.01744498024091918,
+  "reference_gap_median_adjacent": 0.02089743589743598,
+  "designer_heterogeneity_cv_proxy": 0.7142565185571942,
+  "consistency_ceiling_tau_retest": 0.9250271707075123,
+  "n_none_benchmarks": 12
+ },
+ "power_inputs_used": {
+  "sigma": 0.83,
+  "het": 0.71,
+  "N": 12,
+  "sims": 600,
+  "alpha": 0.05,
+  "sensitivity_het": 0.5
+ },
+ "frozen": {
+  "D_designers": 12,
+  "M_per_designer_per_primary_arm": 5,
+  "N_panel": 14,
+  "K_rounds": 4,
+  "K_samples_per_item": 5,
+  "N_items_T1": 100,
+  "fallback_if_only_10_designers": {
+   "D": 10,
+   "M": 10
+  },
+  "minimum_acceptable": {
+   "D": 8,
+   "M": 15
+  }
+ },
+ "power_at_frozen": {
+  "D12_M5": {
+   "tau_t_rho0.15": 0.84,
+   "tau_t_rho0.3": 0.99,
+   "rank_gain_k1": 0.87,
+   "rank_gain_k2": 0.97,
+   "tau_rand_rho0.15": 0.92
+  },
+  "D10_M10": {
+   "tau_t_rho0.15": 0.91,
+   "tau_t_rho0.3": 0.99,
+   "rank_gain_k1": 0.89,
+   "rank_gain_k2": 0.96
+  },
+  "D8_M15": {
+   "tau_t_rho0.15": 0.85,
+   "tau_t_rho0.3": 0.96,
+   "rank_gain_k1": 0.82,
+   "rank_gain_k2": 0.9
+  }
+ },
+ "attainable_ceiling_M400_het0.71": {
+  "6": {
+   "rank_gain_k1": 0.7616666666666667,
+   "tau_t_rho0.15": 0.94,
+   "tau_t_rho0.3": 0.9083333333333333
+  },
+  "8": {
+   "rank_gain_k1": 0.9233333333333333,
+   "tau_t_rho0.15": 0.99,
+   "tau_t_rho0.3": 0.9816666666666667
+  },
+  "10": {
+   "rank_gain_k1": 0.9733333333333334,
+   "tau_t_rho0.15": 0.9966666666666667,
+   "tau_t_rho0.3": 0.9966666666666667
+  },
+  "12": {
+   "rank_gain_k1": 0.9883333333333333,
+   "tau_t_rho0.15": 1.0,
+   "tau_t_rho0.3": 0.9983333333333333
+  }
+ },
+ "no_optional_stopping": true,
+ "sessions_per_designer_confirmatory": {
+  "sham_blinded": 5,
+  "none_blinded": 5,
+  "true_named_true": 5,
+  "true_blinded_blinded": 5,
+  "sham_true": 5,
+  "sham_false": 5,
+  "inverted_blinded": 3,
+  "narrative_blinded": 3,
+  "instructed_blinded": 3
+ },
+ "sha256": "a01a2af0d044fac0f629622b47d45a13aea2823178b6a071de39b2dc55ad6f5f"
+}

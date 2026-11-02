@@ -1,0 +1,5 @@
+rc=0
+--- stdout ---
+contamination_check entries=17 items=2000 n_boot=10000 elapsed_s=92 exit=0
+
+--- stderr ---

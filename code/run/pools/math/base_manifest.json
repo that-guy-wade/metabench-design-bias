@@ -1,0 +1,4843 @@
+{
+"built": "2026-10-25T04:52Z",
+"line_sha256_of_base": "52f3ece33d98d6f58a3fee56c58d440edbdd40853b6073609c47a38ca785f0ae",
+"n": 1209,
+"items": {
+"gneubig/aime-1983-2024||2022-II-11": {
+"id": "M0001",
+"content_sha256": "9feeb123e147747ce9f3344cb0059256ca5c4219d878de16590a00570ee93cf2"
+},
+"MathArena/smt_2025||31": {
+"id": "M0002",
+"content_sha256": "8385152e8ef487a1d021cfb637ecd989de3365fe542e968cc6eb5e5e628b65ee"
+},
+"gneubig/aime-1983-2024||2010-I-12": {
+"id": "M0003",
+"content_sha256": "054d5a7d11e0f98fc2c28b4f486329a68da946e89eb546107809b2ecb0172b42"
+},
+"gneubig/aime-1983-2024||2001-II-14": {
+"id": "M0004",
+"content_sha256": "bf3ed765cbcd5d773ef39272a2feb205ac3cbbb43d336a454941906a1c25a927"
+},
+"MathArena/smt_2025||10": {
+"id": "M0005",
+"content_sha256": "2c7248bec04ec102fec126a6f138b979721a2f632106eec2ea7c4f5bae8bdb2c"
+},
+"gneubig/aime-1983-2024||1998-6": {
+"id": "M0006",
+"content_sha256": "5d613acceb7b5459db3e9456d1663ef285e6713b336c215b2398939e3527eb98"
+},
+"gneubig/aime-1983-2024||2016-II-8": {
+"id": "M0007",
+"content_sha256": "409975b0f3af57e3de1fa499a5cd835d62c09a7e1d3b47bdebe22d1b65f7f9ee"
+},
+"gneubig/aime-1983-2024||1996-2": {
+"id": "M0008",
+"content_sha256": "b6624b2cd78e8d4f7566d0cd6b19d76ab0b0da517961334d560c162a8f33c4cc"
+},
+"MathArena/aime_2025||9": {
+"id": "M0009",
+"content_sha256": "2798a063a2c12e4a90c589e7b58be2ddadfbfdeefa1a099faf6d42a5ea8712c5"
+},
+"gneubig/aime-1983-2024||1992-13": {
+"id": "M0010",
+"content_sha256": "ed63dd885e6372b3f89c4a8ff429dca71f6f383f9ff9016e4e884b3430bb12b7"
+},
+"gneubig/aime-1983-2024||2013-I-14": {
+"id": "M0011",
+"content_sha256": "cbb79b6c1d9290b383f9c615f6cea4496b4d6a6f31452842549515fe1f119983"
+},
+"gneubig/aime-1983-2024||1994-11": {
+"id": "M0012",
+"content_sha256": "56c3c6ca3f9915031fb1d92a5cdfd5a15a6b6a964b8bae689c00fb03984cfaf6"
+},
+"gneubig/aime-1983-2024||1983-1": {
+"id": "M0013",
+"content_sha256": "353d05860e1bcd7a59535b0270bf4df0ee02c0895c09ac9e6ad01cfb0048a515"
+},
+"gneubig/aime-1983-2024||2006-I-1": {
+"id": "M0014",
+"content_sha256": "ff76b90a465d6edf53d9d7c3dc9a6f62bd925f4ebd36218d58e25e3c3445f3b3"
+},
+"gneubig/aime-1983-2024||1991-4": {
+"id": "M0015",
+"content_sha256": "35bc4afa86cbd3116e703dbfe82b1606deff83bcb9efd1e6df36271ed31c6282"
+},
+"gneubig/aime-1983-2024||2018-I-15": {
+"id": "M0016",
+"content_sha256": "7f962b61bcc258e82354bd6f5246ff56cd8d6141a7efccf60e24e1594125bb75"
+},
+"MathArena/aime_2024_II||5": {
+"id": "M0017",
+"content_sha256": "5c56b7d696e032bd17d97f1ace569a72d3ea7dc8a81b94b83f6c82060397a390"
+},
+"MathArena/hmmt_nov_2025||24": {
+"id": "M0018",
+"content_sha256": "a86b656c7491ed0fb3229474a440fafb3ca4812793863aa946aaa1d2550b7fe2"
+},
+"MathArena/cmimc_2025||3": {
+"id": "M0019",
+"content_sha256": "8743cb418cd257598943789f21c1772e758c6f7fd0b3dbb1b36f67a03149a4f4"
+},
+"gneubig/aime-1983-2024||2011-II-13": {
+"id": "M0020",
+"content_sha256": "fe1c966ae61571bdeffa6c238ffa84abf72f14e3f4cefcab0e1622b0ebc02a05"
+},
+"MathArena/aime_2023_II||2": {
+"id": "M0021",
+"content_sha256": "31f3dbdb18e237f8e3109b41c40733838c05cbd8539682b8500c3d1f7183d23d"
+},
+"gneubig/aime-1983-2024||2022-I-2": {
+"id": "M0022",
+"content_sha256": "2c203955771f8c4f63af5e76a021e89d3341ec9a309a37cd808f2757fb12ec9f"
+},
+"gneubig/aime-1983-2024||2014-I-3": {
+"id": "M0023",
+"content_sha256": "e7d65972fc21538572965ae6fd042927b4211eb62a80d65207958542ef33c935"
+},
+"gneubig/aime-1983-2024||2017-I-1": {
+"id": "M0024",
+"content_sha256": "d5bdca9a33157dcf8e9a935da24b014fe0e29a217701af3bf0e8d21a8b1596f3"
+},
+"MathArena/brumo_2025||16": {
+"id": "M0025",
+"content_sha256": "b74d723fce23c19c5505e99a7edc838db073f394ccea301c2a79f9b0ee72857a"
+},
+"gneubig/aime-1983-2024||2014-I-4": {
+"id": "M0026",
+"content_sha256": "bc7dbf6c730a784e39eb0f2234e2dfff7c7e378bfcd7b96124e007ff62ae10a5"
+},
+"gneubig/aime-1983-2024||2014-I-10": {
+"id": "M0027",
+"content_sha256": "e49ff56a6693b8b6928738f45b8e1ff381a7d8749c73662aacaeb1779d74d189"
+},
+"gneubig/aime-1983-2024||2019-I-2": {
+"id": "M0028",
+"content_sha256": "6f3c8d1d501b83ac9ec93867681236c3510214c9e958f123b11b4da5e65dd971"
+},
+"MathArena/hmmt_feb_2026||10": {
+"id": "M0029",
+"content_sha256": "ba273a34f3fd24dce839ef570983b29b2be0f1fa92e23182221ff1fac95888ea"
+},
+"gneubig/aime-1983-2024||2006-II-2": {
+"id": "M0030",
+"content_sha256": "153a4e82be8c6dfbf8f5b36b0450a619d59154153e802962a89c22e15e616c8e"
+},
+"MathArena/hmmt_nov_2025||27": {
+"id": "M0031",
+"content_sha256": "5e9c7047cdee4bf98de2d381e9c0ff4f3f52b02dacf33c692e98cfa6e11e064d"
+},
+"gneubig/aime-1983-2024||2001-I-14": {
+"id": "M0032",
+"content_sha256": "4483535d0bd20e713c6f5af5666c73cd29df343cc5dfb5d5b6f4d0ec70f4b478"
+},
+"gneubig/aime-1983-2024||2013-II-12": {
+"id": "M0033",
+"content_sha256": "1aff639c067a417a2816d016d2aa6a04b01258b6ca12b6dd1703aae8ecacc285"
+},
+"MathArena/aime_2024_II||13": {
+"id": "M0034",
+"content_sha256": "0cab5c77befda6173d21c82f2183f8d6f3699e407519a05bf5b909af28965f48"
+},
+"MathArena/hmmt_feb_2025||9": {
+"id": "M0035",
+"content_sha256": "e4f4f35e6b3a035cc6163f46fe98ce34ba4905ced03123defd9df750095ecdcb"
+},
+"MathArena/cmimc_2025||6": {
+"id": "M0036",
+"content_sha256": "db7c9c8cbb06017b1e4677cb151b65ef22b83b7c0d32d27b039151e5f0f61a81"
+},
+"gneubig/aime-1983-2024||1987-14": {
+"id": "M0037",
+"content_sha256": "d8d4f6854dbf415a714875406748cdd7b78f1394e9658f3a32327879953d8503"
+},
+"gneubig/aime-1983-2024||2012-II-9": {
+"id": "M0038",
+"content_sha256": "69155c1f67a58e36c4181554607708b4a6d4cf81346ae811fa0e5e4de8cd7c1a"
+},
+"gneubig/aime-1983-2024||2022-II-4": {
+"id": "M0039",
+"content_sha256": "de038e0a920d3497c81762df5c1dc25efe8c7b91cbfcf8b1df4737d84f5dedd2"
+},
+"gneubig/aime-1983-2024||2016-I-5": {
+"id": "M0040",
+"content_sha256": "3de448631d9280c133837176c5695cfaa20cc39442e941a24a27319a1b9f4f9a"
+},
+"MathArena/aime_2024_I||7": {
+"id": "M0041",
+"content_sha256": "9087cf47d749e6ef318fed84d375491ab7d710cddc7d2fa3de2d9fe3613167da"
+},
+"gneubig/aime-1983-2024||2009-I-14": {
+"id": "M0042",
+"content_sha256": "afb1dfe77a936bdfeb29b1531a6aa8ebf9f028a79abd4b36fbd425d33170a1c0"
+},
+"gneubig/aime-1983-2024||2004-II-12": {
+"id": "M0043",
+"content_sha256": "1107757b36ae9884745f2c268c1003f3872f7c1b1528ac9ca0d74c9e5dcb8e2c"
+},
+"gneubig/aime-1983-2024||1993-15": {
+"id": "M0044",
+"content_sha256": "6bb541e7106fb213cfa3f41f4b3bd1d344b414836767d094583a6b5352dbe10f"
+},
+"gneubig/aime-1983-2024||1988-8": {
+"id": "M0045",
+"content_sha256": "b2f110a01bc47b8f0ff0c8455ddd67a357f68cd54bc3bff874ced09e6a13de95"
+},
+"gneubig/aime-1983-2024||1999-5": {
+"id": "M0046",
+"content_sha256": "82f52637a119d40afd48c31fe083c1eddb2dc7e91085d31714f01546d4703f24"
+},
+"gneubig/aime-1983-2024||2004-I-12": {
+"id": "M0047",
+"content_sha256": "f6013c74f3b730834c06e206f55a354306da92e84f3a4b03a155b6c7cfafe010"
+},
+"gneubig/aime-1983-2024||2014-I-11": {
+"id": "M0048",
+"content_sha256": "88187a2ebcb642ec69915acbdb9c40d24dd147264cc08fd87697600ef90141e8"
+},
+"gneubig/aime-1983-2024||2021-II-4": {
+"id": "M0049",
+"content_sha256": "fa00096a03f38b372029016607857b4733649fb1ea22785a663bcb82e34a247c"
+},
+"gneubig/aime-1983-2024||2004-I-2": {
+"id": "M0050",
+"content_sha256": "699c473cf6853e1dd1a124154a57841acc73e8a87aaec44df3f3afe6440a65cb"
+},
+"MathArena/hmmt_feb_2025||7": {
+"id": "M0051",
+"content_sha256": "50c1a9977832a6b6511742b6ebd6278069afc3bbf1a478b6baa1ae4b6b6f834a"
+},
+"MathArena/aime_2026||20": {
+"id": "M0052",
+"content_sha256": "1e9e686c411307301114d51751cb3946ddc8e7ed0dd9b412a92d5d9398c2b93e"
+},
+"gneubig/aime-1983-2024||2007-II-10": {
+"id": "M0053",
+"content_sha256": "f50d77ca1911354d22e033be3b6a2f3287b46c040685e64d1a2030add0c5839a"
+},
+"MathArena/hmmt_feb_2024||3": {
+"id": "M0054",
+"content_sha256": "80fc1e8f22cff570cbfbd905125fb8e874473af3791cf083ef2c3c100e733305"
+},
+"gneubig/aime-1983-2024||1994-12": {
+"id": "M0055",
+"content_sha256": "c497a2a0f69268465059dcc0630edcba3b81bc96c1f8e734d4629874db6919a1"
+},
+"gneubig/aime-1983-2024||2014-I-12": {
+"id": "M0056",
+"content_sha256": "3a7ae09f5858f6c02abbb503c02f984bdfedd9713d4a8d4ae316b3693875f688"
+},
+"MathArena/aime_2025||30": {
+"id": "M0057",
+"content_sha256": "0bb8ab2c4d08606a9e2e14a996a0bdbfa25dafb82750ce378a99b884c2322fe2"
+},
+"gneubig/aime-1983-2024||2002-I-8": {
+"id": "M0058",
+"content_sha256": "019553a454099ca96652424db663a3c27704743bf38cd6e09f07486d14a811f9"
+},
+"gneubig/aime-1983-2024||2017-I-4": {
+"id": "M0059",
+"content_sha256": "5f5fcb6ffe9301f054850ca43d8218868676288f9f7f30db1d2cceaefd0aded9"
+},
+"gneubig/aime-1983-2024||2021-II-1": {
+"id": "M0060",
+"content_sha256": "730d21342547db0ca272de3ccd24134aa528c4bd7247f28c6a138eb1f313a8a6"
+},
+"MathArena/aime_2026||1": {
+"id": "M0061",
+"content_sha256": "b4b9b0bb291cc5ac673d097f87d61157da7242c6a1605b9c959a8f4c59e74a52"
+},
+"gneubig/aime-1983-2024||2006-II-13": {
+"id": "M0062",
+"content_sha256": "e2ac90bbacc03497f9f851a61d3fb5ee410e278e52e6f7515a7ed1d8398dc00d"
+},
+"gneubig/aime-1983-2024||2002-I-1": {
+"id": "M0063",
+"content_sha256": "eda84b75baec34f370eb760d0bb7f332d9743db97b45d2d789611505e4e6718f"
+},
+"gneubig/aime-1983-2024||2015-I-10": {
+"id": "M0064",
+"content_sha256": "4a6280b6d8c624c58f35e3ad244e887dffb0e5df192f2fa1dcd32b6f04c70cae"
+},
+"gneubig/aime-1983-2024||2007-II-14": {
+"id": "M0065",
+"content_sha256": "ea66ee5e799affabdc67f1be32667665ab1ddcaeac59a6f4269972480ae5d2aa"
+},
+"MathArena/brumo_2025||25": {
+"id": "M0066",
+"content_sha256": "6ac8bcafc36a578583e309c8da1fd6c5991a2bbb6d14067c85a80e7d7e5205d8"
+},
+"gneubig/aime-1983-2024||2005-I-7": {
+"id": "M0067",
+"content_sha256": "7b64551da9d1f57df041097c4bdf4a12e541313cb3341154979bb612e053ed5e"
+},
+"gneubig/aime-1983-2024||2019-II-4": {
+"id": "M0068",
+"content_sha256": "9d5550c61eec30e1a9da30f1f873e7fc4052ed995ba3328f53cb2bd2937a991a"
+},
+"gneubig/aime-1983-2024||1992-1": {
+"id": "M0069",
+"content_sha256": "3adbcc3e86beb12e14759025eea1f317b2216a76d5cb59a5ca36979240fe8a4d"
+},
+"MathArena/smt_2025||29": {
+"id": "M0070",
+"content_sha256": "b1a88e970b8aa312316cdd1c459570dddbb6257e457b236ee5ba7a8833fb487c"
+},
+"gneubig/aime-1983-2024||2009-II-12": {
+"id": "M0071",
+"content_sha256": "afb7512d54935b022b4a4968240a6801a48b7e9607476ebc2df9f79eb6355847"
+},
+"gneubig/aime-1983-2024||2003-II-8": {
+"id": "M0072",
+"content_sha256": "2c7701ddf118047a68ddd86cafd75e3c6e2a4abdf76549aa31a3503dcf15b5f0"
+},
+"gneubig/aime-1983-2024||2015-II-10": {
+"id": "M0073",
+"content_sha256": "ab7114ee2633422dd123c29b8e8d644e7bb7d3e01def924d1450bc2e5b45c0e9"
+},
+"MathArena/hmmt_feb_2024||13": {
+"id": "M0074",
+"content_sha256": "371f39d3278b363a355862ba6aa23e3036a418225c75d178fcb18b2a39a9581b"
+},
+"gneubig/aime-1983-2024||1997-6": {
+"id": "M0075",
+"content_sha256": "3060784a0cf0ae625a415d93af17b49b6050df7637809fcfe0fb16068cb55f07"
+},
+"gneubig/aime-1983-2024||2007-II-5": {
+"id": "M0076",
+"content_sha256": "a7108cc392bce82fd0a122ec3496bc6de67706a5e933047445d63a736eefd8d8"
+},
+"gneubig/aime-1983-2024||1991-8": {
+"id": "M0077",
+"content_sha256": "d18d1105682ab8bf18626810989d0bcdedb4f917b4171aad14064de2020081c0"
+},
+"gneubig/aime-1983-2024||2014-I-6": {
+"id": "M0078",
+"content_sha256": "9221c062e3fa1adb5f2d0ebde7e206dfe2a1af12d069a567d00e08bc23ba158e"
+},
+"MathArena/hmmt_feb_2023||23": {
+"id": "M0079",
+"content_sha256": "f90cf9ea7a82826508036ff1860de842045c0a21b298f43065bad71a26f0b827"
+},
+"gneubig/aime-1983-2024||2003-I-13": {
+"id": "M0080",
+"content_sha256": "08544987e69823336f50c27304de28abaa75a5adb9f639cc9c72bb0a0f986c72"
+},
+"MathArena/hmmt_feb_2025||21": {
+"id": "M0081",
+"content_sha256": "e3a9b44e7e09df177b3bdaa22450f0e600799765ea34002d345a7938a53f3277"
+},
+"MathArena/hmmt_feb_2025||6": {
+"id": "M0082",
+"content_sha256": "487469c4b68bd96fec2785041b8571a784f6a33e0b5bb28e9c2274b063bc23eb"
+},
+"MathArena/aime_2026||13": {
+"id": "M0083",
+"content_sha256": "e1b328df0ccbf3492a193bfdb76bc757762e9f2476f5ad1f4eb300938318ce32"
+},
+"gneubig/aime-1983-2024||2001-II-7": {
+"id": "M0084",
+"content_sha256": "08ec8aca3cc768d0da08e27e53c8e6052f596a90bdf21051bedbcc2b501ceed6"
+},
+"MathArena/aime_2025||16": {
+"id": "M0085",
+"content_sha256": "b7af23d1150a632fd82e75cec6dfa32bccc4289e8a6682785bab3325e7075c3f"
+},
+"MathArena/apex_2025||5": {
+"id": "M0086",
+"content_sha256": "c0cffd1185dacb6734087844e1b4aa22e1f798896509dba22c577eca8a72d7bb"
+},
+"gneubig/aime-1983-2024||2020-II-13": {
+"id": "M0087",
+"content_sha256": "2d090d1242e63f82d6a790a0ebcb942b8d972d496ef22c35e60d617c1f32e554"
+},
+"MathArena/smt_2025||37": {
+"id": "M0088",
+"content_sha256": "f9a74a3a4a2304e12335dc1cceca52a04642a9e9968b793f91488fa198667bc7"
+},
+"gneubig/aime-1983-2024||2009-I-8": {
+"id": "M0089",
+"content_sha256": "da0e80e54fb476eaf6ef05c9a4ea094af995e1d7285af546c56058c77892a8a5"
+},
+"MathArena/smt_2025||5": {
+"id": "M0090",
+"content_sha256": "db422979ad222bdf79b5d051759c302991fb258ff3c46e109f419322bf123999"
+},
+"gneubig/aime-1983-2024||1990-7": {
+"id": "M0091",
+"content_sha256": "e1741b5c83b5bd8566c1b4cbfe910b0ca0ce3a6e5ddf11b014d0e29afe97d463"
+},
+"gneubig/aime-1983-2024||2012-II-12": {
+"id": "M0092",
+"content_sha256": "1d947455438af936568b233015658431b7f3d4105819b738106bf891f28b0c01"
+},
+"gneubig/aime-1983-2024||2007-II-15": {
+"id": "M0093",
+"content_sha256": "5ab9d3bbbb6d7421a0d2097deb336585f457250336a2c9e74e11675645e9b3a9"
+},
+"gneubig/aime-1983-2024||2004-II-13": {
+"id": "M0094",
+"content_sha256": "d61a3dc304c406f44db4040aa6bc767661a3b6abe9913df649add66ea0a3cf9a"
+},
+"MathArena/aime_2025||4": {
+"id": "M0095",
+"content_sha256": "7d8fbaf61adbd5537a5747d3b59199c18694695ed539c410b3a38cc339af64e0"
+},
+"gneubig/aime-1983-2024||2013-II-15": {
+"id": "M0096",
+"content_sha256": "7043f55f61d2b4b678653f0e47b3ca8303842ae1757e5147eba8cd9b33a11e0c"
+},
+"MathArena/hmmt_feb_2026||6": {
+"id": "M0097",
+"content_sha256": "5cff1bb94c95a558c2abd6d488ea661a850d1caca68ccc744bd8870c7240b7f9"
+},
+"gneubig/aime-1983-2024||2003-I-9": {
+"id": "M0098",
+"content_sha256": "84b9a18df7eeb3452b401c45aea04cc9a385f6e52c2db0ed54f0c00ff4c8766f"
+},
+"gneubig/aime-1983-2024||1995-3": {
+"id": "M0099",
+"content_sha256": "4bd9cbc8f04e552f0bc1a76f07273607d687f00fdabdadbccfb1dae705fa2db8"
+},
+"gneubig/aime-1983-2024||2018-I-4": {
+"id": "M0100",
+"content_sha256": "3f3bcb2fd8d4326b86ba96413e7767771cc755f6dccf165c852acb807a55e0c3"
+},
+"gneubig/aime-1983-2024||1998-13": {
+"id": "M0101",
+"content_sha256": "e19767ae671fe5e4c94614e925b5cccd78c9575e3ebd3642866f61ac96fe8c2a"
+},
+"gneubig/aime-1983-2024||2014-I-9": {
+"id": "M0102",
+"content_sha256": "ab04f07688c8fcce5cff8d2a3429424f59536048fec83ba7d41db5911d077f7c"
+},
+"gneubig/aime-1983-2024||1993-14": {
+"id": "M0103",
+"content_sha256": "6e35106bf84ddcd5e4cf40f999e2f98b2a97ec70e5d2a0fe0f2ee91f5820d127"
+},
+"MathArena/brumo_2025||12": {
+"id": "M0104",
+"content_sha256": "28e8f5719c3d5ae3f7c1c67e156c96b7b8f5fcbdb61e638ad7afc672e9793b95"
+},
+"gneubig/aime-1983-2024||2010-II-7": {
+"id": "M0105",
+"content_sha256": "60b866c0d2a9779b405a8fc53549adc4125e5363bdb710c02baab1f95a6f6a4a"
+},
+"MathArena/brumo_2025||19": {
+"id": "M0106",
+"content_sha256": "0c9b45dc237e0a1f3f0065ea1a6cd8713fd614f61a19eef42bc8767cde69b559"
+},
+"MathArena/aime_2023_II||15": {
+"id": "M0107",
+"content_sha256": "cba4ce9b75d3777dcab4b3b50d063148d5f9ad6375f036af17c4d5f9e4458b4f"
+},
+"gneubig/aime-1983-2024||1988-10": {
+"id": "M0108",
+"content_sha256": "9972ea0a522494613e676cb6ab001645948222fdb35c4d58e052e996ce9a38b7"
+},
+"MathArena/aime_2023_I||11": {
+"id": "M0109",
+"content_sha256": "7ea0ea0e0ad95082c7e85504dea5e205d101c93d6d8c45e9fb6e7da9a3ed80c6"
+},
+"MathArena/hmmt_feb_2025||1": {
+"id": "M0110",
+"content_sha256": "b126e922db40d9bed5ce146787c19235a6f9956bce24f2d99a04a0ba68a17492"
+},
+"gneubig/aime-1983-2024||2014-I-15": {
+"id": "M0111",
+"content_sha256": "fa06f271b99a9909d4a8c5cffc78312d48d749696136508386dcf7d1d6a46cf7"
+},
+"gneubig/aime-1983-2024||1993-2": {
+"id": "M0112",
+"content_sha256": "eadb7b52bb1527c9a04ea72c8ad950c901f5e8fb913231487781fe4ad3c25df9"
+},
+"gneubig/aime-1983-2024||2021-II-6": {
+"id": "M0113",
+"content_sha256": "168a1a1fa249afa70111674831403966950c7285a2289945124315478b203c07"
+},
+"gneubig/aime-1983-2024||2005-I-9": {
+"id": "M0114",
+"content_sha256": "63744a5d4e3f09893eae5bb83d012c2375d741cc60c842870a8e05238333abf6"
+},
+"gneubig/aime-1983-2024||2015-II-13": {
+"id": "M0115",
+"content_sha256": "42f0854f47aef52faf1995d07c29c9385789865aa9087b6e9764bd25955a6f5d"
+},
+"gneubig/aime-1983-2024||1995-2": {
+"id": "M0116",
+"content_sha256": "5d57f00ccb3f8bdbab38709d4d48bc62ee5c82bdf964721c362add25f29ef4d4"
+},
+"gneubig/aime-1983-2024||2015-II-1": {
+"id": "M0117",
+"content_sha256": "62b09bffd94f2d830a2e8c74a7fb6bc4bad2241f3a5f4dfdf2e7e1607404b5ee"
+},
+"gneubig/aime-1983-2024||2008-II-14": {
+"id": "M0118",
+"content_sha256": "48027103c7abc12926ad5926a68f56d61683a52fdc75950e05f9781a89aacf57"
+},
+"MathArena/brumo_2025||22": {
+"id": "M0119",
+"content_sha256": "40c65e85e2051eedb5a7027c2a2d187f8b3416a53d28d0c5313f8e7de43a5346"
+},
+"MathArena/brumo_2025||17": {
+"id": "M0120",
+"content_sha256": "c802cc697c082972e24499e69ab2c9053cb03e77ecc47fba11b8495d9a2e1f40"
+},
+"gneubig/aime-1983-2024||2022-I-1": {
+"id": "M0121",
+"content_sha256": "fd36a959e659ae4a1d1e0182eb082fa7406cdadf784e831ee8f215b41ad8aff7"
+},
+"gneubig/aime-1983-2024||2017-II-4": {
+"id": "M0122",
+"content_sha256": "3c0e182dd3e07b739b4ad32a0979466417b0cb1ff8dfba9edc398f6ba1a13532"
+},
+"gneubig/aime-1983-2024||2020-I-2": {
+"id": "M0123",
+"content_sha256": "16efda9d467c476014f82de9123f4167978956e9c2c2634abfe2d766fdaa4608"
+},
+"gneubig/aime-1983-2024||2002-I-13": {
+"id": "M0124",
+"content_sha256": "68b7238c31ee70ce9812f723d6f9c9bf9a06ee18208d196955ef259dfaa74223"
+},
+"gneubig/aime-1983-2024||2020-I-7": {
+"id": "M0125",
+"content_sha256": "472b66ae944674073dab62911024f231ac393bf2f3f170f3724e072a6352f45e"
+},
+"gneubig/aime-1983-2024||1988-14": {
+"id": "M0126",
+"content_sha256": "ad8dc3c81a386542f8d714a8067c7915f2827fd28813b5928234a5dc57483e67"
+},
+"MathArena/brumo_2025||15": {
+"id": "M0127",
+"content_sha256": "421df39149254dd4021a95c54bd246a96ed6f3a255bb9da7bb77ff9408ab63b3"
+},
+"gneubig/aime-1983-2024||2013-II-4": {
+"id": "M0128",
+"content_sha256": "4edd03c090fb16e6bfae3f3111bc22972483c01c285c833084c4d4f31391f7a3"
+},
+"gneubig/aime-1983-2024||2005-II-4": {
+"id": "M0129",
+"content_sha256": "c11a17ddf05539664c86d7ae66ffa306ce650dcdc8cf629b50e3712210f882da"
+},
+"gneubig/aime-1983-2024||2018-II-7": {
+"id": "M0130",
+"content_sha256": "a635a1ac84320eac5a17e78baaadfebf1de775f4650b41e4690c3e7919009820"
+},
+"MathArena/aime_2023_II||5": {
+"id": "M0131",
+"content_sha256": "7fc49c30cf80bd9b470ef29e8ef6300516082adba84c9b29c29bb2aff15680bb"
+},
+"MathArena/apex_2025||8": {
+"id": "M0132",
+"content_sha256": "858043d4586f9789a7041cb57a74c96fdc7ed5be707e121ce8099c64b3ee7394"
+},
+"MathArena/hmmt_feb_2025||23": {
+"id": "M0133",
+"content_sha256": "0c97e0c82cf3638660f815060d51fdc3c906c9641255ae7577f6fd39e9d72c68"
+},
+"gneubig/aime-1983-2024||2013-I-7": {
+"id": "M0134",
+"content_sha256": "7ce20363a2d85154969bf1d8cbe75cf0cefcc44bdfe211e12fa7fc759481d504"
+},
+"gneubig/aime-1983-2024||1991-1": {
+"id": "M0135",
+"content_sha256": "6edc764adc3b76ee987f1fda6289cce818b7cb5a07358ac102cedc5986d8b467"
+},
+"gneubig/aime-1983-2024||2005-I-10": {
+"id": "M0136",
+"content_sha256": "c42592fa3cb16f63b346c4672c4b6b90ac62408ec0d6d2ac468dad6d9fcbbdc1"
+},
+"gneubig/aime-1983-2024||2013-II-1": {
+"id": "M0137",
+"content_sha256": "21c02fa56d15624a28e404abd5524ad22aee7c91a4f937ddf4979a8dd73b9c0a"
+},
+"MathArena/aime_2026||30": {
+"id": "M0138",
+"content_sha256": "26d99fcab3e952b900978ee6040eb731a7c110d2b40e702447c881f16f5cfa2e"
+},
+"MathArena/aime_2026||26": {
+"id": "M0139",
+"content_sha256": "cfc8d01ebc91d853493bcff3f5fd54d45b3e947300f6f3e6c26cb41eccc3389e"
+},
+"gneubig/aime-1983-2024||2019-II-9": {
+"id": "M0140",
+"content_sha256": "f2c4e4d501ea1174876ac22b9517d80a26901ed19965a90ada5abb0b69d9244e"
+},
+"gneubig/aime-1983-2024||1995-10": {
+"id": "M0141",
+"content_sha256": "5fa1608456afc0ede8b5ac419322415e76e53194ba30235d631d424cc1717172"
+},
+"gneubig/aime-1983-2024||2015-I-3": {
+"id": "M0142",
+"content_sha256": "b7f6a1b5e46fb93bead5155ce3ffbe508bd1fe2d65bcf7ba7a420589adf2d036"
+},
+"gneubig/aime-1983-2024||2018-I-6": {
+"id": "M0143",
+"content_sha256": "3570bfae1f8e5d3ec812033ad477d4703685c7c6d83148fcbd049dbf848ba9ac"
+},
+"MathArena/cmimc_2025||37": {
+"id": "M0144",
+"content_sha256": "c93c4aa4989533be220b5e9757258dd06a999f1494d11eed2a87a1bb9c6bd2f0"
+},
+"gneubig/aime-1983-2024||2000-II-6": {
+"id": "M0145",
+"content_sha256": "bf3610341ea2ae88c5ca40d3750d01ce4153fd3401f286b5ce448ddc40819500"
+},
+"gneubig/aime-1983-2024||2018-II-5": {
+"id": "M0146",
+"content_sha256": "9f70bf72a3234d3ac5da8e1cd20fbf4daa9953406a2268a0ac319ff5e985aafd"
+},
+"gneubig/aime-1983-2024||2003-I-2": {
+"id": "M0147",
+"content_sha256": "061067233b6142fbd5b67ad2fc7c2df5a1fa600a7c50e494006cf6e947d0bd7a"
+},
+"MathArena/aime_2024_I||1": {
+"id": "M0148",
+"content_sha256": "420b2861a0d77edbaa9da8a587f33741d305373eb84132fb43308f44d2b6792a"
+},
+"gneubig/aime-1983-2024||2020-II-1": {
+"id": "M0149",
+"content_sha256": "2da2d4d6143ac34945bf483620e54dfc6efcdbbdd93bc4c22a243d5abab8f5ea"
+},
+"gneubig/aime-1983-2024||1987-10": {
+"id": "M0150",
+"content_sha256": "f160b0ec6e75b3af494f6b0f5aa8449b6ce1f088671faca3412bea89e3707c21"
+},
+"gneubig/aime-1983-2024||2000-II-4": {
+"id": "M0151",
+"content_sha256": "a0a72e1161cbab68dae37666b1289e4faaca9f64ea3e3be82beda9f75d11f80e"
+},
+"gneubig/aime-1983-2024||1998-15": {
+"id": "M0152",
+"content_sha256": "35fca54aedf3f9df48217ceaa7dbcab6accc7b912ec39243d80fae54bf1464de"
+},
+"MathArena/aime_2024_II||7": {
+"id": "M0153",
+"content_sha256": "67635620545face2f9a043e73ca784bd63225e55eb69ad2815749245761774a9"
+},
+"MathArena/hmmt_feb_2025||10": {
+"id": "M0154",
+"content_sha256": "6986565a2e24dac6a3e1b023237871002a60664d5f7cf30facfb054dfc772410"
+},
+"gneubig/aime-1983-2024||2008-I-5": {
+"id": "M0155",
+"content_sha256": "a3c7a066bfb1b8bef6b06fbd3d9cd578b20a810a4905defb92077c49e36f9a52"
+},
+"MathArena/cmimc_2025||11": {
+"id": "M0156",
+"content_sha256": "ce396c0347ebdd71fa7deb4f257e9183f28e397240fec3ecb34d3a1ccf23c958"
+},
+"gneubig/aime-1983-2024||2011-II-11": {
+"id": "M0157",
+"content_sha256": "5cf96b85382a25ca394b1548ec8b73e5050662cf4b47239a7756a7bf58f19ef4"
+},
+"gneubig/aime-1983-2024||2016-I-12": {
+"id": "M0158",
+"content_sha256": "1f755447283a185b55b9535a2ffeca1952c0a8dafffe44cf0f8dbac3c965975c"
+},
+"MathArena/aime_2025||25": {
+"id": "M0159",
+"content_sha256": "be2293a388cd46a58f00b005f52e384535be7daee2714ab13fd5d33f53baf787"
+},
+"MathArena/hmmt_feb_2024||29": {
+"id": "M0160",
+"content_sha256": "fb6f796f28947046b079108b1963d16a156a066a622fa055368b7d03dd742568"
+},
+"gneubig/aime-1983-2024||2012-I-4": {
+"id": "M0161",
+"content_sha256": "f1791fc910aa50d0ae5895ccfe849284a32a4ac448b30febdf4528f0cd8e4cc3"
+},
+"gneubig/aime-1983-2024||2021-II-8": {
+"id": "M0162",
+"content_sha256": "f36f622986653f7fd090b934956ea22a443353bd7643ee793bbc1807af104fa3"
+},
+"gneubig/aime-1983-2024||1999-6": {
+"id": "M0163",
+"content_sha256": "db8d8c196887d424838a6c7515649a997bbe309f83b74344705731be4af53c39"
+},
+"MathArena/hmmt_feb_2024||17": {
+"id": "M0164",
+"content_sha256": "e9e02139c53260e87e7a705f923fad844c25403a81cbf39724b9efd09c56d615"
+},
+"gneubig/aime-1983-2024||2011-I-15": {
+"id": "M0165",
+"content_sha256": "cd9b34560b3b29280b0c0130f7cbc063f7617e0cf5797a7f3ab6fb0f8fc5abca"
+},
+"gneubig/aime-1983-2024||2014-II-2": {
+"id": "M0166",
+"content_sha256": "8d358300b6ed57b320a6fb19ec10006d30c674c1197863bb0465a0f72475c7c7"
+},
+"MathArena/aime_2025||3": {
+"id": "M0167",
+"content_sha256": "02ba92cdf8049e0a97e266345a0f05adc69df94dee9f4d1f69e1ab0bc6d5099a"
+},
+"gneubig/aime-1983-2024||2019-I-4": {
+"id": "M0168",
+"content_sha256": "9d9a8b7d60fc76ac28d5accc683656724d059e576f5c7c0939aac64c79b3d8e5"
+},
+"MathArena/aime_2023_I||8": {
+"id": "M0169",
+"content_sha256": "4ff793defef8a271ec156e997b23bc7e3b409e1d3a763f31711827fef113734c"
+},
+"MathArena/brumo_2025||21": {
+"id": "M0170",
+"content_sha256": "d2d1e93fcb875db8c195ae30f3851d553ca700f11d01090e6ef01c21adb1700e"
+},
+"gneubig/aime-1983-2024||1987-11": {
+"id": "M0171",
+"content_sha256": "5a255be3f521391830e25146f2aabb46aa1d9aff39ee3bf89def6a2d0102b2e8"
+},
+"gneubig/aime-1983-2024||2014-II-5": {
+"id": "M0172",
+"content_sha256": "c53091bb5d129cdb56d77952ca3575d8a9b8ab0a92c5d4ceb26072f060904156"
+},
+"gneubig/aime-1983-2024||2006-II-5": {
+"id": "M0173",
+"content_sha256": "a951f44dc6ba5b82225fa53afdafe53ba07888ee611e87dae3efd961f828fe05"
+},
+"gneubig/aime-1983-2024||1997-3": {
+"id": "M0174",
+"content_sha256": "b9abe759fc3a61eadb817454962a3d1da448f0a671afdf97b47efcf61849f487"
+},
+"MathArena/hmmt_nov_2025||23": {
+"id": "M0175",
+"content_sha256": "1b8c6d0ba8bebc8bf3b57c1cd4dec764e1f41dc8e03a64d7acff51e5d938c082"
+},
+"gneubig/aime-1983-2024||2015-II-12": {
+"id": "M0176",
+"content_sha256": "cf6c06c5c28b267c417da0f0f01db315bf8b42000e781c705ecd5608178c2d10"
+},
+"gneubig/aime-1983-2024||2000-II-12": {
+"id": "M0177",
+"content_sha256": "d59abaa6559f8bdb0e898af6aff3a86936d55be59ada90d4f6f986ed85e69a5a"
+},
+"gneubig/aime-1983-2024||2016-I-6": {
+"id": "M0178",
+"content_sha256": "904fa760af6dc094c9e2eecc543dd89efcbd8506f349276ee6c837eddd546962"
+},
+"gneubig/aime-1983-2024||1986-5": {
+"id": "M0179",
+"content_sha256": "36f3eded596b10a68a91f67a5826e4d6229a007a7f41e4a050575828b026b179"
+},
+"gneubig/aime-1983-2024||2010-I-4": {
+"id": "M0180",
+"content_sha256": "26e2ae56cd630354b9ea57ea3774d3cf5303f00203d1a630bee258ee2a4ddcbf"
+},
+"gneubig/aime-1983-2024||2005-II-1": {
+"id": "M0181",
+"content_sha256": "339f258e57fa61c3461951f395381c0da603a43f74713c85d7a2f0178f46ec2c"
+},
+"MathArena/smt_2025||18": {
+"id": "M0182",
+"content_sha256": "0cec524f00537b51110488cd128f02f7fd4c04ac513da687aa54169b2165437e"
+},
+"MathArena/hmmt_feb_2023||12": {
+"id": "M0183",
+"content_sha256": "9e857554be9cc89ccec43e2c253b4e78a259573138940ffb0811ced98b8c46fc"
+},
+"MathArena/hmmt_nov_2025||7": {
+"id": "M0184",
+"content_sha256": "a89dc0683b08daaca3f3305009eceac9c21de15bf1b7d380bc2704a4dc7193e1"
+},
+"MathArena/aime_2023_I||4": {
+"id": "M0185",
+"content_sha256": "0938b02fb98da1d90e04f1911bd694f6d44a6e374270bfa5e99c50aa15dbc439"
+},
+"gneubig/aime-1983-2024||1999-7": {
+"id": "M0186",
+"content_sha256": "def2fe3b0f12440f892a4543309a668da07befe1435e0f4a814491e6a725eec9"
+},
+"gneubig/aime-1983-2024||2006-II-14": {
+"id": "M0187",
+"content_sha256": "6acb8fc69d82b176b9fbceacb187039cb3825e815a4911dd087b5fabb0f9dd11"
+},
+"MathArena/cmimc_2025||39": {
+"id": "M0188",
+"content_sha256": "1f86552a73dabd56ecb33930953c4f5a8d6b5d439d2be0b041afea4015aec062"
+},
+"gneubig/aime-1983-2024||2006-II-10": {
+"id": "M0189",
+"content_sha256": "590d710288f11e44db2c21f3aebf3a6ad0c5df9e98e904e484e74be910382c8c"
+},
+"gneubig/aime-1983-2024||2010-I-7": {
+"id": "M0190",
+"content_sha256": "8bba4e8c65cb28958ca2b4cf5ba805f1ef185cb9e1b16b3fb045e4636e369150"
+},
+"gneubig/aime-1983-2024||2018-I-7": {
+"id": "M0191",
+"content_sha256": "0428cbcf4b923222b1f7380433233ca2bf068bc3fe405c8f71bb3ecb006a1d17"
+},
+"MathArena/apex_2025||7": {
+"id": "M0192",
+"content_sha256": "651ce9a686df7c1c713b5df84dfc8af3a6fa6b1b89a0a691314ef01cba3b3e0c"
+},
+"MathArena/smt_2025||52": {
+"id": "M0193",
+"content_sha256": "6df36669218d44d46741777d0ceb45ae8d5a90bc6f7b9eff73690d6aecd9288c"
+},
+"gneubig/aime-1983-2024||2009-II-13": {
+"id": "M0194",
+"content_sha256": "0fd40c403441273b592cf1cb325725da6bf7fe0b45668a917b7fe901c9d05a05"
+},
+"gneubig/aime-1983-2024||1996-9": {
+"id": "M0195",
+"content_sha256": "821349318e4a3c0783e48c89ac358f95b67a990d8d6eac0cb2aadf8b80e0939b"
+},
+"gneubig/aime-1983-2024||2018-I-9": {
+"id": "M0196",
+"content_sha256": "1b8e51e4960f3908cadb3530ced7562edb7320c085476073520b4ab91cd18369"
+},
+"gneubig/aime-1983-2024||2008-I-8": {
+"id": "M0197",
+"content_sha256": "382dc62079c138e97de481bd1f2bfaf5b529cdbabd8d9859b5bce5ce9b91c4c0"
+},
+"gneubig/aime-1983-2024||2007-II-4": {
+"id": "M0198",
+"content_sha256": "4e23b5eda35309319db0fe2dd5c5573c8a0784f69481134ff86d1da7673279c0"
+},
+"gneubig/aime-1983-2024||2016-II-9": {
+"id": "M0199",
+"content_sha256": "4355cfd29023c3f2f889b86e97f44460d2be6d81f04e8033ff2b64cf7dd2bb09"
+},
+"gneubig/aime-1983-2024||2021-II-3": {
+"id": "M0200",
+"content_sha256": "24c0b6151663e2b608e9a4a0c5090a4865d7d9e3b03587791c5db3011b791c62"
+},
+"gneubig/aime-1983-2024||2022-II-1": {
+"id": "M0201",
+"content_sha256": "efd673f831b5f971282cad55e6bfecb8ec6919ec7e29159cb79357bfd5130bb2"
+},
+"gneubig/aime-1983-2024||2004-I-14": {
+"id": "M0202",
+"content_sha256": "93867b5a3fa5fc52343260c0c5f831007a116a47a993eb71c405e48619165ac5"
+},
+"gneubig/aime-1983-2024||1983-5": {
+"id": "M0203",
+"content_sha256": "90e408b6ccd4f39b3dc7f538cc3e38c9cfee9e69e648d24a267260c6b2d7f5f4"
+},
+"gneubig/aime-1983-2024||2002-II-3": {
+"id": "M0204",
+"content_sha256": "475d15a0e869d3b97902b58eaa264ae55bc900a8f712578f236ce4d78936abff"
+},
+"gneubig/aime-1983-2024||2022-I-13": {
+"id": "M0205",
+"content_sha256": "5f3532f3d945df7edb4df23cb0383272d2741057246f9fbfd796732118508871"
+},
+"MathArena/hmmt_feb_2026||28": {
+"id": "M0206",
+"content_sha256": "2e1c73dfa6818d80d7ea243b52af9b734e185b3afc81504c3cff0ca580e1fb28"
+},
+"MathArena/aime_2023_II||7": {
+"id": "M0207",
+"content_sha256": "166cc4b5f16ffbd27f52038dcf55ecd5061cf95f781192959974e2bd0bfa1db8"
+},
+"gneubig/aime-1983-2024||2014-II-11": {
+"id": "M0208",
+"content_sha256": "0137665a32845c5378a31f3038b53fda04c1c51b40366142ff9f1582611e2eed"
+},
+"gneubig/aime-1983-2024||2001-II-15": {
+"id": "M0209",
+"content_sha256": "268c5c6791ddfbd4bea305e9debf84bc64c742becdd0381e0acc284eaed2f15b"
+},
+"gneubig/aime-1983-2024||2010-II-12": {
+"id": "M0210",
+"content_sha256": "7c2ab45151726faae22e78adfe19994cf88d5dfdfa45c63d9beda26d18e7589d"
+},
+"MathArena/aime_2024_I||11": {
+"id": "M0211",
+"content_sha256": "05ee8cc999ee3648d0d35ee8473fad612df7f36a297a7bd920056379b1b69efc"
+},
+"gneubig/aime-1983-2024||2009-I-9": {
+"id": "M0212",
+"content_sha256": "e65572f900c741aa6eae1e8dc7d7d4e58baf1d4da7361d053c98b1f005a3c808"
+},
+"MathArena/hmmt_feb_2023||30": {
+"id": "M0213",
+"content_sha256": "495fd09db7836f541eaaa8ce84dbb9fcff19b0785cd6df70fde7c285ff9537db"
+},
+"gneubig/aime-1983-2024||2015-II-4": {
+"id": "M0214",
+"content_sha256": "c1f6c2f04b20da2cff0b380c527fcaa2fba155964f9b35a5e4ec9bae4a70b69c"
+},
+"gneubig/aime-1983-2024||2004-II-6": {
+"id": "M0215",
+"content_sha256": "810ab1e73f609574d36f915c53acb629ada6f0cf91765a49d41e77aca1ec3075"
+},
+"MathArena/hmmt_feb_2025||27": {
+"id": "M0216",
+"content_sha256": "50999bf729177587931858a3cde6bd45dc1de8a7298f6a975ada8b2235a9b3a2"
+},
+"gneubig/aime-1983-2024||2018-I-12": {
+"id": "M0217",
+"content_sha256": "202536d82b0a91d1a20a9132c000c1ad260abf35a5260e101fb4ed6571c6cb94"
+},
+"MathArena/aime_2026||19": {
+"id": "M0218",
+"content_sha256": "435998b8daf0af60219f898cac5348a99ef0514b34613c7e1ffc384938d40b15"
+},
+"gneubig/aime-1983-2024||2018-II-10": {
+"id": "M0219",
+"content_sha256": "b15d06c9a9e07af641faa11efc5ce4bfbdf9544f39748462d8b485d2dbddeb57"
+},
+"gneubig/aime-1983-2024||2001-II-8": {
+"id": "M0220",
+"content_sha256": "cd6cf057ba35433ddaf05dd677d40b446cc497ef0e33ea21fa655724e34386a8"
+},
+"gneubig/aime-1983-2024||2017-I-2": {
+"id": "M0221",
+"content_sha256": "37f75e775a06788a76b46b431f9c53c4e660652caddaf85a5dddf7d93c70572d"
+},
+"gneubig/aime-1983-2024||1986-15": {
+"id": "M0222",
+"content_sha256": "c60a8852dd5e22501a55244c5166ec3da7c7ca80597291a72c8edb0c623e3183"
+},
+"gneubig/aime-1983-2024||2022-II-13": {
+"id": "M0223",
+"content_sha256": "81a8e23d645b87ab05346856a0749b9206e3c382799eb2b257d1e197c7cae9ee"
+},
+"MathArena/aime_2024_I||14": {
+"id": "M0224",
+"content_sha256": "db8695a6ec0957ba4d1adc790ef890401f70230db1efe04b467d3c7934f0f4fb"
+},
+"gneubig/aime-1983-2024||2005-I-12": {
+"id": "M0225",
+"content_sha256": "ed3190f47b992620d19afd9453683aba3507d0b51d202a44e8b62bcca2936d56"
+},
+"gneubig/aime-1983-2024||2013-I-13": {
+"id": "M0226",
+"content_sha256": "f1deab1f2469db554dfa8afad2e7b7df2803361506ef92e080dc5ad44b125711"
+},
+"gneubig/aime-1983-2024||1997-15": {
+"id": "M0227",
+"content_sha256": "af891b00aa9dd5212c90b75c030fdfeff67c5718527492ea5f79367bfa046261"
+},
+"gneubig/aime-1983-2024||2006-II-11": {
+"id": "M0228",
+"content_sha256": "6562808686b2ef87445d2e232459b180ae59ce6efe497b227f5370b27155980c"
+},
+"MathArena/smt_2025||24": {
+"id": "M0229",
+"content_sha256": "e78d2f44c67e7be279911c7e3d439abc3fd29c055c46b434fe825706c5987168"
+},
+"MathArena/hmmt_feb_2023||3": {
+"id": "M0230",
+"content_sha256": "91e48243a2fbefd1aeba5cbcec499d45d8f780f3d686c451d3385b68a3b91a2e"
+},
+"gneubig/aime-1983-2024||2011-II-3": {
+"id": "M0231",
+"content_sha256": "989224321b701b70ede23a8b3a33832a1f70bfe31953499ad501aebd6dd76220"
+},
+"gneubig/aime-1983-2024||2003-I-7": {
+"id": "M0232",
+"content_sha256": "73a836674bf7302e69959bbe8c2864acb13bf76f80c7e0dd79d7608da8aadb82"
+},
+"gneubig/aime-1983-2024||1996-3": {
+"id": "M0233",
+"content_sha256": "79683fddc081d36c3555f32805c6c31f30e1d69a78bc53c941b0fe9d26e3024f"
+},
+"MathArena/aime_2025||5": {
+"id": "M0234",
+"content_sha256": "747154eace53c057bb8ac8e6f06c380b130a15a3696114bb97e3eeb7be92b309"
+},
+"gneubig/aime-1983-2024||1997-12": {
+"id": "M0235",
+"content_sha256": "7d47563ceeb6621cefce3c0e1d054bc4bdd6b58ea00c1ffbe37b8d76658be944"
+},
+"gneubig/aime-1983-2024||1995-14": {
+"id": "M0236",
+"content_sha256": "7f1c018eead223681dd68f4c35d8db1b7dd3baea9e22e87ba58ef8514d992207"
+},
+"gneubig/aime-1983-2024||2019-II-13": {
+"id": "M0237",
+"content_sha256": "3026033586cede5c7a8d9295158f166bd9874f63e5f8e42e44d4a281a2bb577f"
+},
+"MathArena/brumo_2025||5": {
+"id": "M0238",
+"content_sha256": "ef5d9d57481b521f0fcd25ba4eeff6c665cfd61207c5262ac37ccdd0f27c99dc"
+},
+"MathArena/brumo_2025||6": {
+"id": "M0239",
+"content_sha256": "1c5e76da1b53a9d286a00eaac186b3be49ce01f637ccbf8e43f009c8d248db26"
+},
+"gneubig/aime-1983-2024||2022-I-5": {
+"id": "M0240",
+"content_sha256": "56ff778e035282ebaf7ea46a0f39c05e328c9d8431cc683dddb0adc77e7416d7"
+},
+"gneubig/aime-1983-2024||2003-II-3": {
+"id": "M0241",
+"content_sha256": "55d22c990296ab5d0ceb1b5c3a9faf9b96cccf878e5d20fa992767c2786eff95"
+},
+"gneubig/aime-1983-2024||1983-3": {
+"id": "M0242",
+"content_sha256": "d8b982612cb3bc4bf81f59e440380e65b4cd99844c32c6ef72accd4fe3e7d835"
+},
+"gneubig/aime-1983-2024||2013-I-11": {
+"id": "M0243",
+"content_sha256": "1708e1fb8222f848b6c676cbbd83384cc0c0eb8c62144e0bcc3f3891e32ee745"
+},
+"gneubig/aime-1983-2024||1984-10": {
+"id": "M0244",
+"content_sha256": "6b15a36a28f0bf13955d2913d81e7d54b82ca70a10080ef8f0dde330ac2ba8e9"
+},
+"MathArena/hmmt_feb_2025||8": {
+"id": "M0245",
+"content_sha256": "dce29914b9e8344764044090fd6d7bad5a90b99abc6a112670e097b8aa1e6bf2"
+},
+"gneubig/aime-1983-2024||2018-II-6": {
+"id": "M0246",
+"content_sha256": "8e8977b3a4be21adc6b36c231d2e671accbad749ba72daf67ffc35418889a4a9"
+},
+"gneubig/aime-1983-2024||1995-8": {
+"id": "M0247",
+"content_sha256": "832aa5d0ba89cd4d96ed18a386b1aad724956252c5f54ec204d018e7276e893c"
+},
+"gneubig/aime-1983-2024||1984-9": {
+"id": "M0248",
+"content_sha256": "3858455d9c81ccb57b699d38dabae6bca3bd8b60d4f039aa93bda6cfcb4d988d"
+},
+"MathArena/apex_2025||12": {
+"id": "M0249",
+"content_sha256": "16c5d24c04f809fbcee89f03ee9ecf8cefa6a52ccea59e8d3d13ffd19ba42919"
+},
+"MathArena/brumo_2025||3": {
+"id": "M0250",
+"content_sha256": "7709f2584983378b64199514d6577dc09c11d3b6ed447de6650815adb5f2d1d0"
+},
+"gneubig/aime-1983-2024||2017-II-11": {
+"id": "M0251",
+"content_sha256": "64dc1b2d25709cf98a9666cfc80af58181f44ee4fa25c8ec590074ac06b219dd"
+},
+"gneubig/aime-1983-2024||2003-II-4": {
+"id": "M0252",
+"content_sha256": "10f7c242fdcc44db6c431c73ff174249bd631d75f476f935c5d3ac591e62353a"
+},
+"gneubig/aime-1983-2024||2017-I-9": {
+"id": "M0253",
+"content_sha256": "3443d23d1ab3ba61b45ad499e1c6d82a775fee8e822bf72fa0b48f5afff7eb3a"
+},
+"MathArena/aime_2024_I||3": {
+"id": "M0254",
+"content_sha256": "da0ab2a97d753a5a938b30a2c45226a6be20ce5365cb8a98c4368db903f50ab6"
+},
+"gneubig/aime-1983-2024||2009-I-15": {
+"id": "M0255",
+"content_sha256": "80e8e9d52914e3391721174bd0110cf2a996c470ac4f5c45c1f3e49ccfa981cb"
+},
+"gneubig/aime-1983-2024||2009-I-12": {
+"id": "M0256",
+"content_sha256": "6466dcf71f0c8eebfb393bad3395f42c6c5a338d47f4fa4eda0d0b1b9fb8ad74"
+},
+"gneubig/aime-1983-2024||2008-I-12": {
+"id": "M0257",
+"content_sha256": "d048c93fe642974d1e6f91de9a92becc1b996500031b45932eb552bf68fb8952"
+},
+"MathArena/brumo_2025||30": {
+"id": "M0258",
+"content_sha256": "0f2a0649a12ecb7ccce29ab44a85ac0c2488891b702357c4e1eebf4204d27c37"
+},
+"gneubig/aime-1983-2024||2021-II-13": {
+"id": "M0259",
+"content_sha256": "dbf8d26364791bc3c025ac2e502a54acf06762b7f40c05b43e7d9c9d7cc80000"
+},
+"gneubig/aime-1983-2024||1996-8": {
+"id": "M0260",
+"content_sha256": "e5058f8a8462fc0bb85f5ba43d10e16e5a980ed365d09084ef7970940b4aad8e"
+},
+"gneubig/aime-1983-2024||1987-12": {
+"id": "M0261",
+"content_sha256": "c8baa5b4beb34bee293bb7a7121548db2d801d02dfd82d5f30c3007d00c550b3"
+},
+"gneubig/aime-1983-2024||2015-II-6": {
+"id": "M0262",
+"content_sha256": "6752ac87a0c8c420a875d6da0d9d7072d0ee1ba1dfdeee1ae83f32307488f1e8"
+},
+"MathArena/hmmt_feb_2024||16": {
+"id": "M0263",
+"content_sha256": "ca15527742300c708e81d05fd42865fb94cbea5a011e9e3bf6b79eb3e259ee6b"
+},
+"gneubig/aime-1983-2024||2011-I-13": {
+"id": "M0264",
+"content_sha256": "02aed0bef6a328450953357cc931e6084cbf83217f14268cfc6d7fd32fd12191"
+},
+"MathArena/hmmt_feb_2025||15": {
+"id": "M0265",
+"content_sha256": "d1963a66951d6544c2c7ca81b7143c8758195e7dcf254f40fd4bbf6084f2b113"
+},
+"gneubig/aime-1983-2024||2010-II-6": {
+"id": "M0266",
+"content_sha256": "70c44c6452dfbd59cd2fde2c681af722673ffd88b0cc87102b3af2fac2e9b5c0"
+},
+"gneubig/aime-1983-2024||2011-I-11": {
+"id": "M0267",
+"content_sha256": "cfe0cf4820f16dfc4a45807bd7d0192e0a03ccf4506599836c6d5dbbc9bd7032"
+},
+"gneubig/aime-1983-2024||2018-I-8": {
+"id": "M0268",
+"content_sha256": "6a52053cd4711ea6f74f561ef46d73d8f1b1b0fbef49150c6a3979d28707af15"
+},
+"gneubig/aime-1983-2024||2002-I-9": {
+"id": "M0269",
+"content_sha256": "399b28749e35c84e222b5e235c2bd8a2c5bfbdfed1940398f6df39c156db20aa"
+},
+"MathArena/hmmt_feb_2025||25": {
+"id": "M0270",
+"content_sha256": "a2503ef1b6b0e11c9d97a611b13bde748e9aee6a60dbf8a6384510a763e3c410"
+},
+"gneubig/aime-1983-2024||2002-I-11": {
+"id": "M0271",
+"content_sha256": "7b0837f5e7ade9c5272fddba3e896f6990ef3836775c55f2a167e7900f43e84e"
+},
+"gneubig/aime-1983-2024||2021-I-11": {
+"id": "M0272",
+"content_sha256": "c056a83ad4939bfd544307de06c7ae8fa1d867c8ecb7d4744e8001c66f28e0b8"
+},
+"gneubig/aime-1983-2024||1992-6": {
+"id": "M0273",
+"content_sha256": "3b43f0ce4c3628548f91915b0bcc5003c89daae02a83fa366532687939f4865e"
+},
+"MathArena/hmmt_feb_2025||4": {
+"id": "M0274",
+"content_sha256": "1418f772f8eebe0cd00ed6d0885e023b6ca9eb922d5fa41e185b9171c5b1238f"
+},
+"gneubig/aime-1983-2024||2009-II-14": {
+"id": "M0275",
+"content_sha256": "d4e5b205249bf03125b03255978d469036393facd0557049da96520fbdf7a556"
+},
+"gneubig/aime-1983-2024||2003-II-11": {
+"id": "M0276",
+"content_sha256": "dbe16a75da9b8005b9031ae57637f13acbf3b305f6cf25fd7629aa73e95267a3"
+},
+"MathArena/hmmt_feb_2023||2": {
+"id": "M0277",
+"content_sha256": "ae93ce28b5944e6eb1b49dd36b75287f7e00fd17e3db7bceb24e284129cb1cdd"
+},
+"gneubig/aime-1983-2024||1992-10": {
+"id": "M0278",
+"content_sha256": "8bf772b28528b415ef0c42812cd61e45d1c7439c0ce5cb9869a7bf1a35005f5b"
+},
+"gneubig/aime-1983-2024||2020-I-1": {
+"id": "M0279",
+"content_sha256": "0aec3a9babd60083f242108845d09a059149b407e02fcc001a37d2d1593a7c0d"
+},
+"gneubig/aime-1983-2024||2016-II-3": {
+"id": "M0280",
+"content_sha256": "45f30fbb539e6a89d7af1306c2071be1c05d5eb4dfde717a6fd0c64ab6adea61"
+},
+"gneubig/aime-1983-2024||2009-II-15": {
+"id": "M0281",
+"content_sha256": "e7c2a08ff99b77d89d236f51c3168a8439e097fd9535c95c98923abb80763b7e"
+},
+"gneubig/aime-1983-2024||2004-I-11": {
+"id": "M0282",
+"content_sha256": "329b0fc2123eb47d77fa0062f86d5bee38d3d39503158c77d7ae6c9c8d96e691"
+},
+"gneubig/aime-1983-2024||2000-I-6": {
+"id": "M0283",
+"content_sha256": "f2381993e908f838d4df8942f52aaf6520d4adb752a39a1b813845b6a11ee1cf"
+},
+"gneubig/aime-1983-2024||1993-7": {
+"id": "M0284",
+"content_sha256": "840dcf00fcaa38b1b6de5b8fe139c44f04e0468f6d34d774cd1fcfa31b3054d9"
+},
+"gneubig/aime-1983-2024||2012-I-9": {
+"id": "M0285",
+"content_sha256": "5563090e94ce7b2497893cfe356f44129fef54c811a2d65eda1894b69b9d78c5"
+},
+"MathArena/brumo_2025||24": {
+"id": "M0286",
+"content_sha256": "5e77c2fa3011c338b7dd1fcc55e693ce226078f6b493b344b79a445e19f08ab2"
+},
+"MathArena/cmimc_2025||21": {
+"id": "M0287",
+"content_sha256": "c47a1f4d7633e32d96f94cce97f6f4ddb0bf717364ea22760e29151415dc6c07"
+},
+"gneubig/aime-1983-2024||2003-II-5": {
+"id": "M0288",
+"content_sha256": "a147d875f08eb7c1270a20c86d0eafe228642fa7e060fa334799a70a70c76c33"
+},
+"gneubig/aime-1983-2024||1990-13": {
+"id": "M0289",
+"content_sha256": "85b54a936e029ad0524cec80f32de8461adef4c093cf94e26b816566fdcffaa2"
+},
+"gneubig/aime-1983-2024||2018-I-3": {
+"id": "M0290",
+"content_sha256": "4f1b99ae0fdb1918d4ec7c8a4eeb6939017ccb7b3538c969503269b2dc38bf74"
+},
+"gneubig/aime-1983-2024||2011-I-5": {
+"id": "M0291",
+"content_sha256": "783c4684238903af0c5259fc0906c771c608b650481b0701b72e393a840d1da8"
+},
+"MathArena/hmmt_feb_2024||20": {
+"id": "M0292",
+"content_sha256": "ef0ce08b3756ffc360e60e85f011355b9ed5902a9ba40d0348ac42d39b60555f"
+},
+"gneubig/aime-1983-2024||2016-I-4": {
+"id": "M0293",
+"content_sha256": "62dc538c79916faba817077ed8354e1d75d81fc1e295fbc02bd5be3158021ebb"
+},
+"gneubig/aime-1983-2024||2008-II-12": {
+"id": "M0294",
+"content_sha256": "1f8ac3052902dfbf580a1aac74481af65482c252ca7764ef598f3aa113535fe8"
+},
+"gneubig/aime-1983-2024||2006-I-4": {
+"id": "M0295",
+"content_sha256": "8ba1dc746a31b757a06a72560708c76a60d55f9e5453a0caa341adc3c4892eaf"
+},
+"gneubig/aime-1983-2024||1995-12": {
+"id": "M0296",
+"content_sha256": "b1bec81d806a35d655e58f3bb9ebb195ee5ee4a4cce16d43e2a82cc719e6d12a"
+},
+"gneubig/aime-1983-2024||2004-II-4": {
+"id": "M0297",
+"content_sha256": "9cd2c274aaf46a9beec38f9bfe7d6a8887a345bfb37e2b0ec2c6322324cabfdf"
+},
+"MathArena/aime_2024_I||13": {
+"id": "M0298",
+"content_sha256": "76ae26f0756f9b716b1b6b3f3d6ebeade3903ba304e0ea1050575fabed207d31"
+},
+"gneubig/aime-1983-2024||2001-II-5": {
+"id": "M0299",
+"content_sha256": "15f48e52dfb5485c7950ca7199ae9741606234e5f94773dd6fbadc3912175ce7"
+},
+"gneubig/aime-1983-2024||1986-13": {
+"id": "M0300",
+"content_sha256": "21b4b9b9eae92f215d64296ad631ca74bffc806f42e2638b5c50bbe9c9a6b7f4"
+},
+"gneubig/aime-1983-2024||1984-11": {
+"id": "M0301",
+"content_sha256": "a7d3b9a91dda564678f22d12f923f940072437f8535e33bb5449afe718a9cab5"
+},
+"gneubig/aime-1983-2024||2000-I-10": {
+"id": "M0302",
+"content_sha256": "b89867241d504704238bd6b7c78d4675e24c2ad2e68d26327448dfab7bd60336"
+},
+"MathArena/smt_2025||40": {
+"id": "M0303",
+"content_sha256": "75da5ca9e5b39d137c761395abb5d94852a38d82f71851ea35ce821415456ad1"
+},
+"MathArena/cmimc_2025||24": {
+"id": "M0304",
+"content_sha256": "640cad2e1ca31a32b8e0775cc339318a520fe4a018aa0e7c485043c9a16b791f"
+},
+"gneubig/aime-1983-2024||2007-II-11": {
+"id": "M0305",
+"content_sha256": "32e5a7e445b995dd2b41d47f8fee3da1fe6fb387e5c925ae3d49a72a20fd7e04"
+},
+"gneubig/aime-1983-2024||2002-I-15": {
+"id": "M0306",
+"content_sha256": "54638b77ece14ebbd4d700352262909c265bbf57cbb747661b0fb79ad8e035f6"
+},
+"gneubig/aime-1983-2024||1993-12": {
+"id": "M0307",
+"content_sha256": "a7d815d28fcf56d0411e7f6e157f0d287863283fb73a1c16921ba4d74317a2b4"
+},
+"MathArena/aime_2023_I||7": {
+"id": "M0308",
+"content_sha256": "eb391d3851c5d115d5e3c40f71af86036ab60ff767d499157273fa3f0806664e"
+},
+"MathArena/aime_2026||9": {
+"id": "M0309",
+"content_sha256": "7e7fe2437dc3d114a88135f21271c8cf88edef2e4d5f76af8b9815de7a288df1"
+},
+"gneubig/aime-1983-2024||2018-I-2": {
+"id": "M0310",
+"content_sha256": "7ce660ec5fe570c1150b6ff2fae4eee3bb8ef7719c8ccfd0700f9296fb72d80f"
+},
+"gneubig/aime-1983-2024||2000-II-10": {
+"id": "M0311",
+"content_sha256": "2d3b7defbeb5fc25dd68da679f686ed0ffbd55422980029bf077580928752d57"
+},
+"gneubig/aime-1983-2024||2013-II-7": {
+"id": "M0312",
+"content_sha256": "575717d1bae806ff41d1c26c48afc02f809abe94e22cae4d1a832f132795e607"
+},
+"gneubig/aime-1983-2024||2020-I-12": {
+"id": "M0313",
+"content_sha256": "5462ebd598202fade5f8befdf459a3dd50c22e0bda4840db7544f5f2c7c95725"
+},
+"gneubig/aime-1983-2024||2017-I-12": {
+"id": "M0314",
+"content_sha256": "64d38d922f19cb8379016277e78835607232110d96c64e880666970f681bb318"
+},
+"gneubig/aime-1983-2024||2008-II-5": {
+"id": "M0315",
+"content_sha256": "8489231c9601e35cf7918069fed56b945dfde2597773f0ce442d07d1de90c12a"
+},
+"gneubig/aime-1983-2024||2019-I-13": {
+"id": "M0316",
+"content_sha256": "4c5b1a87989dc5e1e3d53dab14adba06944df38bcc02039de0a25aa13f9b87e6"
+},
+"gneubig/aime-1983-2024||2015-I-2": {
+"id": "M0317",
+"content_sha256": "3058eeaa9884107a477a8c0ecf4442bb4d3336c64c92cbafd088936641bd9596"
+},
+"gneubig/aime-1983-2024||2005-II-8": {
+"id": "M0318",
+"content_sha256": "d9454eb75a9eac490a1f9d524338a4291610b7ce1fd5e3d583b6b9821d45d3e4"
+},
+"MathArena/smt_2025||16": {
+"id": "M0319",
+"content_sha256": "da897762062519d1b7a1b1b89fc98924ea489430dd6c70e1f84510fabfdadea6"
+},
+"gneubig/aime-1983-2024||1985-8": {
+"id": "M0320",
+"content_sha256": "230acd445930600ac698776eb142784749cc06f574c11bbada9907c67550797d"
+},
+"MathArena/cmimc_2025||31": {
+"id": "M0321",
+"content_sha256": "8e9bd7dbc6fd44530386e912bff6497f45554a5169ef0335b2a2465f3bb8ab15"
+},
+"gneubig/aime-1983-2024||2013-II-5": {
+"id": "M0322",
+"content_sha256": "df0746b3ad66c5dc5dd7118166fe667d0755a221a9be14eebf1229a6929b3e75"
+},
+"gneubig/aime-1983-2024||2002-II-15": {
+"id": "M0323",
+"content_sha256": "90d282fdddc25f187382aab63eb8110ef850608214dfff2cae483379cb78d5ff"
+},
+"MathArena/hmmt_feb_2023||24": {
+"id": "M0324",
+"content_sha256": "55049e3bb43b7493a6377930532b7fb10d9adc193d036141ff83357bf5cd38ee"
+},
+"gneubig/aime-1983-2024||2009-II-8": {
+"id": "M0325",
+"content_sha256": "58d10c13c397515261591e548d8a6d2ea9763b68cee6220b79a78f26e385562c"
+},
+"gneubig/aime-1983-2024||2016-II-15": {
+"id": "M0326",
+"content_sha256": "1e80be9b4cc967ac7b24503b7b685b1e51efd8c40a90e904af22bba4e63ef477"
+},
+"MathArena/hmmt_feb_2023||27": {
+"id": "M0327",
+"content_sha256": "e21d1ce590f557efc09a1ef4f5090d7d2eec5612f8460eb6c55d365800eb7ae5"
+},
+"MathArena/hmmt_feb_2024||12": {
+"id": "M0328",
+"content_sha256": "ef6b357d2086402a35a2b5a9695e7292352bd6dc38965ebae8e038d781e2a0c2"
+},
+"gneubig/aime-1983-2024||2015-II-3": {
+"id": "M0329",
+"content_sha256": "08f650ee176b05209340dfdaf0127c334b1e02a30d539cff0d2c8c6113d07d4d"
+},
+"gneubig/aime-1983-2024||1987-7": {
+"id": "M0330",
+"content_sha256": "828a65bf2d5833ba552d5d7637025fd23590c61d70c614f1ffcaf6726c89c6cb"
+},
+"gneubig/aime-1983-2024||2019-I-10": {
+"id": "M0331",
+"content_sha256": "4036d147919d4eb6ec49705cbea4051f7917c6f7d15e4697a9eaa3b935ded1d3"
+},
+"gneubig/aime-1983-2024||2019-I-15": {
+"id": "M0332",
+"content_sha256": "e4eb20634b1864fb398d173e40dbc6726c1db87d3f297f16d30cf1e2d8045e49"
+},
+"gneubig/aime-1983-2024||2012-II-14": {
+"id": "M0333",
+"content_sha256": "08ae15a2ddfd0193e8384e7932ff8822b0a034f12e05e6ff0bc6e95fe48cf1d7"
+},
+"MathArena/hmmt_feb_2023||7": {
+"id": "M0334",
+"content_sha256": "e9671b2746b5512916c6f0b8319d672b642d011174140156d8d8a0b78e1cb2b7"
+},
+"MathArena/smt_2025||17": {
+"id": "M0335",
+"content_sha256": "544408198691fb86b1eb63aa7b5080f7d66ad4d7963c27ba2e5eed04da3ba73d"
+},
+"gneubig/aime-1983-2024||2001-I-13": {
+"id": "M0336",
+"content_sha256": "0814e5095073d192deb29a404a9cc399e7e9b0fdc5826353d640134e23581727"
+},
+"gneubig/aime-1983-2024||2011-II-9": {
+"id": "M0337",
+"content_sha256": "09c759a6b4e29de80521edb597791dc32718ef21021094360fd92c4d4c5435d6"
+},
+"gneubig/aime-1983-2024||2001-I-9": {
+"id": "M0338",
+"content_sha256": "93b18ac781eb377d666d0154265a99c86e95a799e65d25e6b207cdb5ab805c98"
+},
+"gneubig/aime-1983-2024||2017-I-6": {
+"id": "M0339",
+"content_sha256": "abdb5fa52946e4f0606a41e01c5d80bb448c4c90667a19d00abfe7521c8136a8"
+},
+"MathArena/hmmt_nov_2025||29": {
+"id": "M0340",
+"content_sha256": "ee62d280c04d4679a0b1f1bf540b394ff34c3fa7b807dc38039cbe6a291fd0e2"
+},
+"gneubig/aime-1983-2024||2004-I-9": {
+"id": "M0341",
+"content_sha256": "4484f1c19540bf8b6da0c854d37ec38f8edae919da84aafe46d256b5b9858f32"
+},
+"gneubig/aime-1983-2024||1985-12": {
+"id": "M0342",
+"content_sha256": "d0e4b4a76b9898ae4dee1b83bc9fcea601918d195267cb9d7e493766e45001bc"
+},
+"gneubig/aime-1983-2024||2001-II-3": {
+"id": "M0343",
+"content_sha256": "e9a624ef4810576405ea1c1b6d952a1c9d5c5e9d8b16866a32ae600791d7aaa1"
+},
+"gneubig/aime-1983-2024||2000-II-3": {
+"id": "M0344",
+"content_sha256": "e4ab95dd6b04bf5e1e2661e5c7643233f14ab8916386416a0e2547b6ccb2ad56"
+},
+"gneubig/aime-1983-2024||2001-I-7": {
+"id": "M0345",
+"content_sha256": "f70769ccc08701dd8feae76aae1585a5b10122dda01ff068435b6b32ed074ed7"
+},
+"gneubig/aime-1983-2024||2000-I-2": {
+"id": "M0346",
+"content_sha256": "5b7ef73dfc760857667182e2b12761b660fe4ccb99227b982cb61c00eb9e1ab0"
+},
+"gneubig/aime-1983-2024||2016-II-14": {
+"id": "M0347",
+"content_sha256": "fd318e3157c83b5bab46160f03e570ce11b9a19ad7598ad6c4d09e63321108f5"
+},
+"gneubig/aime-1983-2024||1985-11": {
+"id": "M0348",
+"content_sha256": "828b66929023b9cb0f518bdfd632ebe6cd4a2210ee4bd20b1043f42bbcc0d8bb"
+},
+"gneubig/aime-1983-2024||2020-I-14": {
+"id": "M0349",
+"content_sha256": "6c8a52056095e9fa125f2540cb4aa60b53224e7be131cd9b41a573ca097c83bc"
+},
+"gneubig/aime-1983-2024||1995-13": {
+"id": "M0350",
+"content_sha256": "2c724ba495710d13ebbb0d7280eed2f63c08e8611a6669fdb9a66e714912827c"
+},
+"gneubig/aime-1983-2024||1998-7": {
+"id": "M0351",
+"content_sha256": "6eeb72bffdbf9387129b5ee35215e451c4e1be36ad4639074cbb1f4f64fd9749"
+},
+"gneubig/aime-1983-2024||1998-2": {
+"id": "M0352",
+"content_sha256": "20974099a0553c4d2eb150854e0ca24128b1b5c07b7ceeeb0bb9dad148917fe8"
+},
+"gneubig/aime-1983-2024||1984-7": {
+"id": "M0353",
+"content_sha256": "77f942958b7121ab01e248bae1cb3fa710c98dd504dc6085bc7ddfc29f5f4cd5"
+},
+"gneubig/aime-1983-2024||2006-II-9": {
+"id": "M0354",
+"content_sha256": "23d82a653f67fdd9162e596166f5c1944931a6bc55674ed64a46a64a6e732736"
+},
+"gneubig/aime-1983-2024||1997-14": {
+"id": "M0355",
+"content_sha256": "d70ec72752b3c00ccad530c8d6a3eb6d0d7b69ca6c9eab3becef2e18a250d3be"
+},
+"gneubig/aime-1983-2024||2007-I-14": {
+"id": "M0356",
+"content_sha256": "681d6002a27f8019fa24372eb50254b6730c260beaae652f439e6d2097638d9b"
+},
+"gneubig/aime-1983-2024||1990-3": {
+"id": "M0357",
+"content_sha256": "964687f826a116734a044ad6c5d3ead396a7c5a66775619ce6d668e03350a74f"
+},
+"gneubig/aime-1983-2024||2007-I-15": {
+"id": "M0358",
+"content_sha256": "f472a3eaec9ddfa8ec364652d720d17d133e8f8b2410d4534655027ee80b66fe"
+},
+"gneubig/aime-1983-2024||2014-II-4": {
+"id": "M0359",
+"content_sha256": "05819974ade884e9d6b864de214a72010612a06861fcdb17b8ed400551eb75b0"
+},
+"gneubig/aime-1983-2024||2018-II-13": {
+"id": "M0360",
+"content_sha256": "bd77e0571333b2f50cac70418c14930f9a1bb53af67992cc06d326d4fcbc242a"
+},
+"MathArena/hmmt_feb_2024||10": {
+"id": "M0361",
+"content_sha256": "e1656b6cca6b0dacac77cb0f71d16058ab860bfacef88255704c057766597422"
+},
+"MathArena/aime_2026||4": {
+"id": "M0362",
+"content_sha256": "2253378d762f383d31565a02afeceed9ea77ca204e942b196b43be96ed7891f5"
+},
+"MathArena/cmimc_2025||32": {
+"id": "M0363",
+"content_sha256": "d8c4106e851eea5374ae58e03c37851e4f238efa327b398efa41982c2b6c838f"
+},
+"MathArena/aime_2026||12": {
+"id": "M0364",
+"content_sha256": "708777b88382eac5c64b7efb0b35f051548328fd31214264bd1692e51ae37603"
+},
+"gneubig/aime-1983-2024||2002-I-6": {
+"id": "M0365",
+"content_sha256": "343b13a00d307369889a5c1e16f9afdcd9d2918cf041f509bc41153bdac0599b"
+},
+"gneubig/aime-1983-2024||2001-II-4": {
+"id": "M0366",
+"content_sha256": "b8172e7e24a3b67003949eefede4fa6b96787d736c38c5f3cd49ead4c3e29847"
+},
+"MathArena/brumo_2025||4": {
+"id": "M0367",
+"content_sha256": "b7d792c8448e1c15000b084bcdfb2cc95644a83b622c87680e40d37b69a687af"
+},
+"gneubig/aime-1983-2024||2005-II-11": {
+"id": "M0368",
+"content_sha256": "b11e8ec1a707e1401b169b5790690f085a5792d43d276bfb446cee9ddabbf1d7"
+},
+"gneubig/aime-1983-2024||2012-I-6": {
+"id": "M0369",
+"content_sha256": "1e589b61ce24341e6faad2722743984136cecac934922b25966ffe48f015590b"
+},
+"MathArena/hmmt_feb_2024||11": {
+"id": "M0370",
+"content_sha256": "25d3545c7b1aa0da3e94147e574afbf08a284d152c564410a0c0119e0aaf9be3"
+},
+"gneubig/aime-1983-2024||2002-II-13": {
+"id": "M0371",
+"content_sha256": "a51a0cdded6fa1dfe6cca1a9a6dd0bd35069c7b079b79b2d27828f85f888147b"
+},
+"gneubig/aime-1983-2024||2004-II-11": {
+"id": "M0372",
+"content_sha256": "6fd76b2916e0633d33dfba7e14c17a748fcd4a7c64702c367127e7d27b3475f3"
+},
+"MathArena/hmmt_feb_2025||3": {
+"id": "M0373",
+"content_sha256": "05ddfd3ef6899e6685860c3e7b2a412c68fd6ced6213c27a85c19811c17df94f"
+},
+"gneubig/aime-1983-2024||1989-7": {
+"id": "M0374",
+"content_sha256": "00f4847f0195f90252385066db85036ae0ce7859bff3d4a257d44f5a33ce72b2"
+},
+"gneubig/aime-1983-2024||1994-15": {
+"id": "M0375",
+"content_sha256": "b1ad535dd1c44ee9ab0bd0392ee660cb18d13a7cb6bad2504bbaf5712121c468"
+},
+"gneubig/aime-1983-2024||2004-II-14": {
+"id": "M0376",
+"content_sha256": "839cdd951558306bcf4b42dc5ac30039266342ef00ae2b7be1a5167f39f9df71"
+},
+"MathArena/cmimc_2025||15": {
+"id": "M0377",
+"content_sha256": "00c85978b804779e6fea45d70b79636b5cd6ee5743859c4a3f3a55a42fb6e1f3"
+},
+"gneubig/aime-1983-2024||1997-2": {
+"id": "M0378",
+"content_sha256": "ca32ddcfc1e5b7820bdd46e15af3fad6670fbf458326ed516f4cc99e8b882491"
+},
+"MathArena/hmmt_feb_2023||10": {
+"id": "M0379",
+"content_sha256": "31447b2968757c9860406e68732299e2234ef1b31b6f712394b77310a8ff5ab8"
+},
+"gneubig/aime-1983-2024||2002-I-4": {
+"id": "M0380",
+"content_sha256": "329b16b178bfa72c2ed35aabe49d55607eb4fd66881b194f35260854a6b06563"
+},
+"MathArena/hmmt_feb_2024||8": {
+"id": "M0381",
+"content_sha256": "b7786d8f95980aa666c7969dd5ff89edfd9b81b8a42dfa16a8688bd9294578cd"
+},
+"MathArena/aime_2026||28": {
+"id": "M0382",
+"content_sha256": "39106ed38fff172704680307e76ba9e18acc0b27e65195c9fea4541268bf4795"
+},
+"MathArena/smt_2025||28": {
+"id": "M0383",
+"content_sha256": "d86fed6501298d0a6d17a794893baeab04ad9bbb052386de30a8ae1a764d92ec"
+},
+"gneubig/aime-1983-2024||2019-II-1": {
+"id": "M0384",
+"content_sha256": "d0c340e27ac4b77b7153e13c1fc87a58941a6dae0906bfd2516fbe6231158f7f"
+},
+"gneubig/aime-1983-2024||1992-11": {
+"id": "M0385",
+"content_sha256": "8230dac8af44ed521873ad9474a91d76d8d8216d737299636a01c8534e2b2b05"
+},
+"gneubig/aime-1983-2024||1986-1": {
+"id": "M0386",
+"content_sha256": "868e3dfb175ffa7cfe06541e84fefd1595ede0cab05c539715a5b549d595f968"
+},
+"gneubig/aime-1983-2024||2019-I-14": {
+"id": "M0387",
+"content_sha256": "77c2876d23ea84bb5c19cf84577dfdee9e2cd27f96563f23e93d9575637ce510"
+},
+"gneubig/aime-1983-2024||2006-I-13": {
+"id": "M0388",
+"content_sha256": "94cb71b21837e1a61399716cef390b92944cef6f5e78ba010cd787aa1104f06a"
+},
+"gneubig/aime-1983-2024||1989-8": {
+"id": "M0389",
+"content_sha256": "ea237858f5912a9ea7bd2846602d968f396e8201a04ebeb0a448b17a742ae440"
+},
+"gneubig/aime-1983-2024||2018-I-14": {
+"id": "M0390",
+"content_sha256": "70bf7e85c55d6b341308a43a5c734a85fe550dd6d1d9076d80ffb97d80cc82ae"
+},
+"gneubig/aime-1983-2024||2011-II-6": {
+"id": "M0391",
+"content_sha256": "0eb5efb7ddeaa29561e30e416afa8733ab1ba9dccd2c6266c3d442b973008c7d"
+},
+"gneubig/aime-1983-2024||1999-10": {
+"id": "M0392",
+"content_sha256": "ac9265b5d27633e7d83bc3c2018eea7f0fb96783e0fe1a30d4d73a38b75f3d84"
+},
+"MathArena/hmmt_feb_2023||6": {
+"id": "M0393",
+"content_sha256": "7a69829b5e2698e990625d3db2b1704d4eb877444ded2f4db2e89660cdf3d9a0"
+},
+"gneubig/aime-1983-2024||1998-5": {
+"id": "M0394",
+"content_sha256": "7b5282cfc3beb8884d9e92e4f4594c5d231f3855509221ec79af0938be7dd75d"
+},
+"gneubig/aime-1983-2024||2011-I-3": {
+"id": "M0395",
+"content_sha256": "63a1b8ac0b732d3688b2ab4ce116ceff1fdaf2621a387003c0e1e642ad8abb03"
+},
+"MathArena/hmmt_nov_2025||14": {
+"id": "M0396",
+"content_sha256": "431d5eddba742a6e146390ea8435f8974e71238c174e4d8ce182c6a26ad50bb6"
+},
+"gneubig/aime-1983-2024||2006-I-3": {
+"id": "M0397",
+"content_sha256": "c84cae3122d68209a53435a48584c8940ee5160875ecc0760083efe15ed3ea4c"
+},
+"gneubig/aime-1983-2024||2012-II-4": {
+"id": "M0398",
+"content_sha256": "a1a8e59219ee0c055b84f0f076c3e21df2eed17286ca9e444e68c6cbfe174d22"
+},
+"MathArena/hmmt_feb_2024||6": {
+"id": "M0399",
+"content_sha256": "cc97fe318766aeea86f1f766ba76ade476e193d2f0a57b81c7e1e3c9338f93a1"
+},
+"gneubig/aime-1983-2024||1997-1": {
+"id": "M0400",
+"content_sha256": "25478d81026771e3f9f1972e03db714515ba7e7143f3f8fdee910638010e9efe"
+},
+"gneubig/aime-1983-2024||1984-4": {
+"id": "M0401",
+"content_sha256": "b390efc789bbda05a6763c6561f8c49036e4043e75bd0f31edeb9e5b65b65217"
+},
+"gneubig/aime-1983-2024||2019-I-7": {
+"id": "M0402",
+"content_sha256": "b75f8d76ced7b7ddb3bfd1e358faa58cd3b9cebbea09f62789c7c4e0ce9a1eff"
+},
+"MathArena/brumo_2025||11": {
+"id": "M0403",
+"content_sha256": "252b6fb6cf387690b6f09fc33af61acef1ec5a858a4391fd1c7f42f2aad3ec52"
+},
+"gneubig/aime-1983-2024||2021-I-10": {
+"id": "M0404",
+"content_sha256": "e68def9dc9d06db7638ae683775a085e08fc8604d3883be20353a57413d681df"
+},
+"MathArena/aime_2025||2": {
+"id": "M0405",
+"content_sha256": "e6d5b2f300ccb55d37fd86c0d6dd9545fe745c78c9edf6e46c8b48390eb9bf98"
+},
+"MathArena/hmmt_nov_2025||28": {
+"id": "M0406",
+"content_sha256": "bee55669339dc0910d0dbe3754ee03f6f3b4bfac93fcde3e7882d523ff5ae375"
+},
+"MathArena/cmimc_2025||10": {
+"id": "M0407",
+"content_sha256": "b299597ca6148a35fa47aa7ffa252e07ce33747d116d5d189f441aef1ddb947e"
+},
+"gneubig/aime-1983-2024||2008-II-9": {
+"id": "M0408",
+"content_sha256": "c023462c4f822461f53a475810123f0eb9a6f2c27ac58f78e25f8d648f6a0a6f"
+},
+"gneubig/aime-1983-2024||2017-I-14": {
+"id": "M0409",
+"content_sha256": "3e854011cb173226571c27e70c56db80ca241d9eb3a53982a77a1ab4f4c10351"
+},
+"gneubig/aime-1983-2024||1992-2": {
+"id": "M0410",
+"content_sha256": "92ed832172565712cb113eaee26a905b0948a735743c30a1ebaf97de6b9964a0"
+},
+"gneubig/aime-1983-2024||2021-I-9": {
+"id": "M0411",
+"content_sha256": "85f3b31bcf2acfbaf8fd33da4d65a9d7568c835807612a1a7f7b907e82a36f48"
+},
+"gneubig/aime-1983-2024||1996-6": {
+"id": "M0412",
+"content_sha256": "f3009594fe48d8832b44f18ed1ef5272029473d2e9e3e6ba8ad7573c62a619ca"
+},
+"gneubig/aime-1983-2024||2011-I-4": {
+"id": "M0413",
+"content_sha256": "b0422a56aa4d5eac084862a7b9c5d4d8822498c8b7ee38aa8efb537eb2f8472f"
+},
+"MathArena/aime_2026||6": {
+"id": "M0414",
+"content_sha256": "1b6d10f197a264c20a6af5c78ea1bfd17f130b47770b1943cbee71bc130f4058"
+},
+"MathArena/hmmt_feb_2024||24": {
+"id": "M0415",
+"content_sha256": "3461d8045a2bce3fe5cf2e888c49098f6fc3dbf84f28740faca6c81e8b65d7ee"
+},
+"gneubig/aime-1983-2024||2004-II-1": {
+"id": "M0416",
+"content_sha256": "2bcf4f44b9e5c7b72eb4ad4eb56cc461bdf1a9348bcf48228d69c2aaee3b1d05"
+},
+"gneubig/aime-1983-2024||2002-I-3": {
+"id": "M0417",
+"content_sha256": "2c6df9021beb03361b946037b338b02afab38d117cad546de87be283a97c5a74"
+},
+"MathArena/hmmt_feb_2023||22": {
+"id": "M0418",
+"content_sha256": "a31b78e80d8031896d78dd9790a54d53967629c59ac86e363c1a0cb0b8da8418"
+},
+"MathArena/smt_2025||45": {
+"id": "M0419",
+"content_sha256": "f0aedfeff2bf5590deeceddb6f9c2d3ae7c019e116e6a83b0321c972d330e471"
+},
+"gneubig/aime-1983-2024||2005-I-5": {
+"id": "M0420",
+"content_sha256": "e3ff0129806adb0045f5776bfcf6ee3babc54b21ddaadf0a3635b72da0d9a92b"
+},
+"MathArena/cmimc_2025||19": {
+"id": "M0421",
+"content_sha256": "12b2786c504c4ea874f3cae654b1f2140dd5f213a0dd5c14961057d3f2921947"
+},
+"gneubig/aime-1983-2024||2009-I-1": {
+"id": "M0422",
+"content_sha256": "5a6d89f368101efe5f17ebc6eb5bbbf0c97df3b474b284362d69df2463b45264"
+},
+"gneubig/aime-1983-2024||2020-I-9": {
+"id": "M0423",
+"content_sha256": "44e62ead639d97b49ab2036fe95bc592b5650a9a659a3837e7b247ed5667da2b"
+},
+"MathArena/smt_2025||13": {
+"id": "M0424",
+"content_sha256": "603ac0c561c9283ab7817d9cfdfe83011653c997d4c2cb7f5bf36c3f66a0e1f6"
+},
+"MathArena/hmmt_nov_2025||22": {
+"id": "M0425",
+"content_sha256": "51a3fbb58fe917b65618cf48e5b599d0f847591a714eafd63d49f60ec7d3a65c"
+},
+"gneubig/aime-1983-2024||2010-II-13": {
+"id": "M0426",
+"content_sha256": "d2dc66fe433e5600d39d916d757d00cc894cdb48f44d4647db9e96ee736ee5a0"
+},
+"gneubig/aime-1983-2024||2016-I-14": {
+"id": "M0427",
+"content_sha256": "17dd95b3b70819a9c6d7e36efd03ad431050d2712a9de80b1a71d91776b02fd0"
+},
+"gneubig/aime-1983-2024||2003-II-6": {
+"id": "M0428",
+"content_sha256": "c94f4addb311a2c71f02781d25cca27656c4ec244e4bb57646629ec2c3ab30bd"
+},
+"gneubig/aime-1983-2024||2015-II-5": {
+"id": "M0429",
+"content_sha256": "ebae4204233c2aec65500e5eff844b732fddd4ccac6b321fd07f0121251a5e7b"
+},
+"MathArena/smt_2025||21": {
+"id": "M0430",
+"content_sha256": "b5dba22372a8851bc3ab3ceefd2ef55891920f1e1bbacc262c829d7d79e04e55"
+},
+"MathArena/smt_2025||34": {
+"id": "M0431",
+"content_sha256": "350516044e74fc77dfab6cd19fa4a4ccf8284a2bd9ba96825392a2ef24d60a7e"
+},
+"gneubig/aime-1983-2024||2010-II-5": {
+"id": "M0432",
+"content_sha256": "d861053c26b97c885f42bd11e176fd3f1d007c672d600a4a6f972eb0ac7611f2"
+},
+"gneubig/aime-1983-2024||2017-I-3": {
+"id": "M0433",
+"content_sha256": "1476bab81cef8543632a149071022c9e221dc24e68d25e1d8dee174e0228a066"
+},
+"MathArena/aime_2023_II||1": {
+"id": "M0434",
+"content_sha256": "f7827f532ce623652a5216b6f7c7e39f1c3488e2cb4cf39d4cc075d76ea4aa62"
+},
+"gneubig/aime-1983-2024||2000-II-2": {
+"id": "M0435",
+"content_sha256": "29da85b4f56327f97018402ae73e1f7101d35077d6d8ce75ffd91a0ed19c1bf2"
+},
+"gneubig/aime-1983-2024||2005-I-2": {
+"id": "M0436",
+"content_sha256": "0a37ed30c20fccf277d16afff9c2efadb0bbdbc37ecd1d8c75acb96ec91ae94f"
+},
+"gneubig/aime-1983-2024||2017-II-6": {
+"id": "M0437",
+"content_sha256": "32f1098e590c70b4dd6e0381ac7bd22b262ade8d8d200df1fde7f4f34a8d8b4f"
+},
+"gneubig/aime-1983-2024||1984-13": {
+"id": "M0438",
+"content_sha256": "86c9f5d9e08f351e4bf61290eaf2c4d2f1f5f310507bec0b028cde778b7b0083"
+},
+"MathArena/hmmt_nov_2025||1": {
+"id": "M0439",
+"content_sha256": "91ffe690c5bb712137f20936e2ddbb5bc6046af92fbce7bd937478152cde0fed"
+},
+"MathArena/hmmt_feb_2023||9": {
+"id": "M0440",
+"content_sha256": "3de218314c734de45931b511c3994e2e304bb5708a44f9f7f6bac889fb398980"
+},
+"gneubig/aime-1983-2024||2010-II-9": {
+"id": "M0441",
+"content_sha256": "46092ec5c9de0141629ba45e908c7dd9605ad28223f2a98d87d670d341e486ae"
+},
+"gneubig/aime-1983-2024||1989-13": {
+"id": "M0442",
+"content_sha256": "12ef1a005d1f51c94a45e04ce4f2f957db0a2aaf2f457a35eaf8bb992fb29218"
+},
+"gneubig/aime-1983-2024||2011-II-4": {
+"id": "M0443",
+"content_sha256": "67219cfca5802d1648054b08d066c3c8c07eb5c6e9651c8531422a3c2e9f8905"
+},
+"MathArena/smt_2025||3": {
+"id": "M0444",
+"content_sha256": "19b19fb396617b4d1051574a3f88c3dc21a9779d67f6d40f398449330ed9e855"
+},
+"MathArena/smt_2025||35": {
+"id": "M0445",
+"content_sha256": "aecf488acfc78cc5cccd889a3c3c65a2416a84dc2329a4d1aae4aaa5b8498ad8"
+},
+"gneubig/aime-1983-2024||2011-II-10": {
+"id": "M0446",
+"content_sha256": "98b16f78dac199cad601b5eb2078d1197e4dc2ff48be06a2d46bca7a0ab8adaa"
+},
+"MathArena/smt_2025||30": {
+"id": "M0447",
+"content_sha256": "3ff85d9b2efbc2ccfda548c2f89836bae1df4615854cbcefda10f9f7f0fd6ad4"
+},
+"MathArena/aime_2024_II||8": {
+"id": "M0448",
+"content_sha256": "7e2f069d585d5f4ef6dd7f41e328697030c80856971008f587aceb2b44fa114b"
+},
+"MathArena/hmmt_feb_2024||2": {
+"id": "M0449",
+"content_sha256": "3648868bc8ab6863dc8faa1c39c5190bee9d6d6ffa440568344d4cc9d16f4425"
+},
+"gneubig/aime-1983-2024||2004-I-15": {
+"id": "M0450",
+"content_sha256": "b24036e77c17dda4f2803cec831a6f97a6b21ba07e67193c7ba5e3c3f9ded12f"
+},
+"MathArena/hmmt_feb_2024||19": {
+"id": "M0451",
+"content_sha256": "838518592665ed279dcb85aad902f09b5d830b3417442e7b99f243af022ffe14"
+},
+"gneubig/aime-1983-2024||1988-2": {
+"id": "M0452",
+"content_sha256": "fb026d6a0683407b7467d4b0ded184b29e539ae7dc7eedeb45f80101e2835c6b"
+},
+"gneubig/aime-1983-2024||2015-I-9": {
+"id": "M0453",
+"content_sha256": "79e6313a83d5b360bbbe79f928e9be150cdbf0e3566751fc59e4c7e0b567346b"
+},
+"gneubig/aime-1983-2024||2017-II-13": {
+"id": "M0454",
+"content_sha256": "bca4eb1f33f86c5ce5d0436e0310a44de8985de49749448b58bfaf9e94b72448"
+},
+"MathArena/hmmt_feb_2026||4": {
+"id": "M0455",
+"content_sha256": "4ba84965731e5a0ffe6440d14a818fd228ab55a86f3d23977dfd298395254a4d"
+},
+"gneubig/aime-1983-2024||2021-I-12": {
+"id": "M0456",
+"content_sha256": "152abcb9bb283e65d70f0134f3c20f3c437d949027b2568cb7f24acb88e144ce"
+},
+"MathArena/brumo_2025||29": {
+"id": "M0457",
+"content_sha256": "9ed392db04f41342b452c3e166f1662db5a48ccb7d8aea9becafabdaaec15694"
+},
+"MathArena/aime_2023_II||11": {
+"id": "M0458",
+"content_sha256": "2414dbb179fe4015d8da9a6a7c321a3ce26e66b3d95debfa7bc1ebe12297775c"
+},
+"gneubig/aime-1983-2024||2019-I-6": {
+"id": "M0459",
+"content_sha256": "678177eaa1e95f87bcd75fb98da28e5ca27d758e940327bcf4d3f4553216fe86"
+},
+"gneubig/aime-1983-2024||2013-II-14": {
+"id": "M0460",
+"content_sha256": "aa4985825447bc3c4d5ac818face6190f94b61456fbd5a065b12d00f091696c7"
+},
+"gneubig/aime-1983-2024||2006-II-15": {
+"id": "M0461",
+"content_sha256": "107a222815ece715a49fcb4a240535907b86fed4a13776f571b2e6742d849ea0"
+},
+"gneubig/aime-1983-2024||1993-11": {
+"id": "M0462",
+"content_sha256": "3cb287bed228eb84ba5908846af124ac37689ed35921ccfbbe9e6645a34d8a91"
+},
+"gneubig/aime-1983-2024||2021-I-8": {
+"id": "M0463",
+"content_sha256": "6486197bc56a9c465906f2b54bb2a906f50e709d6eb9ee050773c098695b5df3"
+},
+"gneubig/aime-1983-2024||2003-II-13": {
+"id": "M0464",
+"content_sha256": "8a13dc7a4300e4c804009fed3e1dfeef9e1f8cc40426e88d9d97fbf5d06bae53"
+},
+"MathArena/hmmt_nov_2025||17": {
+"id": "M0465",
+"content_sha256": "86c5dd92102b1c641cc6d6571fa64eb08cd0f3b58257ab1178364b1e2920d4df"
+},
+"gneubig/aime-1983-2024||2017-II-15": {
+"id": "M0466",
+"content_sha256": "15ae28d84658d1089d53cd833ad414c3014e8cacf2c45a17550220ca4d571ce7"
+},
+"gneubig/aime-1983-2024||1984-12": {
+"id": "M0467",
+"content_sha256": "fc711f93e8eb01f9b2a76927d6a20b3757f843f4d3abc52bf33e4d777265ffad"
+},
+"gneubig/aime-1983-2024||2019-I-12": {
+"id": "M0468",
+"content_sha256": "4b2bff7f6c67ca5e8ae522f9bfd66360b531466b67adbe6588fd59342513e183"
+},
+"gneubig/aime-1983-2024||2012-II-15": {
+"id": "M0469",
+"content_sha256": "9c5a31b7726f060bfdfd141795aafc2bbf486f9b9c40244fab623fdd1834f5ef"
+},
+"gneubig/aime-1983-2024||2004-I-5": {
+"id": "M0470",
+"content_sha256": "db6b86965f26ebcf32efc3f9667163cc235dbbcb3c02ae0c8e85d8c857fc84ea"
+},
+"gneubig/aime-1983-2024||2009-I-6": {
+"id": "M0471",
+"content_sha256": "f2c03290c084a9bb98bfc12d4e56483a74962f4c7002cb640d3a05f25da7cc51"
+},
+"gneubig/aime-1983-2024||2017-II-3": {
+"id": "M0472",
+"content_sha256": "20655b77392dd0b8007c9a05569397570009bd089febc78f4971e7b930f4ad8b"
+},
+"MathArena/hmmt_feb_2024||26": {
+"id": "M0473",
+"content_sha256": "2907f84e2e7f496075c2bd3deba039acf31d7db4f0031287d23fda4250f5d463"
+},
+"gneubig/aime-1983-2024||2021-I-13": {
+"id": "M0474",
+"content_sha256": "92060702fe2c652dad4062923f882ef0c20ac4c7510ad650f1285c1a50b0b741"
+},
+"gneubig/aime-1983-2024||2012-II-13": {
+"id": "M0475",
+"content_sha256": "56b240822b17f383cc9d63a35dc9de33c6b654b2fe04808a311645ef3a0f22fa"
+},
+"gneubig/aime-1983-2024||2003-II-9": {
+"id": "M0476",
+"content_sha256": "c509c8587dd6660889b2efd803d5330a322311b3a4b8963ac1c6c7a7b217a97a"
+},
+"gneubig/aime-1983-2024||2013-II-3": {
+"id": "M0477",
+"content_sha256": "cdabbab11879125f9152f08d3591d1c9321c2b9a4821b6235381f6e81c2daf9c"
+},
+"gneubig/aime-1983-2024||2003-I-5": {
+"id": "M0478",
+"content_sha256": "332d72412b521a88218ee367cc19484eea6d7b37eb7755508e918f853c9383b1"
+},
+"gneubig/aime-1983-2024||1989-4": {
+"id": "M0479",
+"content_sha256": "87ff0e7f668bb70980a9100ab495fcec7aaf584bf23081087275b61d007aa3ba"
+},
+"MathArena/hmmt_feb_2024||1": {
+"id": "M0480",
+"content_sha256": "d2d98c8e5b0d3a10c7fd1fa2a9c493bc07a52ea515838ef1cc35efaf8e3ea5ed"
+},
+"gneubig/aime-1983-2024||1994-10": {
+"id": "M0481",
+"content_sha256": "5df1d52438f91efffa4f1f2e45e40eefc5ed59f7859099ddb47f38fe4e154774"
+},
+"gneubig/aime-1983-2024||2009-I-11": {
+"id": "M0482",
+"content_sha256": "2e1f6336e22f0fafb739bbc08bb58476e16e03adb34971c09a1d1b3a0495e998"
+},
+"gneubig/aime-1983-2024||2020-II-14": {
+"id": "M0483",
+"content_sha256": "dee67792dfa0a87ab82d6b2981760f0c6a2d37aa6036aaa9be4f58e6b9fb2b86"
+},
+"gneubig/aime-1983-2024||2022-II-2": {
+"id": "M0484",
+"content_sha256": "ac96429c590a8fe5654e7696e5296f6ccb5adf08ad02b553afa9ff6e9f339875"
+},
+"MathArena/hmmt_feb_2025||5": {
+"id": "M0485",
+"content_sha256": "9424dc7d92785271c6e2520f9c2db9607cbc7324cb7d892b68f69a53e605e160"
+},
+"gneubig/aime-1983-2024||2020-I-3": {
+"id": "M0486",
+"content_sha256": "5cc8ff7c88459799980345e875a45eb67262dd8414b5a12d304cccfdc40de1ee"
+},
+"MathArena/aime_2024_II||9": {
+"id": "M0487",
+"content_sha256": "a1530f09a66748e307a0a240e1655ab118f898865b84543877378a9559e90774"
+},
+"gneubig/aime-1983-2024||2021-I-7": {
+"id": "M0488",
+"content_sha256": "7abb6358f8a112eb81cdd6d42cb139ba7781fc112facd5c4c5065c2b1985ab08"
+},
+"gneubig/aime-1983-2024||2018-II-12": {
+"id": "M0489",
+"content_sha256": "21c5c911652c218a232f16aa6643a354ee98ba1dec035c6d548728e98615ff82"
+},
+"gneubig/aime-1983-2024||1991-14": {
+"id": "M0490",
+"content_sha256": "3389607a50b8a7b049450cf42f6a3587fa355601266aae35b508ab7479250d92"
+},
+"gneubig/aime-1983-2024||2020-II-12": {
+"id": "M0491",
+"content_sha256": "511d88e70e7445543f0d76ab9c056ef855df3f9ac4c45153d272ce0df1aab903"
+},
+"gneubig/aime-1983-2024||1988-7": {
+"id": "M0492",
+"content_sha256": "7ce1abb619b940d380bcbf734cbbea95a99698291f438e741f12495871ccafeb"
+},
+"gneubig/aime-1983-2024||1999-9": {
+"id": "M0493",
+"content_sha256": "f3dd663314ea6bf194b84cc86121c3a196aad1cfc6a397a93da5ce9b2127a4c6"
+},
+"MathArena/smt_2025||41": {
+"id": "M0494",
+"content_sha256": "aa60cd89ec9c7e27ccdde00c7c9e419ded0b03f3da1e1535c6e9ea46126255fc"
+},
+"gneubig/aime-1983-2024||2000-I-3": {
+"id": "M0495",
+"content_sha256": "2a3f21689d8d67590e3d16ed676ab6274ae0b3d5d069f26e6c02d190f98518c3"
+},
+"MathArena/hmmt_feb_2024||14": {
+"id": "M0496",
+"content_sha256": "53c38eb6d50d5dc4555cbe7cd13047b5303fdb80e43105fb9b925ece82985c42"
+},
+"MathArena/hmmt_feb_2026||13": {
+"id": "M0497",
+"content_sha256": "c9a0b5fe68959231624a37545e7bb9d99ca157002d7d249d04df3a437ede33ca"
+},
+"gneubig/aime-1983-2024||2011-II-14": {
+"id": "M0498",
+"content_sha256": "b70654c8671162beadffe870b99d1bdc8df2e4d4e6ae1e09c29155c73d973446"
+},
+"MathArena/smt_2025||48": {
+"id": "M0499",
+"content_sha256": "b1045b34a7bf57b3b90a47eefefb8a0d03b61e191909f85901342af676d9c03f"
+},
+"gneubig/aime-1983-2024||1998-9": {
+"id": "M0500",
+"content_sha256": "0478bb180473488090c197e810f70307d8ce09c966840809eafe0e4cff43a316"
+},
+"gneubig/aime-1983-2024||2008-II-4": {
+"id": "M0501",
+"content_sha256": "f6bbeb347b7eb213af7326d825e192848c5a6f68249b9fc1b18adb43bbd9cfb0"
+},
+"gneubig/aime-1983-2024||2015-I-13": {
+"id": "M0502",
+"content_sha256": "48a4096ad933263503111940ffe538536f52e5ae4c61cde3ea6d134bf36e2932"
+},
+"gneubig/aime-1983-2024||2005-I-15": {
+"id": "M0503",
+"content_sha256": "04a3819b51c391bf3d11864b61126feb6ddfc04ea154f621205bc6c72383fce7"
+},
+"gneubig/aime-1983-2024||2004-II-5": {
+"id": "M0504",
+"content_sha256": "89488c93b9bc14ebef254cbac28ce626741315f6a19a02a9b1b5488ff9a125ca"
+},
+"MathArena/aime_2026||11": {
+"id": "M0505",
+"content_sha256": "b37dadd3abf9f27171a32ac838ee0a9e06f3463182729a94385326fe18e21e83"
+},
+"gneubig/aime-1983-2024||2012-I-12": {
+"id": "M0506",
+"content_sha256": "952d3ebded37faf247bbe3d23a766b2cc7f2ed213d248323e859ea6774c786bb"
+},
+"gneubig/aime-1983-2024||2018-II-14": {
+"id": "M0507",
+"content_sha256": "6a62a3fd1206b77dc0e6b17b6648a76aa212d84434d9a71723bd8675b12d7ff6"
+},
+"MathArena/hmmt_feb_2025||22": {
+"id": "M0508",
+"content_sha256": "15b6d93e2a280315446495e9612da0e9bbe5589125367ca9c03356c121fe7c5b"
+},
+"gneubig/aime-1983-2024||2013-II-9": {
+"id": "M0509",
+"content_sha256": "ba0f9a009e7f72e3286e9eb09dc00ec426b04914fdbf52761e0cdcb2fe8ae142"
+},
+"gneubig/aime-1983-2024||2021-I-5": {
+"id": "M0510",
+"content_sha256": "74dc5684b031f98e69f5f88723110e373d4cac51a8c5e8d91d81427ac2f27e1e"
+},
+"MathArena/hmmt_feb_2023||17": {
+"id": "M0511",
+"content_sha256": "f51b494b590dd0409f4fa8eb38590245834cfdc65acded38cc172ce23d94d8ed"
+},
+"gneubig/aime-1983-2024||2007-I-4": {
+"id": "M0512",
+"content_sha256": "174de13fa3c2b8301872098737955957cd855195e514fa6c8fac0a9ee3b9c1af"
+},
+"gneubig/aime-1983-2024||2008-II-7": {
+"id": "M0513",
+"content_sha256": "28da33ce635bd2f76aca96144da3039107c799bdb0d89916638bc76e72dda8dd"
+},
+"gneubig/aime-1983-2024||2007-I-12": {
+"id": "M0514",
+"content_sha256": "28ae68b5d8212a3cb3c53a509896c4db837ce89d34df14c70c649cc621f74e9b"
+},
+"MathArena/hmmt_feb_2026||24": {
+"id": "M0515",
+"content_sha256": "a5cc0759ea15d755c156c3b67997d9eceab3c7f55214d43aeed35b8f13d2c176"
+},
+"gneubig/aime-1983-2024||1996-4": {
+"id": "M0516",
+"content_sha256": "ab0fa3e7ca52807da2f5e4bd7c0e8febe24984ceb9930d5f0346f71eb167db8b"
+},
+"gneubig/aime-1983-2024||2018-I-13": {
+"id": "M0517",
+"content_sha256": "bef8ed95c808418fb8daed2654314ef6fff83e1135d8e4261aa4d6e569cc57b7"
+},
+"gneubig/aime-1983-2024||2009-I-5": {
+"id": "M0518",
+"content_sha256": "15feb8b9d8b841642d39b9bdcf53cc40a07949d23b29b44e6e1232163527e5b1"
+},
+"gneubig/aime-1983-2024||2001-I-4": {
+"id": "M0519",
+"content_sha256": "6ac9ff17b52cf05b7b58ee1ccca400fdca623886f775e4af69940e1f61cf5585"
+},
+"gneubig/aime-1983-2024||1989-5": {
+"id": "M0520",
+"content_sha256": "9a1a8fbf70b93a85e5a0d4a5ff0343764582701974dacf5fff821ce81cc0101a"
+},
+"MathArena/brumo_2025||26": {
+"id": "M0521",
+"content_sha256": "c1218c6c66a26c888ef8a92b22baf167c6b2a75eed9c71c04533dd6de4ae5a46"
+},
+"gneubig/aime-1983-2024||1988-13": {
+"id": "M0522",
+"content_sha256": "a66d85e062b180515da2d9d42574186fc1ca1acc4c1b73d3003ec2ab13823618"
+},
+"gneubig/aime-1983-2024||2001-II-10": {
+"id": "M0523",
+"content_sha256": "72278c105782f23e38f46c58b20d0787b3bb282162c75c77bc6f15e2398244ba"
+},
+"gneubig/aime-1983-2024||2014-I-14": {
+"id": "M0524",
+"content_sha256": "52aa0af1116b5eb585d18aa58cb181669f00f866cc0923a72f9f4e97d8c764d1"
+},
+"gneubig/aime-1983-2024||2011-I-1": {
+"id": "M0525",
+"content_sha256": "27d24b0d862af81793e2d6b077c2875d6cef4971e8a8e4efee16d0fc9254acf1"
+},
+"MathArena/aime_2025||8": {
+"id": "M0526",
+"content_sha256": "945d05166cc7d8cd760d6607adfc74ab6a68de074d87cf07942a317e661658fd"
+},
+"gneubig/aime-1983-2024||2012-I-14": {
+"id": "M0527",
+"content_sha256": "0c828cd5db64bea22529bc3ac46bcd13e916dd915644716582ab483e86711c1a"
+},
+"gneubig/aime-1983-2024||1996-5": {
+"id": "M0528",
+"content_sha256": "1814d037cf0c1f05be9ccf17ecb29f9eaaadad7f7ea5ed01187aaae534529550"
+},
+"MathArena/aime_2023_I||9": {
+"id": "M0529",
+"content_sha256": "49d637d4b64da37162086647141abbe1938ae6890bcd93593b3a2e991356a5e5"
+},
+"gneubig/aime-1983-2024||2022-II-6": {
+"id": "M0530",
+"content_sha256": "9ea8ffffd9c2c0e4fca869ed70afbb3dc5324498dfb7186e34cf4c4f1bed0742"
+},
+"MathArena/aime_2026||10": {
+"id": "M0531",
+"content_sha256": "63ca88356691531eaf266c6fa44e4b4f7c5d1ea6e4cadedb451d5f071fb3990a"
+},
+"MathArena/aime_2023_II||13": {
+"id": "M0532",
+"content_sha256": "b629cff1f1c468521ab87bd4e9fd13989edf7075da07cd52aede1b3a44eac3cf"
+},
+"gneubig/aime-1983-2024||2001-I-3": {
+"id": "M0533",
+"content_sha256": "94a3bed1c851cb296caed65df0317aaa7446bcce3972818bf02e439cf5fd150a"
+},
+"gneubig/aime-1983-2024||2019-II-10": {
+"id": "M0534",
+"content_sha256": "d83653b3e54fd017d05145fbe5995becda64ef04e91c5f4ed6f8558e96875651"
+},
+"MathArena/hmmt_feb_2026||11": {
+"id": "M0535",
+"content_sha256": "f4bf4fda79c744e58550fe2b20bab805a59bf2bdc0563144c5a62d27e6824604"
+},
+"MathArena/hmmt_feb_2024||18": {
+"id": "M0536",
+"content_sha256": "f94af697b6c970b6f95c3fabe1e79fef955fe055c1ed477c6e9885c93c9c2b56"
+},
+"MathArena/aime_2023_II||4": {
+"id": "M0537",
+"content_sha256": "9ff0879803d13e593f39ff7c58bd07d6ed2cb579d7b93defb644f17d96eb0165"
+},
+"gneubig/aime-1983-2024||2008-II-1": {
+"id": "M0538",
+"content_sha256": "19ca35e11b1b2851e6a8b8e9b8007478b3d4ee5e7ee3aa2e6deb216b6fce3f97"
+},
+"MathArena/hmmt_feb_2026||26": {
+"id": "M0539",
+"content_sha256": "0c5bf947ef7d1fb5a063666b170c5d9b1a0aa16e730ef1081b76a9dec1f9a226"
+},
+"gneubig/aime-1983-2024||2002-I-5": {
+"id": "M0540",
+"content_sha256": "589badc321b2867836eaf650e1462c9a833a098e10ba5bdd58fbdc32201eb44f"
+},
+"MathArena/aime_2025||22": {
+"id": "M0541",
+"content_sha256": "b31b01974c9371753c2bd0220cf51bda3ee3c7df9099e9fad1d143eb261f6c86"
+},
+"gneubig/aime-1983-2024||2016-II-4": {
+"id": "M0542",
+"content_sha256": "061d505b9594e3b159833fbe9943f56fe1db1b47b914cd415837934bebdf6dbc"
+},
+"gneubig/aime-1983-2024||2017-II-2": {
+"id": "M0543",
+"content_sha256": "13c9cf2f10831fb02f348d7c0e5133acdd9ec06f7f1777182d84ce4a7e43e505"
+},
+"MathArena/cmimc_2025||12": {
+"id": "M0544",
+"content_sha256": "ad03913da54986202f04d2e6e38bcbb2a169ce492b5b5f9760ca998b5e5bcc8e"
+},
+"gneubig/aime-1983-2024||2010-II-4": {
+"id": "M0545",
+"content_sha256": "c9e8ba53d41e5e8e98dfd8c7cafe802020d17badb0a9678cc90c4d73aa49118c"
+},
+"gneubig/aime-1983-2024||1992-5": {
+"id": "M0546",
+"content_sha256": "b4592b4e72b9b5165ede2beebb87f9012857f599b406bb5ed6588f6a5303a92a"
+},
+"MathArena/cmimc_2025||25": {
+"id": "M0547",
+"content_sha256": "a6fcb1840766df65874095dffcfdc4e6e6ccec0bb474834b514d7e553a6d6064"
+},
+"gneubig/aime-1983-2024||2000-II-13": {
+"id": "M0548",
+"content_sha256": "2d4b7926d6b0cbe45f7b91ed42b1fa9737f05f347db0505e5a3bbc4d23ea152a"
+},
+"gneubig/aime-1983-2024||2022-I-4": {
+"id": "M0549",
+"content_sha256": "c8939dafb4b437637a0d777ea1a67261fbff62c5ba1ea7536919a210470bc834"
+},
+"MathArena/hmmt_feb_2024||25": {
+"id": "M0550",
+"content_sha256": "137d38a6ebdd1da07bc009050147b174a7b56e301f242990970e643cc260f610"
+},
+"MathArena/aime_2025||6": {
+"id": "M0551",
+"content_sha256": "3f3659e442103eb92810fd0ef950f00ca893271e461418a5e2a90e7fd05b5861"
+},
+"gneubig/aime-1983-2024||1996-11": {
+"id": "M0552",
+"content_sha256": "a8055d9104413555453bda69cf7213bc99886c0c40b87140394291ee3eb318ae"
+},
+"gneubig/aime-1983-2024||2005-I-11": {
+"id": "M0553",
+"content_sha256": "7ad03d9eff0104537baaf573d1d2336894c12ed75a72e83a7e180df5b97011f2"
+},
+"gneubig/aime-1983-2024||1998-11": {
+"id": "M0554",
+"content_sha256": "d26a186d74fed837ab89cb484480bb8423b33d77687de81d356e0e6a7a1029cc"
+},
+"gneubig/aime-1983-2024||2008-II-11": {
+"id": "M0555",
+"content_sha256": "0d9c40c64590a0bed9f5e1b8c12f3c611c045dd1f77cc2237a6c275e491612ce"
+},
+"MathArena/hmmt_feb_2023||5": {
+"id": "M0556",
+"content_sha256": "883c0f05da9a88a7b6e2085541a2ee70c221da604cecd125a9b28f80746c88a7"
+},
+"gneubig/aime-1983-2024||1986-9": {
+"id": "M0557",
+"content_sha256": "f08e4fc278b53d58e6ef0abaf2df9863ffae31c13179b4fedd5b4185e921fca1"
+},
+"MathArena/aime_2026||29": {
+"id": "M0558",
+"content_sha256": "4975e0354792efb57e14c9c6fd3a6bc96c61c037cf902a3635c2524fff098c7d"
+},
+"MathArena/hmmt_nov_2025||30": {
+"id": "M0559",
+"content_sha256": "b6c7905aae2a9e70d6e5b9b8bec9d46029577bf988710830df28588eba890e6e"
+},
+"gneubig/aime-1983-2024||2007-I-11": {
+"id": "M0560",
+"content_sha256": "008e69aa2c64bcadd909323bbc4de6cbd98a997ed81c85c134c0181e7621a6df"
+},
+"gneubig/aime-1983-2024||2022-I-8": {
+"id": "M0561",
+"content_sha256": "108cac53c95c0a7f856097002f52929b351374a54717fb493e5e867281f86f56"
+},
+"gneubig/aime-1983-2024||2016-I-15": {
+"id": "M0562",
+"content_sha256": "c6e03ea024f38e88f1b8a4d63530c9662563bb85a65430d080e8fd55dedd9cd1"
+},
+"gneubig/aime-1983-2024||2019-I-8": {
+"id": "M0563",
+"content_sha256": "0072a885980caf0a259a224e7293a14a5382ad67f0d5a22b8afaec791332d672"
+},
+"gneubig/aime-1983-2024||2011-I-9": {
+"id": "M0564",
+"content_sha256": "af645a30da35cc8bad163e8340508452b61be490f50b73c7072a8d490e5b6ac0"
+},
+"MathArena/aime_2026||25": {
+"id": "M0565",
+"content_sha256": "9a24150ec441b17ea7345a862b3f81322c2f12502e162ba2621c478df1d03d34"
+},
+"gneubig/aime-1983-2024||2001-II-9": {
+"id": "M0566",
+"content_sha256": "2e0c61ba8505419821f94da2f3a76bc41c15172df9ae705e82690fb4f2c18e05"
+},
+"gneubig/aime-1983-2024||2017-II-8": {
+"id": "M0567",
+"content_sha256": "d67244718acea14ab62f5abadd20fe9ee4509d806c93e3bc46a6b1c0dc8acbbb"
+},
+"MathArena/smt_2025||8": {
+"id": "M0568",
+"content_sha256": "d31c32bd114d5b1eda861bd7ceaeac3af40220cf0dd0ab20368c9889106368fc"
+},
+"gneubig/aime-1983-2024||1986-2": {
+"id": "M0569",
+"content_sha256": "bd5e324a07c52ea0435ed1cfda657b266b4a34656066c7196e4d80b2b4cb7fa8"
+},
+"gneubig/aime-1983-2024||2007-I-3": {
+"id": "M0570",
+"content_sha256": "f2caa74ed1b90b95bceb435541d717c7908b363afc7ac4aaaeb6208b2879a5e3"
+},
+"MathArena/hmmt_nov_2025||18": {
+"id": "M0571",
+"content_sha256": "387554bf0bf8731b0933ab833b1e95b9dd94b7299f7d7cf79bd6dc7c2c8f8e2b"
+},
+"MathArena/hmmt_feb_2024||4": {
+"id": "M0572",
+"content_sha256": "18431a8d94d5b3003d450596e37bc2bb0fb0bb1269bbc586a784f46ad8098106"
+},
+"MathArena/hmmt_feb_2025||28": {
+"id": "M0573",
+"content_sha256": "cc077b6a7f349e63c6158ff3afdc82bff1c0a89f7d5785a5838218353b702cc0"
+},
+"MathArena/smt_2025||1": {
+"id": "M0574",
+"content_sha256": "0f84fa3ffb59f251f69cf7a3549ce3a13b3d795e97a89679363403df40ed7199"
+},
+"gneubig/aime-1983-2024||1986-11": {
+"id": "M0575",
+"content_sha256": "6fe01eca2ccd00ca19a2d39dd0937bb94b850171117ab9cd003e2842c3b2ab84"
+},
+"MathArena/aime_2024_I||9": {
+"id": "M0576",
+"content_sha256": "fb844fbeb5cf504e3ecb4e3dff641ee1c1b7b5dc243f1743c15e8047a57b4977"
+},
+"MathArena/hmmt_feb_2024||22": {
+"id": "M0577",
+"content_sha256": "c95ce1dbd1dac7a912797ad1318e81626f3fab82820430f97b65f5e6bd990a52"
+},
+"gneubig/aime-1983-2024||2013-I-10": {
+"id": "M0578",
+"content_sha256": "8983d3c831e65188696113d445e552a7dd438627fee3fd2d7bd654bee278143c"
+},
+"gneubig/aime-1983-2024||2001-I-2": {
+"id": "M0579",
+"content_sha256": "840220256b3d7138d758c861951212488f039dd319a2368ff000808b96ddd0e6"
+},
+"gneubig/aime-1983-2024||2016-II-6": {
+"id": "M0580",
+"content_sha256": "408042d5f615822c7ab672d88e3448a24250cc0b5c21c1616d94fc8e67ab2e46"
+},
+"gneubig/aime-1983-2024||2010-II-10": {
+"id": "M0581",
+"content_sha256": "977416674b0c563c42d012b47bdb1098b3d216dbf7c22dc28c912722a65c2707"
+},
+"gneubig/aime-1983-2024||2002-II-11": {
+"id": "M0582",
+"content_sha256": "f681237d3cf74e09b6616baec1a7eda7e5301df7f8cb3cd8168ea966875fddb5"
+},
+"gneubig/aime-1983-2024||1991-2": {
+"id": "M0583",
+"content_sha256": "a9a6617e69e731f4ee1c4030115e706bf5aaa9f137a00b0714ddac52724be877"
+},
+"gneubig/aime-1983-2024||2009-I-4": {
+"id": "M0584",
+"content_sha256": "4fcf8622ca500714138ff2944291e1dff40823c9d71e4819af1b136a60c1965a"
+},
+"gneubig/aime-1983-2024||2021-I-4": {
+"id": "M0585",
+"content_sha256": "fb46c50a392036638f516b5fc58e6620dd95792e3931fe889ee103f54ec4d863"
+},
+"MathArena/cmimc_2025||34": {
+"id": "M0586",
+"content_sha256": "a7338c8e8141f54493807ef5e38caaf38100ff61ed6026f722121a2cd693f196"
+},
+"MathArena/hmmt_feb_2025||24": {
+"id": "M0587",
+"content_sha256": "6efef14602068bdd3323ce2b9e5d5befb098411ec28371331dd109f6397dc482"
+},
+"MathArena/aime_2023_I||6": {
+"id": "M0588",
+"content_sha256": "7211e2dd525257d5edfcdbf96c884a0561d933e55ac1373af1df05ee747ec929"
+},
+"gneubig/aime-1983-2024||2015-I-5": {
+"id": "M0589",
+"content_sha256": "e1a97b1d0455cb600d620d846cd2575a0e5ac54b91bdc3ab78f75e7556e81429"
+},
+"gneubig/aime-1983-2024||2005-I-8": {
+"id": "M0590",
+"content_sha256": "115b15de262983025996cab5b1dda651e688ad29988d43271d50a457ab3b35f4"
+},
+"gneubig/aime-1983-2024||1990-6": {
+"id": "M0591",
+"content_sha256": "74020ac360037ddb7d24969d3fd6a9dc6aea6db5499ee0e98bb27dae850354f6"
+},
+"gneubig/aime-1983-2024||2012-I-5": {
+"id": "M0592",
+"content_sha256": "024a868bfe3c890a85b66df1483a081d6bae9060a9251f8b32b4fc39f75156a8"
+},
+"MathArena/hmmt_feb_2026||9": {
+"id": "M0593",
+"content_sha256": "ad14230baf6131491889e1fde5222c64fd4dc194541ba765e73a70c5c1b05084"
+},
+"gneubig/aime-1983-2024||1998-12": {
+"id": "M0594",
+"content_sha256": "308d158497bf5c1684b447d49598375daf5c91407d35ae3041391a15c12122db"
+},
+"gneubig/aime-1983-2024||2009-I-10": {
+"id": "M0595",
+"content_sha256": "a3eb8389f15cc6a2dd1d30718fe8fa6afc99746af9526f107a49bcb53702fec7"
+},
+"gneubig/aime-1983-2024||1995-5": {
+"id": "M0596",
+"content_sha256": "d474673fadf436d5fb3b6f83da9c9ccdfb35e2b636c08544ac634a67f9242791"
+},
+"gneubig/aime-1983-2024||2007-I-9": {
+"id": "M0597",
+"content_sha256": "0fc0ac5327d59011c40e677e92f43631d5ca841fca157cf1a39223a5b7556aa9"
+},
+"gneubig/aime-1983-2024||2010-I-1": {
+"id": "M0598",
+"content_sha256": "bd7dcd71e6d18b831dfb04afa304de1b7482ca27a19526075fea6d5ba7e712d2"
+},
+"gneubig/aime-1983-2024||2004-II-15": {
+"id": "M0599",
+"content_sha256": "cb8d7d8386e5e43873e95399111dd5fb15b3404f1d3044e848de5e2f97409f63"
+},
+"gneubig/aime-1983-2024||2016-II-1": {
+"id": "M0600",
+"content_sha256": "1740d4f0a78e0b2a7e8baf1976e47c657d8c1acec90c3faccbbca6f2aa71738d"
+},
+"gneubig/aime-1983-2024||2016-I-1": {
+"id": "M0601",
+"content_sha256": "4474884ac2a2c0643230cfa294d5c2b3abee395ff1d4345f1eac980478f2f9cb"
+},
+"gneubig/aime-1983-2024||2009-II-6": {
+"id": "M0602",
+"content_sha256": "a093bbd3c1298f2d013083deea22c021dc056bf7571b50420326b645a8aacec1"
+},
+"MathArena/cmimc_2025||27": {
+"id": "M0603",
+"content_sha256": "0432f29afc5d691431743ce7d3cf4460ef5cb0c4ec63cd07ce38c744ab4952ac"
+},
+"gneubig/aime-1983-2024||2003-II-1": {
+"id": "M0604",
+"content_sha256": "405f697c0c6a03176aa6a1a6781c9f2b197b7f751728cc160a1aa3016607cd91"
+},
+"gneubig/aime-1983-2024||2002-II-5": {
+"id": "M0605",
+"content_sha256": "7757161b89763a8e5979c26fa946d7e98d2f570cc99542f6efc1d1cbfd7b5db6"
+},
+"gneubig/aime-1983-2024||1985-3": {
+"id": "M0606",
+"content_sha256": "134fead6c6179d7eead615134a39d4294fca6224a3663c8ebc66cd48e888378e"
+},
+"MathArena/hmmt_feb_2026||1": {
+"id": "M0607",
+"content_sha256": "eb97782105a28a3c4c29d496fe1adeccfe7cc098de9b9384d8a2edbcce90db96"
+},
+"MathArena/aime_2023_I||1": {
+"id": "M0608",
+"content_sha256": "d15fb321979c2a5fea5ecc770084c32798390579ff96d3c6e79adca513826a48"
+},
+"MathArena/smt_2025||36": {
+"id": "M0609",
+"content_sha256": "c90a3127f5e3af225b4d575c9e855c0a2b9ee96e28da4d372f2f60a2e3c25755"
+},
+"gneubig/aime-1983-2024||2019-I-5": {
+"id": "M0610",
+"content_sha256": "6dfe707d8de3acf3ce7dbdeb1e72ca2f77a1eb78bfbb8c2362e19f6d10adb2a9"
+},
+"gneubig/aime-1983-2024||2006-II-12": {
+"id": "M0611",
+"content_sha256": "13b71ab65b6aa76fea3f95ee4da1febc5babe3d66054e8c3b0ebbbdc6e0d642b"
+},
+"MathArena/cmimc_2025||40": {
+"id": "M0612",
+"content_sha256": "9de69c5065136aed3a3207dd6ec14b6613e17843b8b7a5b6dc9dc725daecce3c"
+},
+"gneubig/aime-1983-2024||2005-II-3": {
+"id": "M0613",
+"content_sha256": "ea5f57c3666d3568e5d2052149c9b4db69fa93aa3ab7bbc80701cd33398774e8"
+},
+"gneubig/aime-1983-2024||1988-3": {
+"id": "M0614",
+"content_sha256": "03b4ec71922ca34b2f2f98c4c201b055c7e154d1843df1689e4086ef154cf647"
+},
+"gneubig/aime-1983-2024||2016-I-2": {
+"id": "M0615",
+"content_sha256": "67c0272e6eabc237bffd9cb3e71fd29f37010a91a836ee231111953a34d7889d"
+},
+"gneubig/aime-1983-2024||1992-8": {
+"id": "M0616",
+"content_sha256": "4e8ca66050dac0bb0b80272c73244e1f2d904bb4f6d617f810dbd0cf496324c7"
+},
+"MathArena/cmimc_2025||36": {
+"id": "M0617",
+"content_sha256": "5bf1f9e25e81ce6e7aa4068e127cf7eedfcfc28c457e3e628b64d9bd874e60a1"
+},
+"gneubig/aime-1983-2024||1991-9": {
+"id": "M0618",
+"content_sha256": "b0d40a5262c3a2c1238771b992352445cdc0abd5a2ef01564b98ad6e2ef2b194"
+},
+"MathArena/hmmt_feb_2024||15": {
+"id": "M0619",
+"content_sha256": "81cd3e76156e12b3b4614500a3afb4a3a1023171b4c1612f480fde43a8bef348"
+},
+"gneubig/aime-1983-2024||2009-I-2": {
+"id": "M0620",
+"content_sha256": "33bec0236a5057633ade1f8b55152f75853288be0b9d05eeaf2faab87ab3bbe3"
+},
+"gneubig/aime-1983-2024||2009-II-1": {
+"id": "M0621",
+"content_sha256": "c7da4071c5f9f9cdcdebfa4bda4a5904cf797c95891a1464a061527983cf3e90"
+},
+"gneubig/aime-1983-2024||2021-I-3": {
+"id": "M0622",
+"content_sha256": "17a5f79e7bcfa918c0d355b05565956eed92f9b4e4b7f3bd880aa1b7a5cc3446"
+},
+"gneubig/aime-1983-2024||2005-I-3": {
+"id": "M0623",
+"content_sha256": "a08dcc15f60954f8c4e4b05f334acb588a330c62b1c99932665c325ed686be0a"
+},
+"MathArena/smt_2025||47": {
+"id": "M0624",
+"content_sha256": "6a04f1730c24d0449ce7f4e16fa96855038ef46ae519092e5385c4e1776f780d"
+},
+"gneubig/aime-1983-2024||2000-I-7": {
+"id": "M0625",
+"content_sha256": "4dc1b74c70e4c1e46438cda45c05fe281e87ebc1d9d90c6d2a184383cd060206"
+},
+"MathArena/hmmt_feb_2026||15": {
+"id": "M0626",
+"content_sha256": "553c1c31fd8da80da6d04fb14c172fcc98618f25d7c6f8c992015fdde53666ca"
+},
+"MathArena/hmmt_nov_2025||10": {
+"id": "M0627",
+"content_sha256": "c74a6d17b20d1bd917b7143c93bbfee968f77748439f700ff274737c3b15481c"
+},
+"MathArena/smt_2025||20": {
+"id": "M0628",
+"content_sha256": "fed7bb7fcea0a9f59b0c125c7e268685b2db9f48367c8bc3f8fcd577645edbe0"
+},
+"MathArena/hmmt_feb_2026||25": {
+"id": "M0629",
+"content_sha256": "ce4397c545f486e30dc476c1628ae8a3de34b27622c7f5264627c0fa6bd18f4f"
+},
+"gneubig/aime-1983-2024||2002-I-14": {
+"id": "M0630",
+"content_sha256": "5b9f976e464ddf54bafd22fbd95c42214e9887b4828e3adfabc0c85bac3a80ec"
+},
+"MathArena/smt_2025||53": {
+"id": "M0631",
+"content_sha256": "ca013db2b8dccd935e4856889b3c1e3d66e7eb7b08aefe1c7dfcd9e3e9a3dfb5"
+},
+"gneubig/aime-1983-2024||2020-I-6": {
+"id": "M0632",
+"content_sha256": "5accea0b0dbd6cbcb6de200bef85400b851399fdf7283710989a621bbf092800"
+},
+"gneubig/aime-1983-2024||2010-I-14": {
+"id": "M0633",
+"content_sha256": "6f6b3e202452d609f50ec14c958415f7fe0dac590764ab3015ffdab46a64a9fb"
+},
+"MathArena/smt_2025||32": {
+"id": "M0634",
+"content_sha256": "117988224321ac47dbed578fff0b2e9c5f8da65cf866f91887f046c0c57451a2"
+},
+"gneubig/aime-1983-2024||2021-II-12": {
+"id": "M0635",
+"content_sha256": "f899e2ec18cb7b3a20dc6428c5676ac8c26acfc44dc0fdc59808b0e78892dfa7"
+},
+"gneubig/aime-1983-2024||2006-I-5": {
+"id": "M0636",
+"content_sha256": "c209889684a4efe91df158add67a5f6a207339e719825bb8c0676d9f9846219e"
+},
+"gneubig/aime-1983-2024||2017-I-10": {
+"id": "M0637",
+"content_sha256": "638a6d61e1e285add8ab83610545423fd8effb0f8caf423b224af1480c2846ce"
+},
+"gneubig/aime-1983-2024||2019-II-15": {
+"id": "M0638",
+"content_sha256": "83f71335f135d9fabf1af05d0093ccbfc44b94559becc301a1db7f7d62f08f55"
+},
+"gneubig/aime-1983-2024||2017-I-11": {
+"id": "M0639",
+"content_sha256": "fa7acbfecdf18b28e982276a6af02c1466659fe62c62813cb8bfd9fc0d53933e"
+},
+"gneubig/aime-1983-2024||2017-II-10": {
+"id": "M0640",
+"content_sha256": "97ec75ee57572f7019682a7b00dce6e90eedbb64c641f3d6278fead70dd51caf"
+},
+"MathArena/hmmt_nov_2025||5": {
+"id": "M0641",
+"content_sha256": "0e2b9e2d3b5ed14334692e9e72d8aead4b01bcfeaea4b86de31c07896678b997"
+},
+"MathArena/aime_2026||7": {
+"id": "M0642",
+"content_sha256": "a502fdc920de29fd6c81a25745880277a718af2e80393f3d5ac8fca08398d5ff"
+},
+"gneubig/aime-1983-2024||2001-I-6": {
+"id": "M0643",
+"content_sha256": "692e9c802ba4991ec3107211ae0c03d9ca1363d9078c005f35348c8fd9b4cb5f"
+},
+"MathArena/aime_2025||14": {
+"id": "M0644",
+"content_sha256": "e3edaf84d92755cde4639e49c785ad03ca89e09de65c15c4524a90baa1383b83"
+},
+"gneubig/aime-1983-2024||2016-II-2": {
+"id": "M0645",
+"content_sha256": "6a01d6091fa16f5839190e804f6469a3c7e33bb26d104a26659410d4e8b7327a"
+},
+"gneubig/aime-1983-2024||2012-II-3": {
+"id": "M0646",
+"content_sha256": "6f04966f02d0bfd420a969021b2f5d84eae99c87366841a4809b0e97d73e4901"
+},
+"gneubig/aime-1983-2024||2022-I-6": {
+"id": "M0647",
+"content_sha256": "0add68cdfc610ec980057fa4b6d0836f25337d57e5626e7c6444a030e4d9ee47"
+},
+"MathArena/hmmt_feb_2025||19": {
+"id": "M0648",
+"content_sha256": "cd6f3f65bd966cb4fd4eae68bdb2ffec021ecfe71fd347d1cf63e42072fc7ad1"
+},
+"gneubig/aime-1983-2024||2001-I-8": {
+"id": "M0649",
+"content_sha256": "7e8f3fb7a2da7eb7700ceced07e933b97de36ea66eb22046d87c7ac7e819327e"
+},
+"gneubig/aime-1983-2024||1991-5": {
+"id": "M0650",
+"content_sha256": "9a6626cca607d3e128420859095d69e1ad0309687c63ba79b7505fd7fea776c1"
+},
+"gneubig/aime-1983-2024||1996-7": {
+"id": "M0651",
+"content_sha256": "de1e3dcaeaeed0c07957804fcf2547df7699a663886f643a8cade3f21ddca3ad"
+},
+"gneubig/aime-1983-2024||2020-I-10": {
+"id": "M0652",
+"content_sha256": "036fecee6e837026c48ee475c02354459869a08edaf0996f9045cb86fe31534d"
+},
+"gneubig/aime-1983-2024||1983-8": {
+"id": "M0653",
+"content_sha256": "97a244781a0e87c1a66c1e0ab4393bc9c561d92a9cbc3d503c6a8a83f8140861"
+},
+"MathArena/hmmt_feb_2024||23": {
+"id": "M0654",
+"content_sha256": "0593055a22c9b101fc99f6740390fe95a6cbfde476c6b1c80156cb6f14c4dc07"
+},
+"gneubig/aime-1983-2024||2000-I-8": {
+"id": "M0655",
+"content_sha256": "83a840a0a82d09c3bbe2dff0067942b55b983d6156622b710fc47cc6d2c76a8e"
+},
+"gneubig/aime-1983-2024||2003-I-4": {
+"id": "M0656",
+"content_sha256": "e21299caf2b967353d688a314543120a7c5d30b4087680a978d1e3b8cb00d70b"
+},
+"gneubig/aime-1983-2024||2020-II-4": {
+"id": "M0657",
+"content_sha256": "3a8f391b5ed41a1650db5173b148e884fd05b07c9ecfa2217a6c69a75a08fd78"
+},
+"MathArena/aime_2024_I||2": {
+"id": "M0658",
+"content_sha256": "fc0c24e5c1973cc337b311797d8f822a7a7a3a8127afa78dc10289edb57d35c8"
+},
+"gneubig/aime-1983-2024||2001-I-5": {
+"id": "M0659",
+"content_sha256": "530dc192a1664efdeb497faa71bd6cb5829a7f9d114971c52825623915b9b092"
+},
+"gneubig/aime-1983-2024||2020-II-15": {
+"id": "M0660",
+"content_sha256": "d8da22b367b8a6dcedbd09e0e1200d3a4329bd7f1d6b605e7bf564c577412671"
+},
+"gneubig/aime-1983-2024||2018-I-1": {
+"id": "M0661",
+"content_sha256": "2c1d70c594d94b4362d444d45986bc4d8f1f4a6c9d3dace63f918d3eeb2877fa"
+},
+"gneubig/aime-1983-2024||1984-5": {
+"id": "M0662",
+"content_sha256": "b0ac65b3758fdce5cd8ab505dbc5888067641a53b166b103c073ffad83da01fb"
+},
+"MathArena/cmimc_2025||16": {
+"id": "M0663",
+"content_sha256": "e8ef879255490904f7b24acd9d6e98453ec55ab9b8f2036df31ef4030514148d"
+},
+"MathArena/aime_2025||24": {
+"id": "M0664",
+"content_sha256": "b077ddcd76c114c1c387e0bc4d712dee8e13a98966d38fbc059dac5ef40b451c"
+},
+"MathArena/hmmt_feb_2026||29": {
+"id": "M0665",
+"content_sha256": "0ea9c422578ac8c0ed85852465ebb4bd0308c82ab77f684050a414c30a49dba3"
+},
+"gneubig/aime-1983-2024||2013-I-6": {
+"id": "M0666",
+"content_sha256": "7a7c5fe9536ef7e2d19b0e25afcfc58298747b81192fa92b43f39277b97caf7f"
+},
+"gneubig/aime-1983-2024||1996-10": {
+"id": "M0667",
+"content_sha256": "a37eab23d2b121ea3187727b1e10ec59f4adda6a1bfe1d8da2551e372d6043c6"
+},
+"gneubig/aime-1983-2024||2022-I-9": {
+"id": "M0668",
+"content_sha256": "f41be266f9d570ed49b3f3700524342357dbc98ded4d18715dfbb6381e4bba20"
+},
+"gneubig/aime-1983-2024||1999-12": {
+"id": "M0669",
+"content_sha256": "79a107ad214294f4342170175ec8f5975b83131300c09982166502b859031c7a"
+},
+"gneubig/aime-1983-2024||1983-9": {
+"id": "M0670",
+"content_sha256": "f86264296857f84314645d9c448120e8c753020fe78a3a1d922de868258de94f"
+},
+"MathArena/smt_2025||50": {
+"id": "M0671",
+"content_sha256": "6efd89c4435f329e0f0ea179a40d5d9432bbf7d565bc95246075ae7765f246ae"
+},
+"gneubig/aime-1983-2024||2022-I-7": {
+"id": "M0672",
+"content_sha256": "9c33fe50e5d29aabdd633b17db4d17484fe610a0dcb8187e3573d2b8bfb4d9c0"
+},
+"gneubig/aime-1983-2024||2014-I-5": {
+"id": "M0673",
+"content_sha256": "9d13ba81553eb875e96240aa0d1241f6b4ddc88a7cc292d69f9cdb4abd4c8a2b"
+},
+"gneubig/aime-1983-2024||1998-8": {
+"id": "M0674",
+"content_sha256": "7f2e218f625920649a315927ec62b8ebed93f3dadf43fb05a98467ecfe1fc69f"
+},
+"MathArena/smt_2025||26": {
+"id": "M0675",
+"content_sha256": "627d933516a809d740d5d4eecc712b4c9cfc92db3efb9cdd9d44edde2dcc65c3"
+},
+"gneubig/aime-1983-2024||2007-II-12": {
+"id": "M0676",
+"content_sha256": "3a4e662a4c1522d10c8bf35b3de187abd2d0ab93410709478ef98149be248405"
+},
+"gneubig/aime-1983-2024||2005-II-2": {
+"id": "M0677",
+"content_sha256": "41f3fe84226d3bcf8dc041e67e647fc7589bbe9276322043c2b11c1a08e63377"
+},
+"gneubig/aime-1983-2024||2005-II-12": {
+"id": "M0678",
+"content_sha256": "3b32b6e86b7314a6256ea1d7c3df10e31bba5df4482729afd67887b44f15198f"
+},
+"MathArena/cmimc_2025||14": {
+"id": "M0679",
+"content_sha256": "04a2bed6398669995a7aca85f608778bad12264f754afb91e09d5d652cb57e91"
+},
+"MathArena/cmimc_2025||4": {
+"id": "M0680",
+"content_sha256": "88fd994993f0e2af6cc02afa3d7c913d1d40cd79e0db35dc3b3adfa6cea9ad36"
+},
+"gneubig/aime-1983-2024||2020-II-7": {
+"id": "M0681",
+"content_sha256": "3387d0408c74be47bc8e95181c6e38738f7cf7af2ffadeb7bcb153b294affcde"
+},
+"gneubig/aime-1983-2024||2010-I-10": {
+"id": "M0682",
+"content_sha256": "5e4c64ce25bb02558622ce77476b0c7beeb6a7e3beb0b0da95a84e88ae1938c1"
+},
+"gneubig/aime-1983-2024||2003-II-7": {
+"id": "M0683",
+"content_sha256": "8069f4e0a6bd7e1b984fd4b4e74d451ba1301db1215bc37fc8eff34e1c041f22"
+},
+"gneubig/aime-1983-2024||2022-II-3": {
+"id": "M0684",
+"content_sha256": "295319a70b226a5c781e0974e865d64fc3f61387807ee6d8fb0f4a8956499936"
+},
+"gneubig/aime-1983-2024||1993-4": {
+"id": "M0685",
+"content_sha256": "e78176e517cfbba910168dff9cdceda7bf84926fbd45d9a05756968170034637"
+},
+"MathArena/smt_2025||9": {
+"id": "M0686",
+"content_sha256": "8dd0b92f9bd9a53554e567d7de3146fe83d20411f67664802f6727cb8b4ba0fa"
+},
+"MathArena/smt_2025||27": {
+"id": "M0687",
+"content_sha256": "7e8509d22c6edf5683b0433b23111c040885349411f364a2ca9b1597472fca08"
+},
+"gneubig/aime-1983-2024||2014-II-10": {
+"id": "M0688",
+"content_sha256": "34676574875ff821de1dfd77e728b3b67a2aff902fc5a0429233c522661a65f6"
+},
+"gneubig/aime-1983-2024||2018-II-8": {
+"id": "M0689",
+"content_sha256": "00b3432f225fe01630d262f9de2d4442f07cbc5df78cac35d3e9562677836f72"
+},
+"MathArena/aime_2023_I||5": {
+"id": "M0690",
+"content_sha256": "a47753f706186742989d14a0a9379532f71c5da39192c1488fa5b16531cbe701"
+},
+"MathArena/cmimc_2025||30": {
+"id": "M0691",
+"content_sha256": "51eddedca05dd92a3d143b353f25a49078ef16148750702b299023f3414d91db"
+},
+"MathArena/hmmt_feb_2023||28": {
+"id": "M0692",
+"content_sha256": "889d83e94225a5c0489f1167299aaf0dcbc1ac076db37206780d613af7d33b77"
+},
+"gneubig/aime-1983-2024||2015-I-8": {
+"id": "M0693",
+"content_sha256": "b7e78f332a0ead1f03a0b0809759f2da3bf72fb7b9ee0a35b79a979410f2b6ce"
+},
+"MathArena/hmmt_feb_2023||26": {
+"id": "M0694",
+"content_sha256": "caa40f471c0021a574f6467ec8dc42c61581530aabfcff2fec7b9e71b53d9c2a"
+},
+"MathArena/hmmt_feb_2024||30": {
+"id": "M0695",
+"content_sha256": "853e1a60c312689714adbe176bdf734952cbe5831e2696c7c5a72782d7c206c1"
+},
+"MathArena/aime_2025||23": {
+"id": "M0696",
+"content_sha256": "d6ee746c4d3dd431659dcea2e7222818aea38d9b2b0f287bed0cd04fb9754fb2"
+},
+"gneubig/aime-1983-2024||2005-II-7": {
+"id": "M0697",
+"content_sha256": "d193b9fb5e863ccd8a93eaac8043a45281639e0d458413107246403992419c91"
+},
+"MathArena/cmimc_2025||5": {
+"id": "M0698",
+"content_sha256": "9951933b68d9755e34b5283e1618a0d94fee8a7bc40cc7a8a5bb6fb742e34f19"
+},
+"gneubig/aime-1983-2024||2022-II-7": {
+"id": "M0699",
+"content_sha256": "dff6d2feb5f3eb2f5cf81ef0abdcc25dfe60ef752e806412b838be3beda61ae6"
+},
+"gneubig/aime-1983-2024||2012-II-10": {
+"id": "M0700",
+"content_sha256": "fc27000207ae5a042feef3ddd68eb3a1cf7cb4fc2da1a7b7444536b537149334"
+},
+"MathArena/hmmt_feb_2025||2": {
+"id": "M0701",
+"content_sha256": "b676b6bd6a15438b73e44c0f19bf76bd0b87aa1f2c4134a1f8f36b36b8feab58"
+},
+"gneubig/aime-1983-2024||2000-II-5": {
+"id": "M0702",
+"content_sha256": "85a964973e73b959295d07f8bb3a51b7f450ed47ff9294982191e1b9d1d46f28"
+},
+"gneubig/aime-1983-2024||2019-I-9": {
+"id": "M0703",
+"content_sha256": "a9c46be64346cd6dd30d3adee5b4a8100440cf49313d973dde13fb8160ac954f"
+},
+"gneubig/aime-1983-2024||2004-I-10": {
+"id": "M0704",
+"content_sha256": "883e4993f77adb8a7e5f05f4a520ab0264e3b861544deaaf671bd6f454fa78ca"
+},
+"gneubig/aime-1983-2024||1983-6": {
+"id": "M0705",
+"content_sha256": "63f00d077654e0c78737f6bc03ddd726ca81526cf5871bcc657b2fdf032395cb"
+},
+"gneubig/aime-1983-2024||2022-I-10": {
+"id": "M0706",
+"content_sha256": "ee95e3341e932a78ae9e6bccd66982f03393a2efa327c5d333c05ef7383c1569"
+},
+"gneubig/aime-1983-2024||2007-II-7": {
+"id": "M0707",
+"content_sha256": "be01355c9dfdceebc28256fa36b240124c10fe41b41b0723a5c1193d697ee961"
+},
+"gneubig/aime-1983-2024||2014-II-6": {
+"id": "M0708",
+"content_sha256": "2bfcc2d97a30836fcef0255f47e50ebffd93b9e3474fbfcf82005f6fd940ea39"
+},
+"MathArena/hmmt_feb_2026||2": {
+"id": "M0709",
+"content_sha256": "5ba16efc8a48199bcfced8ab17c432b470e2b488cd494ba1d9642a29b98de3cf"
+},
+"gneubig/aime-1983-2024||2016-I-8": {
+"id": "M0710",
+"content_sha256": "0c65fa0e1b1d0da278145a66d724e7c7ae925ddcc5dcf04cbfbb69aa55c4fe9f"
+},
+"gneubig/aime-1983-2024||2005-I-14": {
+"id": "M0711",
+"content_sha256": "886564eceb65b8d0712a7d0117590e419bf77cac715c5c2e9fd8d2474c8be452"
+},
+"gneubig/aime-1983-2024||2000-I-12": {
+"id": "M0712",
+"content_sha256": "888ae8e9d970749f140e75df444560516cfb0f59e79f790978521a6f8337f491"
+},
+"gneubig/aime-1983-2024||1992-15": {
+"id": "M0713",
+"content_sha256": "b618b47b30d70a0f74c4f34fc74501eaf0372c72f6623f71e533cdd18c2a5840"
+},
+"gneubig/aime-1983-2024||2020-II-8": {
+"id": "M0714",
+"content_sha256": "49708aa20249bd8f81b31fc1745772e9aa3c8f69ed1fc68b9bc7a00f406ae31c"
+},
+"gneubig/aime-1983-2024||2011-II-1": {
+"id": "M0715",
+"content_sha256": "79af25401eef5651068cf2491d8ac4359245123d3c5d0c56d9a8684b543bd249"
+},
+"gneubig/aime-1983-2024||2007-II-2": {
+"id": "M0716",
+"content_sha256": "b468b7b3d02bc7576b045161fd5379ab286e0ae62bea3fe8fab578963dee6264"
+},
+"MathArena/smt_2025||23": {
+"id": "M0717",
+"content_sha256": "6a6c34b1542b6ea5a9dc0829fc335ee3220e3919b93e11dc21bfef7741d146b6"
+},
+"MathArena/aime_2025||29": {
+"id": "M0718",
+"content_sha256": "7d3bc8eac0e5c1b1583e10a9068595e6911ddaf98b0159d328e007c0d36c960d"
+},
+"gneubig/aime-1983-2024||2002-I-12": {
+"id": "M0719",
+"content_sha256": "014b2e9f5dba55f8aae03143ad29ac9ee3e853d3ae4a22a8e2141e56117768fd"
+},
+"gneubig/aime-1983-2024||2021-II-5": {
+"id": "M0720",
+"content_sha256": "63a52bad4bfd1cde5640175ceb8c7e4ccc3c3e3ff299b93247b39db3868715ce"
+},
+"MathArena/brumo_2025||2": {
+"id": "M0721",
+"content_sha256": "da40dc478ab32e4c6bc6cffa40015a897c50783b9a7c73e8e5dff4352cf33b31"
+},
+"gneubig/aime-1983-2024||2021-II-14": {
+"id": "M0722",
+"content_sha256": "88b497ad2ee3e178b7a0d594c3955f499925ba22b33a2af670c32aa0637b0517"
+},
+"gneubig/aime-1983-2024||2012-II-8": {
+"id": "M0723",
+"content_sha256": "a911c538d0c5181fa30cbe8a9ed154f25893e9fd38f81baa295d5222730d89d8"
+},
+"gneubig/aime-1983-2024||2019-II-3": {
+"id": "M0724",
+"content_sha256": "a6d139663b174580a8fa8243dc40d16f6d2f07acf13c211a63be01486b16c786"
+},
+"gneubig/aime-1983-2024||2007-I-7": {
+"id": "M0725",
+"content_sha256": "7c4341142a15f29ec62e4400c93d84258d1a239b9888c44a1025bd0c4514395b"
+},
+"gneubig/aime-1983-2024||2015-II-8": {
+"id": "M0726",
+"content_sha256": "d121c0de3f3a1f29e66dd2113d2f2c7d4ed52143098a313dbc8975ae42f10e20"
+},
+"gneubig/aime-1983-2024||2010-II-3": {
+"id": "M0727",
+"content_sha256": "c34e1126d13912cb7994f5e65380c2a4132e44516b1804042be7dd446482ee09"
+},
+"gneubig/aime-1983-2024||1994-8": {
+"id": "M0728",
+"content_sha256": "c9226c5a989de5f26e8a8298ac5de903a6d8aa35a00150f598a4bf721c885e98"
+},
+"gneubig/aime-1983-2024||1993-5": {
+"id": "M0729",
+"content_sha256": "44d81cca6043211bdfd3a11cc792ee2f7774c6c5952dbaec41c7227704693d28"
+},
+"gneubig/aime-1983-2024||2012-I-1": {
+"id": "M0730",
+"content_sha256": "00f2a9c81e0990b03c5ba1079f4c1ef372e9f09bddd56aae9d220e7980a4369e"
+},
+"gneubig/aime-1983-2024||2004-II-3": {
+"id": "M0731",
+"content_sha256": "9c71d3aa655eeffb5a05585fea6e3e14d46ca5469365baaa8909cf4e95166e58"
+},
+"gneubig/aime-1983-2024||2018-II-3": {
+"id": "M0732",
+"content_sha256": "997958df5eba8f939aab347273d9cc9903004f532b4ca404e6b8c88010c11deb"
+},
+"gneubig/aime-1983-2024||1997-11": {
+"id": "M0733",
+"content_sha256": "36c93abe801fca18bb3d9b361f56cedfbd2d4da1c14d7ff08272f63f8c6756b6"
+},
+"gneubig/aime-1983-2024||2014-II-14": {
+"id": "M0734",
+"content_sha256": "c808edf46b355d8a4761e7f5f3ee7fc640b12424db3e5008aea15037881d98c9"
+},
+"gneubig/aime-1983-2024||1997-7": {
+"id": "M0735",
+"content_sha256": "b2802e46362d7c37981f901490e9729bd3eb2fd3d7ca730b59a32d2ff66ac165"
+},
+"gneubig/aime-1983-2024||1989-2": {
+"id": "M0736",
+"content_sha256": "6390ac7fe57421b5ea8f3e34cb18293c38cc23445c5a7033c650fe535265537d"
+},
+"gneubig/aime-1983-2024||1986-8": {
+"id": "M0737",
+"content_sha256": "4ad1e8b7b889e47ef02d70e6bd33ee84d119d5f8754580cac7c8b6f9d76e4c40"
+},
+"gneubig/aime-1983-2024||2012-II-2": {
+"id": "M0738",
+"content_sha256": "45760eb7f380e0b95452009fb36610343875eeab52f4fa92ed5f734c9208bcab"
+},
+"MathArena/hmmt_feb_2026||21": {
+"id": "M0739",
+"content_sha256": "3a100312cff2c361e9b13e4c043adbc26cc9c93df5330c6c1768cfdaed659e27"
+},
+"MathArena/hmmt_feb_2023||20": {
+"id": "M0740",
+"content_sha256": "022d82b3bfa4d45761aa0a6b7aff4f7e0ce9af48a9eb5cb83c8bf7569f77831d"
+},
+"MathArena/hmmt_feb_2023||1": {
+"id": "M0741",
+"content_sha256": "104769fd309b5f6d1c8c0f3cc7a2f8337e2cf0977a8b824f7a7a4f723afabdb4"
+},
+"gneubig/aime-1983-2024||2013-II-2": {
+"id": "M0742",
+"content_sha256": "03716f6e86deeaa2981f2992790c530b880e237ba20a42ff6edcab89ee1505a4"
+},
+"gneubig/aime-1983-2024||2008-I-4": {
+"id": "M0743",
+"content_sha256": "8b1a74b29e9ebd4213ae7ee6f121e756ce9c03878ed55ef6bc4fd6949856f316"
+},
+"gneubig/aime-1983-2024||2014-II-13": {
+"id": "M0744",
+"content_sha256": "d221a2bd84e73a6af33d1ca9ce81827b3aab459394dfb17c0d8bf8859eb97d54"
+},
+"gneubig/aime-1983-2024||2000-I-1": {
+"id": "M0745",
+"content_sha256": "653b5df34445c9b2ca8d672599d5b402ff77d7cd79b0fffcd65332d606c3ceb6"
+},
+"MathArena/hmmt_feb_2025||26": {
+"id": "M0746",
+"content_sha256": "a6af7aff6df1e04901a52f39c843ae7ad176b3c32b8051a58ca3cf8c4c2607b9"
+},
+"gneubig/aime-1983-2024||2017-I-7": {
+"id": "M0747",
+"content_sha256": "831b9e9ab9495df890c48fcdbce961f258ba933e99d0317db10df0f5d5826f8f"
+},
+"MathArena/apex_2025||6": {
+"id": "M0748",
+"content_sha256": "2ccd984fb82a91aa24fefa7446eeb8845f23479815ce723c6fe634041b16e846"
+},
+"gneubig/aime-1983-2024||1983-7": {
+"id": "M0749",
+"content_sha256": "7a6f4876eab96ebf13f635d3da54fc3a3dd50891fbf64f08d02d9c73926ca666"
+},
+"MathArena/aime_2026||21": {
+"id": "M0750",
+"content_sha256": "551f4d6dbe0397bf70d0eb34319eb8688d256101a2d42fa56d576d6977873aa8"
+},
+"MathArena/brumo_2025||27": {
+"id": "M0751",
+"content_sha256": "2e22f96bade0297769b8655d7101d60ca443c6e16cf9b459b1eb0892275ce733"
+},
+"MathArena/hmmt_feb_2023||15": {
+"id": "M0752",
+"content_sha256": "a620fccfe8b65e623f5364d75c5dd1178fb52f6bde91936558a635bd83c23ad8"
+},
+"gneubig/aime-1983-2024||1995-15": {
+"id": "M0753",
+"content_sha256": "514ac7a48ddf9575186ed320982d513efa3328659c339fcf76372c51673daa7e"
+},
+"MathArena/hmmt_feb_2023||19": {
+"id": "M0754",
+"content_sha256": "ba21940f127c9c1ceffafd2cb60f242dc0feb26167449598459b1acbe4dc3767"
+},
+"gneubig/aime-1983-2024||1993-10": {
+"id": "M0755",
+"content_sha256": "01d3261086f3c7a6c15db596a64ac4f925af451e08fd97c90dcbe3425443b10a"
+},
+"MathArena/hmmt_nov_2025||16": {
+"id": "M0756",
+"content_sha256": "b89636981385a6b5404e9a55cac4cd607a4a78b106c41b0ff57db13238d35552"
+},
+"gneubig/aime-1983-2024||2022-I-12": {
+"id": "M0757",
+"content_sha256": "dad708d1e8600a0992db9fb04f50d675b2d31810060badc13bfff4ccca3b8bb9"
+},
+"gneubig/aime-1983-2024||2014-II-15": {
+"id": "M0758",
+"content_sha256": "212b7a27dc355adbe7197dc1bb990f09ed4a7e0a0b605cea3fb9e1e8e202cdc8"
+},
+"gneubig/aime-1983-2024||1996-14": {
+"id": "M0759",
+"content_sha256": "8a0c2947e97a9d759485b9a575d39f8ee1acb63e511c71e499f052027fca321b"
+},
+"gneubig/aime-1983-2024||2010-I-8": {
+"id": "M0760",
+"content_sha256": "8a5c8dc73b68b3e56488f7e0759ea6571c22130bbe9ea6a9294de11177095d7b"
+},
+"gneubig/aime-1983-2024||2006-II-6": {
+"id": "M0761",
+"content_sha256": "cd9cfee941c57748c141ded4c58561499c8f60dac6c9f817cdc1f63b569c8d3c"
+},
+"gneubig/aime-1983-2024||2000-I-5": {
+"id": "M0762",
+"content_sha256": "88389d81fbb87cd3ff72fba2f7c2422eb2dda145cc433bee19309612a250c575"
+},
+"MathArena/hmmt_feb_2025||12": {
+"id": "M0763",
+"content_sha256": "863deaaca486d4975577cb2e055b41890bd766f6fc68bd2bd0ead2f2add727f5"
+},
+"gneubig/aime-1983-2024||1984-8": {
+"id": "M0764",
+"content_sha256": "4c1690e19094ef28fd53d2956039e104b2f82e32c56ccc1374613278a21a2eb7"
+},
+"MathArena/hmmt_feb_2024||28": {
+"id": "M0765",
+"content_sha256": "d5b68c0c4f7e432912ea2ef54ba08898d96bb88d06ba8ff00189e6c0eb9b2691"
+},
+"gneubig/aime-1983-2024||2012-II-6": {
+"id": "M0766",
+"content_sha256": "39fe02013aaf3d9555f34d87b4304f4bbf04e8a38245e8ce2ef23cb8792a9062"
+},
+"gneubig/aime-1983-2024||2010-I-3": {
+"id": "M0767",
+"content_sha256": "98303ae1413ff77645b8a288a37c678036b827b61bc3499a2ef5f7b9e13fdd78"
+},
+"MathArena/aime_2024_II||4": {
+"id": "M0768",
+"content_sha256": "7d9a573a1ac696042d2c04700020385058e924b127dec0d757bf5700699da997"
+},
+"gneubig/aime-1983-2024||1990-11": {
+"id": "M0769",
+"content_sha256": "85b46e522f380a913b6d42c174191bdfba0252f0a55a724575cfe1902f08a14b"
+},
+"MathArena/hmmt_nov_2025||4": {
+"id": "M0770",
+"content_sha256": "808b12808b08b4d29671fd7efbce3e1965eddb344025d5788eb0f5e8974070ea"
+},
+"gneubig/aime-1983-2024||1985-5": {
+"id": "M0771",
+"content_sha256": "3df57ec97ddf9482adae28fc60ed4d5b92302faf3d6a51358e5011f6bdb521a7"
+},
+"gneubig/aime-1983-2024||2015-I-1": {
+"id": "M0772",
+"content_sha256": "bd06658cf2c36a3cadda772837551cb5572983a1d8adc2f99005d24f2cb2daa5"
+},
+"MathArena/hmmt_feb_2023||29": {
+"id": "M0773",
+"content_sha256": "af1827a87eaa64d09a4f9784a31886e0dd463e5d24d19b3d9a9782e91e674339"
+},
+"gneubig/aime-1983-2024||1998-10": {
+"id": "M0774",
+"content_sha256": "62a9e65f5e2b2dfd69e655a4886de6ff97ac15cef25c67cf9a4af2c2e6448366"
+},
+"MathArena/aime_2024_II||2": {
+"id": "M0775",
+"content_sha256": "cb85222757afd34ff014e5e2d69e402e528c85d321fd095eb43c52b3f0f690b5"
+},
+"gneubig/aime-1983-2024||2021-II-9": {
+"id": "M0776",
+"content_sha256": "3d7d351f33b8416837d3e39bde160d9e12b8ef557dfa1bd8b481040035ea2fe4"
+},
+"gneubig/aime-1983-2024||2010-I-11": {
+"id": "M0777",
+"content_sha256": "df01edbea1695a60c5ba48ef90cecbbb81f226970cb8c0301029075e9b23c3c6"
+},
+"gneubig/aime-1983-2024||2007-I-13": {
+"id": "M0778",
+"content_sha256": "dfdba3564c0cffd92e3385e9690b54da582d85e2eeb0717792fc121ffd2c08d5"
+},
+"MathArena/smt_2025||4": {
+"id": "M0779",
+"content_sha256": "18544b1488b9a5c4b2d64691360a13ea7c48a0bf79be48828d984b70dafd5d5f"
+},
+"MathArena/hmmt_feb_2026||18": {
+"id": "M0780",
+"content_sha256": "af4500df8fa54c6b450e870c02cce210b2c76b815115ac256899c1012e742f73"
+},
+"MathArena/aime_2024_II||1": {
+"id": "M0781",
+"content_sha256": "3028aab6cc7f1fcfb164fe32f296005b01dd8af308aed0e66e3a0903f8fc530a"
+},
+"MathArena/aime_2025||12": {
+"id": "M0782",
+"content_sha256": "04e2981f3a1aead92ec56e45a4c3c1ce00d25c30d9b20517626edff76b8c7aec"
+},
+"gneubig/aime-1983-2024||2009-II-2": {
+"id": "M0783",
+"content_sha256": "6e71c1881378636999b766fe83a55d7b846cc301aa1ea2f5d470b14060a2cfc8"
+},
+"MathArena/hmmt_feb_2026||5": {
+"id": "M0784",
+"content_sha256": "b3d66bae8711aec0a7f0bb5d0ba87d08ca0b0ffe3626dc05674d2681acbf1970"
+},
+"gneubig/aime-1983-2024||1997-5": {
+"id": "M0785",
+"content_sha256": "3f883abe56cad37e82181024e0e3032cf673254db17f75831dd44f1893136867"
+},
+"MathArena/aime_2026||27": {
+"id": "M0786",
+"content_sha256": "b3282b3963a2c5a103105972a9e2c6eedf07c05a8ddb54c691181872e2662132"
+},
+"MathArena/hmmt_nov_2025||25": {
+"id": "M0787",
+"content_sha256": "5ba6d111e7f6316355faab5cfebf67e3c06686238222ee14f31e312044805731"
+},
+"MathArena/hmmt_feb_2023||14": {
+"id": "M0788",
+"content_sha256": "9ef7e6ea42d6fcdc310a19107eece242dd478a852d4012d10936441a7029246f"
+},
+"MathArena/aime_2025||27": {
+"id": "M0789",
+"content_sha256": "1edc5c7fc109602b82652083f5602bb3d388ddd92a28cdf0b70925750d9b9eb4"
+},
+"gneubig/aime-1983-2024||2017-II-5": {
+"id": "M0790",
+"content_sha256": "3fb9fde37c061b2062dc47b4cdd25b56208ba44649125936cf617dd031a08565"
+},
+"gneubig/aime-1983-2024||2013-I-5": {
+"id": "M0791",
+"content_sha256": "b0bc1441de1e3af82ddebb519302d53473dc72aef4cfa26c2c20ef7c993ffc80"
+},
+"gneubig/aime-1983-2024||2019-I-3": {
+"id": "M0792",
+"content_sha256": "e2f8134eb7ef30cdf7be69c64d8618807830eee6055a30f97d5ffbc80bda7bfc"
+},
+"MathArena/smt_2025||38": {
+"id": "M0793",
+"content_sha256": "ef972fbc722db0bb71b27aa4930db24f7800af5867a52abcc289d2d3ea7b33d2"
+},
+"gneubig/aime-1983-2024||1984-6": {
+"id": "M0794",
+"content_sha256": "5097c97cc36d8323ca481066bcf785c5333f354de28367edbd1e8cd88e770752"
+},
+"MathArena/smt_2025||11": {
+"id": "M0795",
+"content_sha256": "50f66d0416760dd8032d7252e8c7ca1b5bbe28e6906d543932d358138e455948"
+},
+"MathArena/aime_2026||3": {
+"id": "M0796",
+"content_sha256": "87b0d9d69a3ca35f99349bf65daa6acd6eb0f3c2d10da1a023a3109cd0e8b9b6"
+},
+"gneubig/aime-1983-2024||2005-II-13": {
+"id": "M0797",
+"content_sha256": "9791443b047e236ada3837ce6ff2353e3f44eb5fc58f424bbcb8f191b30c5cae"
+},
+"gneubig/aime-1983-2024||2013-II-11": {
+"id": "M0798",
+"content_sha256": "11fb245614fa96da450a264b00cd117e12312d9037429699a25a6c0527406a7b"
+},
+"gneubig/aime-1983-2024||1999-15": {
+"id": "M0799",
+"content_sha256": "963a413bc0e5758aa48714065676499a06bbb112d6c5629b9e7e9c342c1487ad"
+},
+"gneubig/aime-1983-2024||2009-I-3": {
+"id": "M0800",
+"content_sha256": "42d18beb4d4780efc9bed090c5ae4d5b1125a0025054550037ae73308f873076"
+},
+"MathArena/aime_2026||14": {
+"id": "M0801",
+"content_sha256": "5a79493d9ce35ecda3f01abd0538e8a2979739239acbec878c6b36a816f85c8f"
+},
+"gneubig/aime-1983-2024||1996-12": {
+"id": "M0802",
+"content_sha256": "a4f96e31c1c681e751c5b6dd3ca6aaff434b082e3777fdbc05046eb12ef305f1"
+},
+"gneubig/aime-1983-2024||2001-I-10": {
+"id": "M0803",
+"content_sha256": "ee63eded4a1d38475b0d6a3cc27f7de6e5ef190e14dc9d6b715e74132c90204c"
+},
+"gneubig/aime-1983-2024||2005-II-10": {
+"id": "M0804",
+"content_sha256": "fb797fa031ec864478af2aa8a5eb1d7584d9e6bc3b9558667b754f0b5ed4ae8f"
+},
+"gneubig/aime-1983-2024||2015-II-11": {
+"id": "M0805",
+"content_sha256": "dafbd6a0df4f82e12754127c2f1f44e4466deb444c06cf2b9a27cf5df0dbd33a"
+},
+"gneubig/aime-1983-2024||2018-II-11": {
+"id": "M0806",
+"content_sha256": "c551263df920a84bad9fe97f9504da4d34b96e4c780eb1845e6eb4bce300365c"
+},
+"gneubig/aime-1983-2024||1988-15": {
+"id": "M0807",
+"content_sha256": "6d3435f0f54e859af6180d0da8c57800d17e9ad43df6c88aa4fbd04bed615145"
+},
+"gneubig/aime-1983-2024||2004-II-8": {
+"id": "M0808",
+"content_sha256": "6f4a49ead92658227de45d482387c12f88c1a102d441f55e2264ab948db1d66c"
+},
+"gneubig/aime-1983-2024||2021-II-7": {
+"id": "M0809",
+"content_sha256": "ff8a2dec8433686b544c8a0173812ea2014b8cd2a75caf62354afada23fc694f"
+},
+"gneubig/aime-1983-2024||2008-II-13": {
+"id": "M0810",
+"content_sha256": "e17289aabe0e01bfb6da926c3823806d96bfff48bb2a1fcf8097fba058e0ad72"
+},
+"MathArena/cmimc_2025||8": {
+"id": "M0811",
+"content_sha256": "4738e1f85d73f2d802c20b05c5feb4d0dac257b4644ed5aa84265877dc9156ea"
+},
+"gneubig/aime-1983-2024||2015-I-4": {
+"id": "M0812",
+"content_sha256": "f4b6715c5a462cb728e0667dafbd5b998c798a0c69566a1dac0cb18e182c8f9f"
+},
+"MathArena/aime_2025||7": {
+"id": "M0813",
+"content_sha256": "bb5a101037d13c03073346e0d84d8c5a2cc3733e74dd88ae9cd45d79231c21ff"
+},
+"gneubig/aime-1983-2024||2022-II-12": {
+"id": "M0814",
+"content_sha256": "cca46ce5c77467efb588850c43a7f983a79a7fbef457b7cdb0a9038c638b8cd2"
+},
+"gneubig/aime-1983-2024||1994-1": {
+"id": "M0815",
+"content_sha256": "2fc48a68ab6ca6e4bbf1473df610d9197473f7bf7958130fd25a8f67f70e37d9"
+},
+"gneubig/aime-1983-2024||1987-3": {
+"id": "M0816",
+"content_sha256": "2e4b875d7ab4834613d308d1e428d9fb594f214fecdbec691dd20d3ff0243f03"
+},
+"gneubig/aime-1983-2024||1992-14": {
+"id": "M0817",
+"content_sha256": "0f781d9c218a0eae61a77f5bb62d1c8c426abc8ec127c85d5d7416dcf18e746c"
+},
+"gneubig/aime-1983-2024||2012-I-13": {
+"id": "M0818",
+"content_sha256": "e5e6a554713f85a9c9cb716f3663ae5a74ca81ab951b0289638c1f2eb0e3707a"
+},
+"gneubig/aime-1983-2024||2007-I-2": {
+"id": "M0819",
+"content_sha256": "e535a12f61241543d589a95fcad76db13dc18512105a328148a26a65310d82d4"
+},
+"gneubig/aime-1983-2024||2019-I-1": {
+"id": "M0820",
+"content_sha256": "089b7c411b548335a2d38e1c649b6a9f499532231ebf9c0b11b2b4662a0116fc"
+},
+"gneubig/aime-1983-2024||2001-I-11": {
+"id": "M0821",
+"content_sha256": "a1bb7a512aecbc7e51b37485e1a736dd0c0fef4fa524f46e44a74f0f4dde9c38"
+},
+"gneubig/aime-1983-2024||2003-I-11": {
+"id": "M0822",
+"content_sha256": "d30d49e9f4eb604580dcfb7793f87830552df2fcb681a7bc58eae5cb817c8d30"
+},
+"MathArena/brumo_2025||7": {
+"id": "M0823",
+"content_sha256": "0ce0acbdf83618a308565de7a327b2540b724559d948b8925881e9b3f3cd0f86"
+},
+"MathArena/aime_2024_I||4": {
+"id": "M0824",
+"content_sha256": "18dcc59f78017d6d280f8209cb0557d8b01b481d75f558046398cc7949b3e23d"
+},
+"gneubig/aime-1983-2024||1983-2": {
+"id": "M0825",
+"content_sha256": "5d14e7db2e030d656819f97c853eb8f9bc67ac0c69232dd24ab9d43a11a13457"
+},
+"MathArena/aime_2026||2": {
+"id": "M0826",
+"content_sha256": "105bbf822286c12ceb3ee58cdf52a0fe7f57e90b2a4a5861a5cf459d4064eccb"
+},
+"MathArena/aime_2026||5": {
+"id": "M0827",
+"content_sha256": "672531d93da7ebf19fb1f542e10f853473b46e8730d72a0e95be23b53b5f03af"
+},
+"gneubig/aime-1983-2024||2003-I-14": {
+"id": "M0828",
+"content_sha256": "68a9846f081a5fb2e99337d36de556257a45acbb0576c65486efaf95bec7b2c7"
+},
+"gneubig/aime-1983-2024||2003-II-2": {
+"id": "M0829",
+"content_sha256": "edc0c21d77b5f3d5649f2685323ec8161ff3d018929b7caa5620890d992975a4"
+},
+"gneubig/aime-1983-2024||2016-II-13": {
+"id": "M0830",
+"content_sha256": "35e3dde9e16f3f635522f1f9f99042e500c76664ad6d8e28f1af46e20b4d6a36"
+},
+"gneubig/aime-1983-2024||2016-II-10": {
+"id": "M0831",
+"content_sha256": "a1b8f99391c2700ec6a13f52423085513bd73e2f08f5164b3f007e18d65d7437"
+},
+"gneubig/aime-1983-2024||2002-II-8": {
+"id": "M0832",
+"content_sha256": "7ab46bab6141d765e65263a16177a1066e285cf588aba87f9f353b9cdcfa234c"
+},
+"MathArena/cmimc_2025||29": {
+"id": "M0833",
+"content_sha256": "dec81c3ae6e5940d9c14ee09b9695ee571411e62a3f896ce1667db593443f2dc"
+},
+"MathArena/smt_2025||46": {
+"id": "M0834",
+"content_sha256": "e02d960bbc1be7a0366225207dcae24c90e54b02315ffac9e86fa83b2ec72155"
+},
+"gneubig/aime-1983-2024||2011-I-6": {
+"id": "M0835",
+"content_sha256": "4ee20b489ceb28320b82beca920cad7086637b2d8465d0e0cd8c17c04e9e4d18"
+},
+"gneubig/aime-1983-2024||1999-1": {
+"id": "M0836",
+"content_sha256": "3ebc97ec0462ec5b5b86fdb99d2c5d1dd1bd0cf667c29333b3624bbea197875d"
+},
+"gneubig/aime-1983-2024||1991-10": {
+"id": "M0837",
+"content_sha256": "8494a12a51cb6291ffbdf316701480936ba463169ea02185c6eb2bf47b21c68c"
+},
+"MathArena/hmmt_nov_2025||26": {
+"id": "M0838",
+"content_sha256": "f9e7e75232d094c05ed97a3cf992764bad6d6029268aa0ba9957e698e1ab7822"
+},
+"gneubig/aime-1983-2024||1983-13": {
+"id": "M0839",
+"content_sha256": "646075011e00677868a7b7f9cfa15bd16222f306321803eebaa660bc2f2bb3e7"
+},
+"gneubig/aime-1983-2024||2019-II-6": {
+"id": "M0840",
+"content_sha256": "556dbec9a408325e91210a20ee5e927f81d4207b105e8c28e23f17949d23c17e"
+},
+"gneubig/aime-1983-2024||2021-I-6": {
+"id": "M0841",
+"content_sha256": "abc86a90ac37a67cb51cebf73126cb99e2dca9efe5331ea28fb98def93d6f0e3"
+},
+"gneubig/aime-1983-2024||1995-6": {
+"id": "M0842",
+"content_sha256": "97ae12186ed175b4413e3cb843bff875c44f2393f53e7c197756cfea710f0bbd"
+},
+"gneubig/aime-1983-2024||2016-I-13": {
+"id": "M0843",
+"content_sha256": "22968703690f8c2649ead24797a3b71d8646c57d08985cacb26880a1aa516d20"
+},
+"MathArena/hmmt_feb_2023||8": {
+"id": "M0844",
+"content_sha256": "63df7b1d332a605c851d263a8cf6f8ff7aa0efb8d3659170ab6bbc874ed1f037"
+},
+"gneubig/aime-1983-2024||2008-I-7": {
+"id": "M0845",
+"content_sha256": "c6be276ddbdf13e4800cf6492c260e22247bab10b7f25dc4d4fc23cc2f93e77e"
+},
+"gneubig/aime-1983-2024||1985-7": {
+"id": "M0846",
+"content_sha256": "778d54eb006b5dbfb7bc3f3415a4f5035adb2f6589a24c117aca4a4792ed550d"
+},
+"gneubig/aime-1983-2024||2010-I-9": {
+"id": "M0847",
+"content_sha256": "0d379965a8f191dbe193f6ccf9d547ee36a48447401c2cd09d16c34e55ad7147"
+},
+"gneubig/aime-1983-2024||2004-I-6": {
+"id": "M0848",
+"content_sha256": "6e3c4c716391e49ac58bf3d9006357db06284ed04f6e6ece20b30c45f0963dcb"
+},
+"gneubig/aime-1983-2024||2017-II-9": {
+"id": "M0849",
+"content_sha256": "bec4aaf50aaa60cb028e3b97fbd0880fec7db5c9a8b2a5ddd88db17585725eba"
+},
+"MathArena/apex_2025||2": {
+"id": "M0850",
+"content_sha256": "f0c543b64ec068eaf230a6fcd88a4122e7e58042a6936d6543049a2552530c9a"
+},
+"MathArena/hmmt_feb_2025||20": {
+"id": "M0851",
+"content_sha256": "a322e565e2fddee18da68eaae752a16a349791b321ea6b9eca13ed6681e11b34"
+},
+"gneubig/aime-1983-2024||2005-I-6": {
+"id": "M0852",
+"content_sha256": "1944450fd7d1f0e48e93deff32c4bb025d80098d8ae212fb0494321a61ad760a"
+},
+"MathArena/hmmt_feb_2026||3": {
+"id": "M0853",
+"content_sha256": "953055045f2f372c1456539ef0785a19f097fc55befe83ecc67c7c42bf7c6864"
+},
+"MathArena/smt_2025||43": {
+"id": "M0854",
+"content_sha256": "beaa994764df6e144a9bfd0e1670992573a1eae8ce2f787957e8dae9358ec146"
+},
+"gneubig/aime-1983-2024||2022-I-3": {
+"id": "M0855",
+"content_sha256": "7874021c5214eb165cf636ca30ef0688a027dc531d4c7448fa3519d5d9961179"
+},
+"gneubig/aime-1983-2024||2006-I-15": {
+"id": "M0856",
+"content_sha256": "e1338e7321baf16f425b8e206438165ea3b5e7211cfe72f7bf150dd8ab26ea35"
+},
+"gneubig/aime-1983-2024||2019-II-5": {
+"id": "M0857",
+"content_sha256": "f809311c31c830e9635a55f5def8a5d6d1eb6f274d73298c783a980c8a168c62"
+},
+"MathArena/smt_2025||12": {
+"id": "M0858",
+"content_sha256": "cdf161b0a7cf58d5762cb517159eb5a6eccb2b0a437b602d6fae9446e316ef4f"
+},
+"MathArena/aime_2026||22": {
+"id": "M0859",
+"content_sha256": "206b2faee39a4792862735b1328a281a65bd2c5ba082e01d5e377baf28f0a628"
+},
+"gneubig/aime-1983-2024||1984-1": {
+"id": "M0860",
+"content_sha256": "ce19b7a4559ac7e4ea6767972c0195e456262d8bdc7b249c035c5fa480a9327f"
+},
+"MathArena/brumo_2025||8": {
+"id": "M0861",
+"content_sha256": "5949bacc0d20c84662ce98a75290fb5223b93e0d8059b5703ae2b884e685b57e"
+},
+"gneubig/aime-1983-2024||2020-I-11": {
+"id": "M0862",
+"content_sha256": "f7aaa91d96f37634521039e5b559aedccd9cd6321b210895be3f7ca46e08934e"
+},
+"MathArena/aime_2024_I||12": {
+"id": "M0863",
+"content_sha256": "5b0a51eda846fbe0cd4e6ffbd81dc14283ea1c26b6773b3e07f802a1aa02bcb6"
+},
+"gneubig/aime-1983-2024||2004-I-4": {
+"id": "M0864",
+"content_sha256": "d2a4d1aeeaf6906c1cede2a6695a66a32b92d8f1aa0b265b4303a931e727be73"
+},
+"gneubig/aime-1983-2024||2021-I-14": {
+"id": "M0865",
+"content_sha256": "43eab4ca0a547bef7d0d34c15e5b5f66649de5001eef535bf63eb689af121dd8"
+},
+"gneubig/aime-1983-2024||2015-II-14": {
+"id": "M0866",
+"content_sha256": "daa196c080e12b742b682745a4362291e73430a0f92be95ec541f8910b6e293e"
+},
+"gneubig/aime-1983-2024||2001-II-2": {
+"id": "M0867",
+"content_sha256": "b5294e1cdb4745308f4a350506c3a6629897792e77941c495ed2e975734b4fd8"
+},
+"gneubig/aime-1983-2024||1997-8": {
+"id": "M0868",
+"content_sha256": "e1792c273b6b8d9b8b688dfdf024a97bfe5d5db0fe51528ec17cd87149218348"
+},
+"MathArena/hmmt_feb_2025||11": {
+"id": "M0869",
+"content_sha256": "50a79dedfe82258f011e2266e0d5c8ceea747e6bbdc315cfaff5a2d5b3204bb4"
+},
+"gneubig/aime-1983-2024||2014-I-7": {
+"id": "M0870",
+"content_sha256": "d49c80f7b56f5f587b72d06b19d9095f14d68409ca190e501d63d9fd6dded70a"
+},
+"gneubig/aime-1983-2024||2016-II-7": {
+"id": "M0871",
+"content_sha256": "fdb9928f731c0f7f2106f0bf19af7f83b6ecbee293b1be0248313efd9b25005c"
+},
+"gneubig/aime-1983-2024||2007-II-6": {
+"id": "M0872",
+"content_sha256": "b130e177915b84281600a2f014424501ed9337541ce37c86b0df1e7a528f98d1"
+},
+"gneubig/aime-1983-2024||2000-II-9": {
+"id": "M0873",
+"content_sha256": "0be3ffee40c31962848233f3578443617c44844168ac57b3509ef00dc01173cc"
+},
+"MathArena/hmmt_feb_2025||18": {
+"id": "M0874",
+"content_sha256": "4289a65c08d76a50cbf456f555b4f4f141ebf71f7b100bfd3ececf6ba1b1cbd1"
+},
+"MathArena/hmmt_nov_2025||11": {
+"id": "M0875",
+"content_sha256": "138aa5d6f29ce662bca9cd50877cf9b3ce47ad3b5d3bafa868999f6fa78414f4"
+},
+"MathArena/smt_2025||44": {
+"id": "M0876",
+"content_sha256": "7cb628937f972a6d5eacd0edf6d85ee88285ad3f15b4e52478df87a91f5338ce"
+},
+"gneubig/aime-1983-2024||2019-II-8": {
+"id": "M0877",
+"content_sha256": "739c458aedbc7af33ccb85176d499f605fb72343926de15ccbbd067db3d1718a"
+},
+"MathArena/cmimc_2025||18": {
+"id": "M0878",
+"content_sha256": "093e2ec7c0d83e38957d8268c392353bcbd18b1bbc2d5520cfc4faf3a6965c57"
+},
+"MathArena/aime_2025||15": {
+"id": "M0879",
+"content_sha256": "66427b7f2a464a6d7ee6068de5ace6836bd0231e64b88c6e2bab10635b4083b5"
+},
+"gneubig/aime-1983-2024||2006-I-14": {
+"id": "M0880",
+"content_sha256": "db375985dbb16976d186873228f9252e818191fb41821c66a57aca911e3d195b"
+},
+"gneubig/aime-1983-2024||1999-8": {
+"id": "M0881",
+"content_sha256": "94433ebce56d97c2ac0d87e8ed474ff03266cbd088c195f969cbf1124f679fb6"
+},
+"MathArena/smt_2025||14": {
+"id": "M0882",
+"content_sha256": "59a1a72402b21affd5f6c3e5b9ac44d8902610821e7fd7b596af89db3a090507"
+},
+"MathArena/aime_2023_I||3": {
+"id": "M0883",
+"content_sha256": "735ea35cfbc6d074c0cb3cbf6ef7e4f9b3e6b230f6122cd9ead6ad71bb4e823f"
+},
+"gneubig/aime-1983-2024||2001-I-12": {
+"id": "M0884",
+"content_sha256": "64bc1058192c6a91226ed24db5f68cf335bb1c6dd71d13d51102b0ab951e06fe"
+},
+"MathArena/aime_2026||8": {
+"id": "M0885",
+"content_sha256": "b3a4c40caec03e4f01ffaba2dccd482e283554a7bd11f13d338290804ec9349f"
+},
+"gneubig/aime-1983-2024||2012-I-10": {
+"id": "M0886",
+"content_sha256": "95c97c0c4171aad470ae7fbc1e6adb7b2ca27ca8b4441f3513894c954dfb98bf"
+},
+"MathArena/hmmt_feb_2023||16": {
+"id": "M0887",
+"content_sha256": "c189bd58c06b45178e73e451266284d84fa0582e96210fb5f2975d5880794cec"
+},
+"gneubig/aime-1983-2024||1992-3": {
+"id": "M0888",
+"content_sha256": "0cb1d42575f95466e66e01f2039e289f549c80314057f57becafa38f3ef5772c"
+},
+"MathArena/hmmt_feb_2026||19": {
+"id": "M0889",
+"content_sha256": "f31ce6844e4717f4d8389dac475fd385e59d8441330b6b9d26c931360ee72aa0"
+},
+"MathArena/hmmt_feb_2023||18": {
+"id": "M0890",
+"content_sha256": "9346ea2a39b727356a11cb0c1aa2e2d8fdb0987fd9359613f940cedcc14c42c9"
+},
+"gneubig/aime-1983-2024||2001-II-11": {
+"id": "M0891",
+"content_sha256": "a9fd9f2c64e32bffbdf23f29f6915cb488b99cbeaa9ed63a572e900367660a81"
+},
+"gneubig/aime-1983-2024||2010-I-6": {
+"id": "M0892",
+"content_sha256": "9f2c4c8e484dc72ca9f4acc4c0136dfce521dec746d080c3844978c389dd5ef6"
+},
+"gneubig/aime-1983-2024||1990-1": {
+"id": "M0893",
+"content_sha256": "05c30793914e7b75ecf3c7653e8a82d9913db490a47f5d05da90410de6dbb08b"
+},
+"gneubig/aime-1983-2024||2009-II-3": {
+"id": "M0894",
+"content_sha256": "9621c713026746d0e4bac4f0795f0f5dcfbc55f752a37e4d85163044f2bdebf0"
+},
+"gneubig/aime-1983-2024||2019-I-11": {
+"id": "M0895",
+"content_sha256": "cd46e327127aea5004e11640504de734a49ae5c8c464edde93f3662d81957872"
+},
+"MathArena/aime_2026||24": {
+"id": "M0896",
+"content_sha256": "71900092be9b0302cafb3c58010a4340f80f5d5ef7150c52da8c3f8e72124846"
+},
+"MathArena/aime_2024_II||3": {
+"id": "M0897",
+"content_sha256": "ae315155318d7ee5ac61d565fd9eea859ff94d4df9a14a2b0e9018b75dd96da3"
+},
+"MathArena/cmimc_2025||17": {
+"id": "M0898",
+"content_sha256": "c09b109b421f61e30291e29712c63d361d17fded8d2a8d503307c0947006b528"
+},
+"gneubig/aime-1983-2024||1985-1": {
+"id": "M0899",
+"content_sha256": "7cebae97d4d7ed3f573c247033555c7304de8608e034f300a27d0fbf6b3da6f6"
+},
+"gneubig/aime-1983-2024||2010-II-15": {
+"id": "M0900",
+"content_sha256": "e5ef2044da3bca34bf5836b29871486aee908b819ec438fb0602ff1b2aea8588"
+},
+"gneubig/aime-1983-2024||2004-II-2": {
+"id": "M0901",
+"content_sha256": "36a5a874434ebe1940d0700da025e72ccc23d121aeb2d1c56f4901230ac531ac"
+},
+"MathArena/brumo_2025||9": {
+"id": "M0902",
+"content_sha256": "aa8fd799119e307eaf7d4d12ba9507001b20ac8e5d965522a5ad77c3842299d9"
+},
+"gneubig/aime-1983-2024||2012-I-2": {
+"id": "M0903",
+"content_sha256": "2e2684c9300bb2db1133a7e831dd2ecfb65c19afa3848bc066acc183eaf9837a"
+},
+"gneubig/aime-1983-2024||2014-II-1": {
+"id": "M0904",
+"content_sha256": "40eb29b8e00b039913b997263e7f660d71ca668725db16279a46c82d9e4e73ba"
+},
+"gneubig/aime-1983-2024||2020-I-5": {
+"id": "M0905",
+"content_sha256": "32f3340ee621fe361d3d2eb2a1e6a4e859a2f174b594d06d27824b4b917b6470"
+},
+"MathArena/hmmt_feb_2026||27": {
+"id": "M0906",
+"content_sha256": "29de56ef70265d238c36da5d2f97a4fec095f1df6e5ec49c783224d4614b6865"
+},
+"gneubig/aime-1983-2024||1999-13": {
+"id": "M0907",
+"content_sha256": "3cc3859d1bcdfd25466513d45537acf49eb4015a6d1c0021d1e2504b21c87332"
+},
+"MathArena/smt_2025||33": {
+"id": "M0908",
+"content_sha256": "ea60f205f4c40d96e3e2dad76a7e029238c887cde749d5eb2c165a113dfda73d"
+},
+"gneubig/aime-1983-2024||1999-11": {
+"id": "M0909",
+"content_sha256": "8cbc543cb820c22313fedc7d08df13254005120c6ef5f16852a7855d5daed155"
+},
+"gneubig/aime-1983-2024||2020-I-15": {
+"id": "M0910",
+"content_sha256": "8baeaa787802a7b4da84f43e46d9a29e58dd04eb16c62c56a5589e824110b941"
+},
+"gneubig/aime-1983-2024||1994-2": {
+"id": "M0911",
+"content_sha256": "926a0b64fea6bb8bd44e517b385db5fb0c35ff66f654cecf0e0de9d4b1fc47a3"
+},
+"MathArena/aime_2023_II||9": {
+"id": "M0912",
+"content_sha256": "103a89e37451fb89d8529dbef726eb9207f6a3d5bc4f9dab05de193faac274ad"
+},
+"MathArena/aime_2024_II||11": {
+"id": "M0913",
+"content_sha256": "14a1898ea5184b028759b2218ea4cbbae629de538eb5b132425be733550f173f"
+},
+"gneubig/aime-1983-2024||1995-4": {
+"id": "M0914",
+"content_sha256": "d33ac09ce657a2cff54914de31b4df91a67babd0490ada741d8f8203a54d0a87"
+},
+"MathArena/cmimc_2025||35": {
+"id": "M0915",
+"content_sha256": "10354efa3fe42c6c80d6f71b195847b2ac6c1ced44b25696cfa00ea97030e057"
+},
+"gneubig/aime-1983-2024||2011-II-5": {
+"id": "M0916",
+"content_sha256": "d89bb7ce805fd0a105134b65e1adc6664fbefb3912bd57a0d1bb3f8b0486a356"
+},
+"MathArena/brumo_2025||10": {
+"id": "M0917",
+"content_sha256": "5b9e10cb03e37b6ad03838c9035d02f6c64e3b7936968522e4e3930bee63a837"
+},
+"gneubig/aime-1983-2024||2001-I-1": {
+"id": "M0918",
+"content_sha256": "e215d4313b32ba21c8af37825b3b4f78db06efb3559f598460ff00c843ea3768"
+},
+"gneubig/aime-1983-2024||2000-I-14": {
+"id": "M0919",
+"content_sha256": "7388e7732c7ab00bc470a0e781c02740c7a6e06a6107f1e540c315f0500c079a"
+},
+"gneubig/aime-1983-2024||1989-1": {
+"id": "M0920",
+"content_sha256": "07f9b87dc82016e514c941183f8e4442faf421083903e005faece45535830afa"
+},
+"MathArena/aime_2024_I||10": {
+"id": "M0921",
+"content_sha256": "40ce0902e6e4a0b4161d750282cfb32c6fa3573c17a6a5386c8e1ff96708e069"
+},
+"MathArena/apex_2025||4": {
+"id": "M0922",
+"content_sha256": "59caa2e0f46bf92be7d50af961a5b3a4b04b17d5b07830e2ae081fd9027ad75f"
+},
+"MathArena/hmmt_feb_2026||30": {
+"id": "M0923",
+"content_sha256": "c9197e775fe1238889a6bc1751f70dbf528e11c8ac972755708c869a0117bd17"
+},
+"gneubig/aime-1983-2024||2000-II-11": {
+"id": "M0924",
+"content_sha256": "96eca23ec8a9c3da692b63f9173059011ce398a13515bb08cea3e957323687d8"
+},
+"MathArena/hmmt_nov_2025||6": {
+"id": "M0925",
+"content_sha256": "22832df28a0c9bc6ea5d83d1481266cb2405101005daa42aa155f2e445e9f505"
+},
+"gneubig/aime-1983-2024||2001-II-6": {
+"id": "M0926",
+"content_sha256": "72b962a028520c00c93f9cb0f7bb2d17bd200baf9d7e02fc392dbb4cac419efc"
+},
+"gneubig/aime-1983-2024||2011-II-12": {
+"id": "M0927",
+"content_sha256": "9aab74d3827ea83411f13a16d49170c4157eac510e57024a07dc414dedd94677"
+},
+"gneubig/aime-1983-2024||2004-II-9": {
+"id": "M0928",
+"content_sha256": "e14fc68a9aed094834375c079f3a12ce113f07565b5e681f6e8b2e0d5c6ceeb1"
+},
+"gneubig/aime-1983-2024||2012-I-3": {
+"id": "M0929",
+"content_sha256": "d1da773e6d2bf065007b974d657b3429e9edb19b26aa224036e6ce28780ef1ed"
+},
+"gneubig/aime-1983-2024||2004-I-7": {
+"id": "M0930",
+"content_sha256": "8c15664515ceabaec9037bf3cdd53554947a17cc26f4594e49a69778a33f3f18"
+},
+"gneubig/aime-1983-2024||2008-II-6": {
+"id": "M0931",
+"content_sha256": "e716c3748c4d2177296c616df2f71d13f08b99265fdc72bb885c851fe7648df7"
+},
+"gneubig/aime-1983-2024||2003-I-8": {
+"id": "M0932",
+"content_sha256": "c7ddd86281e475f179838bee43d7057873d41750e51b1ea578ccb3987eb5ec27"
+},
+"gneubig/aime-1983-2024||2004-I-1": {
+"id": "M0933",
+"content_sha256": "75dedc56c17cd7e4378de97801fbc1426b3cfe7dd345ce5bef06c3a24617aad4"
+},
+"MathArena/hmmt_nov_2025||20": {
+"id": "M0934",
+"content_sha256": "cbbdfed6edc3af1c5558a1e3cd05712b86f842a068b8b9681fbc55b9cece3074"
+},
+"MathArena/cmimc_2025||1": {
+"id": "M0935",
+"content_sha256": "ce82aa99f2c38488c60486b3ff7b988c5659ed1f88d7a7e657693f3eb8790988"
+},
+"gneubig/aime-1983-2024||2003-II-10": {
+"id": "M0936",
+"content_sha256": "e9280d7f681bf96c704fcc8a82545edfafa577b649a41b28f3b00e7bc506b566"
+},
+"gneubig/aime-1983-2024||2011-I-12": {
+"id": "M0937",
+"content_sha256": "8f03f34055e68a09dc007ee677ada543a5a8bbc660ff406e4fcc87cc68ac08a5"
+},
+"gneubig/aime-1983-2024||1993-1": {
+"id": "M0938",
+"content_sha256": "b31df63d521f0a798a33683aaf87e830f66daebf1e5221d325c0e6e492b6618b"
+},
+"gneubig/aime-1983-2024||2020-II-3": {
+"id": "M0939",
+"content_sha256": "5b664fc6ecd600a985d3ac544ec84f3a5197537afeb53a85369437526c1f550f"
+},
+"MathArena/hmmt_feb_2026||16": {
+"id": "M0940",
+"content_sha256": "2bc9907b11b131cb0db53d1524581d55e0e336d84d313f80c4a8b0921d263839"
+},
+"gneubig/aime-1983-2024||2008-I-1": {
+"id": "M0941",
+"content_sha256": "3371cb3247c98819ab7ca8511ceb2fc3be9f927bfd8d57441cc2cadd00490232"
+},
+"gneubig/aime-1983-2024||2002-II-6": {
+"id": "M0942",
+"content_sha256": "aebe0802f9c6403e677cea6f68d3791d4856da5903ed716d03b35f4ad6a207a1"
+},
+"MathArena/hmmt_feb_2023||13": {
+"id": "M0943",
+"content_sha256": "f873e0c9028a2ec812aa048d4345e0a7ddd97d0159afa198430b471b9a092b71"
+},
+"gneubig/aime-1983-2024||2011-I-7": {
+"id": "M0944",
+"content_sha256": "676d69403d0c4d9729c7723d040e4be62325e36fffa31af36588192a77b7ab26"
+},
+"gneubig/aime-1983-2024||2018-I-5": {
+"id": "M0945",
+"content_sha256": "b9511606b898778dbedf59c4ffeec65585b356f098b1b45c206d170dab125306"
+},
+"MathArena/hmmt_nov_2025||15": {
+"id": "M0946",
+"content_sha256": "9b4e8840a0227e0f3ae0782dcd445c91d7adbe36c1bd49d16984ebb89957cf6b"
+},
+"gneubig/aime-1983-2024||2020-II-11": {
+"id": "M0947",
+"content_sha256": "884017e5a0c6540d280b10e512934c3829327e9213463ae65a12246ad0faf764"
+},
+"gneubig/aime-1983-2024||2010-I-15": {
+"id": "M0948",
+"content_sha256": "744b9cf6a89f93a09e536cb1f2afa5b64ae43e805fad9f8258f1c036fecc0d23"
+},
+"MathArena/smt_2025||19": {
+"id": "M0949",
+"content_sha256": "7c081184c457e0d7a6219ee5d2526e9b7f1adccddc00bbe0dfbdd34f0b1cfae1"
+},
+"gneubig/aime-1983-2024||1987-2": {
+"id": "M0950",
+"content_sha256": "97c0425233da1e6a50790cb2eabc04537f6bbe319593c70b78ce987196996af5"
+},
+"gneubig/aime-1983-2024||2000-II-8": {
+"id": "M0951",
+"content_sha256": "8ba1f257d8f05594c2429804bf5bf02602d3ed963bb8d64ea9e7df3dca4c3cf4"
+},
+"gneubig/aime-1983-2024||2003-I-12": {
+"id": "M0952",
+"content_sha256": "f422b2fcf17ad8ceb45b1b0d0596e1b9fb2f94015b8bbf43af231c03c3316549"
+},
+"gneubig/aime-1983-2024||2002-II-9": {
+"id": "M0953",
+"content_sha256": "0143dd1c24fa4566d8d9dddee0be9c32b2562f49672e5ff18b06e81366bacac4"
+},
+"gneubig/aime-1983-2024||1988-5": {
+"id": "M0954",
+"content_sha256": "34f656626340d1968d5fb2395be71764aaecc7a6cd192871756f90ebe5a0010d"
+},
+"gneubig/aime-1983-2024||2001-II-1": {
+"id": "M0955",
+"content_sha256": "70d5f9c30de6893f4497161763a9a51415dd7bfc6caa994a773a7ea3f7f415ab"
+},
+"gneubig/aime-1983-2024||2009-II-7": {
+"id": "M0956",
+"content_sha256": "fbb9d6b6e841a00d5a5e288e57880a9db107b9e02d79c233adffe633c72c115d"
+},
+"MathArena/brumo_2025||18": {
+"id": "M0957",
+"content_sha256": "e490c94167ab9e0e6f735a6c4641a2d17d60b233ac0f45436146cbc23bcd988a"
+},
+"MathArena/aime_2025||19": {
+"id": "M0958",
+"content_sha256": "38a6693d1881a3f4ea98f5f373df1f8992d88cb9009471504d413f970a11a09f"
+},
+"gneubig/aime-1983-2024||2009-I-13": {
+"id": "M0959",
+"content_sha256": "d0d14ff5fe2584602b2ae1a9d2dc2431336b3371aa1838d80b505a3e298e62d4"
+},
+"gneubig/aime-1983-2024||2009-II-4": {
+"id": "M0960",
+"content_sha256": "0d244ac64598ffd6e1ce6177eabe87c11856f7e6a0f8c2d724d619ba419948f2"
+},
+"gneubig/aime-1983-2024||2011-I-10": {
+"id": "M0961",
+"content_sha256": "7daa4d1e355369e1b27a23dd0f3b343f7809fc59a1d36fee1e23cee578bc6d3f"
+},
+"MathArena/brumo_2025||28": {
+"id": "M0962",
+"content_sha256": "c2b8ac818dc9e4b9c3d429a1804fd64b4fe4ce18ea3ed43d14e736eb889455e5"
+},
+"MathArena/aime_2025||28": {
+"id": "M0963",
+"content_sha256": "203747e0c3c59afb90f842fb7a99a5e2858bbd83ab5241e81b16eb0980de34f3"
+},
+"MathArena/aime_2025||17": {
+"id": "M0964",
+"content_sha256": "7d1ec357305b1d28207c01e31fa0a2a327ef13e9277715bd4630d2cc1515de14"
+},
+"gneubig/aime-1983-2024||2015-II-2": {
+"id": "M0965",
+"content_sha256": "fa0bb6a6a6e1a296d287cc4c70d81001db1b589051e1f3172f925f860aa21820"
+},
+"gneubig/aime-1983-2024||2008-I-3": {
+"id": "M0966",
+"content_sha256": "d0c7f480b06b85e7fa71b5a4a440e67f745df29cf292de540eea2ab3cdb605c9"
+},
+"gneubig/aime-1983-2024||2017-II-7": {
+"id": "M0967",
+"content_sha256": "6338efc7c1c14def0193c0dc2bc752844416d03a756fee0a74130d8a9a2089a0"
+},
+"gneubig/aime-1983-2024||1997-9": {
+"id": "M0968",
+"content_sha256": "3563f1c0202165415a122953ae08f3b53cda18d15b55b3d737fe37dd43582fcd"
+},
+"gneubig/aime-1983-2024||2008-II-2": {
+"id": "M0969",
+"content_sha256": "f43a4b28e3904d170f9d80e639e77a3f2cebfc0d4ce09c4868cebb52fe983ffb"
+},
+"MathArena/hmmt_nov_2025||21": {
+"id": "M0970",
+"content_sha256": "d9cb0e5b7250c43fd4217b011396a8d5791ef380f4d48739d785e3232a04fe73"
+},
+"gneubig/aime-1983-2024||2002-II-2": {
+"id": "M0971",
+"content_sha256": "9306f9f465dc15536e72a79c8246841fe36b8b8c5f900aada4d0b8d240c86fac"
+},
+"gneubig/aime-1983-2024||2012-II-7": {
+"id": "M0972",
+"content_sha256": "54eac52da3613e39a49d3e68e06c0130490ab371bb34ba7b0806972e5ac3e211"
+},
+"gneubig/aime-1983-2024||1986-10": {
+"id": "M0973",
+"content_sha256": "9d61195ec4859df82ba8c771966cedc6f40531ae92eac3e12723070553a28df8"
+},
+"MathArena/hmmt_feb_2023||21": {
+"id": "M0974",
+"content_sha256": "01a0bc1122aec3c412768d4be995b5a26500843383eacd719b29ad0d182ed3ee"
+},
+"gneubig/aime-1983-2024||2019-II-7": {
+"id": "M0975",
+"content_sha256": "2984b1ad1e5ad99873fc2ff89d6974355866312d503eb2f9ef056d50fda3d7e5"
+},
+"gneubig/aime-1983-2024||2016-I-10": {
+"id": "M0976",
+"content_sha256": "edd41a6dc2ae69596c5171aac7b64c267bf9aeb4446b864944554e5cb8e4261b"
+},
+"gneubig/aime-1983-2024||2014-II-9": {
+"id": "M0977",
+"content_sha256": "edd4dd20e0e0cc20d0d37f70e84ce3b882a78c68c9b85981792b9cafd6c2d278"
+},
+"gneubig/aime-1983-2024||1989-11": {
+"id": "M0978",
+"content_sha256": "60d525e70938a333f5966976cec24495d83e0128b357f8ecf1627eff0bb65783"
+},
+"gneubig/aime-1983-2024||2008-I-10": {
+"id": "M0979",
+"content_sha256": "9dd3d3d04f0f30c15b50f5b4f89aade9af761b60455c8637ba5025b30acb0ff7"
+},
+"gneubig/aime-1983-2024||2006-II-3": {
+"id": "M0980",
+"content_sha256": "6fafd7c16e042cfa0a8c564fa94e5ef0c20fa38a08f6a0b2e64792a0673f5728"
+},
+"gneubig/aime-1983-2024||2006-II-1": {
+"id": "M0981",
+"content_sha256": "568679261e061cbacc3bf20eab45dc379e4e30fab64d565b5185cd58923649dd"
+},
+"gneubig/aime-1983-2024||1992-7": {
+"id": "M0982",
+"content_sha256": "4a5ceced275bb09b467d425afd98271d1c35832a59635fb739ebdacb9567ef84"
+},
+"MathArena/hmmt_feb_2025||29": {
+"id": "M0983",
+"content_sha256": "1154925281820936e8a3eebe67ba81bca73d9d1772f6b78fb7551783ad91ce00"
+},
+"gneubig/aime-1983-2024||2005-I-1": {
+"id": "M0984",
+"content_sha256": "1c3d72638b8688fc46900e96b5db4d782fce10353492889ba014530024874b5c"
+},
+"gneubig/aime-1983-2024||2004-I-13": {
+"id": "M0985",
+"content_sha256": "9dfc175eb84bb00e085f38e4d469466281937d6228971d92f90720d3773d32c4"
+},
+"gneubig/aime-1983-2024||2005-II-15": {
+"id": "M0986",
+"content_sha256": "4d44770fb95d6698aab8de76ded01ead1cf69a8f83b99c677eea1654ad412510"
+},
+"MathArena/hmmt_nov_2025||13": {
+"id": "M0987",
+"content_sha256": "15efc448950d4d160c0e86ebe1876b1a9971d9beda66dea514b694afe6fda891"
+},
+"MathArena/hmmt_nov_2025||12": {
+"id": "M0988",
+"content_sha256": "5865d21f6279be3524508de6f968260a23dc867c89a0ecf27da64382e8145fd2"
+},
+"gneubig/aime-1983-2024||2015-I-11": {
+"id": "M0989",
+"content_sha256": "d4dae1ef206094248ced5bba59326f26a12587b73d289f31b847f6c1486758c5"
+},
+"gneubig/aime-1983-2024||2021-II-15": {
+"id": "M0990",
+"content_sha256": "d83406d59393e7b79c917e55937090ef17824db5df8d6259a9547782d0b18469"
+},
+"gneubig/aime-1983-2024||2013-I-3": {
+"id": "M0991",
+"content_sha256": "d2fdb44e00767d49bb9a2e55ab5e3903dd45388062142b94fc9a2c8da540a73f"
+},
+"gneubig/aime-1983-2024||1987-4": {
+"id": "M0992",
+"content_sha256": "72ce7d72391cedc632f20e3b169682739f987596d2cb51d0d6772e40f583ede9"
+},
+"gneubig/aime-1983-2024||1986-6": {
+"id": "M0993",
+"content_sha256": "bf6ac959f38c224d621bfd43ffa3d0bebd6cfd32cb11c2cebccb31cbe6cf0b67"
+},
+"gneubig/aime-1983-2024||2000-I-15": {
+"id": "M0994",
+"content_sha256": "8f71671fa24830b1fb81826897ebadb6b6a892169764c67bb7f21b7c2d7c94c3"
+},
+"gneubig/aime-1983-2024||1991-13": {
+"id": "M0995",
+"content_sha256": "b5b66a2995a3d59e23bc4ea488f292625f141a9db2deed162b167d42b470baf7"
+},
+"gneubig/aime-1983-2024||2022-II-10": {
+"id": "M0996",
+"content_sha256": "9e9b2e61aa4204a6cdfc3b5833c43701cddbf09bf56baea85bbcf148b733ea01"
+},
+"MathArena/hmmt_feb_2026||20": {
+"id": "M0997",
+"content_sha256": "a9d452b6081687f3a3be575c65fe98772df27c2d36b0fa1e154f8dad137ef6f5"
+},
+"gneubig/aime-1983-2024||2000-I-13": {
+"id": "M0998",
+"content_sha256": "561ba817abd791938522897e18fe399fd5ebe12511279136c0095b4fb2d298d8"
+},
+"gneubig/aime-1983-2024||2011-II-8": {
+"id": "M0999",
+"content_sha256": "bd2cd3679e0653fa1798095cbbaf19b5dcf156ae2d8df1081432dac03886d134"
+},
+"gneubig/aime-1983-2024||2003-I-6": {
+"id": "M1000",
+"content_sha256": "169898143185b3d3833b666ccc1d4f0fe1ea744764571fafb17a3a78b7c75c59"
+},
+"gneubig/aime-1983-2024||2005-II-6": {
+"id": "M1001",
+"content_sha256": "99f5b22d2883ca0a3450dcb8406b879778e7aa514990419e1aa0fd1ce449bb2e"
+},
+"MathArena/smt_2025||25": {
+"id": "M1002",
+"content_sha256": "96016e24d845f43a7841ad10d29655f8e9bfdb977dd653dbb2559e5cc355aa89"
+},
+"MathArena/smt_2025||42": {
+"id": "M1003",
+"content_sha256": "786618adeccb13e54ffced14e45dc8372f2a86fe161700a27b7c905455bbd8b8"
+},
+"gneubig/aime-1983-2024||2003-II-12": {
+"id": "M1004",
+"content_sha256": "b9116555a21941263b7d14fd0153d8b525355dbefbfc5e1c83cc3af2be2128cf"
+},
+"gneubig/aime-1983-2024||2021-II-11": {
+"id": "M1005",
+"content_sha256": "718dd4f6a883f4b91c5c0257f1a06481c9ca894c066c2370c141096c6a2a0106"
+},
+"gneubig/aime-1983-2024||2008-I-6": {
+"id": "M1006",
+"content_sha256": "e07fc28a68dfb8938b40ddd64b184f5a385ae1f4367e7f4b5b85eaa5b3352f05"
+},
+"gneubig/aime-1983-2024||2020-II-6": {
+"id": "M1007",
+"content_sha256": "fc81a232245017eb633ef794bbac6a326d28928a1d308597e55f5b6b2e909df2"
+},
+"gneubig/aime-1983-2024||2017-I-13": {
+"id": "M1008",
+"content_sha256": "6cfc07bb481b6f061e39187fcfc78af43477ddaaa8d47bb9130f79789665bfa1"
+},
+"gneubig/aime-1983-2024||2016-I-11": {
+"id": "M1009",
+"content_sha256": "9f9ad7aae09485496c50c1e1cab79e31a3e39a8befa2a7bc488fe91d7b5fcb36"
+},
+"gneubig/aime-1983-2024||1985-9": {
+"id": "M1010",
+"content_sha256": "e78544470b27d30d24f2dc8f3a03e42ab08e05c516ec1de3ac3646931f4dce33"
+},
+"gneubig/aime-1983-2024||1987-8": {
+"id": "M1011",
+"content_sha256": "579184c59661803fa38a64768e7343a69e7bd41f662a2d06efa4acf66e5a29c7"
+},
+"gneubig/aime-1983-2024||1999-3": {
+"id": "M1012",
+"content_sha256": "c09903805a51e81470166ae0163b16071d30e4c5b59ee72c85d61092b7a52fdb"
+},
+"MathArena/cmimc_2025||22": {
+"id": "M1013",
+"content_sha256": "84e2aeedde93ef69935ec592768720ffe32cd1bbb7bc484c7cf1150046e174e0"
+},
+"MathArena/cmimc_2025||23": {
+"id": "M1014",
+"content_sha256": "50508e78541ac62c2afa740900c2ab220a6f351f47b6bcf450054ea630c41cc6"
+},
+"gneubig/aime-1983-2024||2012-II-1": {
+"id": "M1015",
+"content_sha256": "ceb68f1dbaad3767db79c287f134145e35e730e34eae0df359eb33d8e5641d8a"
+},
+"MathArena/aime_2024_II||10": {
+"id": "M1016",
+"content_sha256": "39c3da8afe25427a128cbeb00a54c9c1a9a29d77bd944f945dd03828e96e104e"
+},
+"gneubig/aime-1983-2024||2013-II-10": {
+"id": "M1017",
+"content_sha256": "b34da73a52d5a4658088f52bad627b62e206e6559e1ea07fc2cafe2f373cb887"
+},
+"gneubig/aime-1983-2024||1985-13": {
+"id": "M1018",
+"content_sha256": "41ec2b6d5705cf7c2072cea32973a3df28caa41c87bd905452a153124b9e4f67"
+},
+"gneubig/aime-1983-2024||2009-II-9": {
+"id": "M1019",
+"content_sha256": "f748aa62e4850385641acafb87233c4f01c9570a5b75ce1defed9a1bfd24c255"
+},
+"gneubig/aime-1983-2024||2005-II-5": {
+"id": "M1020",
+"content_sha256": "76a28c765431fdcabd0a6e31941eb010150ef693341be6e066413f8caf4b915c"
+},
+"MathArena/aime_2023_I||10": {
+"id": "M1021",
+"content_sha256": "bbe4a4cb9ba8f9ea9b95c6fbe3c454ad47eb45be0e343ebe985a6089babf8f06"
+},
+"gneubig/aime-1983-2024||2007-II-1": {
+"id": "M1022",
+"content_sha256": "0863eca8ff105777079ebb571454955f1f67a9b7dc3e41a7e94e9dd6f3f39726"
+},
+"MathArena/aime_2025||10": {
+"id": "M1023",
+"content_sha256": "4269f7e801cde3294e44482aad6ef6fb8cb16b327ac977895b183e4a07cfe1ba"
+},
+"gneubig/aime-1983-2024||2009-I-7": {
+"id": "M1024",
+"content_sha256": "440fe9b310974f0a7d03dc720372b71727031ade09b53c1cde10cc9e8e80bd19"
+},
+"MathArena/aime_2024_II||14": {
+"id": "M1025",
+"content_sha256": "4516e2c9311e9887c0ed4f5c1ed5224a9c66d0bbb539efa196c7c80662dd2161"
+},
+"gneubig/aime-1983-2024||2008-I-9": {
+"id": "M1026",
+"content_sha256": "78a03afacf9ab8752b795bc487a60b902a9abd5d6f4168d9c150f042a7b2100c"
+},
+"gneubig/aime-1983-2024||2014-I-8": {
+"id": "M1027",
+"content_sha256": "71afabf191b3fe8a062da64e84f5f3d2ab73a92da1623f14b16228fb2a1fdb3a"
+},
+"MathArena/hmmt_feb_2026||22": {
+"id": "M1028",
+"content_sha256": "b7bdf88068fa47074c0609e01da48406c94751def61bac4ad76c751640bc24b5"
+},
+"MathArena/smt_2025||49": {
+"id": "M1029",
+"content_sha256": "570c299d6c3aa6e8e267bbc44520d363c6c7110e8f0a8e1adde39bc54f8247ef"
+},
+"gneubig/aime-1983-2024||2014-II-7": {
+"id": "M1030",
+"content_sha256": "eacb705b8c7b72768703af72db0d87c878fbdc0218abb661b01e80c27b1ef126"
+},
+"gneubig/aime-1983-2024||2019-II-2": {
+"id": "M1031",
+"content_sha256": "78237a5fca8b85b61d961720f10ed34fd9a7418be22248abfc205f754375f49d"
+},
+"MathArena/hmmt_feb_2026||23": {
+"id": "M1032",
+"content_sha256": "d06de29a28a4a8845bb98467e5ea40ae395bc6bf233286dbe64053ae3364d4fc"
+},
+"MathArena/aime_2023_I||15": {
+"id": "M1033",
+"content_sha256": "e21c0426f8c2065ad5424a40b69174dfb743658378962b4cd0fba6584f3bc81d"
+},
+"MathArena/cmimc_2025||7": {
+"id": "M1034",
+"content_sha256": "433d857da4c8eaba8633aa65d83f132617c3a87560d69d25b36144b14f1294b5"
+},
+"MathArena/cmimc_2025||9": {
+"id": "M1035",
+"content_sha256": "cb1bc80e38e78a487de4348dfa62bc2ee5e9c813bd8e2d690f2625a03774c580"
+},
+"MathArena/aime_2023_II||12": {
+"id": "M1036",
+"content_sha256": "3e85836cc187f067882633c89113759a51dfd0eaae512543c4c0be4e7762723a"
+},
+"MathArena/hmmt_nov_2025||9": {
+"id": "M1037",
+"content_sha256": "984502446bef4a1564980767e1d8efd3012f0666a856e4d7869107052b4ec266"
+},
+"gneubig/aime-1983-2024||1996-13": {
+"id": "M1038",
+"content_sha256": "8d1743e9bed91b8a29b5113864610e6ec827ee35b05a7c43bcf0dc6a4714cc38"
+},
+"MathArena/hmmt_feb_2024||5": {
+"id": "M1039",
+"content_sha256": "cf2db2a3d579e11f66ff4a07022b60e853f9de13b96331bc4288862944f2f6a0"
+},
+"gneubig/aime-1983-2024||2013-I-15": {
+"id": "M1040",
+"content_sha256": "dfbf1c415476068d588d90ec7a26f9a74db7fd26a9efc84ec4cb1722aa453fdf"
+},
+"gneubig/aime-1983-2024||2022-II-14": {
+"id": "M1041",
+"content_sha256": "6e48804b7301c9238e99d018581bcea201d09fcba657f9c73a955836589a66e0"
+},
+"gneubig/aime-1983-2024||2021-I-1": {
+"id": "M1042",
+"content_sha256": "452f2c70984367f7b4612cc4318923621d60a0b36deb8caa72b0965bf143d30e"
+},
+"gneubig/aime-1983-2024||1986-14": {
+"id": "M1043",
+"content_sha256": "8cd6af469d21b091a66d1ef0dd371af3343f238356f92f3d0afae0d88ec7e216"
+},
+"gneubig/aime-1983-2024||2003-I-10": {
+"id": "M1044",
+"content_sha256": "924ca445299e686c77114b13af41ff52458849233cfaf7ecfa58e0e63013e629"
+},
+"gneubig/aime-1983-2024||2000-I-11": {
+"id": "M1045",
+"content_sha256": "2e542a46dd80596bd080a95b7e89d0e9de8550b9d1609b2c42c6a64a1c5b7c6f"
+},
+"MathArena/smt_2025||51": {
+"id": "M1046",
+"content_sha256": "1e0288876400646431c7a5bc2f4567c4e4e430ee6e39feb67ecf46a873f80726"
+},
+"gneubig/aime-1983-2024||2017-II-14": {
+"id": "M1047",
+"content_sha256": "53fa3255af74a96520030ba3578467196c44b79e422a96fb366814515accd127"
+},
+"gneubig/aime-1983-2024||2013-II-6": {
+"id": "M1048",
+"content_sha256": "d85f93ca670f46a8381dd75b03dec136660344bd28b59fcb16a0ba13bbca8a56"
+},
+"MathArena/hmmt_feb_2024||7": {
+"id": "M1049",
+"content_sha256": "b238fb072271616dec64ddfc6df802c473beecc9f0d971c3eba9b666bd9ac037"
+},
+"MathArena/brumo_2025||23": {
+"id": "M1050",
+"content_sha256": "0b185acc33842812abdeb208168a4c0d3101717e04f6ce3f7c7e7a7aa70d5884"
+},
+"gneubig/aime-1983-2024||2020-II-5": {
+"id": "M1051",
+"content_sha256": "2a6fa313430dd0af08412b10e4cc4302a72c4113aaa6fa2a7e58f512754f2ed4"
+},
+"gneubig/aime-1983-2024||2010-I-5": {
+"id": "M1052",
+"content_sha256": "afb7d0f38d557a5c9989351856c34c443c593e67737dce477a43de0498c066d7"
+},
+"gneubig/aime-1983-2024||2020-I-8": {
+"id": "M1053",
+"content_sha256": "68c2ea1b92696472e172d20eb5db08b7f5cb637c7d90a08f8320679a2d54d376"
+},
+"gneubig/aime-1983-2024||2007-I-8": {
+"id": "M1054",
+"content_sha256": "e992be4f8a5788576890ffdc24bdbf5ac88fb4817301f3735f5153eac9498df9"
+},
+"gneubig/aime-1983-2024||2014-II-12": {
+"id": "M1055",
+"content_sha256": "83fc93c32934839309ea7150b96e5299cd930b7ae003a91a634dcfccb95a651d"
+},
+"MathArena/aime_2024_II||6": {
+"id": "M1056",
+"content_sha256": "e4c8f2727a3302e9c876b4846583c63f8d317e77f986ca474a337fec5864e5f4"
+},
+"MathArena/hmmt_feb_2024||27": {
+"id": "M1057",
+"content_sha256": "80f68fea814b01e4ba6b959727473fb9cf8e081897d4f5514bcc020eefe53fae"
+},
+"MathArena/hmmt_feb_2025||13": {
+"id": "M1058",
+"content_sha256": "d6bef0c0cc4e9007de931ab96cece9ae2581a9fb445c71fd279d04487c497c85"
+},
+"MathArena/hmmt_feb_2023||25": {
+"id": "M1059",
+"content_sha256": "f6d276291b0f98b8ff9ca7600436b8b0f2d947fbbe55bcce0dfaae743df9e244"
+},
+"MathArena/aime_2023_II||8": {
+"id": "M1060",
+"content_sha256": "5d88b5954e4a81f247e2b3cb4a109a1449d5c036db69f5ac2d02ae2a8317560e"
+},
+"gneubig/aime-1983-2024||1998-14": {
+"id": "M1061",
+"content_sha256": "8eefe99cc8e93f1fffdcfd1aff920ba9cfed8a543b722d340cf6a3a049670fe8"
+},
+"MathArena/hmmt_feb_2026||12": {
+"id": "M1062",
+"content_sha256": "837347473dc60cce83c814853bc65b8c8a62ed30440992a267c6571d26eb50a4"
+},
+"gneubig/aime-1983-2024||2018-II-1": {
+"id": "M1063",
+"content_sha256": "d5afc115580a5c3858798ccc38e37634cf85d9f948c167b7637dee42635c4d63"
+},
+"gneubig/aime-1983-2024||2019-II-11": {
+"id": "M1064",
+"content_sha256": "2f63e15776534816321088aba25c139f897ef8ff405996f97c585772001c4c9e"
+},
+"MathArena/cmimc_2025||2": {
+"id": "M1065",
+"content_sha256": "04dbe1fd37286a2a6bdfa6958b854524754470d96582c992a1e0a1540fd26e62"
+},
+"MathArena/aime_2023_II||3": {
+"id": "M1066",
+"content_sha256": "ccb6cff9a13f2cfe50bf803676388c356b61a092dcd6c0eb48479b2f02fa2257"
+},
+"gneubig/aime-1983-2024||2011-I-14": {
+"id": "M1067",
+"content_sha256": "0436f9bf8949c18e4aa983fec80b72fe6288cae96b57cb5c064656a33d669b16"
+},
+"gneubig/aime-1983-2024||2020-I-13": {
+"id": "M1068",
+"content_sha256": "2bbb44aae0597df04df28ec7043468303d2bc6a86b55c7947e9ce04d34c4685b"
+},
+"gneubig/aime-1983-2024||2016-I-7": {
+"id": "M1069",
+"content_sha256": "9212f971f9750dcd31632811be371e64914c22215bb2ac588e204dfd643304e9"
+},
+"MathArena/cmimc_2025||26": {
+"id": "M1070",
+"content_sha256": "0a83b937a44a72082729839595567a46bd8940d169f0caee09e84df7970cdc40"
+},
+"gneubig/aime-1983-2024||2002-II-10": {
+"id": "M1071",
+"content_sha256": "7ebfec2eed61926855a20c9d5328f3a027f17059e15d936789f092aeea044029"
+},
+"gneubig/aime-1983-2024||1984-2": {
+"id": "M1072",
+"content_sha256": "6bfb5e721c58f9f7466a76e7d5656ce89938b81b7d63df5eb0e46843997c747e"
+},
+"gneubig/aime-1983-2024||2009-II-10": {
+"id": "M1073",
+"content_sha256": "4d49c9ec509962cf64bcc925e649055e98347cd5a99010195effdce796bcafd8"
+},
+"gneubig/aime-1983-2024||2007-II-9": {
+"id": "M1074",
+"content_sha256": "bf68022daeeb2165a544476300f140a8d99f421c0601d21db389e7f7bf88c4e9"
+},
+"gneubig/aime-1983-2024||1998-1": {
+"id": "M1075",
+"content_sha256": "9dee59d77ef85ed8858728f7d7bb443975faa9b129de19d5f604470e4896d10c"
+},
+"gneubig/aime-1983-2024||2010-II-1": {
+"id": "M1076",
+"content_sha256": "9fd5dff9d1ba123d42529b339a7c173bbd889b441e97cdad69dd88657c596209"
+},
+"gneubig/aime-1983-2024||2002-II-14": {
+"id": "M1077",
+"content_sha256": "389620fd7bca56a7df941a4c838820d8f3e06e2e52d300bee7d81ea0b97f2c93"
+},
+"gneubig/aime-1983-2024||1997-4": {
+"id": "M1078",
+"content_sha256": "3d8f928c8fbe896584aab841bdd03a4882a88122bda8df349e32f2d73cb359c2"
+},
+"gneubig/aime-1983-2024||2007-I-1": {
+"id": "M1079",
+"content_sha256": "cba691324913c46e0a5d25d4b118173d5c62898684eb0b6719498209df5890f7"
+},
+"gneubig/aime-1983-2024||2016-II-11": {
+"id": "M1080",
+"content_sha256": "083e88a0fe7ecb6b3ae32e2051277cbdcc31ce872a93e42c874443b8c8090397"
+},
+"gneubig/aime-1983-2024||2019-II-14": {
+"id": "M1081",
+"content_sha256": "59a069dc79fc58341d66f8ad9fbfa4ff8ba11039dcfbc8505bb19dfcdf907429"
+},
+"gneubig/aime-1983-2024||1984-14": {
+"id": "M1082",
+"content_sha256": "16b148b3fa7e02b070a4bdb8b28b4e2075f65ebaaf9397b6280229edb7cf7652"
+},
+"gneubig/aime-1983-2024||2002-II-1": {
+"id": "M1083",
+"content_sha256": "d77d61f83032d78238939d55e29e513d2634fa2e00997b47f7284a8693cdeb99"
+},
+"gneubig/aime-1983-2024||1983-10": {
+"id": "M1084",
+"content_sha256": "40ee56c735b31df0fa75a5c780b06d1e5d94a54fc4f05fb1bac6b97dc80c1fde"
+},
+"gneubig/aime-1983-2024||2001-II-13": {
+"id": "M1085",
+"content_sha256": "5f8331ef49ef8814d09359e80d5bb18f1391b54f26a80c0992f463d24eaba11c"
+},
+"gneubig/aime-1983-2024||2003-II-14": {
+"id": "M1086",
+"content_sha256": "58b433a5449876d6e49f3404ae37b569cf672435d5823b1e9c89c77b7cca2ef4"
+},
+"gneubig/aime-1983-2024||2016-II-5": {
+"id": "M1087",
+"content_sha256": "49f9a131db21f325dd09e31173bc303f02160e3c48019309ffd0cab6eed6b923"
+},
+"MathArena/hmmt_feb_2026||8": {
+"id": "M1088",
+"content_sha256": "e0b6a579f6ba7c9e09c0bf500afff4d26e58a46a53cabee52a3240b50e64784f"
+},
+"gneubig/aime-1983-2024||2018-II-2": {
+"id": "M1089",
+"content_sha256": "8ac41ef4cb67660a298336862641afb1e06db773743d22aa956830b7fc91f545"
+},
+"gneubig/aime-1983-2024||1992-9": {
+"id": "M1090",
+"content_sha256": "b65acb36b9c1083e5514f3710b9725da4c1e226673464a1e7e6a7c44bb55a876"
+},
+"gneubig/aime-1983-2024||2016-I-9": {
+"id": "M1091",
+"content_sha256": "1fd729d4a342b1005201d58e2caafd6371943c64b27603c94c235306a53ad77c"
+},
+"MathArena/aime_2025||1": {
+"id": "M1092",
+"content_sha256": "0701b5b917e6387c4e702108682044810291c455e60ecc130b5c01c3383741b8"
+},
+"gneubig/aime-1983-2024||1985-14": {
+"id": "M1093",
+"content_sha256": "5707d3710e3d42979374c1a413a2065fa5da147f1f82ffd4b61269574e371614"
+},
+"gneubig/aime-1983-2024||1987-5": {
+"id": "M1094",
+"content_sha256": "c582fe4c0e3f0ddf75336bc89261b949acdc42df745eba2b9d54df3b4448bbe1"
+},
+"gneubig/aime-1983-2024||1995-11": {
+"id": "M1095",
+"content_sha256": "d36821253b57c2c8910ed147741d0043b44e57ead2f58260452a148403c92e07"
+},
+"gneubig/aime-1983-2024||2011-II-15": {
+"id": "M1096",
+"content_sha256": "6f932e5a205d3eb1cb4e128ae81b36941d35c5cd553cd4baaf3488aec3c53a1f"
+},
+"gneubig/aime-1983-2024||1993-13": {
+"id": "M1097",
+"content_sha256": "7e10adbd626c9b096a2387bbd8ed72ab599e1b2db94dccb924f3e663735baa97"
+},
+"MathArena/brumo_2025||13": {
+"id": "M1098",
+"content_sha256": "bc3b2d4ce6a0ec3aabefaf410bc9274313a4fa67450e8a287c0c2b8672c768fc"
+},
+"gneubig/aime-1983-2024||2011-II-2": {
+"id": "M1099",
+"content_sha256": "fa5909751e96f3f3fe68c0c44013d00e39a417413ce462bbe52bb8d27ad5c9c7"
+},
+"gneubig/aime-1983-2024||2012-II-11": {
+"id": "M1100",
+"content_sha256": "6b58051a877f5f7ccd6a5b44932bc43a96695cc8965bb15895f411e936528dd3"
+},
+"gneubig/aime-1983-2024||2010-II-2": {
+"id": "M1101",
+"content_sha256": "3967f93217e144935d8b2ef648da008a08674dfae74004810a810d10b7fb96d8"
+},
+"gneubig/aime-1983-2024||1986-7": {
+"id": "M1102",
+"content_sha256": "79feef1e3af06714598ea2856d4a98f99f7c7c0499a723739569c0babc91e7a5"
+},
+"gneubig/aime-1983-2024||2006-II-7": {
+"id": "M1103",
+"content_sha256": "4761b9dd0adc87bf17f4c147dadd1fd81dbc95253e346fe6ecf9367daffabb96"
+},
+"gneubig/aime-1983-2024||2018-I-11": {
+"id": "M1104",
+"content_sha256": "62de4084dbcefbf1339fa73f28d4ac92aca6249c47858d83bb29ce5d89e70da9"
+},
+"gneubig/aime-1983-2024||2014-II-8": {
+"id": "M1105",
+"content_sha256": "c017a8a4aa98fdd5184a2913df4d1b2291dc01f894593b6336d0f5c42011e2d3"
+},
+"MathArena/hmmt_nov_2025||8": {
+"id": "M1106",
+"content_sha256": "d232b6f733408250d93de22dca887c06186332539f6b84d0354040eeb9d15dc2"
+},
+"MathArena/smt_2025||15": {
+"id": "M1107",
+"content_sha256": "d8bd7aaea80e0620489ea8df341b9a2f58219c73328cbd6e78be7466112c99e5"
+},
+"MathArena/brumo_2025||1": {
+"id": "M1108",
+"content_sha256": "944dabef95dd9366b5c1a4df3e31c8bf9026f64ef4c7e69c75e1fe787350ac0c"
+},
+"gneubig/aime-1983-2024||1993-8": {
+"id": "M1109",
+"content_sha256": "9ed0aeb5936dd9413ec99c831cb4bd78c0e8c5c8be94d90788ae692f8d80f7cf"
+},
+"gneubig/aime-1983-2024||2017-I-5": {
+"id": "M1110",
+"content_sha256": "ff8ca60ec5ffad8854a4bb0cb41236a8cfc4bc0e676a6899052bed7392ee09fb"
+},
+"gneubig/aime-1983-2024||1990-5": {
+"id": "M1111",
+"content_sha256": "c226213e234afc9288944d9a89f84f7d4a4c895d0958ce6b74c7e1333f884f65"
+},
+"MathArena/aime_2024_I||15": {
+"id": "M1112",
+"content_sha256": "73fb29c40dfe53584175d03cd9d88a8133ad020ef317301e1ffd21343abac958"
+},
+"gneubig/aime-1983-2024||1985-2": {
+"id": "M1113",
+"content_sha256": "d62b61fec5744608679ce68b0b348a0ff854309ec7e34b0debc18cf46b98255d"
+},
+"gneubig/aime-1983-2024||2004-II-10": {
+"id": "M1114",
+"content_sha256": "153051ffa42f4f09ebe54c4e5b43efdd712e125d5c6bad85e3314d8951874dfa"
+},
+"gneubig/aime-1983-2024||1987-1": {
+"id": "M1115",
+"content_sha256": "16780dac739059e497c3545167062a96d3a1d0f9b794c70bf156b229a7767e5f"
+},
+"gneubig/aime-1983-2024||1993-6": {
+"id": "M1116",
+"content_sha256": "9a522666b3c040bfcc5db14388ccb6754555945f8e967617ba0815b1380ddba6"
+},
+"gneubig/aime-1983-2024||1986-12": {
+"id": "M1117",
+"content_sha256": "c0b65a13b9734035b898814b79a0c4968d54746962382d6593f13b41846851ac"
+},
+"gneubig/aime-1983-2024||2020-II-9": {
+"id": "M1118",
+"content_sha256": "1dbeaa0c03ca4a9aee536a634807d2f61997eb38c0a9ac616fedf724cc7516cb"
+},
+"gneubig/aime-1983-2024||2013-I-1": {
+"id": "M1119",
+"content_sha256": "82481a3029a9ae5f63c26908175c59dc20c22de7591008d371492b68aa0fbba8"
+},
+"gneubig/aime-1983-2024||2018-II-4": {
+"id": "M1120",
+"content_sha256": "648a0175688d268fcfe9a0279164907124fa8c8a63ca96037dfcfcdf33378550"
+},
+"gneubig/aime-1983-2024||2022-II-5": {
+"id": "M1121",
+"content_sha256": "5c540da5a53ea680facaf9b68fd978d5b7454769ff915d24ba10c5ddfff58b6b"
+},
+"gneubig/aime-1983-2024||2006-I-2": {
+"id": "M1122",
+"content_sha256": "9a8f10fc9de63c8b44f93ebd9a6987199766caea813f083b46d2b076156f04cc"
+},
+"gneubig/aime-1983-2024||2013-I-8": {
+"id": "M1123",
+"content_sha256": "c438decfaf641b6a1304ef01b762423a4efd17881bbbf9d8ae8c95c683f64cb4"
+},
+"MathArena/hmmt_feb_2025||16": {
+"id": "M1124",
+"content_sha256": "3275559fcccc73675314dd29fba098f960f3fbb61632f5f49d802f85e443c4e7"
+},
+"MathArena/aime_2023_I||12": {
+"id": "M1125",
+"content_sha256": "4c8916b58e54e33fc135ee4643c106deb0b3e354e9894ca2edc3017e0eed8af6"
+},
+"gneubig/aime-1983-2024||1989-9": {
+"id": "M1126",
+"content_sha256": "19f613a361957992f13b474af02a19f7fbbab54d92dde9bbdddbc91167fe1e1b"
+},
+"gneubig/aime-1983-2024||2015-I-12": {
+"id": "M1127",
+"content_sha256": "1231c711fbcc8b63d16ed550a5cee753e8789c7c9b66b1dc7cf17cf69fcdc738"
+},
+"gneubig/aime-1983-2024||2000-I-9": {
+"id": "M1128",
+"content_sha256": "87490d12b4a7ab08bbbbacfcc301a3bf15593f7a98df2af212d86d5d0be61920"
+},
+"gneubig/aime-1983-2024||2006-I-6": {
+"id": "M1129",
+"content_sha256": "d56b8e18ed6b3f1fa6a73d049f1773d6df82b64b3c574c9b7610681a8f25ae41"
+},
+"gneubig/aime-1983-2024||2010-I-13": {
+"id": "M1130",
+"content_sha256": "c7ae54d30806f17c2787fab1fb2d0003a954e31156af7b46ce31ebc6cb05c13a"
+},
+"gneubig/aime-1983-2024||2011-I-2": {
+"id": "M1131",
+"content_sha256": "bdc0880c7466a704083a6a924d329e7ddbbd051e7091479dc38d660e13d2e8fc"
+},
+"gneubig/aime-1983-2024||1986-3": {
+"id": "M1132",
+"content_sha256": "da7c7e3147078ee00316572f0202857429fe8a937bd01a9fd356df7132fae68b"
+},
+"MathArena/aime_2023_I||2": {
+"id": "M1133",
+"content_sha256": "875d1126a249187b4b1ca8548cb9a3b0186b9f9ca83bc193af0defa19a66411f"
+},
+"MathArena/smt_2025||39": {
+"id": "M1134",
+"content_sha256": "4cd7a60808889e1c9964e768b43050e038e67dfe25b5b6b9ce7b6fbde9941986"
+},
+"gneubig/aime-1983-2024||2020-II-2": {
+"id": "M1135",
+"content_sha256": "3e592a4ae9fe47fa4455641b435d109897fd160b665116e1e2fac65a49c392a0"
+},
+"gneubig/aime-1983-2024||2008-I-2": {
+"id": "M1136",
+"content_sha256": "9a652d00b457fd14cdb6101f266e8d09a05fad6beb005e36c651638968a4d37c"
+},
+"gneubig/aime-1983-2024||1998-3": {
+"id": "M1137",
+"content_sha256": "31074e239005a9bc783c2b5dbb1ce970af40fd61d482c8dcaa834b551a554b22"
+},
+"MathArena/smt_2025||7": {
+"id": "M1138",
+"content_sha256": "c3c89ea31d2119495a9f62bc37a2260d0df1c116cc408129e09306293e178711"
+},
+"gneubig/aime-1983-2024||1990-10": {
+"id": "M1139",
+"content_sha256": "e45f50a16eb56ce9cde07457fd9352ee588f0736050c1bc2dbb746c8e3456a3d"
+},
+"gneubig/aime-1983-2024||2008-I-14": {
+"id": "M1140",
+"content_sha256": "e36c8c10623d43e973636a2ec6fbba3bef4ab86929558b87a62a52d3a6c54b4b"
+},
+"gneubig/aime-1983-2024||2005-I-4": {
+"id": "M1141",
+"content_sha256": "7d4571a50de08ced2185e3c4493838fe1f5aaef7584ffa3079fb5e675c8dff2c"
+},
+"gneubig/aime-1983-2024||2017-II-1": {
+"id": "M1142",
+"content_sha256": "a63836c12235d9418882210b49cdabb8a4721238d0e7e850a4f57b293c3d2c40"
+},
+"gneubig/aime-1983-2024||2001-I-15": {
+"id": "M1143",
+"content_sha256": "8932ed7da16d3f8859604ef1593eb7df735d0f451ba17bd80592c499f51f865d"
+},
+"gneubig/aime-1983-2024||2018-II-15": {
+"id": "M1144",
+"content_sha256": "3a24c31f2a1bfefbefc6d7d453b88aad3bfa6b6c4a751dbc30e469dc724d52dc"
+},
+"gneubig/aime-1983-2024||2022-I-14": {
+"id": "M1145",
+"content_sha256": "68addd36f3c8a4bca5ae0fb649277f12f1c9a49c05bf4507af5445535a6388d3"
+},
+"gneubig/aime-1983-2024||2007-I-6": {
+"id": "M1146",
+"content_sha256": "1350cfad50e27b7e571600b4f85bd226c0296cb6672ca4d97af8b42fd310d229"
+},
+"MathArena/hmmt_nov_2025||2": {
+"id": "M1147",
+"content_sha256": "5a2888fa1542fa72cd755aa4f4aaba919976701fef898382bd68980b609508aa"
+},
+"MathArena/cmimc_2025||28": {
+"id": "M1148",
+"content_sha256": "c258d99765e29800d764d5c17d33369374cce1297a25faa665e93eef0219d0d0"
+},
+"MathArena/hmmt_feb_2025||17": {
+"id": "M1149",
+"content_sha256": "02c4179a0aaf517285cd4364cf54281c67fa1c6f7e9cb07af20af0c58f0c53e2"
+},
+"MathArena/aime_2026||18": {
+"id": "M1150",
+"content_sha256": "1feb6e4e6d71d3150c4022f2f30563074e94cfdd626648d6e670591e9916d902"
+},
+"MathArena/brumo_2025||14": {
+"id": "M1151",
+"content_sha256": "44b4fd0f0fa7399b0f32be66679277645223cba1dec0de94d4504f33846f9ea9"
+},
+"gneubig/aime-1983-2024||2008-II-3": {
+"id": "M1152",
+"content_sha256": "fa079331a9445cb6f08414d5e651290293e5a272612a6b1dbfae772b61f7f507"
+},
+"gneubig/aime-1983-2024||2020-I-4": {
+"id": "M1153",
+"content_sha256": "9985c7b8a99f0277856113c062916641a723e1d799a5e1f4c4e6bea619a4a2d5"
+},
+"gneubig/aime-1983-2024||1999-14": {
+"id": "M1154",
+"content_sha256": "ff841bca3a1d662ad9334dc38ee218e49372213aea1d950b1709a346698c29cf"
+},
+"gneubig/aime-1983-2024||2020-II-10": {
+"id": "M1155",
+"content_sha256": "b79c86c7e03e3f5dc77520ad2d7743153572eea5ee00e2d351a47495911e5613"
+},
+"gneubig/aime-1983-2024||2006-I-9": {
+"id": "M1156",
+"content_sha256": "d7bf23096ebb76a99943c0f90eaeb58c823f7a7e58ecc678648f54ce8e88c636"
+},
+"gneubig/aime-1983-2024||2008-II-8": {
+"id": "M1157",
+"content_sha256": "4495310a83b29d9ce9fb28cb0f8e3116b9de0a47b07477b9583773ef2a9ed7fe"
+},
+"gneubig/aime-1983-2024||2001-II-12": {
+"id": "M1158",
+"content_sha256": "ecdac1f2d78eb7163e4f448bcf5e64441cbca43f7e1b4aedfc519fe6d3dfdd49"
+},
+"gneubig/aime-1983-2024||2017-I-8": {
+"id": "M1159",
+"content_sha256": "ed79632ea126f5abf31c93ed1e9250f7e8fe9fb0e2c3d666ed8a0028eb9de48a"
+},
+"gneubig/aime-1983-2024||2021-I-15": {
+"id": "M1160",
+"content_sha256": "40cb27f787df8ad22d186e6898c9fabc15bb5328feba1d869a36b3d756ce0965"
+},
+"MathArena/smt_2025||2": {
+"id": "M1161",
+"content_sha256": "93d5590b20906a24b3a5d514a5e170d30b6e4e26d44250081ee76c04326edc4a"
+},
+"gneubig/aime-1983-2024||2002-II-12": {
+"id": "M1162",
+"content_sha256": "a76b3642564cd45bda9b1ed48f0f1f953fe2472c28fe868008107af6192bac52"
+},
+"MathArena/hmmt_feb_2025||14": {
+"id": "M1163",
+"content_sha256": "d68941e888c2d296c1117e595f419393dc3a9c4e5df303f7ed72fa9136246d30"
+},
+"gneubig/aime-1983-2024||1991-12": {
+"id": "M1164",
+"content_sha256": "5c32ec77719fc28fde23281faaf5f6a925219029923ac82fad33ecd73d63ad27"
+},
+"gneubig/aime-1983-2024||2000-II-14": {
+"id": "M1165",
+"content_sha256": "718caff8907524843462b7fb15af88235b3f7bed02870cd21a3bf41682b18866"
+},
+"gneubig/aime-1983-2024||2005-II-9": {
+"id": "M1166",
+"content_sha256": "8dbf9293786f6f497c8a2cdceef4152f1d49f61802679ca164aab197262348c2"
+},
+"MathArena/apex_2025||1": {
+"id": "M1167",
+"content_sha256": "d336e55d62235eb4b75797f8070a161f0834ab19f3b4b7b6d6a0b18941103558"
+},
+"gneubig/aime-1983-2024||2013-I-12": {
+"id": "M1168",
+"content_sha256": "6e9c95e12855dbc019c81136f06d72947b079575382289c9fcc5be217f7a6892"
+},
+"gneubig/aime-1983-2024||2013-II-8": {
+"id": "M1169",
+"content_sha256": "f7bc138607b3ae1cfdcb6507dcd7b46fa38551c6280635862462a011759d0a77"
+},
+"MathArena/hmmt_feb_2026||14": {
+"id": "M1170",
+"content_sha256": "9d4e0e9d25c29c010dfe8a7d2c8eeb2538e35f7e619b9e790b0eb9af5cf152d0"
+},
+"gneubig/aime-1983-2024||1990-2": {
+"id": "M1171",
+"content_sha256": "69d8690d75517e2c2fd9b628cc1f251686fe387b94e7d3dedc601598362f3358"
+},
+"gneubig/aime-1983-2024||2003-I-15": {
+"id": "M1172",
+"content_sha256": "b9341fc96809ad58d5d4134fd24129abc6c5f3acab04d80887bf72e66de8e7f3"
+},
+"gneubig/aime-1983-2024||1998-4": {
+"id": "M1173",
+"content_sha256": "08058dbc78467ca7dc80ecab6d8e751e67073613e2a713c192932aa5d881cb4c"
+},
+"gneubig/aime-1983-2024||2013-II-13": {
+"id": "M1174",
+"content_sha256": "3d29dbd321e258f23a3e1f3b5e3bf5b8ce881cb3bd84ddb15cc36d300861a9f7"
+},
+"gneubig/aime-1983-2024||2019-II-12": {
+"id": "M1175",
+"content_sha256": "a54a99de709efeeb0af1b506b2856ad2977241da416d29275030f975705bf5fc"
+},
+"gneubig/aime-1983-2024||2008-I-11": {
+"id": "M1176",
+"content_sha256": "3ac5cadd4daa71bb013d9665114ec1e28db56066aeb1aa8ded8cc46abd5709a1"
+},
+"gneubig/aime-1983-2024||1990-9": {
+"id": "M1177",
+"content_sha256": "6abaffec5ec500971dffc93292e344e66371881af612cbd4fc85db59cd16ff14"
+},
+"gneubig/aime-1983-2024||2003-I-3": {
+"id": "M1178",
+"content_sha256": "4f1146ef83d61ed2dbd863ca65427c6132ece9b0914e7232ed9f67dbf1880f9f"
+},
+"MathArena/aime_2024_II||12": {
+"id": "M1179",
+"content_sha256": "9e0d4b16861e49e0e8b38e593e37c37b57abf9652bde4875481e9869cca7f0c0"
+},
+"MathArena/aime_2026||16": {
+"id": "M1180",
+"content_sha256": "265b1babf6024bdcc131254fcfa38c337598415214d17685dc5c42874cd7869a"
+},
+"gneubig/aime-1983-2024||2015-II-7": {
+"id": "M1181",
+"content_sha256": "23b43afee4c39cc90eb4fb96111f4af31b1e7c8436e250d618f27461dc9cc197"
+},
+"gneubig/aime-1983-2024||1988-9": {
+"id": "M1182",
+"content_sha256": "c3713bcd205eb8f146859dbe0f4bc89e863a350210a2ac2115e814af59c5046b"
+},
+"gneubig/aime-1983-2024||2014-I-2": {
+"id": "M1183",
+"content_sha256": "737ffb9edfef9ddcd62c71c5fd10571af26e05ed1b1f1ccfbea0f1eab4622e0a"
+},
+"gneubig/aime-1983-2024||2010-I-2": {
+"id": "M1184",
+"content_sha256": "e9ffbbf470e1354558391cac12b91593eeac168f06361126d0b37ac866f8721b"
+},
+"gneubig/aime-1983-2024||1996-15": {
+"id": "M1185",
+"content_sha256": "f6d05a6bc16ff6dc3b0575c1c3cef000356ce510bdbb290367471e5a4a253d93"
+},
+"MathArena/aime_2025||26": {
+"id": "M1186",
+"content_sha256": "fe86546cce8b6b7938a5dbd9d221cdbb9bc01b2a389b6aa1dc87c5a92cc47337"
+},
+"MathArena/hmmt_feb_2023||4": {
+"id": "M1187",
+"content_sha256": "4248d2a8b180e4633994a7fcd1c392f1749cc93cb1147075221273d2cfdb8156"
+},
+"MathArena/brumo_2025||20": {
+"id": "M1188",
+"content_sha256": "e88f7fabc3fb244505afb2e8648b5a4915f473cdcd716694a1892e6574ab6357"
+},
+"MathArena/aime_2026||23": {
+"id": "M1189",
+"content_sha256": "2cf52eaf8429d63b15b865fb384ea78cd8f60f0e1bbdaaa77e5008a6db62b234"
+},
+"gneubig/aime-1983-2024||2022-I-15": {
+"id": "M1190",
+"content_sha256": "fbd82fa4fa28d19f7e4749f8a03083b6d67e299d744ada6b5f1c794e28493084"
+},
+"gneubig/aime-1983-2024||2015-I-14": {
+"id": "M1191",
+"content_sha256": "e1d8ddffb4bb096b9c73c082e3dd5b73fcdec162abd433ba15501d1d5c55d095"
+},
+"MathArena/cmimc_2025||33": {
+"id": "M1192",
+"content_sha256": "427908187a6c3bbf7bed08c7cd1de6e50d9ef67241006d0dc8ad80e0fc858088"
+},
+"gneubig/aime-1983-2024||2005-II-14": {
+"id": "M1193",
+"content_sha256": "4966c54718fa251dccb1b3f12d4fccb09f2ce74ca2305f88b8cdede21122dcf8"
+},
+"MathArena/cmimc_2025||20": {
+"id": "M1194",
+"content_sha256": "e60a249627abb33060662c1fde92c64f584981f2ef4f907553c279955b5828e2"
+},
+"gneubig/aime-1983-2024||2008-I-13": {
+"id": "M1195",
+"content_sha256": "b80d9b72d772fe33d44e2b1ef768757bddeafde2c83ce9499a6651eb4111c88d"
+},
+"gneubig/aime-1983-2024||2011-II-7": {
+"id": "M1196",
+"content_sha256": "224c3825981d101b3f73e7b080351fb4fcbff180e936e7b41bb22102252f2760"
+},
+"gneubig/aime-1983-2024||2004-I-3": {
+"id": "M1197",
+"content_sha256": "7971959ad50a89b02300bd672d3b3a86e2b17def830ce748a185d1cb7fd7c356"
+},
+"MathArena/apex_2025||11": {
+"id": "M1198",
+"content_sha256": "852e5c56c40d87bb466015b6bdb7dae31e5fd4a9344f233c238bb020537fa475"
+},
+"MathArena/hmmt_feb_2026||17": {
+"id": "M1199",
+"content_sha256": "8b4267d566266ea83cd50383b0f8502e0841e99f0613fd9610fe436660887115"
+},
+"MathArena/hmmt_feb_2026||7": {
+"id": "M1200",
+"content_sha256": "1516edd04a41be23408921fda8edaa846ae46f08372d92c8e008db688b4a0402"
+},
+"gneubig/aime-1983-2024||2006-I-12": {
+"id": "M1201",
+"content_sha256": "e5d844d6ac460d3d23661ba5b6467920662f65159c3edb64be939207ec51f1ea"
+},
+"gneubig/aime-1983-2024||2009-II-11": {
+"id": "M1202",
+"content_sha256": "c15e0ae642673ff357d28c87cc45915ba36fb6cfcb533595a82b79cfc9883542"
+},
+"MathArena/cmimc_2025||13": {
+"id": "M1203",
+"content_sha256": "557959e77db59f889961abd71c1b79df12722ba690d5b55154636558b5653873"
+},
+"gneubig/aime-1983-2024||2012-I-11": {
+"id": "M1204",
+"content_sha256": "0f663514781a15542d5df1cece46fc7bcacf06bcf4a3b2e7e146fc2ab3059d6e"
+},
+"gneubig/aime-1983-2024||2021-II-10": {
+"id": "M1205",
+"content_sha256": "e2e2fb6ea2c2fed250574eccda7d6cdfba11d063baa1b53659916b88d2df707f"
+},
+"gneubig/aime-1983-2024||1985-10": {
+"id": "M1206",
+"content_sha256": "5357fe32e063ea8fabe336ae6e71930dbd2ce11332c6a85755a69ca7c5b7d725"
+},
+"gneubig/aime-1983-2024||1990-15": {
+"id": "M1207",
+"content_sha256": "9ecf9786503f9f6e900e5db89780947f006ac48f41b884b2249cbfb897b59718"
+},
+"gneubig/aime-1983-2024||2007-I-5": {
+"id": "M1208",
+"content_sha256": "fc204bf5bd3cb35720e51439e8300238d1f2bcf4b6bfc119e2bd08adb8393321"
+},
+"gneubig/aime-1983-2024||2010-II-14": {
+"id": "M1209",
+"content_sha256": "ec3c351879e2dbfced77a647aff2ced3ffbfae4fc087eca1ff2bb77987fe4847"
+}
+}
+}

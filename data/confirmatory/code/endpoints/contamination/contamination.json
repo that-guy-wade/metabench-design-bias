@@ -1,0 +1,1262 @@
+{
+ "spec_version": 1,
+ "spec": "docs/CONTAMINATION_SPEC.md",
+ "inputs": {
+  "reference": "/path/to/unblinded/WORK_code/results/reference_item_outcomes.jsonl",
+  "pool": "pools/code/pool.jsonl",
+  "n_boot": 10000,
+  "seed": 20261025,
+  "n_items": 2000,
+  "n_entries": 17,
+  "panel": "confirmatory",
+  "cutoffs": {
+   "anthropic": "2026-06-30",
+   "openai": "2025-12-01",
+   "google": "2025-01-01",
+   "xai": "2026-05-31"
+  },
+  "ignored_keys": [],
+  "missing_keys": [],
+  "min_set": 20,
+  "min_post": 20,
+  "alpha": 0.05
+ },
+ "split_a": {
+  "method": "not_estimable",
+  "attempted": "date_quantile_newest_20pct",
+  "threshold_date": "2022-02-01",
+  "n_old": 2000,
+  "n_recent": 0,
+  "reason": "old=2000 recent=0; both sets need >= 20 items"
+ },
+ "regression_a": null,
+ "panel_b": {
+  "median_beta": -0.0022820906436475646,
+  "mad_beta": 0.033591696592916456,
+  "n_entries_estimable": 17
+ },
+ "developers": {
+  "anthropic": {
+   "cutoff": "2026-06-30",
+   "n_pre": 2000,
+   "n_post": 0,
+   "estimable": false,
+   "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable"
+  },
+  "openai": {
+   "cutoff": "2025-12-01",
+   "n_pre": 2000,
+   "n_post": 0,
+   "estimable": false,
+   "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable"
+  },
+  "google": {
+   "cutoff": "2025-01-01",
+   "n_pre": 2000,
+   "n_post": 0,
+   "estimable": false,
+   "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable"
+  },
+  "xai": {
+   "cutoff": "2026-05-31",
+   "n_pre": 2000,
+   "n_post": 0,
+   "estimable": false,
+   "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable"
+  }
+ },
+ "entries": {
+  "fable51": {
+   "key": "fable51",
+   "developer": "anthropic",
+   "model_id": "claude-fable-5-1",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.8865999999999999,
+   "accuracy_ci": [
+    0.8742,
+    0.8986999999999995
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": -0.049139938529589325,
+    "se": 0.011429552986726172,
+    "ci_wald": [
+     -0.07154186238357263,
+     -0.026738014675606027
+    ],
+    "ci_boot": [
+     -0.09289494364981421,
+     -0.007556490797836642
+    ],
+    "beta_minus_median": -0.04685784788594176,
+    "beta_minus_median_ci": [
+     -0.09856106235372972,
+     0.0
+    ],
+    "flag": true
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-06-30",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "sonnet55": {
+   "key": "sonnet55",
+   "developer": "anthropic",
+   "model_id": "claude-sonnet-5-5",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.8742000000000001,
+   "accuracy_ci": [
+    0.8607999999999998,
+    0.8871999999999994
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": -0.06802290263496534,
+    "se": 0.011338239461537822,
+    "ci_wald": [
+     -0.09024585197957948,
+     -0.045799953290351206
+    ],
+    "ci_boot": [
+     -0.11714394156592971,
+     -0.020399321036895013
+    ],
+    "beta_minus_median": -0.06574081199131777,
+    "beta_minus_median_ci": [
+     -0.12305279933456569,
+     -0.008359503359257794
+    ],
+    "flag": true
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-06-30",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "opus5": {
+   "key": "opus5",
+   "developer": "anthropic",
+   "model_id": "claude-opus-5",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.8761,
+   "accuracy_ci": [
+    0.8631974999999987,
+    0.8885999999999995
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": -0.08708215228693879,
+    "se": 0.011557818278933192,
+    "ci_wald": [
+     -0.10973547611364784,
+     -0.06442882846022974
+    ],
+    "ci_boot": [
+     -0.1299019254718112,
+     -0.046665571210530304
+    ],
+    "beta_minus_median": -0.08480006164329122,
+    "beta_minus_median_ci": [
+     -0.13449599029392717,
+     -0.03548340705193566
+    ],
+    "flag": true
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-06-30",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "gpt61sol": {
+   "key": "gpt61sol",
+   "developer": "openai",
+   "model_id": "gpt-6.1-sol",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.9435,
+   "accuracy_ci": [
+    0.9341999999999995,
+    0.9526999999999998
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": -0.03587378723656402,
+    "se": 0.015534175687371619,
+    "ci_wald": [
+     -0.06632077158381239,
+     -0.00542680288931565
+    ],
+    "ci_boot": [
+     -0.10297107833323631,
+     0.022624803659441348
+    ],
+    "beta_minus_median": -0.033591696592916456,
+    "beta_minus_median_ci": [
+     -0.10151990257285645,
+     0.022914598036957085
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-12-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "gpt6luna": {
+   "key": "gpt6luna",
+   "developer": "openai",
+   "model_id": "gpt-6-luna",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.746,
+   "accuracy_ci": [
+    0.7311974999999982,
+    0.7609999999999996
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": 0.018922318019140592,
+    "se": 0.007767343186982705,
+    "ci_wald": [
+     0.003698325372654491,
+     0.03414631066562669
+    ],
+    "ci_boot": [
+     -0.003162352900693262,
+     0.041012172887199556
+    ],
+    "beta_minus_median": 0.02120440866278816,
+    "beta_minus_median_ci": [
+     0.0,
+     0.0520167433959283
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-12-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "gpt55": {
+   "key": "gpt55",
+   "developer": "openai",
+   "model_id": "gpt-5.5",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.9046,
+   "accuracy_ci": [
+    0.893799999999999,
+    0.9153999999999989
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": 0.07350334467520912,
+    "se": 0.01197186406965768,
+    "ci_wald": [
+     0.05003849109868007,
+     0.09696819825173818
+    ],
+    "ci_boot": [
+     0.03703410970958552,
+     0.11007158920821226
+    ],
+    "beta_minus_median": 0.07578543531885669,
+    "beta_minus_median_ci": [
+     0.03894018877163144,
+     0.11690307283110879
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-12-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "gemini4argon": {
+   "key": "gemini4argon",
+   "developer": "google",
+   "model_id": "gemini-4-argon",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.9278000000000001,
+   "accuracy_ci": [
+    0.9185999999999989,
+    0.9368999999999991
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": -0.048517695957547034,
+    "se": 0.013697008898865298,
+    "ci_wald": [
+     -0.07536383339932301,
+     -0.02167155851577105
+    ],
+    "ci_boot": [
+     -0.09461928644009206,
+     -0.008271187707921413
+    ],
+    "beta_minus_median": -0.04623560531389947,
+    "beta_minus_median_ci": [
+     -0.09574289241770446,
+     0.0
+    ],
+    "flag": true
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-01-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "gemini38flash": {
+   "key": "gemini38flash",
+   "developer": "google",
+   "model_id": "gemini-3.8-flash",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.8897999999999999,
+   "accuracy_ci": [
+    0.8786999999999994,
+    0.9008999999999991
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": -0.0022820906436475646,
+    "se": 0.011628935783235414,
+    "ci_wald": [
+     -0.025074804778788977,
+     0.020510623491493844
+    ],
+    "ci_boot": [
+     -0.03527452433970656,
+     0.028905031924454545
+    ],
+    "beta_minus_median": 0.0,
+    "beta_minus_median_ci": [
+     -0.029635786857622276,
+     0.031329403441591464
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-01-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "gemini31pro": {
+   "key": "gemini31pro",
+   "developer": "google",
+   "model_id": "gemini-3.1-pro-preview",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.9025,
+   "accuracy_ci": [
+    0.8914999999999994,
+    0.9133999999999994
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": 0.0067177769684474255,
+    "se": 0.012392304015555975,
+    "ci_wald": [
+     -0.017571138902042285,
+     0.031006692838937134
+    ],
+    "ci_boot": [
+     -0.030981311857733163,
+     0.04156181042583873
+    ],
+    "beta_minus_median": 0.008999867612094991,
+    "beta_minus_median_ci": [
+     -0.023860877716550707,
+     0.0461426996672944
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-01-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "grok47": {
+   "key": "grok47",
+   "developer": "xai",
+   "model_id": "grok-4.7",
+   "n_items": 1993,
+   "n_samples_total": 9899,
+   "accuracy": 0.9294865362100686,
+   "accuracy_ci": [
+    0.9200852504361505,
+    0.9385956091838434
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 1993,
+    "date_span_years": 11.950718685831589,
+    "beta_date": -0.012694851333418751,
+    "se": 0.014401345751984396,
+    "ci_wald": [
+     -0.040921489007308166,
+     0.015531786340470664
+    ],
+    "ci_boot": [
+     -0.05700251121980651,
+     0.028041826526359066
+    ],
+    "beta_minus_median": -0.010412760689771186,
+    "beta_minus_median_ci": [
+     -0.051813373689817546,
+     0.027123409116715767
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-05-31",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "grok45": {
+   "key": "grok45",
+   "developer": "xai",
+   "model_id": "grok-4.5",
+   "n_items": 2000,
+   "n_samples_total": 9998,
+   "accuracy": 0.842,
+   "accuracy_ci": [
+    0.8292999999999993,
+    0.8545999999999988
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": 0.06022215540280716,
+    "se": 0.009291197357801673,
+    "ci_wald": [
+     0.042011408581515884,
+     0.07843290222409843
+    ],
+    "ci_boot": [
+     0.03341578197683196,
+     0.0868065181289067
+    ],
+    "beta_minus_median": 0.06250424604645473,
+    "beta_minus_median_ci": [
+     0.031768004788391264,
+     0.09621674300999736
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-05-31",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "grok43": {
+   "key": "grok43",
+   "developer": "xai",
+   "model_id": "grok-4.3",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.7014,
+   "accuracy_ci": [
+    0.684899999999999,
+    0.7178024999999999
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": 0.03512305038498921,
+    "se": 0.007718883765794704,
+    "ci_wald": [
+     0.01999403820403159,
+     0.05025206256594683
+    ],
+    "ci_boot": [
+     0.012148155169038765,
+     0.05798931568372152
+    ],
+    "beta_minus_median": 0.037405141028636776,
+    "beta_minus_median_ci": [
+     0.008723342413443164,
+     0.0682130143630339
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-05-31",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "placebo_sonnet55": {
+   "key": "placebo_sonnet55",
+   "developer": "anthropic",
+   "model_id": "claude-sonnet-5-5",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.8737999999999999,
+   "accuracy_ci": [
+    0.8603999999999996,
+    0.8867999999999997
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": -0.07288703435564703,
+    "se": 0.01136926241754584,
+    "ci_wald": [
+     -0.09517078869403688,
+     -0.05060328001725718
+    ],
+    "ci_boot": [
+     -0.12121142232288676,
+     -0.026714930767999218
+    ],
+    "beta_minus_median": -0.07060494371199946,
+    "beta_minus_median_ci": [
+     -0.1265204790191056,
+     -0.015050164422956846
+    ],
+    "flag": true
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-06-30",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "heldout_sonnet46": {
+   "key": "heldout_sonnet46",
+   "developer": "anthropic",
+   "model_id": "claude-sonnet-4-6",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.7345999999999999,
+   "accuracy_ci": [
+    0.7179999999999999,
+    0.7507999999999996
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": -0.025740420162549547,
+    "se": 0.007534751785207719,
+    "ci_wald": [
+     -0.04050853366155668,
+     -0.010972306663542417
+    ],
+    "ci_boot": [
+     -0.05140738594091101,
+     -0.001392802450153827
+    ],
+    "beta_minus_median": -0.023458329518901984,
+    "beta_minus_median_ci": [
+     -0.05512684324401795,
+     0.0011162138015420712
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-06-30",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "heldout_gpt54": {
+   "key": "heldout_gpt54",
+   "developer": "openai",
+   "model_id": "gpt-5.4",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.8830000000000001,
+   "accuracy_ci": [
+    0.8710999999999991,
+    0.8947999999999983
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": 0.01785325411197392,
+    "se": 0.010967807091659221,
+    "ci_wald": [
+     -0.003643647787678155,
+     0.03935015601162599
+    ],
+    "ci_boot": [
+     -0.013541998111692603,
+     0.04929596422213246
+    ],
+    "beta_minus_median": 0.02013534475562148,
+    "beta_minus_median_ci": [
+     -0.005696971600992809,
+     0.057135088414457295
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-12-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "heldout_gemini35flash": {
+   "key": "heldout_gemini35flash",
+   "developer": "google",
+   "model_id": "gemini-3.5-flash",
+   "n_items": 2000,
+   "n_samples_total": 10000,
+   "accuracy": 0.8893,
+   "accuracy_ci": [
+    0.8777974999999989,
+    0.9009999999999991
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 2000,
+    "date_span_years": 11.950718685831589,
+    "beta_date": 0.025046756791773594,
+    "se": 0.011979056448695503,
+    "ci_wald": [
+     0.0015678061523304102,
+     0.04852570743121678
+    ],
+    "ci_boot": [
+     -0.010559230950819759,
+     0.05916293094190849
+    ],
+    "beta_minus_median": 0.02732884743542116,
+    "beta_minus_median_ci": [
+     -0.002463657215808035,
+     0.06490472476765659
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2025-01-01",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  },
+  "heldout_grok420": {
+   "key": "heldout_grok420",
+   "developer": "xai",
+   "model_id": "grok-4.20-0309-reasoning",
+   "n_items": 1996,
+   "n_samples_total": 9940,
+   "accuracy": 0.8972194388777555,
+   "accuracy_ci": [
+    0.8861883830672519,
+    0.9081796668977431
+   ],
+   "a": {
+    "estimable": false,
+    "reason": "old=2000 recent=0; both sets need >= 20 items",
+    "n_old": null,
+    "n_recent": null,
+    "acc_old": null,
+    "acc_old_ci": null,
+    "acc_recent": null,
+    "acc_recent_ci": null,
+    "diff_old_recent": null,
+    "diff_old_recent_ci": null,
+    "loo_slope": null,
+    "loo_intercept": null,
+    "predicted_old": null,
+    "residual": null,
+    "residual_ci": null,
+    "p_value": null,
+    "flag": false
+   },
+   "b": {
+    "estimable": true,
+    "reason": null,
+    "n_items": 1996,
+    "date_span_years": 11.950718685831589,
+    "beta_date": 0.016875555212104182,
+    "se": 0.011369013488456132,
+    "ci_wald": [
+     -0.005407711225269837,
+     0.039158821649478204
+    ],
+    "ci_boot": [
+     -0.01893592645713042,
+     0.051085751901542915
+    ],
+    "beta_minus_median": 0.019157645855751748,
+    "beta_minus_median_ci": [
+     -0.009425389528867748,
+     0.056445228116487826
+    ],
+    "flag": false
+   },
+   "c": {
+    "estimable": false,
+    "reason": "n_post=0 < 20 or n_pre=2000 < 20: not estimable",
+    "cutoff": "2026-05-31",
+    "n_pre": 2000,
+    "n_post": 0,
+    "acc_pre": null,
+    "acc_pre_ci": null,
+    "acc_post": null,
+    "acc_post_ci": null,
+    "gap_raw": null,
+    "gap_raw_ci": null,
+    "gap_adjusted": null,
+    "gap_adjusted_ci": null,
+    "flag": false
+   }
+  }
+ },
+ "flagged": {
+  "a": [],
+  "b": [
+   "fable51",
+   "sonnet55",
+   "opus5",
+   "gemini4argon",
+   "placebo_sonnet55"
+  ],
+  "c": [],
+  "any": [
+   "fable51",
+   "sonnet55",
+   "opus5",
+   "gemini4argon",
+   "placebo_sonnet55"
+  ]
+ },
+ "elapsed_s": 92.01
+}

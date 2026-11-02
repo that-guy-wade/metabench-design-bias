@@ -1,0 +1,6 @@
+{
+ "unblinding_key_fingerprint": "BF7E5E95410717E496B8B30C10A0328E73D3A489",
+ "public_key_sha256": "3b8d7d8dfa62c1e43cb78ef5677577043b81d99786ceb941c9ae094ae97c3836",
+ "keyring": "run/sealing/gnupg (public key only; no private key exists on any box)",
+ "registered_at": "2026-10-25T04:32:14.712844Z"
+}

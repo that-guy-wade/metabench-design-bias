@@ -1,0 +1,6 @@
+# Everything below is already in the project venv (run/requirements.txt); nothing was installed for implementation B.
+numpy
+scipy
+pandas
+statsmodels
+pytest

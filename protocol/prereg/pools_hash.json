@@ -1,0 +1,183 @@
+{
+ "written_at": "2026-10-25T05:29:56+00:00",
+ "files": {
+  "pools/SCHEMA.md": {
+   "sha256": "b377238d4599af2ba8db7749d0e2aef1aa22a3ca438de0cc105781a26d01fb29",
+   "bytes": 3962
+  },
+  "pools/_test_schema_template.py": {
+   "sha256": "b81e8c1f56d09bdca6fd3ea79ee54dae42dc15fec25eb16886032650e8a4524d",
+   "bytes": 554
+  },
+  "pools/code/PROVENANCE.md": {
+   "sha256": "0c7a9ca3fa33386d7881b1e74a49e35412e26a62f6ca64eef98f4c2a3128dc7a",
+   "bytes": 10387
+  },
+  "pools/code/build_stats.json": {
+   "sha256": "5d6b45e6e5eeb7e1aa3cf3f48073fc8024fd8c6a54fb583048137511efc4d850",
+   "bytes": 994
+  },
+  "pools/code/pool.jsonl": {
+   "sha256": "c5a7400426e22904513219eec414bf59d9aa0af309904ee5b6245f5f26477e18",
+   "bytes": 20942011
+  },
+  "pools/code/scripts/build.py": {
+   "sha256": "b3e2e61f32ac502b5b34e70593665489df7687479d44925638199f087919fe2d",
+   "bytes": 16201
+  },
+  "pools/code/scripts/download.sh": {
+   "sha256": "7ecb091bd8932a4f40c254a72f60aa35e57efe778cce71cdb6d393e1811cc205",
+   "bytes": 2656
+  },
+  "pools/code/scripts/rerun_sample.py": {
+   "sha256": "cd34da09b5b366367141d46e60ad34761799a7e291f13ec368a0be3248917f7e",
+   "bytes": 1818
+  },
+  "pools/code/scripts/sandbox.py": {
+   "sha256": "24bfde61154cd1f3ca6d45a2950fc9d03760413d43f4eff6d0652c15d05ada47",
+   "bytes": 3085
+  },
+  "pools/code/scripts/sbx_driver.py": {
+   "sha256": "23a188b1d649bd31074f14a3bcb73557885139283fa6d6fabc8283e1822f894b",
+   "bytes": 3612
+  },
+  "pools/code/scripts/write_provenance.py": {
+   "sha256": "c29748032a895e438d553db8973983cd829a9aaed5f3e7fc353f5ab0f748061b",
+   "bytes": 10831
+  },
+  "pools/code/test_code_schema.py": {
+   "sha256": "a19572283c2d856ccc6877294fad49ff075f903b8102ec46742bf307931e46b7",
+   "bytes": 2291
+  },
+  "pools/factual_qa/PROVENANCE.md": {
+   "sha256": "7f202b0e57deee14ea2ff18d9d2dc8e1529e8b51270f9593bd370fa5c812324a",
+   "bytes": 12235
+  },
+  "pools/factual_qa/pool.jsonl": {
+   "sha256": "d9425bde79ac4bf7474c348a69637ecad3c67fa02c7f65a6e4c1d63cbc7f6203",
+   "bytes": 3174277
+  },
+  "pools/factual_qa/scripts/build.py": {
+   "sha256": "573fd81c8cf590341aed50f115b9be97ed0b1f8ade21d363a941a2bd1dc362e0",
+   "bytes": 4691
+  },
+  "pools/factual_qa/scripts/download.py": {
+   "sha256": "8a1f6eebb93f083b9dcbc40057cbc71565fc5e75cb5d38ae2a59bcce5024589a",
+   "bytes": 975
+  },
+  "pools/factual_qa/scripts/fetch.py": {
+   "sha256": "6141032c47d23b7cc11047de4928923750e7b421e0b85fe869d6056ec0d501f8",
+   "bytes": 8678
+  },
+  "pools/factual_qa/scripts/report.py": {
+   "sha256": "351f1a92cf96d79fa3344c0c3ffec40e378b772a54be121bb46fe2a72b1e90b1",
+   "bytes": 2977
+  },
+  "pools/factual_qa/scripts/verify.py": {
+   "sha256": "87543168f782dd23e940cf3cc80f36ca5f12aa7376ab221c2f53afbb693d9d06",
+   "bytes": 8010
+  },
+  "pools/factual_qa/test_factual_qa_schema.py": {
+   "sha256": "d35eb7111436b637b5cbbd847177aa2773e65c20b8639815b2fc8d993d99c256",
+   "bytes": 1798
+  },
+  "pools/heldout_clinical_medicine/PROVENANCE.md": {
+   "sha256": "469bd2686e45f2bd38ac3a47b9c118dce1aab91b6f2847619bff720f7e21e234",
+   "bytes": 3776
+  },
+  "pools/heldout_clinical_medicine/build_summary.json": {
+   "sha256": "b79978f236d3a29d237bff8caecf670aec8936044c4d4698c4407d9f9941b519",
+   "bytes": 296
+  },
+  "pools/heldout_clinical_medicine/pool.jsonl": {
+   "sha256": "2cd2a968840d5f9f4cc8a9f515d800179c0f0099df15a6140a7926c718dec4fc",
+   "bytes": 1942538
+  },
+  "pools/heldout_clinical_medicine/scripts/build_heldout_pool.py": {
+   "sha256": "87d5978e5fed892573718ab4e447b03b757a013a02de012c168114dc455462fa",
+   "bytes": 6605
+  },
+  "pools/heldout_clinical_medicine/test_heldout_clinical_medicine_schema.py": {
+   "sha256": "2b12616111f65a718f36c33d98ec6fb5c8e8f41156d8b11f7e2ae3f92bbe5f01",
+   "bytes": 2142
+  },
+  "pools/math/PROVENANCE.md": {
+   "sha256": "5cda49f52c2591d1b42182a177f8b6e8f49ec9eac365a35060c8b2594035ba78",
+   "bytes": 24126
+  },
+  "pools/math/base_manifest.json": {
+   "sha256": "7e113f26ff401d5a2b5ae9b8a4b74ba07039eae0a5baeb8148fb89789262d0e9",
+   "bytes": 168069
+  },
+  "pools/math/build_report.json": {
+   "sha256": "35f291f71ab5d6d367491840a712c3ef48787402350a5ff3d63959bdbc7a4a26",
+   "bytes": 12434
+  },
+  "pools/math/hmmt_pdf_answers.json": {
+   "sha256": "9a61a2ed3364866a49c1802fb1c2ba32798c16fccfcb2eeee2567754265440b7",
+   "bytes": 46075
+  },
+  "pools/math/other_pdf_answers.json": {
+   "sha256": "8ba68a7f8e06ffcd44ad4b2f2e367c13171b9d01472dd8b560e0a9ec3621fd4f",
+   "bytes": 15687
+  },
+  "pools/math/pool.jsonl": {
+   "sha256": "6d6e4e88a35b7c2e4a72a58f022df332c9ffc5e110e4ef522c3c977a0cbd73d9",
+   "bytes": 2472800
+  },
+  "pools/math/scripts/add_math_level5.py": {
+   "sha256": "df472fe5a5a640869e376df79155f1a5e87a9c28706fb9dcdccff5a0ed94458d",
+   "bytes": 7522
+  },
+  "pools/math/scripts/build_math_pool.py": {
+   "sha256": "2c9bbdd5291402ad61201ad5bb53418aaa3f2435a5e5975cfeb4daaa194a5bc8",
+   "bytes": 21523
+  },
+  "pools/math/scripts/download_sources.py": {
+   "sha256": "306ec349b47357df73b71f4f33143d2285f50b8fddbac9f2e15e0c00c29300f6",
+   "bytes": 4316
+  },
+  "pools/math/scripts/hmmt_pdf_answers.py": {
+   "sha256": "d5c02c5a52f9b3c585f4140bdd878cd3e1739a6f3c4dcc48e35cce512042470e",
+   "bytes": 4753
+  },
+  "pools/math/scripts/other_pdf_answers.py": {
+   "sha256": "4e310cf9e9828075087c5c699bdf84ce9ebc41a8c3edfc8cf061380081201a14",
+   "bytes": 2256
+  },
+  "pools/math/test_math_schema.py": {
+   "sha256": "1d67129d67f34566cea568a6074526e6a76970469249b7662973ccf4fe0cbf2c",
+   "bytes": 5774
+  },
+  "pools/schema_check.py": {
+   "sha256": "951140e52b9f1bd8eb9cc190aa1d97ea2a3efeed28f00f407317dda557f3d520",
+   "bytes": 4668
+  },
+  "pools/scripts/make_pools_hash.py": {
+   "sha256": "cb31cbc7275742610dc5591fc4321252235d3954e5567b872b99fae242851bdc",
+   "bytes": 1190
+  }
+ },
+ "pools": {
+  "code": {
+   "pool_jsonl_sha256": "c5a7400426e22904513219eec414bf59d9aa0af309904ee5b6245f5f26477e18",
+   "n_items": 2000,
+   "provenance_sha256": "0c7a9ca3fa33386d7881b1e74a49e35412e26a62f6ca64eef98f4c2a3128dc7a"
+  },
+  "factual_qa": {
+   "pool_jsonl_sha256": "d9425bde79ac4bf7474c348a69637ecad3c67fa02c7f65a6e4c1d63cbc7f6203",
+   "n_items": 2000,
+   "provenance_sha256": "7f202b0e57deee14ea2ff18d9d2dc8e1529e8b51270f9593bd370fa5c812324a"
+  },
+  "heldout_clinical_medicine": {
+   "pool_jsonl_sha256": "2cd2a968840d5f9f4cc8a9f515d800179c0f0099df15a6140a7926c718dec4fc",
+   "n_items": 1000,
+   "provenance_sha256": "469bd2686e45f2bd38ac3a47b9c118dce1aab91b6f2847619bff720f7e21e234"
+  },
+  "math": {
+   "pool_jsonl_sha256": "6d6e4e88a35b7c2e4a72a58f022df332c9ffc5e110e4ef522c3c977a0cbd73d9",
+   "n_items": 2000,
+   "provenance_sha256": "5cda49f52c2591d1b42182a177f8b6e8f49ec9eac365a35060c8b2594035ba78"
+  }
+ }
+}

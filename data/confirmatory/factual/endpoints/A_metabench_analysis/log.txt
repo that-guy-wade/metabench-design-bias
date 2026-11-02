@@ -1,0 +1,33 @@
+rc=1
+--- stdout ---
+
+--- stderr ---
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/path/to/metabench/run/metabench/analysis.py", line 932, in <module>
+    main()
+  File "/path/to/metabench/run/metabench/analysis.py", line 922, in main
+    dif = dif_model(items, bench, ref)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/path/to/metabench/run/metabench/analysis.py", line 657, in dif_model
+    m1 = sm.GLM(y1, X1.values, family=sm.families.Binomial()).fit(method="lbfgs", maxiter=300, disp=0) if X1.shape[1] > 400 else sm.GLM(y1, X1.values, family=sm.families.Binomial()).fit()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/path/to/venv/lib/python3.12/site-packages/statsmodels/genmod/generalized_linear_model.py", line 1284, in fit
+    fit_ = self._fit_gradient(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/path/to/venv/lib/python3.12/site-packages/statsmodels/genmod/generalized_linear_model.py", line 1330, in _fit_gradient
+    irls_rslt = self._fit_irls(
+                ^^^^^^^^^^^^^^^
+  File "/path/to/venv/lib/python3.12/site-packages/statsmodels/genmod/generalized_linear_model.py", line 1466, in _fit_irls
+    wls_results = wls_mod.fit(method=wls_method)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/path/to/venv/lib/python3.12/site-packages/statsmodels/regression/_tools.py", line 104, in fit
+    params, _, _, _ = np.linalg.lstsq(self.wexog, self.wendog,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/path/to/venv/lib/python3.12/site-packages/numpy/linalg/_linalg.py", line 2556, in lstsq
+    x, resids, rank, s = _umath_linalg.lstsq(a, b, rcond,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/path/to/venv/lib/python3.12/site-packages/numpy/linalg/_linalg.py", line 156, in _raise_linalgerror_lstsq
+    raise LinAlgError("SVD did not converge in Linear Least Squares")
+numpy.linalg.LinAlgError: SVD did not converge in Linear Least Squares

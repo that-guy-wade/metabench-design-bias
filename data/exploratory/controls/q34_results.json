@@ -1,0 +1,3447 @@
+{
+ "extraction_disagreements": {
+  "recall": 87,
+  "self": 1
+ },
+ "factual": {
+  "score_arm_sessions": 372,
+  "never_requested": [
+   "T1_factual_grok43_true_named_true_r1"
+  ],
+  "C6_strict": {
+   "k": 371,
+   "n": 371,
+   "p": 1.0,
+   "wilson": [
+    0.989751404326521,
+    1.0000000000000002
+   ],
+   "designer_avg": 1.0,
+   "designer_ci": [
+    1.0,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_lenient_ties": {
+   "k": 371,
+   "n": 371,
+   "p": 1.0,
+   "wilson": [
+    0.989751404326521,
+    1.0000000000000002
+   ],
+   "designer_avg": 1.0,
+   "designer_ci": [
+    1.0,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_llm_extraction": {
+   "k": 371,
+   "n": 371,
+   "p": 1.0,
+   "wilson": [
+    0.989751404326521,
+    1.0000000000000002
+   ],
+   "designer_avg": 1.0,
+   "designer_ci": [
+    1.0,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_all_sessions_missing_as_fail": {
+   "k": 371,
+   "n": 372,
+   "p": 0.9973118279569892,
+   "wilson": [
+    0.9849319558776336,
+    0.9995253261262745
+   ],
+   "designer_avg": 0.9973118279569894,
+   "designer_ci": [
+    0.989247311827957,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_pass_80": true,
+  "wrong_names_earlier_view_top": 0,
+  "wrong_total": 0,
+  "per_arm": {
+   "instructed/blinded": {
+    "k": 36,
+    "n": 36,
+    "p": 1.0,
+    "wilson": [
+     0.9035781695514236,
+     1.0
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "inverted/blinded": {
+    "k": 36,
+    "n": 36,
+    "p": 1.0,
+    "wilson": [
+     0.9035781695514236,
+     1.0
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "sham/blinded": {
+    "k": 60,
+    "n": 60,
+    "p": 1.0,
+    "wilson": [
+     0.9398260695220669,
+     0.9999999999999999
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "sham/false": {
+    "k": 60,
+    "n": 60,
+    "p": 1.0,
+    "wilson": [
+     0.9398260695220669,
+     0.9999999999999999
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "sham/true": {
+    "k": 60,
+    "n": 60,
+    "p": 1.0,
+    "wilson": [
+     0.9398260695220669,
+     0.9999999999999999
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "true_blinded/blinded": {
+    "k": 60,
+    "n": 60,
+    "p": 1.0,
+    "wilson": [
+     0.9398260695220669,
+     0.9999999999999999
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "true_named/true": {
+    "k": 59,
+    "n": 59,
+    "p": 1.0,
+    "wilson": [
+     0.938868520215908,
+     1.0000000000000002
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   }
+  },
+  "per_designer": {
+   "fable51": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gemini31pro": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gemini38flash": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gemini4argon": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gpt55": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gpt61sol": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gpt6luna": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "grok43": {
+    "k": 30,
+    "n": 30,
+    "p": 1.0,
+    "wilson": [
+     0.8864829086095221,
+     1.0
+    ]
+   },
+   "grok45": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "grok47": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "opus5": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "sonnet55": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   }
+  },
+  "narrative_names_leader": {
+   "k": 32,
+   "n": 36,
+   "p": 0.8888888888888888,
+   "wilson": [
+    0.7468487098496367,
+    0.9559343109125816
+   ],
+   "designer_avg": 0.8888888888888888,
+   "designer_ci": [
+    0.6666666666666666,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "none_says_no_results": {
+   "k": 60,
+   "n": 60,
+   "p": 1.0,
+   "wilson": [
+    0.9398260695220669,
+    0.9999999999999999
+   ],
+   "designer_avg": 1.0,
+   "designer_ci": [
+    1.0,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "self_recognition": {
+   "all": {
+    "n": 288,
+    "declined": 281,
+    "decline_rate": {
+     "k": 281,
+     "n": 288,
+     "p": 0.9756944444444444,
+     "wilson": [
+      0.9506877577088868,
+      0.9881777090374579
+     ],
+     "designer_avg": 0.9756944444444443,
+     "designer_ci": [
+      0.9305555555555555,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 7,
+    "exact_all": {
+     "k": 1,
+     "n": 288,
+     "p": 0.003472222222222222,
+     "wilson": [
+      0.0006131798857472621,
+      0.01940315774398065
+     ],
+     "chance": 0.08333333333333333,
+     "p_one_sided": 0.9999999999879485
+    },
+    "exact_among_guesses": {
+     "k": 1,
+     "n": 7,
+     "p": 0.14285714285714285,
+     "wilson": [
+      0.02567895594897479,
+      0.51313450331903
+     ],
+     "chance": 0.07692307692307694,
+     "p_one_sided": 0.42896167569984184
+    },
+    "family_among_guesses": {
+     "k": 3,
+     "n": 7,
+     "chance": 0.2307692307692308,
+     "p_one_sided": 0.20476208226562545
+    },
+    "guesses_are_last_top": 7,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 18,
+     "n": 192
+    }
+   },
+   "none": {
+    "n": 60,
+    "declined": 60,
+    "decline_rate": {
+     "k": 60,
+     "n": 60,
+     "p": 1.0,
+     "wilson": [
+      0.9398260695220669,
+      0.9999999999999999
+     ],
+     "designer_avg": 1.0,
+     "designer_ci": [
+      1.0,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 0,
+    "exact_all": {
+     "k": 0,
+     "n": 60,
+     "p": 0.0,
+     "wilson": [
+      -6.938893903907228e-18,
+      0.06017393047793289
+     ],
+     "chance": 0.08333333333333331,
+     "p_one_sided": 1.000000000000003
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "wilson": [
+      null,
+      null
+     ],
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 0,
+     "n": 0
+    }
+   },
+   "sham": {
+    "n": 60,
+    "declined": 56,
+    "decline_rate": {
+     "k": 56,
+     "n": 60,
+     "p": 0.9333333333333333,
+     "wilson": [
+      0.8407442010623228,
+      0.973771725856802
+     ],
+     "designer_avg": 0.9333333333333335,
+     "designer_ci": [
+      0.8166666666666665,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 4,
+    "exact_all": {
+     "k": 0,
+     "n": 60,
+     "p": 0.0,
+     "wilson": [
+      -6.938893903907228e-18,
+      0.06017393047793289
+     ],
+     "chance": 0.08333333333333331,
+     "p_one_sided": 1.0000000000000033
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 4,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.48990002040399916
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0000000000000002
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 4,
+     "chance": 0.23076923076923078,
+     "p_one_sided": 0.9999999999999998
+    },
+    "guesses_are_last_top": 4,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 3,
+     "n": 60
+    }
+   },
+   "true_blinded": {
+    "n": 60,
+    "declined": 57,
+    "decline_rate": {
+     "k": 57,
+     "n": 60,
+     "p": 0.95,
+     "wilson": [
+      0.8629926537490016,
+      0.9828508088208587
+     ],
+     "designer_avg": 0.9500000000000001,
+     "designer_ci": [
+      0.85,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 3,
+    "exact_all": {
+     "k": 1,
+     "n": 60,
+     "p": 0.016666666666666666,
+     "wilson": [
+      0.002948083860873682,
+      0.08855338226779477
+     ],
+     "chance": 0.08333333333333331,
+     "p_one_sided": 0.9946871100515324
+    },
+    "exact_among_guesses": {
+     "k": 1,
+     "n": 3,
+     "p": 0.3333333333333333,
+     "wilson": [
+      0.0614903152761605,
+      0.7923450448735121
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 0.21347291761492948
+    },
+    "family_among_guesses": {
+     "k": 3,
+     "n": 3,
+     "chance": 0.23076923076923075,
+     "p_one_sided": 0.01228948566226673
+    },
+    "guesses_are_last_top": 3,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 7,
+     "n": 60
+    }
+   },
+   "inverted": {
+    "n": 36,
+    "declined": 36,
+    "decline_rate": {
+     "k": 36,
+     "n": 36,
+     "p": 1.0,
+     "wilson": [
+      0.9035781695514236,
+      1.0
+     ],
+     "designer_avg": 1.0,
+     "designer_ci": [
+      1.0,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 0,
+    "exact_all": {
+     "k": 0,
+     "n": 36,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.09642183044857634
+     ],
+     "chance": 0.08333333333333334,
+     "p_one_sided": 1.000000000000002
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "wilson": [
+      null,
+      null
+     ],
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 4,
+     "n": 36
+    }
+   },
+   "narrative": {
+    "n": 36,
+    "declined": 36,
+    "decline_rate": {
+     "k": 36,
+     "n": 36,
+     "p": 1.0,
+     "wilson": [
+      0.9035781695514236,
+      1.0
+     ],
+     "designer_avg": 1.0,
+     "designer_ci": [
+      1.0,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 0,
+    "exact_all": {
+     "k": 0,
+     "n": 36,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.09642183044857634
+     ],
+     "chance": 0.08333333333333336,
+     "p_one_sided": 1.000000000000002
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "wilson": [
+      null,
+      null
+     ],
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 0,
+     "n": 0
+    }
+   },
+   "instructed": {
+    "n": 36,
+    "declined": 36,
+    "decline_rate": {
+     "k": 36,
+     "n": 36,
+     "p": 1.0,
+     "wilson": [
+      0.9035781695514236,
+      1.0
+     ],
+     "designer_avg": 1.0,
+     "designer_ci": [
+      1.0,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 0,
+    "exact_all": {
+     "k": 0,
+     "n": 36,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.09642183044857634
+     ],
+     "chance": 0.08333333333333336,
+     "p_one_sided": 1.000000000000002
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "wilson": [
+      null,
+      null
+     ],
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 4,
+     "n": 36
+    }
+   },
+   "score_arms": {
+    "n": 192,
+    "declined": 185,
+    "decline_rate": {
+     "k": 185,
+     "n": 192,
+     "p": 0.9635416666666666,
+     "wilson": [
+      0.9266682232288456,
+      0.9822295798936779
+     ],
+     "designer_avg": 0.9635416666666666,
+     "designer_ci": [
+      0.8958333333333334,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 7,
+    "exact_all": {
+     "k": 1,
+     "n": 192,
+     "p": 0.005208333333333333,
+     "wilson": [
+      0.0009199674643243817,
+      0.02890822021388086
+     ],
+     "chance": 0.08333333333333333,
+     "p_one_sided": 0.9999999473911825
+    },
+    "exact_among_guesses": {
+     "k": 1,
+     "n": 7,
+     "p": 0.14285714285714285,
+     "wilson": [
+      0.02567895594897479,
+      0.51313450331903
+     ],
+     "chance": 0.07692307692307694,
+     "p_one_sided": 0.42896167569984184
+    },
+    "family_among_guesses": {
+     "k": 3,
+     "n": 7,
+     "chance": 0.2307692307692308,
+     "p_one_sided": 0.20476208226562545
+    },
+    "guesses_are_last_top": 7,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 18,
+     "n": 192
+    }
+   },
+   "per_designer": {
+    "fable51": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "gemini31pro": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "gemini38flash": {
+     "n": 24,
+     "declined": 22,
+     "guessed": 2,
+     "exact": 0,
+     "family": 1,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "gemini4argon": {
+     "n": 24,
+     "declined": 19,
+     "guessed": 5,
+     "exact": 1,
+     "family": 2,
+     "guessed_target": 0,
+     "p_exact_chance_all": 0.85354323069851
+    },
+    "gpt55": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "gpt61sol": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "gpt6luna": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "grok43": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "grok45": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "grok47": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "opus5": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "sonnet55": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000002
+    }
+   }
+  }
+ },
+ "math": {
+  "score_arm_sessions": 331,
+  "never_requested": [],
+  "C6_strict": {
+   "k": 331,
+   "n": 331,
+   "p": 1.0,
+   "wilson": [
+    0.9885271125212638,
+    1.0
+   ],
+   "designer_avg": 1.0,
+   "designer_ci": [
+    1.0,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_lenient_ties": {
+   "k": 331,
+   "n": 331,
+   "p": 1.0,
+   "wilson": [
+    0.9885271125212638,
+    1.0
+   ],
+   "designer_avg": 1.0,
+   "designer_ci": [
+    1.0,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_llm_extraction": {
+   "k": 330,
+   "n": 331,
+   "p": 0.9969788519637462,
+   "wilson": [
+    0.9830876313381194,
+    0.9994665076935902
+   ],
+   "designer_avg": 0.9973118279569894,
+   "designer_ci": [
+    0.989247311827957,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_all_sessions_missing_as_fail": {
+   "k": 331,
+   "n": 331,
+   "p": 1.0,
+   "wilson": [
+    0.9885271125212638,
+    1.0
+   ],
+   "designer_avg": 1.0,
+   "designer_ci": [
+    1.0,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_pass_80": true,
+  "wrong_names_earlier_view_top": 0,
+  "wrong_total": 0,
+  "per_arm": {
+   "instructed/blinded": {
+    "k": 30,
+    "n": 30,
+    "p": 1.0,
+    "wilson": [
+     0.8864829086095221,
+     1.0
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "inverted/blinded": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "sham/blinded": {
+    "k": 55,
+    "n": 55,
+    "p": 1.0,
+    "wilson": [
+     0.9347128562105721,
+     0.9999999999999999
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "sham/false": {
+    "k": 54,
+    "n": 54,
+    "p": 1.0,
+    "wilson": [
+     0.9335841332189981,
+     1.0
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "sham/true": {
+    "k": 54,
+    "n": 54,
+    "p": 1.0,
+    "wilson": [
+     0.9335841332189981,
+     1.0
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "true_blinded/blinded": {
+    "k": 53,
+    "n": 53,
+    "p": 1.0,
+    "wilson": [
+     0.9324156955469234,
+     1.0
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "true_named/true": {
+    "k": 54,
+    "n": 54,
+    "p": 1.0,
+    "wilson": [
+     0.9335841332189981,
+     1.0
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   }
+  },
+  "per_designer": {
+   "fable51": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gemini31pro": {
+    "k": 17,
+    "n": 17,
+    "p": 1.0,
+    "wilson": [
+     0.8156763396284354,
+     1.0
+    ]
+   },
+   "gemini38flash": {
+    "k": 16,
+    "n": 16,
+    "p": 1.0,
+    "wilson": [
+     0.8063865817272802,
+     1.0
+    ]
+   },
+   "gemini4argon": {
+    "k": 19,
+    "n": 19,
+    "p": 1.0,
+    "wilson": [
+     0.8318156346315496,
+     1.0000000000000002
+    ]
+   },
+   "gpt55": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gpt61sol": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gpt6luna": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "grok43": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "grok45": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "grok47": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "opus5": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "sonnet55": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   }
+  },
+  "narrative_names_leader": {
+   "k": 24,
+   "n": 31,
+   "p": 0.7741935483870968,
+   "wilson": [
+    0.6018723994130262,
+    0.8860500840550121
+   ],
+   "designer_avg": 0.8055555555555555,
+   "designer_ci": [
+    0.5833333333333334,
+    0.9722222222222222
+   ],
+   "n_designers": 12
+  },
+  "none_says_no_results": {
+   "k": 56,
+   "n": 56,
+   "p": 1.0,
+   "wilson": [
+    0.9358038555118846,
+    1.0
+   ],
+   "designer_avg": 1.0,
+   "designer_ci": [
+    1.0,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "self_recognition": {
+   "all": {
+    "n": 256,
+    "declined": 253,
+    "decline_rate": {
+     "k": 253,
+     "n": 256,
+     "p": 0.98828125,
+     "wilson": [
+      0.9661178322810585,
+      0.9960067851781936
+     ],
+     "designer_avg": 0.9833333333333334,
+     "designer_ci": [
+      0.938888888888889,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 3,
+    "exact_all": {
+     "k": 0,
+     "n": 256,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.014784391721725852
+     ],
+     "chance": 0.08413461538461536,
+     "p_one_sided": 1.0000000000000138
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 3,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.5615060804490177
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0000000000000002
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 3,
+     "chance": 0.23076923076923075,
+     "p_one_sided": 0.9999999999999999
+    },
+    "guesses_are_last_top": 2,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 16,
+     "n": 169
+    }
+   },
+   "none": {
+    "n": 56,
+    "declined": 56,
+    "decline_rate": {
+     "k": 56,
+     "n": 56,
+     "p": 1.0,
+     "wilson": [
+      0.9358038555118846,
+      1.0
+     ],
+     "designer_avg": 1.0,
+     "designer_ci": [
+      1.0,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 0,
+    "exact_all": {
+     "k": 0,
+     "n": 56,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.06419614448811528
+     ],
+     "chance": 0.08379120879120881,
+     "p_one_sided": 1.000000000000003
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "wilson": [
+      null,
+      null
+     ],
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 0,
+     "n": 0
+    }
+   },
+   "sham": {
+    "n": 55,
+    "declined": 54,
+    "decline_rate": {
+     "k": 54,
+     "n": 55,
+     "p": 0.9818181818181818,
+     "wilson": [
+      0.9039399953951678,
+      0.9967833024077472
+     ],
+     "designer_avg": 0.9791666666666666,
+     "designer_ci": [
+      0.9166666666666666,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 1,
+    "exact_all": {
+     "k": 0,
+     "n": 55,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.06528714378942788
+     ],
+     "chance": 0.08391608391608389,
+     "p_one_sided": 1.000000000000003
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 1,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.7934567085261071
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 1,
+     "chance": 0.23076923076923078,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 1,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 1,
+     "n": 55
+    }
+   },
+   "true_blinded": {
+    "n": 53,
+    "declined": 52,
+    "decline_rate": {
+     "k": 52,
+     "n": 53,
+     "p": 0.9811320754716981,
+     "wilson": [
+      0.9005685649885059,
+      0.9966616326132506
+     ],
+     "designer_avg": 0.9722222222222222,
+     "designer_ci": [
+      0.8888888888888888,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 1,
+    "exact_all": {
+     "k": 0,
+     "n": 53,
+     "p": 0.0,
+     "wilson": [
+      -6.938893903907228e-18,
+      0.06758430445307662
+     ],
+     "chance": 0.08417997097242379,
+     "p_one_sided": 1.0000000000000029
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 1,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.7934567085261071
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 1,
+     "chance": 0.23076923076923078,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 1,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 5,
+     "n": 53
+    }
+   },
+   "inverted": {
+    "n": 31,
+    "declined": 31,
+    "decline_rate": {
+     "k": 31,
+     "n": 31,
+     "p": 1.0,
+     "wilson": [
+      0.889740999265246,
+      0.9999999999999999
+     ],
+     "designer_avg": 1.0,
+     "designer_ci": [
+      1.0,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 0,
+    "exact_all": {
+     "k": 0,
+     "n": 31,
+     "p": 0.0,
+     "wilson": [
+      -1.3877787807814457e-17,
+      0.11025900073475385
+     ],
+     "chance": 0.08436724565756827,
+     "p_one_sided": 1.0000000000000018
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "wilson": [
+      null,
+      null
+     ],
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 6,
+     "n": 31
+    }
+   },
+   "narrative": {
+    "n": 31,
+    "declined": 30,
+    "decline_rate": {
+     "k": 30,
+     "n": 31,
+     "p": 0.967741935483871,
+     "wilson": [
+      0.8380554282383037,
+      0.9942829259130554
+     ],
+     "designer_avg": 0.9166666666666666,
+     "designer_ci": [
+      0.75,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 1,
+    "exact_all": {
+     "k": 0,
+     "n": 31,
+     "p": 0.0,
+     "wilson": [
+      -1.3877787807814457e-17,
+      0.11025900073475385
+     ],
+     "chance": 0.08436724565756827,
+     "p_one_sided": 1.0000000000000018
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 1,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.7934567085261071
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 1,
+     "chance": 0.23076923076923078,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 0,
+     "n": 0
+    }
+   },
+   "instructed": {
+    "n": 30,
+    "declined": 30,
+    "decline_rate": {
+     "k": 30,
+     "n": 30,
+     "p": 1.0,
+     "wilson": [
+      0.8864829086095221,
+      1.0
+     ],
+     "designer_avg": 1.0,
+     "designer_ci": [
+      1.0,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 0,
+    "exact_all": {
+     "k": 0,
+     "n": 30,
+     "p": 0.0,
+     "wilson": [
+      -1.3877787807814457e-17,
+      0.113517091390478
+     ],
+     "chance": 0.08461538461538466,
+     "p_one_sided": 1.0000000000000018
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "wilson": [
+      null,
+      null
+     ],
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 4,
+     "n": 30
+    }
+   },
+   "score_arms": {
+    "n": 169,
+    "declined": 167,
+    "decline_rate": {
+     "k": 167,
+     "n": 169,
+     "p": 0.9881656804733728,
+     "wilson": [
+      0.957882643850041,
+      0.9967486486165875
+     ],
+     "designer_avg": 0.9833333333333334,
+     "designer_ci": [
+      0.9333333333333332,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 2,
+    "exact_all": {
+     "k": 0,
+     "n": 169,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.022226130746301812
+     ],
+     "chance": 0.08420573509330906,
+     "p_one_sided": 1.0000000000000087
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 2,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.6576280471103807
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0000000000000002
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 2,
+     "chance": 0.23076923076923078,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 2,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 16,
+     "n": 169
+    }
+   },
+   "per_designer": {
+    "fable51": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "gemini31pro": {
+     "n": 13,
+     "declined": 13,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000009
+    },
+    "gemini38flash": {
+     "n": 12,
+     "declined": 12,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000007
+    },
+    "gemini4argon": {
+     "n": 15,
+     "declined": 12,
+     "guessed": 3,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000009
+    },
+    "gpt55": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "gpt61sol": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "gpt6luna": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "grok43": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "grok45": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "grok47": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "opus5": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "sonnet55": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000002
+    }
+   }
+  }
+ },
+ "code": {
+  "score_arm_sessions": 371,
+  "never_requested": [
+   "T1_code_grok43_sham_blinded_r3",
+   "T1_code_grok43_true_named_true_r2"
+  ],
+  "C6_strict": {
+   "k": 368,
+   "n": 369,
+   "p": 0.997289972899729,
+   "wilson": [
+    0.9848107547433007,
+    0.9995214656956202
+   ],
+   "designer_avg": 0.9973118279569894,
+   "designer_ci": [
+    0.9865591397849464,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_lenient_ties": {
+   "k": 368,
+   "n": 369,
+   "p": 0.997289972899729,
+   "wilson": [
+    0.9848107547433007,
+    0.9995214656956202
+   ],
+   "designer_avg": 0.9973118279569894,
+   "designer_ci": [
+    0.9865591397849464,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_llm_extraction": {
+   "k": 368,
+   "n": 369,
+   "p": 0.997289972899729,
+   "wilson": [
+    0.9848107547433007,
+    0.9995214656956202
+   ],
+   "designer_avg": 0.9973118279569894,
+   "designer_ci": [
+    0.9865591397849464,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_all_sessions_missing_as_fail": {
+   "k": 368,
+   "n": 371,
+   "p": 0.9919137466307277,
+   "wilson": [
+    0.9764983840810452,
+    0.9972462589895211
+   ],
+   "designer_avg": 0.9919354838709676,
+   "designer_ci": [
+    0.9758064516129031,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_pass_80": true,
+  "wrong_names_earlier_view_top": 1,
+  "wrong_total": 1,
+  "per_arm": {
+   "instructed/blinded": {
+    "k": 35,
+    "n": 36,
+    "p": 0.9722222222222222,
+    "wilson": [
+     0.8582996626496918,
+     0.9950797197044302
+    ],
+    "designer_avg": 0.9722222222222222,
+    "designer_ci": [
+     0.8888888888888888,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "inverted/blinded": {
+    "k": 35,
+    "n": 35,
+    "p": 1.0,
+    "wilson": [
+     0.9010957324106112,
+     1.0
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "sham/blinded": {
+    "k": 59,
+    "n": 59,
+    "p": 1.0,
+    "wilson": [
+     0.938868520215908,
+     1.0000000000000002
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "sham/false": {
+    "k": 60,
+    "n": 60,
+    "p": 1.0,
+    "wilson": [
+     0.9398260695220669,
+     0.9999999999999999
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "sham/true": {
+    "k": 60,
+    "n": 60,
+    "p": 1.0,
+    "wilson": [
+     0.9398260695220669,
+     0.9999999999999999
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "true_blinded/blinded": {
+    "k": 60,
+    "n": 60,
+    "p": 1.0,
+    "wilson": [
+     0.9398260695220669,
+     0.9999999999999999
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "true_named/true": {
+    "k": 59,
+    "n": 59,
+    "p": 1.0,
+    "wilson": [
+     0.938868520215908,
+     1.0000000000000002
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   }
+  },
+  "per_designer": {
+   "fable51": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gemini31pro": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gemini38flash": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gemini4argon": {
+    "k": 30,
+    "n": 30,
+    "p": 1.0,
+    "wilson": [
+     0.8864829086095221,
+     1.0
+    ]
+   },
+   "gpt55": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gpt61sol": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "gpt6luna": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "grok43": {
+    "k": 29,
+    "n": 29,
+    "p": 1.0,
+    "wilson": [
+     0.8830264055344442,
+     1.0
+    ]
+   },
+   "grok45": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "grok47": {
+    "k": 30,
+    "n": 31,
+    "p": 0.967741935483871,
+    "wilson": [
+     0.8380554282383037,
+     0.9942829259130554
+    ]
+   },
+   "opus5": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   },
+   "sonnet55": {
+    "k": 31,
+    "n": 31,
+    "p": 1.0,
+    "wilson": [
+     0.889740999265246,
+     0.9999999999999999
+    ]
+   }
+  },
+  "narrative_names_leader": {
+   "k": 30,
+   "n": 36,
+   "p": 0.8333333333333334,
+   "wilson": [
+    0.6810888526532568,
+    0.9212965937143589
+   ],
+   "designer_avg": 0.8333333333333334,
+   "designer_ci": [
+    0.611111111111111,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "none_says_no_results": {
+   "k": 60,
+   "n": 60,
+   "p": 1.0,
+   "wilson": [
+    0.9398260695220669,
+    0.9999999999999999
+   ],
+   "designer_avg": 1.0,
+   "designer_ci": [
+    1.0,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "self_recognition": {
+   "all": {
+    "n": 287,
+    "declined": 281,
+    "decline_rate": {
+     "k": 281,
+     "n": 287,
+     "p": 0.9790940766550522,
+     "wilson": [
+      0.9551474825779037,
+      0.9903843808144032
+     ],
+     "designer_avg": 0.9788647342995169,
+     "designer_ci": [
+      0.947614734299517,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 6,
+    "exact_all": {
+     "k": 0,
+     "n": 287,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.01320856438693777
+     ],
+     "chance": 0.08335566872152238,
+     "p_one_sided": 1.000000000000015
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 6,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.3903430336530645
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0000000000000004
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 6,
+     "chance": 0.2307692307692308,
+     "p_one_sided": 0.9999999999999994
+    },
+    "guesses_are_last_top": 1,
+    "guesses_are_target": 3,
+    "top_heuristic_exact": {
+     "k": 19,
+     "n": 190
+    }
+   },
+   "none": {
+    "n": 60,
+    "declined": 60,
+    "decline_rate": {
+     "k": 60,
+     "n": 60,
+     "p": 1.0,
+     "wilson": [
+      0.9398260695220669,
+      0.9999999999999999
+     ],
+     "designer_avg": 1.0,
+     "designer_ci": [
+      1.0,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 0,
+    "exact_all": {
+     "k": 0,
+     "n": 60,
+     "p": 0.0,
+     "wilson": [
+      -6.938893903907228e-18,
+      0.06017393047793289
+     ],
+     "chance": 0.08333333333333334,
+     "p_one_sided": 1.000000000000003
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "wilson": [
+      null,
+      null
+     ],
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 0,
+     "n": 0
+    }
+   },
+   "sham": {
+    "n": 60,
+    "declined": 60,
+    "decline_rate": {
+     "k": 60,
+     "n": 60,
+     "p": 1.0,
+     "wilson": [
+      0.9398260695220669,
+      0.9999999999999999
+     ],
+     "designer_avg": 1.0,
+     "designer_ci": [
+      1.0,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 0,
+    "exact_all": {
+     "k": 0,
+     "n": 60,
+     "p": 0.0,
+     "wilson": [
+      -6.938893903907228e-18,
+      0.06017393047793289
+     ],
+     "chance": 0.08333333333333333,
+     "p_one_sided": 1.000000000000003
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "wilson": [
+      null,
+      null
+     ],
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 6,
+     "n": 59
+    }
+   },
+   "true_blinded": {
+    "n": 60,
+    "declined": 59,
+    "decline_rate": {
+     "k": 59,
+     "n": 60,
+     "p": 0.9833333333333333,
+     "wilson": [
+      0.9114466177322051,
+      0.9970519161391262
+     ],
+     "designer_avg": 0.9833333333333334,
+     "designer_ci": [
+      0.9166666666666666,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 1,
+    "exact_all": {
+     "k": 0,
+     "n": 60,
+     "p": 0.0,
+     "wilson": [
+      -6.938893903907228e-18,
+      0.06017393047793289
+     ],
+     "chance": 0.08333333333333333,
+     "p_one_sided": 1.000000000000003
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 1,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.7934567085261071
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 1,
+     "chance": 0.23076923076923078,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 1,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 6,
+     "n": 60
+    }
+   },
+   "inverted": {
+    "n": 35,
+    "declined": 35,
+    "decline_rate": {
+     "k": 35,
+     "n": 35,
+     "p": 1.0,
+     "wilson": [
+      0.9010957324106112,
+      1.0
+     ],
+     "designer_avg": 1.0,
+     "designer_ci": [
+      1.0,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 0,
+    "exact_all": {
+     "k": 0,
+     "n": 35,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.09890426758938868
+     ],
+     "chance": 0.08351648351648353,
+     "p_one_sided": 1.0000000000000022
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "wilson": [
+      null,
+      null
+     ],
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 4,
+     "n": 35
+    }
+   },
+   "narrative": {
+    "n": 36,
+    "declined": 34,
+    "decline_rate": {
+     "k": 34,
+     "n": 36,
+     "p": 0.9444444444444444,
+     "wilson": [
+      0.8185502589238878,
+      0.9846303362329332
+     ],
+     "designer_avg": 0.9444444444444443,
+     "designer_ci": [
+      0.8333333333333334,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 2,
+    "exact_all": {
+     "k": 0,
+     "n": 36,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.09642183044857634
+     ],
+     "chance": 0.08333333333333334,
+     "p_one_sided": 1.000000000000002
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 2,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.6576280471103807
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0000000000000002
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 2,
+     "chance": 0.23076923076923078,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 0,
+     "n": 0
+    }
+   },
+   "instructed": {
+    "n": 36,
+    "declined": 33,
+    "decline_rate": {
+     "k": 33,
+     "n": 36,
+     "p": 0.9166666666666666,
+     "wilson": [
+      0.7817298972308114,
+      0.9712519107287082
+     ],
+     "designer_avg": 0.9166666666666666,
+     "designer_ci": [
+      0.7777777777777778,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 3,
+    "exact_all": {
+     "k": 0,
+     "n": 36,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.09642183044857634
+     ],
+     "chance": 0.08333333333333333,
+     "p_one_sided": 1.0000000000000022
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 3,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.5615060804490177
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0000000000000002
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 3,
+     "chance": 0.23076923076923075,
+     "p_one_sided": 0.9999999999999999
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 3,
+    "top_heuristic_exact": {
+     "k": 3,
+     "n": 36
+    }
+   },
+   "score_arms": {
+    "n": 191,
+    "declined": 187,
+    "decline_rate": {
+     "k": 187,
+     "n": 191,
+     "p": 0.9790575916230366,
+     "wilson": [
+      0.9473978534029164,
+      0.9918266243266853
+     ],
+     "designer_avg": 0.9788194444444445,
+     "designer_ci": [
+      0.9427083333333334,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 4,
+    "exact_all": {
+     "k": 0,
+     "n": 191,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.019716528708448297
+     ],
+     "chance": 0.08336689488521948,
+     "p_one_sided": 1.0000000000000098
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 4,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.48990002040399916
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0000000000000002
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 4,
+     "chance": 0.23076923076923078,
+     "p_one_sided": 0.9999999999999998
+    },
+    "guesses_are_last_top": 1,
+    "guesses_are_target": 3,
+    "top_heuristic_exact": {
+     "k": 19,
+     "n": 190
+    }
+   },
+   "per_designer": {
+    "fable51": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "gemini31pro": {
+     "n": 24,
+     "declined": 23,
+     "guessed": 1,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 1,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "gemini38flash": {
+     "n": 24,
+     "declined": 21,
+     "guessed": 3,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 1,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "gemini4argon": {
+     "n": 23,
+     "declined": 21,
+     "guessed": 2,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 1,
+     "p_exact_chance_all": 1.000000000000001
+    },
+    "gpt55": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "gpt61sol": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "gpt6luna": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "grok43": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "grok45": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "grok47": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "opus5": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000013
+    },
+    "sonnet55": {
+     "n": 24,
+     "declined": 24,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000002
+    }
+   }
+  }
+ },
+ "pooled": {
+  "score_arm_sessions": 1074,
+  "never_requested": [
+   "T1_code_grok43_sham_blinded_r3",
+   "T1_code_grok43_true_named_true_r2",
+   "T1_factual_grok43_true_named_true_r1"
+  ],
+  "C6_strict": {
+   "k": 1070,
+   "n": 1071,
+   "p": 0.9990662931839402,
+   "wilson": [
+    0.9947299896284321,
+    0.9998351630415059
+   ],
+   "designer_avg": 0.9991039426523297,
+   "designer_ci": [
+    0.9955197132616488,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_lenient_ties": {
+   "k": 1070,
+   "n": 1071,
+   "p": 0.9990662931839402,
+   "wilson": [
+    0.9947299896284321,
+    0.9998351630415059
+   ],
+   "designer_avg": 0.9991039426523297,
+   "designer_ci": [
+    0.9955197132616488,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_llm_extraction": {
+   "k": 1069,
+   "n": 1071,
+   "p": 0.9981325863678805,
+   "wilson": [
+    0.993216664290853,
+    0.9994877490850343
+   ],
+   "designer_avg": 0.9982078853046595,
+   "designer_ci": [
+    0.992831541218638,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_all_sessions_missing_as_fail": {
+   "k": 1070,
+   "n": 1074,
+   "p": 0.9962756052141527,
+   "wilson": [
+    0.9904628442816266,
+    0.998550754748138
+   ],
+   "designer_avg": 0.996415770609319,
+   "designer_ci": [
+    0.9883512544802867,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "C6_pass_80": true,
+  "wrong_names_earlier_view_top": 1,
+  "wrong_total": 1,
+  "per_arm": {
+   "instructed/blinded": {
+    "k": 101,
+    "n": 102,
+    "p": 0.9901960784313726,
+    "wilson": [
+     0.9465407803733753,
+     0.9982673102072662
+    ],
+    "designer_avg": 0.9907407407407408,
+    "designer_ci": [
+     0.9629629629629629,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "inverted/blinded": {
+    "k": 102,
+    "n": 102,
+    "p": 1.0,
+    "wilson": [
+     0.9637042523922542,
+     1.0000000000000002
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "sham/blinded": {
+    "k": 174,
+    "n": 174,
+    "p": 1.0,
+    "wilson": [
+     0.97839875484701,
+     1.0
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "sham/false": {
+    "k": 174,
+    "n": 174,
+    "p": 1.0,
+    "wilson": [
+     0.97839875484701,
+     1.0
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "sham/true": {
+    "k": 174,
+    "n": 174,
+    "p": 1.0,
+    "wilson": [
+     0.97839875484701,
+     1.0
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "true_blinded/blinded": {
+    "k": 173,
+    "n": 173,
+    "p": 1.0,
+    "wilson": [
+     0.9782766045998228,
+     1.0000000000000002
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   },
+   "true_named/true": {
+    "k": 172,
+    "n": 172,
+    "p": 1.0,
+    "wilson": [
+     0.9781530650312552,
+     0.9999999999999999
+    ],
+    "designer_avg": 1.0,
+    "designer_ci": [
+     1.0,
+     1.0
+    ],
+    "n_designers": 12
+   }
+  },
+  "per_designer": {
+   "fable51": {
+    "k": 93,
+    "n": 93,
+    "p": 1.0,
+    "wilson": [
+     0.9603310973796383,
+     0.9999999999999999
+    ]
+   },
+   "gemini31pro": {
+    "k": 79,
+    "n": 79,
+    "p": 1.0,
+    "wilson": [
+     0.9536271631644004,
+     1.0
+    ]
+   },
+   "gemini38flash": {
+    "k": 78,
+    "n": 78,
+    "p": 1.0,
+    "wilson": [
+     0.9530605462258804,
+     1.0000000000000002
+    ]
+   },
+   "gemini4argon": {
+    "k": 80,
+    "n": 80,
+    "p": 1.0,
+    "wilson": [
+     0.954180263735425,
+     1.0
+    ]
+   },
+   "gpt55": {
+    "k": 93,
+    "n": 93,
+    "p": 1.0,
+    "wilson": [
+     0.9603310973796383,
+     0.9999999999999999
+    ]
+   },
+   "gpt61sol": {
+    "k": 93,
+    "n": 93,
+    "p": 1.0,
+    "wilson": [
+     0.9603310973796383,
+     0.9999999999999999
+    ]
+   },
+   "gpt6luna": {
+    "k": 93,
+    "n": 93,
+    "p": 1.0,
+    "wilson": [
+     0.9603310973796383,
+     0.9999999999999999
+    ]
+   },
+   "grok43": {
+    "k": 90,
+    "n": 90,
+    "p": 1.0,
+    "wilson": [
+     0.9590629315783191,
+     0.9999999999999999
+    ]
+   },
+   "grok45": {
+    "k": 93,
+    "n": 93,
+    "p": 1.0,
+    "wilson": [
+     0.9603310973796383,
+     0.9999999999999999
+    ]
+   },
+   "grok47": {
+    "k": 92,
+    "n": 93,
+    "p": 0.989247311827957,
+    "wilson": [
+     0.9415794088135158,
+     0.9980994069020442
+    ]
+   },
+   "opus5": {
+    "k": 93,
+    "n": 93,
+    "p": 1.0,
+    "wilson": [
+     0.9603310973796383,
+     0.9999999999999999
+    ]
+   },
+   "sonnet55": {
+    "k": 93,
+    "n": 93,
+    "p": 1.0,
+    "wilson": [
+     0.9603310973796383,
+     0.9999999999999999
+    ]
+   }
+  },
+  "narrative_names_leader": {
+   "k": 86,
+   "n": 103,
+   "p": 0.8349514563106796,
+   "wilson": [
+    0.7514932393345533,
+    0.8943226226517891
+   ],
+   "designer_avg": 0.8399470899470899,
+   "designer_ci": [
+    0.6640211640211641,
+    0.978835978835979
+   ],
+   "n_designers": 12
+  },
+  "none_says_no_results": {
+   "k": 176,
+   "n": 176,
+   "p": 1.0,
+   "wilson": [
+    0.9786389800802484,
+    1.0
+   ],
+   "designer_avg": 1.0,
+   "designer_ci": [
+    1.0,
+    1.0
+   ],
+   "n_designers": 12
+  },
+  "self_recognition": {
+   "all": {
+    "n": 831,
+    "declined": 815,
+    "decline_rate": {
+     "k": 815,
+     "n": 831,
+     "p": 0.9807460890493381,
+     "wilson": [
+      0.9689533607105781,
+      0.988114423166028
+     ],
+     "designer_avg": 0.9782485751219226,
+     "designer_ci": [
+      0.9435258020447734,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 16,
+    "exact_all": {
+     "k": 1,
+     "n": 831,
+     "p": 0.0012033694344163659,
+     "wilson": [
+      0.00021245038129523398,
+      0.00678480514598084
+     ],
+     "chance": 0.08358789225215217,
+     "p_one_sided": 1.0000000000000429
+    },
+    "exact_among_guesses": {
+     "k": 1,
+     "n": 16,
+     "p": 0.0625,
+     "wilson": [
+      0.01111905730833121,
+      0.2832926836802987
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 0.7221526238697478
+    },
+    "family_among_guesses": {
+     "k": 3,
+     "n": 16,
+     "chance": 0.23076923076923078,
+     "p_one_sided": 0.7505322264141094
+    },
+    "guesses_are_last_top": 10,
+    "guesses_are_target": 3,
+    "top_heuristic_exact": {
+     "k": 53,
+     "n": 551
+    }
+   },
+   "none": {
+    "n": 176,
+    "declined": 176,
+    "decline_rate": {
+     "k": 176,
+     "n": 176,
+     "p": 1.0,
+     "wilson": [
+      0.9786389800802484,
+      1.0
+     ],
+     "designer_avg": 1.0,
+     "designer_ci": [
+      1.0,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 0,
+    "exact_all": {
+     "k": 0,
+     "n": 176,
+     "p": 0.0,
+     "wilson": [
+      1.734723475976807e-18,
+      0.021361019919751596
+     ],
+     "chance": 0.08347902097902096,
+     "p_one_sided": 1.0000000000000089
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "wilson": [
+      null,
+      null
+     ],
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 0,
+     "n": 0
+    }
+   },
+   "sham": {
+    "n": 175,
+    "declined": 170,
+    "decline_rate": {
+     "k": 170,
+     "n": 175,
+     "p": 0.9714285714285714,
+     "wilson": [
+      0.9348684071570383,
+      0.9877357296880804
+     ],
+     "designer_avg": 0.9697802197802198,
+     "designer_ci": [
+      0.9047619047619048,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 5,
+    "exact_all": {
+     "k": 0,
+     "n": 175,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.021480460921843688
+     ],
+     "chance": 0.0835164835164835,
+     "p_one_sided": 1.0000000000000087
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 5,
+     "p": 0.0,
+     "wilson": [
+      -2.7755575615628914e-17,
+      0.43449149475208104
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0000000000000004
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 5,
+     "chance": 0.23076923076923078,
+     "p_one_sided": 0.9999999999999997
+    },
+    "guesses_are_last_top": 5,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 10,
+     "n": 174
+    }
+   },
+   "true_blinded": {
+    "n": 173,
+    "declined": 168,
+    "decline_rate": {
+     "k": 168,
+     "n": 173,
+     "p": 0.9710982658959537,
+     "wilson": [
+      0.9341355925492061,
+      0.9875932314379101
+     ],
+     "designer_avg": 0.966880341880342,
+     "designer_ci": [
+      0.9123798076923076,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 5,
+    "exact_all": {
+     "k": 1,
+     "n": 173,
+     "p": 0.005780346820809248,
+     "wilson": [
+      0.0010210766639910194,
+      0.03201187485872761
+     ],
+     "chance": 0.08359270787016451,
+     "p_one_sided": 0.9999997373803676
+    },
+    "exact_among_guesses": {
+     "k": 1,
+     "n": 5,
+     "p": 0.2,
+     "wilson": [
+      0.03622316096978745,
+      0.6244717358814613
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 0.3298230777310643
+    },
+    "family_among_guesses": {
+     "k": 3,
+     "n": 5,
+     "chance": 0.23076923076923078,
+     "p_one_sided": 0.08428114723412508
+    },
+    "guesses_are_last_top": 5,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 18,
+     "n": 173
+    }
+   },
+   "inverted": {
+    "n": 102,
+    "declined": 102,
+    "decline_rate": {
+     "k": 102,
+     "n": 102,
+     "p": 1.0,
+     "wilson": [
+      0.9637042523922542,
+      1.0000000000000002
+     ],
+     "designer_avg": 1.0,
+     "designer_ci": [
+      1.0,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 0,
+    "exact_all": {
+     "k": 0,
+     "n": 102,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.03629574760774591
+     ],
+     "chance": 0.08371040723981897,
+     "p_one_sided": 1.0000000000000053
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "p": null,
+     "wilson": [
+      null,
+      null
+     ],
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 0,
+     "chance": null,
+     "p_one_sided": 1.0
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 14,
+     "n": 102
+    }
+   },
+   "narrative": {
+    "n": 103,
+    "declined": 100,
+    "decline_rate": {
+     "k": 100,
+     "n": 103,
+     "p": 0.970873786407767,
+     "wilson": [
+      0.9178402543112528,
+      0.9900458125391126
+     ],
+     "designer_avg": 0.9657738095238094,
+     "designer_ci": [
+      0.8958333333333334,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 3,
+    "exact_all": {
+     "k": 0,
+     "n": 103,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.03595603210734395
+     ],
+     "chance": 0.08364451082897682,
+     "p_one_sided": 1.0000000000000056
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 3,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.5615060804490177
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0000000000000002
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 3,
+     "chance": 0.23076923076923075,
+     "p_one_sided": 0.9999999999999999
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 0,
+    "top_heuristic_exact": {
+     "k": 0,
+     "n": 0
+    }
+   },
+   "instructed": {
+    "n": 102,
+    "declined": 99,
+    "decline_rate": {
+     "k": 99,
+     "n": 102,
+     "p": 0.9705882352941176,
+     "wilson": [
+      0.9170680330254163,
+      0.9899477339319994
+     ],
+     "designer_avg": 0.9642857142857143,
+     "designer_ci": [
+      0.9047619047619048,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 3,
+    "exact_all": {
+     "k": 0,
+     "n": 102,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.03629574760774591
+     ],
+     "chance": 0.08371040723981897,
+     "p_one_sided": 1.0000000000000053
+    },
+    "exact_among_guesses": {
+     "k": 0,
+     "n": 3,
+     "p": 0.0,
+     "wilson": [
+      0.0,
+      0.5615060804490177
+     ],
+     "chance": 0.07692307692307693,
+     "p_one_sided": 1.0000000000000002
+    },
+    "family_among_guesses": {
+     "k": 0,
+     "n": 3,
+     "chance": 0.23076923076923075,
+     "p_one_sided": 0.9999999999999999
+    },
+    "guesses_are_last_top": 0,
+    "guesses_are_target": 3,
+    "top_heuristic_exact": {
+     "k": 11,
+     "n": 102
+    }
+   },
+   "score_arms": {
+    "n": 552,
+    "declined": 539,
+    "decline_rate": {
+     "k": 539,
+     "n": 552,
+     "p": 0.9764492753623188,
+     "wilson": [
+      0.9601265497349324,
+      0.9861862127499194
+     ],
+     "designer_avg": 0.973109495518032,
+     "designer_ci": [
+      0.9330716463414636,
+      1.0
+     ],
+     "n_designers": 12
+    },
+    "n_guessed": 13,
+    "exact_all": {
+     "k": 1,
+     "n": 552,
+     "p": 0.0018115942028985507,
+     "wilson": [
+      0.0003198542424976405,
+      0.010189614642163024
+     ],
+     "chance": 0.08361204013377926,
+     "p_one_sided": 1.000000000000029
+    },
+    "exact_among_guesses": {
+     "k": 1,
+     "n": 13,
+     "p": 0.07692307692307693,
+     "wilson": [
+      0.013710066379696323,
+      0.3331453392824736
+     ],
+     "chance": 0.0769230769230769,
+     "p_one_sided": 0.6467415015288399
+    },
+    "family_among_guesses": {
+     "k": 3,
+     "n": 13,
+     "chance": 0.2307692307692308,
+     "p_one_sided": 0.6064384381365694
+    },
+    "guesses_are_last_top": 10,
+    "guesses_are_target": 3,
+    "top_heuristic_exact": {
+     "k": 53,
+     "n": 551
+    }
+   },
+   "per_designer": {
+    "fable51": {
+     "n": 72,
+     "declined": 72,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000036
+    },
+    "gemini31pro": {
+     "n": 61,
+     "declined": 60,
+     "guessed": 1,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 1,
+     "p_exact_chance_all": 1.0000000000000029
+    },
+    "gemini38flash": {
+     "n": 60,
+     "declined": 55,
+     "guessed": 5,
+     "exact": 0,
+     "family": 1,
+     "guessed_target": 1,
+     "p_exact_chance_all": 1.0000000000000029
+    },
+    "gemini4argon": {
+     "n": 62,
+     "declined": 52,
+     "guessed": 10,
+     "exact": 1,
+     "family": 2,
+     "guessed_target": 1,
+     "p_exact_chance_all": 0.9930056169660302
+    },
+    "gpt55": {
+     "n": 72,
+     "declined": 72,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000036
+    },
+    "gpt61sol": {
+     "n": 72,
+     "declined": 72,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000036
+    },
+    "gpt6luna": {
+     "n": 72,
+     "declined": 72,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000036
+    },
+    "grok43": {
+     "n": 72,
+     "declined": 72,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000036
+    },
+    "grok45": {
+     "n": 72,
+     "declined": 72,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000036
+    },
+    "grok47": {
+     "n": 72,
+     "declined": 72,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000036
+    },
+    "opus5": {
+     "n": 72,
+     "declined": 72,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0000000000000036
+    },
+    "sonnet55": {
+     "n": 72,
+     "declined": 72,
+     "guessed": 0,
+     "exact": 0,
+     "family": 0,
+     "guessed_target": 0,
+     "p_exact_chance_all": 1.0
+    }
+   }
+  }
+ }
+}

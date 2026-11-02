@@ -1,0 +1,109 @@
+{
+ "factual": {
+  "top_model": "gpt61sol",
+  "top_resid_by_category": {
+   "Art": {
+    "mean": 0.014978348187941444,
+    "count": 267
+   },
+   "Geography": {
+    "mean": 0.006835168860340181,
+    "count": 204
+   },
+   "History": {
+    "mean": -0.008830449462471173,
+    "count": 80
+   },
+   "Music": {
+    "mean": 0.02595924074776252,
+    "count": 155
+   },
+   "Other": {
+    "mean": 0.040428559318714564,
+    "count": 213
+   },
+   "Politics": {
+    "mean": -0.012096365177189906,
+    "count": 351
+   },
+   "Science and technology": {
+    "mean": -0.06779758874797517,
+    "count": 413
+   },
+   "Sports": {
+    "mean": 0.006933265491980395,
+    "count": 157
+   },
+   "TV shows": {
+    "mean": 0.08923043729350981,
+    "count": 108
+   },
+   "Video games": {
+    "mean": 0.08074541497612822,
+    "count": 52
+   }
+  },
+  "top_resid_selection_weighted_none": -0.012124184263046199,
+  "top_resid_selection_weighted_all_arms": -0.011014501859540605,
+  "top_resid_unweighted": 3.30330363533804e-08,
+  "corr_top_resid_vs_times_selected_none": -0.019820618058375535
+ },
+ "math": {
+  "top_model": "grok47",
+  "top_resid_by_category": {
+   "AIME": {
+    "mean": 0.003171495660428652,
+    "count": 936
+   },
+   "APEX": {
+    "mean": -0.2432341589006524,
+    "count": 8
+   },
+   "BRUMO": {
+    "mean": 0.01267023185343975,
+    "count": 29
+   },
+   "CMIMC": {
+    "mean": 0.0628065311061811,
+    "count": 36
+   },
+   "HMMT": {
+    "mean": 0.01028888732448286,
+    "count": 144
+   },
+   "MATH": {
+    "mean": -0.006604297460094864,
+    "count": 795
+   },
+   "SMT": {
+    "mean": 0.0018245473589412115,
+    "count": 51
+   }
+  },
+  "top_resid_selection_weighted_none": 0.0012282962209076112,
+  "top_resid_selection_weighted_all_arms": -1.3748422284735714e-05,
+  "top_resid_unweighted": -1.2329304760185756e-05,
+  "corr_top_resid_vs_times_selected_none": 0.00582306880821464
+ },
+ "code": {
+  "top_model": "gpt61sol",
+  "top_resid_by_category": {
+   "AIZU": {
+    "mean": -0.027302820154916564,
+    "count": 270
+   },
+   "ATCODER": {
+    "mean": -0.00956278400320502,
+    "count": 288
+   },
+   "CODEFORCES": {
+    "mean": 0.007022087310375987,
+    "count": 1442
+   }
+  },
+  "top_resid_selection_weighted_none": 0.009870398698354987,
+  "top_resid_selection_weighted_all_arms": 0.012458964150599916,
+  "top_resid_unweighted": 3.333405828809255e-09,
+  "corr_top_resid_vs_times_selected_none": 0.03030370678041615
+ }
+}

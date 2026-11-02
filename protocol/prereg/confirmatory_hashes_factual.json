@@ -1,0 +1,3888 @@
+{
+ "written_at": "2026-10-25T15:12:36Z",
+ "master_seed": 20261025,
+ "pool_name": "factual",
+ "pool_sha256": "d9425bde79ac4bf7474c348a69637ecad3c67fa02c7f65a6e4c1d63cbc7f6203",
+ "panel_correctness_sha256": "cb86549e5f90fc397003bb2c81f944f70a01718a47128dfc8bb33c1f3ec686fd",
+ "samples_per_item": 5,
+ "k_rounds": 4,
+ "n_items": 100,
+ "cells": {
+  "sham_blinded": 5,
+  "none_blinded": 5,
+  "true_named_true": 5,
+  "true_blinded_blinded": 5,
+  "sham_true": 5,
+  "sham_false": 5,
+  "inverted_blinded": 3,
+  "narrative_blinded": 3,
+  "instructed_blinded": 3
+ },
+ "designers": [
+  "fable51",
+  "sonnet55",
+  "opus5",
+  "gpt61sol",
+  "gpt6luna",
+  "gpt55",
+  "gemini4argon",
+  "gemini38flash",
+  "gemini31pro",
+  "grok47",
+  "grok45",
+  "grok43"
+ ],
+ "frozen_code_sha256": "feffac2932acd2e3266a524954b1105ff56aaf832a97c72f0e2331c313d5f97c",
+ "frozen_code_verified": true,
+ "panel": [
+  {
+   "key": "fable51",
+   "provider": "anthropic",
+   "model_id": "claude-fable-5-1",
+   "effort": "low"
+  },
+  {
+   "key": "sonnet55",
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-5-5",
+   "effort": "low"
+  },
+  {
+   "key": "opus5",
+   "provider": "anthropic",
+   "model_id": "claude-opus-5",
+   "effort": "low"
+  },
+  {
+   "key": "gpt61sol",
+   "provider": "openai",
+   "model_id": "gpt-6.1-sol",
+   "effort": "low"
+  },
+  {
+   "key": "gpt6luna",
+   "provider": "openai",
+   "model_id": "gpt-6-luna",
+   "effort": "low"
+  },
+  {
+   "key": "gpt55",
+   "provider": "openai",
+   "model_id": "gpt-5.5",
+   "effort": "low"
+  },
+  {
+   "key": "gemini4argon",
+   "provider": "google",
+   "model_id": "gemini-4-argon",
+   "effort": "low"
+  },
+  {
+   "key": "gemini38flash",
+   "provider": "google",
+   "model_id": "gemini-3.8-flash",
+   "effort": "low"
+  },
+  {
+   "key": "gemini31pro",
+   "provider": "google",
+   "model_id": "gemini-3.1-pro-preview",
+   "effort": "low"
+  },
+  {
+   "key": "grok47",
+   "provider": "xai",
+   "model_id": "grok-4.7",
+   "effort": "low"
+  },
+  {
+   "key": "grok45",
+   "provider": "xai",
+   "model_id": "grok-4.5",
+   "effort": "low"
+  },
+  {
+   "key": "grok43",
+   "provider": "xai",
+   "model_id": "grok-4.3",
+   "effort": "low"
+  },
+  {
+   "key": "placebo_sonnet55",
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-5-5",
+   "effort": "low"
+  },
+  {
+   "key": "heldout_sonnet46",
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-4-6",
+   "effort": "low"
+  },
+  {
+   "key": "heldout_gpt54",
+   "provider": "openai",
+   "model_id": "gpt-5.4",
+   "effort": "low"
+  },
+  {
+   "key": "heldout_gemini35flash",
+   "provider": "google",
+   "model_id": "gemini-3.5-flash",
+   "effort": "low"
+  },
+  {
+   "key": "heldout_grok420",
+   "provider": "xai",
+   "model_id": "grok-4.20-0309-reasoning",
+   "effort": "low"
+  }
+ ],
+ "sessions": [
+  {
+   "session_id": "T1_factual_gpt6luna_sham_blinded_r0",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "d0fc5aeb79cc4686b13d08609d10d5e7a56eb3bdb8cc5e19d0e222bbe1bca01f"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_inverted_blinded_r0",
+   "designer": "gemini38flash",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "08dde5d857a685620de293a098f0ec3f1ee955dc1c5dee3dd21f6cdc598156d1"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_narrative_blinded_r0",
+   "designer": "gpt61sol",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "51fbe290be0ddf1fed65d22fcd5319f40c2324cd0e3aec6b393fea51e4db487c"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_instructed_blinded_r0",
+   "designer": "gemini4argon",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "5544ebc5c77b9d72da39fe4c0a979e24d009c5e22eb94c2dbba8b1a42003d4e9"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_inverted_blinded_r0",
+   "designer": "gpt61sol",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "e8864ed8285595498948cbf256bb28db180abfdd573556d11df98a8dc954296d"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_true_named_true_r0",
+   "designer": "gemini38flash",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "29490d3aa1cca04c0f0423a688bde5e0cad01beb11e4800d82d30e0683fb539a"
+  },
+  {
+   "session_id": "T1_factual_opus5_true_named_true_r0",
+   "designer": "opus5",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "82c79098b51db594e5fd394c9ca31b032ce8ebe419e5f8722933c2ff763887f1"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_narrative_blinded_r0",
+   "designer": "sonnet55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "dfd236ab24dd88ac8c292de15ea96a10d18778578637a956191e9247de52964c"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_true_r0",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "04a760c90efdb315118a7b02bf28cefacefe782b367a030c13db7c7f245404ad"
+  },
+  {
+   "session_id": "T1_factual_fable51_instructed_blinded_r0",
+   "designer": "fable51",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "be233baa254585b7f160600d2ca59740c3c205e35122aef1739128467f6b8588"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_inverted_blinded_r0",
+   "designer": "gemini31pro",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "a21cdb46376846a2cb215f40af19a4998bbbf2a4ba35e22d48c4f26be51daf62"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_true_r0",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "c0dfbd788402ea859a573855dce533a7c9e8d84b078e776a8a92289cd32dad2a"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_true_r0",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "739141b042e48fd61d4e3cd83adfd0d21698f7bccd35662bce7cc8a2ac4e4e4f"
+  },
+  {
+   "session_id": "T1_factual_grok47_instructed_blinded_r0",
+   "designer": "grok47",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "f1975a295a7e87b9a378b3096171866a0040ad0ce6df22d87677b7132ca48145"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_narrative_blinded_r0",
+   "designer": "gemini31pro",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "cf8a0456274c0fd396ff43d89843ecae81b711073ecc9d9f18a3d05b8df63d87"
+  },
+  {
+   "session_id": "T1_factual_grok43_true_named_true_r0",
+   "designer": "grok43",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "c6b91ac979ba35f5dae7df6059897b12c0d8bf10b2c7e9c0c21121f3fdbbdaa3"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_inverted_blinded_r0",
+   "designer": "sonnet55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "0ff952bf5ac7f26b830bdbfb3272023648efc7331e450e6a18f0b2dd8ddb3847"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_none_blinded_r0",
+   "designer": "gemini31pro",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "12e8d0d9c55734cc26d520c80716d1ec00718a18505eae1194be37e039754308"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_blinded_r0",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "f7730580db5a93977d8a8d7054bc31281e298c985a9a80405dafb4122819aa7e"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_instructed_blinded_r0",
+   "designer": "gpt61sol",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "848c54cb9d9f8fda915f7ff7d4134bce904427326d374ddb65bc21f5db14ca1e"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_true_r0",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "f24afdd620826300834cab2d48924ad81e179a2522ab22fcd90eb6f68ed5d09e"
+  },
+  {
+   "session_id": "T1_factual_gpt55_none_blinded_r0",
+   "designer": "gpt55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "07e3f294fcf0c41b0b908c200752d8616643fa38e3a2e13eb43cf03ed587f3bc"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_none_blinded_r0",
+   "designer": "gemini38flash",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "91bc536227bcfaa23186362acb01afe8a8262e73e7f54935f2263e94b2763297"
+  },
+  {
+   "session_id": "T1_factual_gpt55_true_named_true_r0",
+   "designer": "gpt55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "309538da2ec433274825abd87445de8405d03c2865e8118a4cae7899970e5e6f"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_blinded_r0",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "698a8ebf2854e534e550f1af4f3a867000f991f2c8dc916975a098bcdc08877a"
+  },
+  {
+   "session_id": "T1_factual_fable51_inverted_blinded_r0",
+   "designer": "fable51",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "19306ae93019dbf6122349844ae2b0fe19570ba6c6a5a01eeee995cbc2f19ed6"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_false_r0",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "6753fa7cc5b2854ae5079fab0f12aa4992f43e1c7ff4134e3441494e33a37816"
+  },
+  {
+   "session_id": "T1_factual_opus5_instructed_blinded_r0",
+   "designer": "opus5",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "472d19c1f913cc68c8d674d3a0367ea21a5c45e08cf57937f487d307c85115b4"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_true_blinded_blinded_r0",
+   "designer": "gpt6luna",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "eca6f900a6b340ca5cc23058ecdb7ca8655d88bf83af64fbce6d7a5fed6b52d6"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_true_r0",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "bfaff6f87ac4e872851b42148584fcfe41fc3b749d2dabfaa70e88bb89b45f45"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_blinded_r0",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "cb974f794822d272918d26628aa931430f0c6f4014dfede002f72069fabeca1d"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_blinded_r0",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "8d8f87c69647ca2b3f94a966bd2b391e11711915d592e14c772cbb4e061a2ba8"
+  },
+  {
+   "session_id": "T1_factual_grok45_true_named_true_r0",
+   "designer": "grok45",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "86812c0d84ac2b2dc0e30ec12ac1e5300d891bd93c0ebfaca4441e6ac02ffe87"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_false_r0",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "a1ddcfa36eb1afa4f3e27ea6c065af35683baa54d3a9218d2794fb36b30d26ed"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_false_r0",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "c8922f477058c0018e71c43b7c139649b3bc91e3e0acebe487602d509da97a62"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_true_named_true_r0",
+   "designer": "sonnet55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "fe301ee383838e03d2af6eb8e0ff0b7beac2e3ffb63830ead523980cf323f6d4"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_instructed_blinded_r0",
+   "designer": "gemini38flash",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "7c74fe9328d42df552d4135b8fa8c9af2fc53895ec6f387d2ecaa4c097a9bfa4"
+  },
+  {
+   "session_id": "T1_factual_opus5_true_blinded_blinded_r0",
+   "designer": "opus5",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "bb39ff737e680c975236e37b1408ad06d54547825aeb9bb941e3a55bd2e7bb46"
+  },
+  {
+   "session_id": "T1_factual_gpt55_inverted_blinded_r0",
+   "designer": "gpt55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "8bb19d7437eb83cb85f084eb656df8e96621dbf961d67a359e2dbcda5b987368"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_true_blinded_blinded_r0",
+   "designer": "gpt61sol",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "f319865756e210c50d5f56977f541ea1fd2a26926267c682e486b0527f4d46b5"
+  },
+  {
+   "session_id": "T1_factual_grok47_inverted_blinded_r0",
+   "designer": "grok47",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "826097d8ced4a311cc12a0a7bb2dfa0d03cd12ca25b4bd1f46ee77e83d7bbb5c"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_true_named_true_r0",
+   "designer": "gpt6luna",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "046d7b09e12d9957f6286c2162922d96d82b79aae6c00c7dd23c358936b5d196"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_blinded_r0",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "2014d17ec1626a510a42b4abb6d4f8a41713fbd614117f25bdf69610745bb6f8"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_false_r0",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "8e314f1fa46c752e69dcb704299a6548729d435e0a700b8199bd06cf68735859"
+  },
+  {
+   "session_id": "T1_factual_opus5_inverted_blinded_r0",
+   "designer": "opus5",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "b690d1639812b67813b1d02939cdcba67c9087c846dda20c778040a94aa9014b"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_true_named_true_r0",
+   "designer": "gemini4argon",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "1ba893ea5a24713b22f7fbd8a5990eafbd4b365fca696cc6ecc8e85031049794"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_blinded_r0",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "3746e8762ea255272b8399d738f6e704013ed65f64cedd719b2e4e2ea30bf8b3"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_true_blinded_blinded_r0",
+   "designer": "gemini31pro",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "0d4befc599be6689024ed19ae62895cef0f8623b4d97e7ba1afa0c545cf8f262"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_true_blinded_blinded_r0",
+   "designer": "gemini4argon",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "7303dfcdda3e7ab6e59ff30853bf5caef5b1672a20ab2de6ea917ebced79e9a4"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_true_blinded_blinded_r0",
+   "designer": "sonnet55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "f8148881d54ee4a66b9e4a42471b6ad642f08f83f293eb36ed95b6b20f902a37"
+  },
+  {
+   "session_id": "T1_factual_gpt55_true_blinded_blinded_r0",
+   "designer": "gpt55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "23030b30ebd670a3b172c6713b58000ad097f9d2b88380608a4835657609ee4f"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_true_r0",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "8609f76740fcb977025bfa2aa42ff81136af1244fc3446e9efded6a12c4c969e"
+  },
+  {
+   "session_id": "T1_factual_grok47_true_blinded_blinded_r0",
+   "designer": "grok47",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "b45c618cbb20cc94742bce1fce0270887b93cf5abdcfadd581c5e80b90a57913"
+  },
+  {
+   "session_id": "T1_factual_opus5_none_blinded_r0",
+   "designer": "opus5",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "dfc6f0e598a31fb38b018096fc7fd165ccf6bbfc4b684937ed86954a5860b696"
+  },
+  {
+   "session_id": "T1_factual_fable51_narrative_blinded_r0",
+   "designer": "fable51",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "e6a6a1968fcc0ce107944dbc341d189d308aa0d9e6140bb4c1ceb964c1cc9089"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_none_blinded_r0",
+   "designer": "gpt61sol",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "08b3619ffd950f52f46595119f9c439f51ca50ed91b88a8dcece3f25efae493a"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_false_r0",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "2ce81e35a309e772598e26868fb8870f5adbd45a3b4909a5ee03533badc429fb"
+  },
+  {
+   "session_id": "T1_factual_grok43_inverted_blinded_r0",
+   "designer": "grok43",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "246ffa10a6ed79844d094d13e0d01f9192a5cd5eb1d43323d874c955eb57a6dd"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_false_r0",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "9b2aebf699e2ca958ae567917fe9832e1b19efcdedf8e3f60a491c40b56bc405"
+  },
+  {
+   "session_id": "T1_factual_grok47_narrative_blinded_r0",
+   "designer": "grok47",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "b708f9fde5518bc0ec96d0666a343de3adc9a4e73d7a10a262ead758bde281f9"
+  },
+  {
+   "session_id": "T1_factual_fable51_none_blinded_r0",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "a63236544e61969400ae292bc2559d1a4de5f4600d16b0f65cf9db2fe59b1ab0"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_instructed_blinded_r0",
+   "designer": "sonnet55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "7cfb8d1e2d7da30a517190366d3b4d757720fa93a1f828cbe9f93b4579690fa3"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_none_blinded_r0",
+   "designer": "gemini4argon",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "8fb8ce619bca57c57d87c69bccd565c6a53d18166d53fa826ed775ed0239ac07"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_false_r0",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "85ea89d7ee85de5487970480c3fc2755594958cf28158350830e527b239ff900"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_true_r0",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "c7b6cc067012daba2529aa91c16280be029254108c5b2112bd6677f1737d7052"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_inverted_blinded_r0",
+   "designer": "gpt6luna",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "61eaac076e2d2a1f2891943b65b3fc97379d8c569f9b34d5d32e77bb88e8fd6e"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_false_r0",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "c26f25c6f91bb405c11f2c6460f766375aa7a7b24d1706a599194df7463cfbfd"
+  },
+  {
+   "session_id": "T1_factual_grok45_narrative_blinded_r0",
+   "designer": "grok45",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "22effbc79439f95798ae0a7d28c2893d4ba81ed719cfaebbc06c230dca066cb1"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_narrative_blinded_r0",
+   "designer": "gpt6luna",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "155924d9d64c274aa78af4349a864b029ff0c1405ef27f87a3db816861a80d52"
+  },
+  {
+   "session_id": "T1_factual_grok45_true_blinded_blinded_r0",
+   "designer": "grok45",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "abb8a2adf2f8a5de3ceff7bbd29c5c6a9855e31ac40b99fb2aeaf10150bea745"
+  },
+  {
+   "session_id": "T1_factual_grok47_true_named_true_r0",
+   "designer": "grok47",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "489c49b3ea58f2607fd587fd928bfba7baee4d49feae8bfc4692a730fb22cc2c"
+  },
+  {
+   "session_id": "T1_factual_grok45_none_blinded_r0",
+   "designer": "grok45",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "365435a0b4c2eec0fa8f9ade9304913d355bd4d40726f3bf19218cc05eacf2cb"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_true_r0",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "ab8234b76c734b1c99898d8b8ca06de91be8b6fc108e369dee5e639917dad378"
+  },
+  {
+   "session_id": "T1_factual_grok43_instructed_blinded_r0",
+   "designer": "grok43",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "b2a31138a07f589dc51a9b75cb76a718c7e58e80b4ebbbf529998eefffdc6c28"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_none_blinded_r0",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "9a5f9de073399256c318888e70154193ff2b8e3be8dc2b049fd015f2c8ab7dce"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_instructed_blinded_r0",
+   "designer": "gemini31pro",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "41ed2db67edfd495d3cbfd81dc2ca898dc4889139ffe7270125dbf65cf28b76a"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_true_named_true_r0",
+   "designer": "gpt61sol",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "f7ba80b176ad3079912de39281127e29d0ed0367730cbdf8045d48b72d5de188"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_true_r0",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "d17dfbedb931c7e5a113af7d9c422114126fb86b20522a060baf321447672ba6"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_narrative_blinded_r0",
+   "designer": "gemini38flash",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "e392608b4333bbce98403310e1fca30b34c08459d1ef23378e93e8373bb71058"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_blinded_r0",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "fd220b2900be0928fddd4d1398519b7c74f5d3089edaf88d89eb54078640aa04"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_true_named_true_r0",
+   "designer": "gemini31pro",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "1245b0e94a6b8a1d78842192bb7ba34be5222dafa2a59584477d4831b386020f"
+  },
+  {
+   "session_id": "T1_factual_grok45_inverted_blinded_r0",
+   "designer": "grok45",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "ce6a7731aba6c53b4268226b978aa627b0c3cce8c3d46099573f619a51af65c9"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_narrative_blinded_r0",
+   "designer": "gemini4argon",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "b2a47dc8abeabd5c253e94692b7228fae758628bfc9192be78c3af62d0ed29fd"
+  },
+  {
+   "session_id": "T1_factual_grok47_none_blinded_r0",
+   "designer": "grok47",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "f961a4f7e22de867c11ad39155197af8370564a559b45af2f65fb28d248090e2"
+  },
+  {
+   "session_id": "T1_factual_fable51_true_named_true_r0",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "26a3ba59dc33ced29f45fd19672c531e991f2ddc4e4c1c91396ab1163a5d8f17"
+  },
+  {
+   "session_id": "T1_factual_grok43_true_blinded_blinded_r0",
+   "designer": "grok43",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "06786a50832a5354d0d6b63f6df1a7fbe0f3bbc471fcf2a6944b5a3a36b4ac06"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_blinded_r0",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "9c97c425ec4ecf16d1aaade799622ffb824e9dcedb51e1933b9256ce577048b6"
+  },
+  {
+   "session_id": "T1_factual_grok45_instructed_blinded_r0",
+   "designer": "grok45",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "cb8f47611ecb83d5c2d0e6211d09d34a18b32039a025a96203daac64e9f2c149"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_false_r0",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "25634033f5efd17a7d70771c5b12bd057889c652850d4e7e047ced2f63b1a339"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_blinded_r0",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "d7b5091e8ccaf13bba2ee37c173dc0d8fcb7c518ff3d9b533437a07f3b27de40"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_blinded_r0",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "da65dadcc52b6486c32051bdd77cdbec55165fc15b6cda9e5d270775fb9b591f"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_true_r0",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "a2ee4676b7868e2379b07208e1b605c6b1e970e97fc0a9d97cf51fc07aed5f23"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_instructed_blinded_r0",
+   "designer": "gpt6luna",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "87be7b8c0c750e100d86b5c81fe6f14d846f437146a4736aea6c8e63f5b3ceea"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_blinded_r0",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "9e2ad9424f0e175a277fbe44bfcc05104297152f54df54f62bd359b02113064a"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_false_r0",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "5b8ebb9e9b9136150bfa6719822f8f9afde4642587ba954549af9cb1950ac6b3"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_none_blinded_r0",
+   "designer": "gpt6luna",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "75b6ee310bf1533af15773054be05fe44ed75faaac65670c28a73b2cf7a9b616"
+  },
+  {
+   "session_id": "T1_factual_grok43_narrative_blinded_r0",
+   "designer": "grok43",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "eab1a386008aec71c17d1496484e4b8ead76fbda6ef8f8522dfd35960d2d6833"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_true_r0",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "c7307676b8e2a486f3dec3b83baf53cc4411044170d3b960450b545ab70b2d06"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_inverted_blinded_r0",
+   "designer": "gemini4argon",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "32ce07f82424afbbabf978b1527968d26ee2b6aedd1f6795a4c41a151e779652"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_true_r0",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 0,
+   "config_hash": "2739c2e0fe35850184b3f181ae6de0dd84e46baa7d89935290ff9665a4816406"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_false_r0",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "48b9f1c15c30b786e371342ab298773fa117c81e99dbc01d32c9f73a5a1a39f8"
+  },
+  {
+   "session_id": "T1_factual_fable51_true_blinded_blinded_r0",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "c82f960fa36b9595226c617943c8cffb0122e8f25b8eedac4405534ede8df6fd"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_false_r0",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 0,
+   "config_hash": "34459d92c5c7ae29ba711d15c4ffe33b3bad4cf6f11df12219bedb56834f0f99"
+  },
+  {
+   "session_id": "T1_factual_gpt55_narrative_blinded_r0",
+   "designer": "gpt55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "fb86ce1aaa14f3986211364afe79a0b4a2c81ed8c48f06e364c1b5385d500020"
+  },
+  {
+   "session_id": "T1_factual_opus5_narrative_blinded_r0",
+   "designer": "opus5",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "eeb65f039cc71b4796f3006fad02ec0781afc8e4db9a7bb2b9fac2df57cb5603"
+  },
+  {
+   "session_id": "T1_factual_gpt55_instructed_blinded_r0",
+   "designer": "gpt55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "2f5802f351a887793e707381341684186bbcc5f5eda4f02703c830d5dd662a8e"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_true_blinded_blinded_r0",
+   "designer": "gemini38flash",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "90aecec021ba823eee231f6af37fd823dfdfba7394a37560592ba806285b2075"
+  },
+  {
+   "session_id": "T1_factual_grok43_none_blinded_r0",
+   "designer": "grok43",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 0,
+   "config_hash": "6cdafea915a757e390170ef108486fc6ee90f2e43288b89d082952e6bef04b9f"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_blinded_r1",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "5397ca1abed2685b0db27947f773cae8f3d3310d40b9c78f9eaf12e51866ec0b"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_narrative_blinded_r1",
+   "designer": "gpt61sol",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "b5a7c58b15f7c313dcf716c9f03cc4105f9877b3ce8a40878e4643c33a8b56d3"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_blinded_r1",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "6856804e0851191a37103a25c671aec929061984f531db6def36c5a4a1fa8587"
+  },
+  {
+   "session_id": "T1_factual_grok43_true_blinded_blinded_r1",
+   "designer": "grok43",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "2d5136420f341a30ee7e9efec1470cb791f6e1bc2279e605edf19027e5fb515d"
+  },
+  {
+   "session_id": "T1_factual_grok45_instructed_blinded_r1",
+   "designer": "grok45",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "bcc3c269dbc48ac4623cb934f04e84207870001f45f6a7dfa3b4c3d69d568c3f"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_narrative_blinded_r1",
+   "designer": "sonnet55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "30e4b11c480467582bc45a034ca7d3e39e176f9bce5adb591c7f6a9b6f3cfe95"
+  },
+  {
+   "session_id": "T1_factual_fable51_inverted_blinded_r1",
+   "designer": "fable51",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "f664940c8e9e5201a9ada9c00c46f52e10d129066c2b3b9eab5f55c6b079305a"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_blinded_r1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "b7837221b6c8efc4ae5e1cc86f252e4739d9dede03912fa87458f5d09c2e2ead"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_false_r1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "5d0d991e39308f330efc6b5bde153a1a4188a5966107bb8d966116b80f42b477"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_false_r1",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "04b76eb5afc24a8234ed9e1dabc00c2f622226b07c78e6e99b4ff606b7e18c6a"
+  },
+  {
+   "session_id": "T1_factual_opus5_true_blinded_blinded_r1",
+   "designer": "opus5",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "81fc9362464e1892574eaf405c8a789dcfaff85c5a95fb51901d3a8d264ed5b3"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_true_r1",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "961d9d665928c715ada6cdcbcc9b737168d0c2251d462ea01ba629b6e588fa41"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_none_blinded_r1",
+   "designer": "gpt6luna",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "9c1dd41fc49b8243e6fa9585b0dce1540b5246d70ef4ffe376d2e3c36c80d2c4"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_false_r1",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "214b9906393baaf44a92cf45225a1dbc6d413a2fe0a5adf8d2bfa7dc2442fb2a"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_narrative_blinded_r1",
+   "designer": "gemini4argon",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "46264fe553d4158b99ec0b9b999e97d31e9cdd8c430283b718595f7b3fcc8e16"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_blinded_r1",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "648dbf22dacbf16bf34f72f0f1666333dd8fb76d2db02b53da1b34cbbdbe5f10"
+  },
+  {
+   "session_id": "T1_factual_grok47_inverted_blinded_r1",
+   "designer": "grok47",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "227a1d218721fd0cc426078afcf72e0bd068ab4f8da40c51f9aaf783ec71b99d"
+  },
+  {
+   "session_id": "T1_factual_opus5_inverted_blinded_r1",
+   "designer": "opus5",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "4573084acfa0fc7c74be99f142032135823c8a300997758a01da3e907b2164dd"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_none_blinded_r1",
+   "designer": "gemini31pro",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "e05ce9f49d53aa47c300d339ae9de4f84579c3bf02cc790a8a30da92a8ae48cb"
+  },
+  {
+   "session_id": "T1_factual_grok43_instructed_blinded_r1",
+   "designer": "grok43",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "b1c2bbfb86ea931ff66de14f4149f4acca5634b659e2052f0c5717fa0f6e7979"
+  },
+  {
+   "session_id": "T1_factual_opus5_none_blinded_r1",
+   "designer": "opus5",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "ac5868a5d16bdcda4e54bab3ef9871c9b0adc0c1ed40a950fd22320f4ebb1912"
+  },
+  {
+   "session_id": "T1_factual_grok47_true_blinded_blinded_r1",
+   "designer": "grok47",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "e0ba3be94d337aa864865db82b41be60de31aee99c6f70c2acb72ede244981ad"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_true_r1",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "49b2e62ca36a12f4b2fc15142827f5cd4e20461a0712c602273ec7c3be5a4797"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_true_named_true_r1",
+   "designer": "gpt6luna",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "64f0ae43661fa31e433c7c96d3c600355373f5bd42fc55ef9777dbb370ab0253"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_true_blinded_blinded_r1",
+   "designer": "gpt61sol",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "24e10eb514caf4d6bb102f8475892d33e7093119dc354ec60e482fe5276ed7aa"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_instructed_blinded_r1",
+   "designer": "gpt61sol",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "1adf1853f50f91bb338a501fa397af168d94a03ed3a8c51764b1fbc24a05f6a9"
+  },
+  {
+   "session_id": "T1_factual_fable51_instructed_blinded_r1",
+   "designer": "fable51",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "077cd1fbfd31777ffcef297b8c08cd9b2f17ed62df92f63925c3831ea3e5fc16"
+  },
+  {
+   "session_id": "T1_factual_opus5_instructed_blinded_r1",
+   "designer": "opus5",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "93e53efec9c526339642476d834fb690188d04fbb85dcfaf18cb390e23e13c80"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_true_r1",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "5bfed6214b3cb5a3b8da7d5d042f43437468b2dd4e885119fe84c48459dc16cf"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_false_r1",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "0b4d85b7dbf4a0530b68729d9516b17620699c10d0d8cbc4c5b08fdd5578018e"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_true_r1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "899abbf3868ea9368352320f0a9ae12b09b85485dae180ce6bf5a08f9bfa461d"
+  },
+  {
+   "session_id": "T1_factual_grok43_narrative_blinded_r1",
+   "designer": "grok43",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "f211abd49a312964de68a13a4a0448d99ffc15f4ea5dfb25d562810033940607"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_blinded_r1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "b72258b20f2eda265a1e07115ab31cd0d330c5fb903c0c3abda3117cb81a21fe"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_true_r1",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "0fd6705cf2122e87a0e4b5dfa689b74aad5c1d90c00fd2c81cfff575c792d2a6"
+  },
+  {
+   "session_id": "T1_factual_grok47_narrative_blinded_r1",
+   "designer": "grok47",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "84c8940698ec2ebe86e30cff730dc0bbc9d36cf8ccb8b312f5291d144936e4b7"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_instructed_blinded_r1",
+   "designer": "sonnet55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "3535bcdb10ecbb7ed410376a64406ec6ca67b6426d40a89b414b0c9e4db0b293"
+  },
+  {
+   "session_id": "T1_factual_fable51_narrative_blinded_r1",
+   "designer": "fable51",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "c7e3d71a65c745812eab6516d8e35955b6e1f9e1ceb33508028946269bcc54d8"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_blinded_r1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "2c700d0b2e48688c9007cdc592d8405b6669e8d243a4812af13899daa909c0d9"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_none_blinded_r1",
+   "designer": "gemini38flash",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "c4b9c6bed2a7daf3a5e7606d145e0abd6c1bc268e9105f6180436632290faebb"
+  },
+  {
+   "session_id": "T1_factual_grok45_true_blinded_blinded_r1",
+   "designer": "grok45",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "b58f87fdea34c2d62d585b756e868b1c299820554abea7085a0b1ff832a274c3"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_true_named_true_r1",
+   "designer": "gemini38flash",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "0b46f9c8c0fd18f697eb32e7c97b3fe1bbffa60c4f02e61600f7df52841af19b"
+  },
+  {
+   "session_id": "T1_factual_gpt55_true_named_true_r1",
+   "designer": "gpt55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "a7f053a27e83406e6cc2ce44bad00a16ff903c983cbcc7ef32e242cacd50ff40"
+  },
+  {
+   "session_id": "T1_factual_grok43_none_blinded_r1",
+   "designer": "grok43",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "91463f2fec0247b770b69095bd00906534becdd6051ba71bf2f71765e0ef0eef"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_true_r1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "218f4513d660b3c451cec87aa8c02159c1b7ba2c1c18cb352a35c99f71f9fe30"
+  },
+  {
+   "session_id": "T1_factual_opus5_true_named_true_r1",
+   "designer": "opus5",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "424167629920ad1494b768b3f719d41f10d8833d9f6ca5f65de0f099be68c0e0"
+  },
+  {
+   "session_id": "T1_factual_gpt55_true_blinded_blinded_r1",
+   "designer": "gpt55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "44895f977cba4b934cb7325c0d6feb74f4b88989ca4cf8ab9ed303f40609cdd7"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_false_r1",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "a8ec211312ecfbcb915d103026fe4b00826dc0963cbadb5215680dfef6a7ccd1"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_blinded_r1",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "089982f536fdfd4216fd26b6aba3e90a9718ea63ac4287745afec85a741db2b2"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_false_r1",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "0dcd9df68acd88d72b9f14aac296bbdaf32a89c5bc024173b6189ba63610b58a"
+  },
+  {
+   "session_id": "T1_factual_fable51_none_blinded_r1",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "b371cefd7ab797c4a301bf2cd5a06e550419f999f2515546f836e610aae9a29f"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_true_named_true_r1",
+   "designer": "gpt61sol",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "465176bafe428c14364a3edd95528d420545a614e0e5fd940efc42a916cea200"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_false_r1",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "16d4035c7d031e163388838e44a18e70f58bcc9ff43a683ed99ace62d97de8b9"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_false_r1",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "9fc7ab64cb1845291fcc7ffb66affd1849bdfcde5dd5404c13c05aef0e13c00b"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_true_named_true_r1",
+   "designer": "gemini31pro",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "97e6c99475b696d21ef9c91c7a0bed60cf78cfcda1603e3b1a3aad564076b370"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_inverted_blinded_r1",
+   "designer": "gemini4argon",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "327e897c533e7a259630425ab2f91ef5e9b3f6aabb4bc4a31f1d35c467e05d9c"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_true_blinded_blinded_r1",
+   "designer": "gpt6luna",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "1035fa5170638133bcda246973b952b90986e3ab5ccd6cc4b47f5b252a959727"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_true_r1",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "93f020f7dc9992b86a9809a856aec887784ec1143cf337c85b60a4f733ed95e7"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_true_blinded_blinded_r1",
+   "designer": "gemini31pro",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "2e8a28ba34eaabee3798053b3e71bb0a9f645bfa4dc368334d730a955f4dca7a"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_instructed_blinded_r1",
+   "designer": "gemini38flash",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "eeb0eeccb06518aaa2a59bb351aca76289de93f027331bfe4e8e5b6b68400d54"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_blinded_r1",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "cb8f517a25a7752107299327be69e9caecf3f307e1bb0b2dd4c6edee4be69c54"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_instructed_blinded_r1",
+   "designer": "gpt6luna",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "609abcf1816b747b941caab9986dc1da46f229eae25aa2b0afbd80b62237da04"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_narrative_blinded_r1",
+   "designer": "gemini31pro",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "1c728c030ced0e78cd0e9b92029359f53bd3be42f53d50e624e8a7ceab254f60"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_none_blinded_r1",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "2392dc0d48dcc9efb2e2f5c25f3133c921f549ec8a296895bffc54f4fcf371a2"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_true_r1",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "907a42a6fad0116aa14fb2f35892bb92cf4a0075fa6bfccffdb0c5682b72b6b5"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_true_blinded_blinded_r1",
+   "designer": "sonnet55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "921047b5d00c7760901a0265068a7c7cba9b3e6010ccf078ef2cc24451d909be"
+  },
+  {
+   "session_id": "T1_factual_fable51_true_named_true_r1",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "8689c26ffb39996d0f9cbc4cee00c42703ba408c333b538eed4d10f37f42b040"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_inverted_blinded_r1",
+   "designer": "gpt6luna",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "8de353aa5f04e7343f94ae9ff3a7c66450422eb2dd45d758501662106d1277c3"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_true_named_true_r1",
+   "designer": "gemini4argon",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "c13c4c31f2f2dbd5125de9ea988d834da94753227b8ad3361fb4cee35d171c7a"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_blinded_r1",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "9a618a47ac08ac928c612481013ac1ddc1bee966c85dad93cae1a6eb8d9f738f"
+  },
+  {
+   "session_id": "T1_factual_grok47_true_named_true_r1",
+   "designer": "grok47",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "961805e34546d400dc5a703021b01c5d2c776a5af34c8d9627fdadffecc01b11"
+  },
+  {
+   "session_id": "T1_factual_fable51_true_blinded_blinded_r1",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "4c69393bf4f02a41638561c92cc3c0ed1d2a0c45bf3b59aeaad1ab5d056cad90"
+  },
+  {
+   "session_id": "T1_factual_gpt55_none_blinded_r1",
+   "designer": "gpt55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "d7eb41569847e2b0c4904713ee7217b067af422a7f96b74bc15e126e6903b77d"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_true_named_true_r1",
+   "designer": "sonnet55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "a0038ed976336a1012d25b93002727fa62da211142d37fd0fa05e7e47d4d01fc"
+  },
+  {
+   "session_id": "T1_factual_grok43_true_named_true_r1",
+   "designer": "grok43",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "81d4ca75b4c30bfd12aa24d29f3ffe7ed0208ec794a86952ffa6606afcf45b24"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_true_r1",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "0b9a2ef158d2f12b60e25f0356c87f9d873fab0c037da18fdeac43d08ccfc9aa"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_narrative_blinded_r1",
+   "designer": "gemini38flash",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "50f4a761b0cc940565854181762015b423d7e908e063f43acd6292e46746dd16"
+  },
+  {
+   "session_id": "T1_factual_gpt55_narrative_blinded_r1",
+   "designer": "gpt55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "50ee1c50a8ed06fd0eecef8a8bb62c21e3944aa395ac03dd43eb6d82678471dd"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_true_r1",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "4cbfb4df57b2d3576685dac6f0255f5364e931c170c53ea6f3946cd989e8bfbc"
+  },
+  {
+   "session_id": "T1_factual_grok45_narrative_blinded_r1",
+   "designer": "grok45",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "e090364efd7a9fbf3bdd62296e8f88f9009e3799ec28e1f8cf0d978bce02b6bc"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_instructed_blinded_r1",
+   "designer": "gemini4argon",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "9decc9082df6be14c576e7c1c8db95ee21b413e327113a019aab0406a1db6b55"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_false_r1",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "af0fbca2c34aee2864645f655b1a5550aaec45e7f2b34b6b2a3e509c9b94119b"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_true_blinded_blinded_r1",
+   "designer": "gemini38flash",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "7c20c359d0d375fc597cd4da59d55e4b070ef58e769095c02e36d1643bee94ef"
+  },
+  {
+   "session_id": "T1_factual_gpt55_inverted_blinded_r1",
+   "designer": "gpt55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "31e7c5476b7373ac2f2650c3b07202964e35f77e50d6f9f978bc4cf5f8ab97fc"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_true_r1",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "af43af245b362d18825dcc1271afa8092d14e64b8ac18a6261c0beb31b58c26b"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_none_blinded_r1",
+   "designer": "gemini4argon",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "650c894899796447157a2d4c71795a28e6ab3bdef50a807b0fcda5ebf7b0e0f7"
+  },
+  {
+   "session_id": "T1_factual_grok45_true_named_true_r1",
+   "designer": "grok45",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "e663013562a33517a0e844399818b12f0eff2873ff3afe3e6a048e6bcc6af824"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_false_r1",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "0a1cec09b3d05b97d4faa57993c035e7b16cad0868f319505dae8716d3277502"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_inverted_blinded_r1",
+   "designer": "gemini38flash",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "0f554047bc160fc9b9d345961b6d0ac3692aa23a7c79aaacb91aafaddab0f821"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_blinded_r1",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "2646147de0b392a5d81461d3f234120af929f26044f21e696d72fcba288c609a"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_true_r1",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 1,
+   "config_hash": "e01eceebb146d78543979a2e798aa5baae030586ba40abcc1a26c71b5c1deb9c"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_false_r1",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "c7457f7df8e071f0034a69acdb8203920f50a77d544c19512d40d4e40070aa5b"
+  },
+  {
+   "session_id": "T1_factual_grok47_instructed_blinded_r1",
+   "designer": "grok47",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "3d381f077493c3bbfbfaa15f377ee7b4bf624dfb10eeffd9d26cafea6a376b7c"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_none_blinded_r1",
+   "designer": "gpt61sol",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "df035b03baca9d6161ce33b1cbcb380c2aeb834072db989d755711f31bdddacd"
+  },
+  {
+   "session_id": "T1_factual_grok45_none_blinded_r1",
+   "designer": "grok45",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "654890e959a47d00c0963006addc7242e1d730f17aa50f48316754f8795ddf55"
+  },
+  {
+   "session_id": "T1_factual_gpt55_instructed_blinded_r1",
+   "designer": "gpt55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "ded8dc83e241a3aa2eb27f488ad6ba0a4db6b2649b21ea5fea1deb50ab1518e8"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_narrative_blinded_r1",
+   "designer": "gpt6luna",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "9929b0fa9032a14b365de2c13bd93b51ff6c902817d7f4c5ccae75efe3ceaf11"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_instructed_blinded_r1",
+   "designer": "gemini31pro",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "a47d18c8f9b495d19d71f2eacb62f003846149dca86d88c121cabb78c746fba8"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_inverted_blinded_r1",
+   "designer": "gemini31pro",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "2efe5152e4116846b4d0677f3fc6dbe50bd204bc03224c38ddef040214b4db28"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_blinded_r1",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "10ee70d7eefa49957a727d18203d8ed8045d548d473be3a143c8f8c562c1511c"
+  },
+  {
+   "session_id": "T1_factual_grok47_none_blinded_r1",
+   "designer": "grok47",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "14b6e444d9d660912e6e5e4a2aafa3d73cc2915fa4f40ecc0cb8e50c9c18f63f"
+  },
+  {
+   "session_id": "T1_factual_opus5_narrative_blinded_r1",
+   "designer": "opus5",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "a16e525ef89f08ad419198af6af2691b5d8fd5c0cf82e3af7dfecf157e169a28"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_inverted_blinded_r1",
+   "designer": "sonnet55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "4ce5b000fce841ade37cc154316d648a765fc4f0b707ec0035986d98edff944b"
+  },
+  {
+   "session_id": "T1_factual_grok43_inverted_blinded_r1",
+   "designer": "grok43",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "77a1e877503718773bc019d6dee89231bfc3766097e4377caecfd09ce25f9565"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_false_r1",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 1,
+   "config_hash": "647233e9ae26419dc0ae8018aef2ffb9e12098a7d78d89cb5bd1b3dc002b0c0f"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_true_blinded_blinded_r1",
+   "designer": "gemini4argon",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "2f07f2696c7ef88ad84b4e370801d6fa64c05af4ca2d6bc191275fac63647a60"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_blinded_r1",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "2448b8439ef48b069de02514c68b1823ea0db85d88387d4cbd8f60de5e7fbb4a"
+  },
+  {
+   "session_id": "T1_factual_grok45_inverted_blinded_r1",
+   "designer": "grok45",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "c4b546ffc2eb4d6ca4a485bd4257cca276f397ac705a9cf95922fade0e8b115f"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_inverted_blinded_r1",
+   "designer": "gpt61sol",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 1,
+   "config_hash": "f2880a679eec5aafa6f930f6a5d527989eff5b4e68d41b770074db40c21840d4"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_true_blinded_blinded_r2",
+   "designer": "gpt6luna",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "032636af403e0036dbb98922bcc1ae48a14c194d79ec1500237a51026381df47"
+  },
+  {
+   "session_id": "T1_factual_grok45_none_blinded_r2",
+   "designer": "grok45",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "5c8e9d49a67d3d207050a301f55e777b35a4ae1a9ca76ccd887e5803b896e2be"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_true_named_true_r2",
+   "designer": "gemini31pro",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "559c5f3d63e6e62e64be5c78e30eebf6ec0546352855e5266fea20b999d7e047"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_instructed_blinded_r2",
+   "designer": "sonnet55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "e41510d3c4c3b15f476249eaf9eaa5d364a55f557a7670ccebc94cc293b589ad"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_false_r2",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "0447d29e737e79c8f49c4ee0b4dcf9130e0d3b00bcd24a492e08faad958ebfe0"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_blinded_r2",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "e42ec450a75b93b1744574529567d791f104fcc373fdf8209872d3f290ec941a"
+  },
+  {
+   "session_id": "T1_factual_grok45_narrative_blinded_r2",
+   "designer": "grok45",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "8290f585fbf571c850f30a8e40fa3dc54043d1267225487001fb77ebb30eddb4"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_true_blinded_blinded_r2",
+   "designer": "sonnet55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "d7381f36eacd87c1da3334c9a0d44dd3bdd4b670a42f6a75f9c8f9d3f0869102"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_instructed_blinded_r2",
+   "designer": "gpt61sol",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "68c66f1e245ee53d747b2ae3655896ba38a72af87ba37ab1819b3d01544bf585"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_false_r2",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "0fc600f77c37e4179fec038bc5c7bc6e63ac248e4d1268f1dbc6b13a09048cb9"
+  },
+  {
+   "session_id": "T1_factual_grok43_none_blinded_r2",
+   "designer": "grok43",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "1cacfa62dcdeba1aacc21035a88fd7d1fce7761f8a75dd33a094989643724ee8"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_false_r2",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "8bb662235cf0653bc6b1600804980b5ff671a29cb43a702be2bfed58c8c7a3d8"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_blinded_r2",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "6583cd310cb9fb8e686abd5288dcfda7d883711128c23c307635e884c22b657b"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_true_blinded_blinded_r2",
+   "designer": "gpt61sol",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "535a12a5a6468a4dcbb93d5c8b940881fbf730b9a3595dbc58948cd8ec5a34f9"
+  },
+  {
+   "session_id": "T1_factual_opus5_true_blinded_blinded_r2",
+   "designer": "opus5",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "1e493bf8ba07acdc1d804aa98a596df4e5dc8bbbccfc372745b2d46fe51589b8"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_blinded_r2",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "1933d21161c6fad979496f197c4ac7892d4a3d554414531182009d85bb6cac86"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_narrative_blinded_r2",
+   "designer": "gpt6luna",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "98f187b9ff7857c670f8af5c597fffd50413283ab95974bd654a2efd73e6b635"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_blinded_r2",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "9e33db5c76eba0597a98ab978c39d0ad49b6e3352c2ac6625bd46a481d0d4f10"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_true_named_true_r2",
+   "designer": "gemini4argon",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "d66633aa71ece7b10cc3b34785d869984536d17501aa520197e6c0c1b5ed6bb5"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_false_r2",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "85691576bea617eae798769e96f0e37be820efa57c14cfe588d631a050c4277f"
+  },
+  {
+   "session_id": "T1_factual_opus5_none_blinded_r2",
+   "designer": "opus5",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "4d8a1ad7d01afcf9a87ae7368022312755d2461194b2f6db33d3c71f058732ed"
+  },
+  {
+   "session_id": "T1_factual_grok47_instructed_blinded_r2",
+   "designer": "grok47",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "bd723bf967a95715862fa51b8201ec2a051b8f5fa160564af934444c211006db"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_false_r2",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "652540a2efceb12f03b3e65ffda0657d1653cbb0bc8a49aeb3ef6c73d483448b"
+  },
+  {
+   "session_id": "T1_factual_grok43_instructed_blinded_r2",
+   "designer": "grok43",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "7467ec6483c8a793d99730da50e4b139ef31e1eee35fa99e4df31af6fd7fb50d"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_true_r2",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "44f0cc99cedb9fabd6758dd94395cdc86de7c106ba8171d76efa3c948109b38b"
+  },
+  {
+   "session_id": "T1_factual_grok45_inverted_blinded_r2",
+   "designer": "grok45",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "236fbc61af39412c0b5a313683e1d8c64f875f1ceeb946a8163bd89482190a8c"
+  },
+  {
+   "session_id": "T1_factual_gpt55_narrative_blinded_r2",
+   "designer": "gpt55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "7bb753dfc523169480322053297c21165146a81fdbc5476870860e262969b0a8"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_instructed_blinded_r2",
+   "designer": "gemini31pro",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "79339bbd7c7de47b22d99eb0a072bbbd728bd140ad4d4b59802f3a7b6ec54828"
+  },
+  {
+   "session_id": "T1_factual_opus5_inverted_blinded_r2",
+   "designer": "opus5",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "3b1bdd57100ff6265b518455599be675b41279f85126a5c480639b56b45905a3"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_inverted_blinded_r2",
+   "designer": "gpt6luna",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "46e93e3918ded35c04fb5c43874fefd97127145cceb3d7c6137ac38a71f118d9"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_instructed_blinded_r2",
+   "designer": "gemini4argon",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "982fc580b62f9c9272a0da2a7c70121382ff1abc0ea19d5f2a30a7a3c47f34bd"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_inverted_blinded_r2",
+   "designer": "gemini38flash",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "c967be890b93d4b12ac4c22f922d3d4c13d13128c9fffe6bfbe4fc2ec29e6928"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_inverted_blinded_r2",
+   "designer": "gemini31pro",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "7f740c6b81e40b6d1cd2f75c64684cbb9ed955c303c67cce61b79d2a2f0bd823"
+  },
+  {
+   "session_id": "T1_factual_grok47_none_blinded_r2",
+   "designer": "grok47",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "0886d9bd175e5bbd8d9823c05171f0bb5727e86f389c43e4380e0a514267e085"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_true_blinded_blinded_r2",
+   "designer": "gemini38flash",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "910324f2b5f2e0b0d3528bf333c4853f1e5ab602c48a7a4072225adce09f40ac"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_blinded_r2",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "e42da5b6a64a4b9a915fc5fde7f1364e9ab9a2a2c1577ba22c3977c17db7c81c"
+  },
+  {
+   "session_id": "T1_factual_grok47_inverted_blinded_r2",
+   "designer": "grok47",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "d840ea13601fe93716563047d869c175de045c4b9fbbcba798e5b1f432213f29"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_true_r2",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "73edd7d147f2ca26f5fa8c598beb8623ee392c5c0026c0e9a5ce0d66cdfd5e47"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_false_r2",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "5db6dd0df0d5854a782c0c07e32eb92b83053f59aacc3777d5daeccf034afcc8"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_blinded_r2",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "2e72a64743c5de44cf79b2453fe12a527cb2658f39d7fcc79ae5e6c1fe821138"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_false_r2",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "5c2c2357d02ca6618a8a4dfc4b07ac0a7275a15fe2e59eb1511d2b69a7f13958"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_none_blinded_r2",
+   "designer": "gpt61sol",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "decd06827cade5b0fb4c858c71459fbb42f230596e3503a3f0345724a66164cd"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_narrative_blinded_r2",
+   "designer": "gemini4argon",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "70055b5f69da7c618fafb6c1b00a69a7fba031cb128f29e4ea8d5e2ca5f5aa91"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_narrative_blinded_r2",
+   "designer": "gemini31pro",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "6dd718dca71a7a5af1021e929a4f20b1dbff173d2ef63db816d6b4a2046e82a5"
+  },
+  {
+   "session_id": "T1_factual_fable51_true_blinded_blinded_r2",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "61f70b74f7a0209b4cccb3d9820301988875fad4e128b0424748dbd18e03c168"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_none_blinded_r2",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "6bef79afafcb384220200dd3206262288d167d6292e7efc2024eaec52169b63a"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_true_r2",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "7c31bf7f1ba517998380d9e935db20308d4047d6954972a1530534172810abec"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_true_named_true_r2",
+   "designer": "sonnet55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "a8bde25afc347ec081a62344fdab6b54cf31bb93d108fe87f82cca938ad24c58"
+  },
+  {
+   "session_id": "T1_factual_opus5_true_named_true_r2",
+   "designer": "opus5",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "32c5f5196e86099ff53b5e1fe09d24b2ef0838df1420928b30bcebc523f1228d"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_inverted_blinded_r2",
+   "designer": "gpt61sol",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "15d3968ce241664b7310065841183c894ec0c54ff18d0fd5f9600c97d07b1560"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_true_r2",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "1858dc97028418b111289e98be25347634fbeec8cbd01d372734be469cf0863e"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_true_r2",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "31f8137f2db55b6c46076aa2cc26a847c0a3b8ad6acfe414bbeaf5f4720aef8e"
+  },
+  {
+   "session_id": "T1_factual_gpt55_true_blinded_blinded_r2",
+   "designer": "gpt55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "8b1c48d5fc4c5badfb8ce6cc62a19f9ade3acef8d80452b6695c20f344d1c8f7"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_true_named_true_r2",
+   "designer": "gpt61sol",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "24f6e8e334314f7d86e700d05145f50ade55f3a5c1145f820befac52f58ee31d"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_blinded_r2",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "5e793518be1a5f22285a3c12d447d64081937f0e10e9f942248b11117535c50d"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_instructed_blinded_r2",
+   "designer": "gemini38flash",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "72608a7b619f8d76d90296f7e7657197402598c39597de474f957a92c05f1655"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_none_blinded_r2",
+   "designer": "gpt6luna",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "dcc2e2295c7205ce64020dd3a8c4b9b83cf252c829d7c4d4172433537a601aa6"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_true_named_true_r2",
+   "designer": "gpt6luna",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "13b0886f611718596595911e3fd5550c2b8b202b50b470db21af49c7ad005389"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_true_blinded_blinded_r2",
+   "designer": "gemini4argon",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "93ff866d3e22da7068c7857d5344f57db2b0e482234f38c87e7c9fd0dc61f187"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_true_r2",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "1c9f155c8f516b8b8de2ceb1ab6d79d12502ed664cd5a1744e3a04f2fbaa0591"
+  },
+  {
+   "session_id": "T1_factual_gpt55_inverted_blinded_r2",
+   "designer": "gpt55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "198b75efc6303521df515439d29f4699d8c2a30deadc0764000a7c5604b96711"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_blinded_r2",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "48dafc80507b0820cca682c38145491d52cf6bd5b16636fc601e7b5f1d738b1b"
+  },
+  {
+   "session_id": "T1_factual_grok47_true_named_true_r2",
+   "designer": "grok47",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "05a619025f1b841f6c3d23eb89a5762be085df6b0fca538f89df988e0d5c42f7"
+  },
+  {
+   "session_id": "T1_factual_gpt55_instructed_blinded_r2",
+   "designer": "gpt55",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "3a8e8924e47e319e11dfe1c5b9003a8226f84a525fe20566afe6605473fbb99a"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_none_blinded_r2",
+   "designer": "gemini38flash",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "f8adb7898557c0d882f8c876e96512404686e51cab37025320d8bc171fc830f6"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_false_r2",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "355a6908716e11d3d94a4a43c19779bf33a28b7ed52063b37e4fdc1360d33288"
+  },
+  {
+   "session_id": "T1_factual_grok43_narrative_blinded_r2",
+   "designer": "grok43",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "fb6e417d500e95fdad6966b8d991f75d6693df0c6e8e10c4755c979230a49b81"
+  },
+  {
+   "session_id": "T1_factual_grok45_true_blinded_blinded_r2",
+   "designer": "grok45",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "9796d933c8f8f93f35bbf1293d9212daeac3fbd5c8320b1526ce297ee55b7250"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_true_blinded_blinded_r2",
+   "designer": "gemini31pro",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "9ffd44c0eea6a92ce4ade503bef2b0d71fc6d2aa66301372b767adc5ac7616c6"
+  },
+  {
+   "session_id": "T1_factual_grok43_true_blinded_blinded_r2",
+   "designer": "grok43",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "8bc9d5bc3a27a490512517d95b8d24bfb4255e037b97747782dca7f43f966014"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_inverted_blinded_r2",
+   "designer": "sonnet55",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "8b890b906f8e6237261ff47a4003d3c3304f004149f8690cb8a3276c2a9ff111"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_narrative_blinded_r2",
+   "designer": "sonnet55",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "1a34a80031ab06de42ca230145657f22b4c5fee26ed75c38f068061369c71737"
+  },
+  {
+   "session_id": "T1_factual_opus5_narrative_blinded_r2",
+   "designer": "opus5",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "099b0164426e6ab9a394236da5f3a850de7a235e1721c9a00d8c6929d0653022"
+  },
+  {
+   "session_id": "T1_factual_fable51_true_named_true_r2",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "28d4d10b1a530e683bd3e7939780c784af022357737708f00f0122bfd6a4ffb9"
+  },
+  {
+   "session_id": "T1_factual_opus5_instructed_blinded_r2",
+   "designer": "opus5",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "2bb4af94d1c6157c8d4f751d79fc13cac2d4506b3badf3634cc9f6fba251fda4"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_blinded_r2",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "2f9661c98feffafd1f9fe0c699eebfde02f332287f02bb4464000cdad610ed76"
+  },
+  {
+   "session_id": "T1_factual_gpt55_none_blinded_r2",
+   "designer": "gpt55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "058990afa270b7b78f728af412c94a080b2b085b06d2eb7cbfbdf6a6692fd22e"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_true_r2",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "15920f25897baaf6e8ab41a5a893dcd72c60c3373d1ab3fd35bb9fb302b507be"
+  },
+  {
+   "session_id": "T1_factual_fable51_narrative_blinded_r2",
+   "designer": "fable51",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "a57a8f802aac7b3e616d9f74a0413b4e40796eee41f978914b56353aac88efa1"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_false_r2",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "883068904817e1fad3c379ee949b086f182fd585f4109e415253c0b3ab0342d2"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_true_r2",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "68607d81a505d46f7fe2102f5263d24274f5a2591a6c2647ece7964948b50ae6"
+  },
+  {
+   "session_id": "T1_factual_fable51_inverted_blinded_r2",
+   "designer": "fable51",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "b71afb7a8400c01e9180879b1ae51b0a7afd51559e8013687d9f482fe0d596c8"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_false_r2",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "9fdf605cde8e9e1a660ac93affa845618aaf6aa133a32ba1a66594d59f8b9fb5"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_blinded_r2",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "5cf57be09f3f4ec09563080312d099d091b730d8f85a90b5791c0efbbe2ecb1e"
+  },
+  {
+   "session_id": "T1_factual_grok45_instructed_blinded_r2",
+   "designer": "grok45",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "d7ff9e5e157cc1f648dd1f27edf2fc4ffe52d276e5342bb67d4b618852176987"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_false_r2",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "e946cc9e4ea6d70ed6101975f01cf4da8b61af84e582d8aeaba73a429a6700c7"
+  },
+  {
+   "session_id": "T1_factual_fable51_instructed_blinded_r2",
+   "designer": "fable51",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "ea827cceb205f099532669d7c28ee7502cba396a6a636083ea100dde73454855"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_true_r2",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "d80bc8c70bf3ab096252f9b7672071abc9bdda225869f7da3827e36ac1b1d1ae"
+  },
+  {
+   "session_id": "T1_factual_gpt55_true_named_true_r2",
+   "designer": "gpt55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "d3449b9e86efb854aa25c4e7ac2e3962b11f8e1a2083af7838eaa42fe3763439"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_blinded_r2",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "bf2dc4c06a8b2eec3ae16e322a3f98f42d8a1d2b0cdfea9f20a7e1432868389f"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_none_blinded_r2",
+   "designer": "gemini31pro",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "fe1faea733635b42770d3f65ac83c87f76030a49fd4dcba1b57669eaebb90e54"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_false_r2",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 2,
+   "config_hash": "78b7b560b1eb340a7838bdc6715717e679e7c7322b7ebc38743610cbba44452f"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_true_named_true_r2",
+   "designer": "gemini38flash",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "7a5d39f1e6f4c69eb91c20ec152295cf60d8882d595d18ac45330e35e6f66aae"
+  },
+  {
+   "session_id": "T1_factual_grok43_inverted_blinded_r2",
+   "designer": "grok43",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "393c54a1e5d676f437a943966df652eef7d0c0670008ec7c61ef664db8cb1f96"
+  },
+  {
+   "session_id": "T1_factual_grok43_true_named_true_r2",
+   "designer": "grok43",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "32b8b3332860741433dc638ed1e4731cd6e8b90c8538b0a663ea5869351fd1eb"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_inverted_blinded_r2",
+   "designer": "gemini4argon",
+   "info_arm": "inverted",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "73ceda487035bf9bd40d0890e53263406ab1e580867e6c9f19d398ae3118c70c"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_true_r2",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "c18508a075c5ce0ff6ba7ca57e72cc15796c1eceb2f9624d7e6d4771756112ff"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_narrative_blinded_r2",
+   "designer": "gpt61sol",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "518810d5dc24144540fb5d16a42c4d9ac69271f314ca1945b22d0508bfc659d6"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_true_r2",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "928ce3be358426613dcf4c5837fc30e76ddafcb658375c22e9e1b12335cdba62"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_narrative_blinded_r2",
+   "designer": "gemini38flash",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "95d0af9940a63d68be595c2fc54aa57fc683d2777a4c9d1bdcccf6f1e6ce1743"
+  },
+  {
+   "session_id": "T1_factual_grok47_true_blinded_blinded_r2",
+   "designer": "grok47",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "d78a4f00e21d18599405b1448fdcdb45450d025bc2d664a6f9035c60ab46ab6b"
+  },
+  {
+   "session_id": "T1_factual_grok45_true_named_true_r2",
+   "designer": "grok45",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "fc3188bbf9a70255d10d73fb43be95837f19df570c2eae7134ac464c49d5197f"
+  },
+  {
+   "session_id": "T1_factual_grok47_narrative_blinded_r2",
+   "designer": "grok47",
+   "info_arm": "narrative",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "911aec402cad6a9497c8769308a847cf46dd1ca7727e4783c78eca09c07b8666"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_instructed_blinded_r2",
+   "designer": "gpt6luna",
+   "info_arm": "instructed",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "dded1ab8982ff560439af444bde380eaa087e54d4da68dc880dd66b9a977ac86"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_true_r2",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 2,
+   "config_hash": "a9dfef69a3e9319e2fd12fce89a3629b63eea74368796f74638345133d609b12"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_blinded_r2",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "2c66ca8fe205c63f172c791ec454fab8cba9181b0013b87eda8753e7a5ddb787"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_none_blinded_r2",
+   "designer": "gemini4argon",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "4386d9c85114cdb03edc791e4a7179d113a76d16518f262b16ca844cae409cd2"
+  },
+  {
+   "session_id": "T1_factual_fable51_none_blinded_r2",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 2,
+   "config_hash": "f6b61c0478abc358dcf829c5e6f5a0e97562a744505195b8c5da6fdde9792fe1"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_blinded_r3",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "77b316f47ce5e72d2a59a95905a1b7e543f2fee1cb208e0f4f77478e0a92eb73"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_blinded_r3",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "dc738852e7713c862875c803d8dca2822d904c69a51fa7f45e20bdc693fa4379"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_blinded_r3",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "0dbe41fbc21dd64376b24fe1b7f209a7a5da0c0c6435977bc741fe1206abe3e3"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_true_r3",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "2002595b246615d1889f691fd8342874ce118e4a67c1407e0a84c5df3e7bdb28"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_true_blinded_blinded_r3",
+   "designer": "gpt61sol",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "a84555a253826250f16a2e74dd780625fcd075cdf81a1cc7aa4af71fb2c36d46"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_true_r3",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "904f63224a23189e4fb1403499d809156026b0f2e36a4beeab49da7647e9084f"
+  },
+  {
+   "session_id": "T1_factual_grok47_none_blinded_r3",
+   "designer": "grok47",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "7ba045fe7f981d3f6d111e494ecfeb6b06efc02b7326da1c5f212c82d795f8bc"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_false_r3",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "61cdfa0d48f851e329c491684e870a09a9f883d99e243f472ab57683e064c75c"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_true_r3",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "7d22a9aa4204c8c27aa7ec2e9d06de4af6be3689fc291602c1d28b30995ff32e"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_true_r3",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "0486770630763ada3735de9449a6bfe8f4c6e8b6d8e9063a2625e9f39fd42259"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_blinded_r3",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "0c8135cb7870daf12683d83f36183447525884cd5e977608d89eff04823c8675"
+  },
+  {
+   "session_id": "T1_factual_grok43_true_named_true_r3",
+   "designer": "grok43",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "9c97750c7556414735828aa38d1107e3481025b8dfee840c87c51532fa7aa9bd"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_none_blinded_r3",
+   "designer": "gpt6luna",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "e357ef66bbf0107a8d35946db0c034fa69e361f46dee8ad3f8cc7c725858d23c"
+  },
+  {
+   "session_id": "T1_factual_grok47_true_named_true_r3",
+   "designer": "grok47",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "5222b4238cbaaac44701d34487e2d54d910f8d305832faa47187dffa5883a9a2"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_true_named_true_r3",
+   "designer": "gemini38flash",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "c485ab670acf0087090c81cc57d6f1106c3509f90165e220f65bf2157f458022"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_true_named_true_r3",
+   "designer": "gpt61sol",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "0ef6780d94a0e4eec7fcea2d64bbd1702b507a84e588bc8624ce7698f50ae88d"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_blinded_r3",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "f87522d8b2dcb53fd58bae3a0d7f5a352bf240ef27eec15ac2da77b554326a81"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_true_r3",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "e8c9671adccd01088974377fbbaa4ced96053f29ad22e7024957e7541df19629"
+  },
+  {
+   "session_id": "T1_factual_grok45_none_blinded_r3",
+   "designer": "grok45",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "f92eb6e9702dcfffe6b98d17294e49f51cd6b5fb86048fb44cf0100763536143"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_false_r3",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "5f01662c1ec13607fab4abcd7ac17a238658394b37d580d71a721d2252d977cf"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_none_blinded_r3",
+   "designer": "gpt61sol",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "de10d1d176b639033cf05ec043b5352bcdac8c8f988094791eb54e4e8d89be80"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_true_blinded_blinded_r3",
+   "designer": "gemini38flash",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "6f9f22a971874d0583f556f18275016ed18df0d2b421eab163519be2b0658d18"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_blinded_r3",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "4640df7d966d0d7b72952e2f0ae2231cdfb3dd999fd6eb560da9a9e8b85cd822"
+  },
+  {
+   "session_id": "T1_factual_gpt55_true_named_true_r3",
+   "designer": "gpt55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "261dbd378a0dbfa8bc833fb73d8beeb0a4b39f49eecad7993d0883e6a6cfbc6f"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_true_blinded_blinded_r3",
+   "designer": "gemini4argon",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "2eebae278fc786aac50c6f1cb06bea78d61c7b297191dacf2b425ad013214bfc"
+  },
+  {
+   "session_id": "T1_factual_gpt55_true_blinded_blinded_r3",
+   "designer": "gpt55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "bf587294bdcd5a2e935102e5ee5ff4e34cf88d435e116ef9768bc5efae2ba1bb"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_blinded_r3",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "ba160f450ffe7ed33a8e3be8bd054f3b089d64b44fcf3b6e4181f25e0b225396"
+  },
+  {
+   "session_id": "T1_factual_grok43_true_blinded_blinded_r3",
+   "designer": "grok43",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "31b0ffa03c8a97dd81d666ee922e472bd42f3c3d407c94bbc07f0a7dcbaf9a38"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_false_r3",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "3983afa9888a6dfccbb45167cdc8e60d9ab7a6b357fee7f36977702b3fa50808"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_true_r3",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "486efd933a8b540c0dbe6a42ec9323ddc6509c39ea15f47a236f5bd5a92f3c8b"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_none_blinded_r3",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "d89f2e1ad0dc5ea39a3ae2d2a99edab941b3098abd180254a27097e781f2b4ee"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_true_r3",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "cbec76f70e8f46ce2da60b5b4e0c2be04dfcf9a7e8cf8e3710e4cfd4cde647bb"
+  },
+  {
+   "session_id": "T1_factual_grok45_true_blinded_blinded_r3",
+   "designer": "grok45",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "b970d56d3e03bbb1fc7d046a22c39178f28d073d0d2446f7d87fb32260fd14b0"
+  },
+  {
+   "session_id": "T1_factual_grok43_none_blinded_r3",
+   "designer": "grok43",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "6e03ae93ce8695b9f80e230bc8297371103d53705c5e42d4fb72867338e8f18b"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_true_r3",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "abf190fa1192bf1f099988b03c49b40ce16126dd56e10aaffe3c2234f1f2743e"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_none_blinded_r3",
+   "designer": "gemini31pro",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "b112d2560ad66c29b37d9ef8d4e5900c4ccf7ef29cbcd3307236ed156800e845"
+  },
+  {
+   "session_id": "T1_factual_fable51_true_blinded_blinded_r3",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "d24014a0fdd47ebe32abdb491ba8382a110079b100f72173ad69e3640385de21"
+  },
+  {
+   "session_id": "T1_factual_opus5_true_named_true_r3",
+   "designer": "opus5",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "b7c0fba7cfd8bb98bcaf98d16c992909ad2194c7b26d46e8244cb92cf552ae90"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_blinded_r3",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "c71469ba49d346d9de9e5b5bda6aed4bb1420898e0c702cda507d023994ae1b5"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_blinded_r3",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "e285e596135f9011dcdb6d46022553e1c0ec87325bd6154ecca4d18fff980c59"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_none_blinded_r3",
+   "designer": "gemini4argon",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "982fba7b52439c44c379641a70f68f7175ffccf830adcc41c81af399f2a2c46d"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_none_blinded_r3",
+   "designer": "gemini38flash",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "664b584b43b509b3cf0e6a753ce909190c2fc9b7470c25be29bb1e18f94b8afb"
+  },
+  {
+   "session_id": "T1_factual_fable51_true_named_true_r3",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "779f668c0fa764df4dd950238ed11dfb3db137470b29b6d55eec75cddc700311"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_true_r3",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "0172b1f77cd8519cab198a6b8f01b7ff41e7ff9d8d38f274024d2f63cba4aa13"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_blinded_r3",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "0735c4bf4319d084ff8ac674326cf3cfec5858b5733d594c6922ea5ec1b50eb1"
+  },
+  {
+   "session_id": "T1_factual_grok47_true_blinded_blinded_r3",
+   "designer": "grok47",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "8d9b9ddd5fcdbc1874e74569696121099bf4d3a93d84a57ad264f55fd4dce5df"
+  },
+  {
+   "session_id": "T1_factual_opus5_true_blinded_blinded_r3",
+   "designer": "opus5",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "671fe18fff17c3ba36cd759aceac759f94c91bd73968ecdd8bf20a4e1ae52f5b"
+  },
+  {
+   "session_id": "T1_factual_opus5_none_blinded_r3",
+   "designer": "opus5",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "57203b71d2474a4cc0b90a5daf04b220765a4c715c29c7a7e637bf1d831c7f7e"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_true_blinded_blinded_r3",
+   "designer": "sonnet55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "ea9728b1a67a90b15ff29bd38861b1233bccb35bdefe318d3ac20f4fdef27be2"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_true_named_true_r3",
+   "designer": "gemini4argon",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "3647a49f215664a7d3e1edda20f99ab2bc62d602daf6757c6ba303287f6fbab5"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_true_r3",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "024557d20ff4f3d0d23ce7d1b7e940f31d059916e6926c0b44a4b84f4216327f"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_true_blinded_blinded_r3",
+   "designer": "gemini31pro",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "a7005b91e673fe48a6b19a552e9090d8f1ab1ddc7d9cd92e6865ae11ac4e5e3a"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_false_r3",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "feea412ecec7c4a10976f3edd48eb08b50b985ca74c4d9b33e9d3b0129a0073f"
+  },
+  {
+   "session_id": "T1_factual_gpt55_none_blinded_r3",
+   "designer": "gpt55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "343d7b7f33e8b4047d27242ec817afd43cbf652a8dbe83948c5ee9486b7cf587"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_blinded_r3",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "2d1577c2f7b5ec5894f79fa484e5c561636d151e60a2a7e2d2c3095f53fc95f4"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_true_r3",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "61875e246b8727d58ee0b851af565f5e884807bb2023638c57fdc98407245c75"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_false_r3",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "c686ba24fa4c1b00dbde41cb794855138a53f1cca8771d5d19f923fb0ff2b74d"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_false_r3",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "02270d4cb6c7f108a8b43324a18fc47d19ce5af4cacb27e224e595ba9a3fe106"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_false_r3",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "664753c346feed20c6c40b94200bfb5d6af983ba73936a6d8ecaa7cc0b7eee20"
+  },
+  {
+   "session_id": "T1_factual_grok45_true_named_true_r3",
+   "designer": "grok45",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "f9ba07b62944fb625892d1fe1ef6789c9b11194dc68a61395893ddf51364344a"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_false_r3",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "79692f2cc8355b964f0d5b3dcc9f5169268b9874ca3bdd0715a195ed0e8713f3"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_false_r3",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "6936e33cce510c8d49264b9e3e3306c46e343fc4bf1f6cda093c4afc56d18604"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_blinded_r3",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "510b092dd97be9b9eab9cdb298f782415954aa4d04355380799c6c31dabe98e0"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_true_r3",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "e286b82075a9b3aa24b11e0fcf67f2f51a0cca422ee6e4602cd631135804e0e9"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_true_named_true_r3",
+   "designer": "sonnet55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "e5c683ca3576dc85df6b0f1ac65f7dbdaa9da1d881e24dcfe0705b16382a2ab1"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_false_r3",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "bd26d26ca00bd2c365f219881c27b62e5e03d96205feb4433d1cef00108feb35"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_true_blinded_blinded_r3",
+   "designer": "gpt6luna",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "772efcc516477e0283e0114d6bd2cbeaf0f61810a2daf025f9b678084754e7ec"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_true_named_true_r3",
+   "designer": "gpt6luna",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "e604c000f461a45ba3e2c62303c21e68c4bdd855cfde5cfb9c657dcc985a26ac"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_false_r3",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "12a372760c18fb5c2c61c5fd873406abf10656ef4e2ca287a267d1b34c721968"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_false_r3",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 3,
+   "config_hash": "ecb4a6cb1a53046277b6de12a97eb278612ad8eb2f33554a69dd13a5d2f9202c"
+  },
+  {
+   "session_id": "T1_factual_fable51_none_blinded_r3",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 3,
+   "config_hash": "df1fdee937a1908a963b55208abf19dbb430a06ecadcb5037ccb8fc228dd6ffc"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_true_named_true_r3",
+   "designer": "gemini31pro",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 3,
+   "config_hash": "1dd0e75e0f1076f1c34a06d98dfe7d4926a7f27a163cfec2d23a6e5ee6740f8c"
+  },
+  {
+   "session_id": "T1_factual_gpt55_none_blinded_r4",
+   "designer": "gpt55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "d49af21ccf3059560561932d3f9a11a87901331a9c20489acbbd65ee5d0f11a2"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_blinded_r4",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "f040cbeb790e2c7c7676cfce709b31b390b02e5723cb23ef8874cbfac93cfc61"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_blinded_r4",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "e697f008487876c5fcb9c30626ff99b6f68599b7f64a4f270f2d65436f7b2b2a"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_true_r4",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "fe19966d8dcd5a70acadcc2db500e77ffb15de6f301ca66b3ea527d28a31630b"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_false_r4",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "99b75c6fe1fbf5b3dbf4edc28a1467fb713a49262ff27b41372e34fd08406506"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_true_r4",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "25a3af1d3b863481d6cc41d0fcb88e49c5e18f51aa3df3bc5e180f4e70d1d39e"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_true_r4",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "d0e16ff808e9d06501706cc2caab38b115c0cf24b6ee5587341659bd07881a3c"
+  },
+  {
+   "session_id": "T1_factual_fable51_true_blinded_blinded_r4",
+   "designer": "fable51",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "875fbd64388085d8b6007f7f2c550f779e93ad476e610918a4fc4457370e85e2"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_false_r4",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "1416aad8777aecfe5c23d7b05df41319e70845bae8856a23a5062d510d79e4c7"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_blinded_r4",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "d79ac4897532a9d6ddffe39a97789a731e6267016d45cce323003474178ebc95"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_true_named_true_r4",
+   "designer": "gemini4argon",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "53655518c290c7a6ef38255a03fae6bf04965e0b2efd02937a8f78abb5e5cd52"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_none_blinded_r4",
+   "designer": "sonnet55",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "2410fa265f53785081d82635d34a2974da89e145eb07263862fda7ceb8d1d56e"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_true_named_true_r4",
+   "designer": "gpt61sol",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "2838ea3ac7c87bc51d12ab694c672d21845d5adf23eb706c820a31277d15551a"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_true_r4",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "c6ec2ee2a1a7d8aa972e68ec850af8471bc3994f220f769b99e16b78e07adfcf"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_true_r4",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "8e92af701341d0cfa5fd3f0172944ab1437fb4b4931c326ce9dfc52e109cd7d3"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_false_r4",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "858ee41d884af1ea9ea08f7dbc9b4af1a03a4026eff1f221978fcd13f19449b8"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_true_r4",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "339ea449f0d80b605dd063d65e3ada38e7ad2cf8e65e8789ce3c7fb81df80528"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_blinded_r4",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "69896f0331484d337cca28091ee9ce33bf3f6ac5d7b99b4330d18595de79318d"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_true_named_true_r4",
+   "designer": "gpt6luna",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "66bc7546e7863250d6665d439af64ced2bbcb1817778b66e97a495f16a707a67"
+  },
+  {
+   "session_id": "T1_factual_grok45_none_blinded_r4",
+   "designer": "grok45",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "f0b884d0d73f7725e337ee0317e1fefb72210eae07bf297634d6f1b101f7bcdb"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_true_named_true_r4",
+   "designer": "gemini38flash",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "254d504b5192db08cefc4c204e5eca9d916c8ef0b2abee9c7dc068bdd5a48e2f"
+  },
+  {
+   "session_id": "T1_factual_gpt55_true_blinded_blinded_r4",
+   "designer": "gpt55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "c379e8008db7788594e6253cdde19bb090d7d439b3e91c802978c80e4c682bf6"
+  },
+  {
+   "session_id": "T1_factual_fable51_true_named_true_r4",
+   "designer": "fable51",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "9aefbf9dd20965edfbeaa8e105a00b261dc6f73c8b67ef6fc4b4ec080a5fc7bd"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_blinded_r4",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "b97f42722527e04bb06bf4805cb07e0a184c9083fded7a46702d0e9f34be45ac"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_true_r4",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "18a4ee415ce84ec8e606b5f974280db5c33b60ecf07f3ff08af658bf69cbf06d"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_blinded_r4",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "23444c7a75cf40021a44513e0d6111a6533f2c5d2f9a49f18e332bd0b4cb99ca"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_sham_false_r4",
+   "designer": "gemini31pro",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "05909c608e98b4fd4faa0832b9a5fcc75936e253b7e1c91d1b022580b205af34"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_false_r4",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "5595244dac4a4631a90fa678f9f9392e58ed8c2bb873ff266292b4b5de170fd2"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_false_r4",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "974d5388563bf7937cebf7d195345d68d96ecbdeffbf6a4a36307de71d1c6039"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_true_blinded_blinded_r4",
+   "designer": "gemini38flash",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "c71c16cedac41538299d665d609d7e734ccb801660cbecbe888043e201f858ae"
+  },
+  {
+   "session_id": "T1_factual_gpt55_true_named_true_r4",
+   "designer": "gpt55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "d227cabdab69da9656403bfca0cd7ca17358daff7da4aa4f531266b1dcb633ff"
+  },
+  {
+   "session_id": "T1_factual_opus5_true_blinded_blinded_r4",
+   "designer": "opus5",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "f05e6f89af1f0fa8b1a454176f9f632238c7eb4f96f6d258ab20c8b3b3715a12"
+  },
+  {
+   "session_id": "T1_factual_opus5_true_named_true_r4",
+   "designer": "opus5",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "93ad2b256c20a2c8f10c0ef19e42ad25ecc9efad4de2e522966316daed4e97fe"
+  },
+  {
+   "session_id": "T1_factual_opus5_none_blinded_r4",
+   "designer": "opus5",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "37ccb2841e6c138b25509819e17955cc35eeaf70b7696a6764afe1601002f5c1"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_none_blinded_r4",
+   "designer": "gpt6luna",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "388e1c9a2d7eef0e6719db5ceca441e29db8a5b6d8479b52a3aac196cc2fd6e3"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_sham_blinded_r4",
+   "designer": "sonnet55",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "cf2dd440c0790aaa78994dba0cf704aee1e18c6c1108ea3fa8ca6b502f80d199"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_true_blinded_blinded_r4",
+   "designer": "gpt6luna",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "49e1f299d6c819871edcc428ab5f7839f62636f2a92cd883cc7a932f834b9ef4"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_true_blinded_blinded_r4",
+   "designer": "sonnet55",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "7050f19fe7799c1cdacdd40bee24fe49b81d038207047339c1d9f65bd2fe86f4"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_true_blinded_blinded_r4",
+   "designer": "gemini4argon",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "7de1c8e1bac7aea1617112e3e76c9e9b783b8a4497393c3bb57ccdb989271cfd"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_blinded_r4",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "cb816a74eadbc70cd5328893f86b3b0525b3113a0d4bc0d468799ca82b93a3b4"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_sham_false_r4",
+   "designer": "gemini4argon",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "c550076928ec688550339bc367e193737e9c14c3b65e5afdf1bf032521813e13"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_blinded_r4",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "a049ec15d24d3ab7546976bd509550a51d33361746a4babc31398f9fdd9a0a79"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_true_blinded_blinded_r4",
+   "designer": "gpt61sol",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "1b6c5985a55a61d0e4a08ef71a9712993a75b013285fe11713504fcb9a9224f4"
+  },
+  {
+   "session_id": "T1_factual_grok43_true_blinded_blinded_r4",
+   "designer": "grok43",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "7bfeab170ae781f93ba951b910c7a073a480f04d1ae8708171cbb19f9dd46bcd"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_false_r4",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "9a39d9e7075c253d303e7babdd6da9e6967f1affb2a253dd234023b162c18048"
+  },
+  {
+   "session_id": "T1_factual_grok45_true_blinded_blinded_r4",
+   "designer": "grok45",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "86d0fa75608e9423c3ae5273c21f6d44fe88ec7b6963d094ec19a5f98f004feb"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_true_r4",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "6f6f32a7ad3b871cb92da382b7c1dbf40182bb0f7d865c2eb838c08d2dc781a4"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_false_r4",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "9117ab4cf4fb7de6a511f4f511ffa36e18806708b995398df456f6e58d50a5d3"
+  },
+  {
+   "session_id": "T1_factual_grok47_sham_true_r4",
+   "designer": "grok47",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "b19606edadfb3979200d677335a724f215c32975c449c8b11e63953fafa1fd24"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_none_blinded_r4",
+   "designer": "gemini38flash",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "61e332ce0e24b79ad3ad60517979562100338c8193bd0cdb7ab3baff9c7121d3"
+  },
+  {
+   "session_id": "T1_factual_grok43_true_named_true_r4",
+   "designer": "grok43",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "93aa505456a2e3df08c2db67d57a62377648f8e1f10cd3ce66fff7267365a6ea"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_none_blinded_r4",
+   "designer": "gemini31pro",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "0a783a8cf24a430df3b70cc55448df3ed6502ac4e8f70a0fd548c60d64807511"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_true_blinded_blinded_r4",
+   "designer": "gemini31pro",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "acb8241e76dc4842c3c8622a8707acddde1f15ac8aaa9db32b280b96b7a2cb20"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_none_blinded_r4",
+   "designer": "gpt61sol",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "31a6c7a3fb33626b4a39654b0fbf013f5e4a80b75e4dbce7a0ff0ca9a6e70463"
+  },
+  {
+   "session_id": "T1_factual_gemini4argon_none_blinded_r4",
+   "designer": "gemini4argon",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "047baf1ff1d32f479ae70d4be104fbb9a0e44689fc848dc7748cac2a046d5626"
+  },
+  {
+   "session_id": "T1_factual_gpt61sol_sham_false_r4",
+   "designer": "gpt61sol",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "d1d457920e9872d6564b41177436106d939444a62f381ea4fe585b05dcd6c1eb"
+  },
+  {
+   "session_id": "T1_factual_grok47_none_blinded_r4",
+   "designer": "grok47",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "df3acf02ac606d02d5d8157ddfd495ff56b73ae03af0f05ff469dbaea9a2d8f3"
+  },
+  {
+   "session_id": "T1_factual_fable51_none_blinded_r4",
+   "designer": "fable51",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "716702446ec9fd999451c79c15d88a1c8584607e2fafffc4e5822d171b31decc"
+  },
+  {
+   "session_id": "T1_factual_grok45_true_named_true_r4",
+   "designer": "grok45",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "dba123139c16a93a89125828554b74ce986803ed50ef0bd9ca839eed0a7afa67"
+  },
+  {
+   "session_id": "T1_factual_sonnet55_true_named_true_r4",
+   "designer": "sonnet55",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "d106c70163c035ec7efc35b89cf13d07e6122c60e49e992ab3e6134ea342b1d7"
+  },
+  {
+   "session_id": "T1_factual_fable51_sham_false_r4",
+   "designer": "fable51",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "c7ea4c9adb56b3aa4d38335e32ef4241ab14925f77f29cbbcb1e3e5a7c374d09"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_true_r4",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "012f96184e888f949b32839007d4aa334fd6e9286b79df53bfce5bf79c7b0622"
+  },
+  {
+   "session_id": "T1_factual_grok45_sham_blinded_r4",
+   "designer": "grok45",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "f6c681ad740494def4dedd3cea6b57ce73b7f2429341d91eb885be1dde189277"
+  },
+  {
+   "session_id": "T1_factual_gemini31pro_true_named_true_r4",
+   "designer": "gemini31pro",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "877cbae3062ed3145b4e42cd50e957ff64707dbaedd75f55f3c80805c116b469"
+  },
+  {
+   "session_id": "T1_factual_grok47_true_blinded_blinded_r4",
+   "designer": "grok47",
+   "info_arm": "true_blinded",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "521af9c88696b7c869298556d6c47520f4feb566eaece866aad136054609eedf"
+  },
+  {
+   "session_id": "T1_factual_gemini38flash_sham_true_r4",
+   "designer": "gemini38flash",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "bc115a38d2d50863c87b9c31ae7daa9d09f66c0088480eeba57c625dbe8fcef9"
+  },
+  {
+   "session_id": "T1_factual_opus5_sham_blinded_r4",
+   "designer": "opus5",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "742bd01b714902f0dfe4ea6bd8a67f8596aba125f66e12fc47ea02cec17cc347"
+  },
+  {
+   "session_id": "T1_factual_gpt6luna_sham_blinded_r4",
+   "designer": "gpt6luna",
+   "info_arm": "sham",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "6e46a11d2a6b6ebbe2de9ca5f3c7812d79b3f5098daabbc7d146bc354fc94342"
+  },
+  {
+   "session_id": "T1_factual_grok47_true_named_true_r4",
+   "designer": "grok47",
+   "info_arm": "true_named",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "d7c8fb7a7fc025aa2c9a2f61eff1009bda2a83d10e7bf32d53bf8a09ea241c18"
+  },
+  {
+   "session_id": "T1_factual_grok43_none_blinded_r4",
+   "designer": "grok43",
+   "info_arm": "none",
+   "identity_arm": "blinded",
+   "replicate": 4,
+   "config_hash": "7f903f67b89678af0bf91f3b4990a0bd50a074414ee293f92bc799d1777db842"
+  },
+  {
+   "session_id": "T1_factual_grok43_sham_true_r4",
+   "designer": "grok43",
+   "info_arm": "sham",
+   "identity_arm": "true",
+   "replicate": 4,
+   "config_hash": "bec60c36dc1384c59e92e53b4b2aa5e000e00a4312fa0d346bd06c11c8210261"
+  },
+  {
+   "session_id": "T1_factual_gpt55_sham_false_r4",
+   "designer": "gpt55",
+   "info_arm": "sham",
+   "identity_arm": "false",
+   "replicate": 4,
+   "config_hash": "aa38a1ac9ea6c58cbcef6257f7f826dc8e16b10b3490703478d96e7a4bffc13e"
+  }
+ ],
+ "sessions_sha256": "66342f54937c59855ab5aa881ca62c1eeb3b162e99c244291992b4e37e7f1c21"
+}

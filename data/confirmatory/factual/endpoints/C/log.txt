@@ -1,0 +1,10 @@
+rc=0
+--- stdout ---
+[C] loaded 469 sessions, 468 valid (0.4s)
+[C] primary tanh(psi)=0.0311 p=0.1334866513348665 (1.2s)
+[C] secondary done (23.8s)
+[C] exploratory rankings done (24.8s)
+[C] measurement model gamma=0.02256628718453444 se=0.04566962520783055 (38.7s)
+[C] wrote /path/to/unblinded/factual/endpoints/C/endpoints.json
+
+--- stderr ---

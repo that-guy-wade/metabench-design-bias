@@ -1,0 +1,97 @@
+{
+ "pool": "code",
+ "n_items": 1965,
+ "targets": {
+  "fable51": {
+   "margin_selection_samples": 0.3366666666666668,
+   "margin_heldout_samples": 0.15999999999999992,
+   "rank_heldout_samples": 1.0,
+   "margin_all5_samples": 0.268,
+   "rank_all5_samples": 1.0
+  },
+  "sonnet55": {
+   "margin_selection_samples": 0.21999999999999997,
+   "margin_heldout_samples": 0.020000000000000018,
+   "rank_heldout_samples": 1.0,
+   "margin_all5_samples": 0.14000000000000057,
+   "rank_all5_samples": 1.0
+  },
+  "opus5": {
+   "margin_selection_samples": 0.3299999999999999,
+   "margin_heldout_samples": 0.21000000000000008,
+   "rank_heldout_samples": 1.0,
+   "margin_all5_samples": 0.2819999999999999,
+   "rank_all5_samples": 1.0
+  },
+  "gpt61sol": {
+   "margin_selection_samples": 0.44000000000000006,
+   "margin_heldout_samples": 0.27,
+   "rank_heldout_samples": 1.0,
+   "margin_all5_samples": 0.37200000000000033,
+   "rank_all5_samples": 1.0
+  },
+  "gpt6luna": {
+   "margin_selection_samples": 0.20333333333333328,
+   "margin_heldout_samples": -0.03500000000000003,
+   "rank_heldout_samples": 3.0,
+   "margin_all5_samples": 0.1080000000000001,
+   "rank_all5_samples": 1.0
+  },
+  "gpt55": {
+   "margin_selection_samples": 0.3399999999999999,
+   "margin_heldout_samples": 0.19499999999999995,
+   "rank_heldout_samples": 1.0,
+   "margin_all5_samples": 0.28200000000000025,
+   "rank_all5_samples": 1.0
+  },
+  "gemini4argon": {
+   "margin_selection_samples": 0.4333333333333335,
+   "margin_heldout_samples": 0.28,
+   "rank_heldout_samples": 1.0,
+   "margin_all5_samples": 0.3739999999999998,
+   "rank_all5_samples": 1.0
+  },
+  "gemini38flash": {
+   "margin_selection_samples": 0.2966666666666666,
+   "margin_heldout_samples": 0.08999999999999997,
+   "rank_heldout_samples": 1.0,
+   "margin_all5_samples": 0.21399999999999986,
+   "rank_all5_samples": 1.0
+  },
+  "gemini31pro": {
+   "margin_selection_samples": 0.31,
+   "margin_heldout_samples": 0.16499999999999992,
+   "rank_heldout_samples": 1.0,
+   "margin_all5_samples": 0.25399999999999967,
+   "rank_all5_samples": 1.0
+  },
+  "grok47": {
+   "margin_selection_samples": 0.35666666666666663,
+   "margin_heldout_samples": 0.21999999999999997,
+   "rank_heldout_samples": 1.0,
+   "margin_all5_samples": 0.3019999999999997,
+   "rank_all5_samples": 1.0
+  },
+  "grok45": {
+   "margin_selection_samples": 0.25999999999999995,
+   "margin_heldout_samples": 0.03500000000000003,
+   "rank_heldout_samples": 1.0,
+   "margin_all5_samples": 0.17000000000000037,
+   "rank_all5_samples": 1.0
+  },
+  "grok43": {
+   "margin_selection_samples": 0.19000000000000003,
+   "margin_heldout_samples": -0.025000000000000022,
+   "rank_heldout_samples": 3.0,
+   "margin_all5_samples": 0.10400000000000009,
+   "rank_all5_samples": 1.0
+  },
+  "placebo_sonnet55": {
+   "margin_selection_samples": 0.23666666666666664,
+   "margin_heldout_samples": -0.04999999999999993,
+   "rank_heldout_samples": 2.0,
+   "margin_all5_samples": 0.12200000000000022,
+   "rank_all5_samples": 1.0
+  }
+ }
+}
